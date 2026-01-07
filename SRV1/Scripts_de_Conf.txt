@@ -1,0 +1,132 @@
+1 - Comando para reiniciar serviço de rede, após configuração
+
+systemctl restart networking
+-----------------------------------------------------
+
+2 - Preparação da instalação das ferramentas necessárias
+
+apt update && apt upgrade -y
+-----------------------------------------------------
+3 - Pacotes necessários
+
+apt install -y samba krb5-user winbind smbclient dnsutils acl
+-----------------------------------------------------
+
+4 - Provisionamento do Samba Active Directory
+
+systemctl stop smbd nmbd winbind
+systemctl disable smbd nmbd winbind
+-------------------
+
+backup do smb.conf
+
+mv /etc/samba/smb.conf /etc/samba/smb.conf.backup
+-------------------
+
+Provisionar o domínio
+
+samba-tool domain provision \
+  --use-rfc2307 \
+  --realm=EMPRESA.LOCAL \
+  --domain=EMPRESA \
+  --server-role=dc \
+  --dns-backend=SAMBA_INTERNAL
+-----------------------------------------------------
+
+5 - Ajustar Kerberos
+
+cp /var/lib/samba/private/krb5.conf /etc/krb5.conf
+kinit administrator
+klist
+-----------------------------------------------------
+
+6 - Iniciar o Samba AD
+
+systemctl unmask samba-ad-dc
+systemctl enable samba-ad-dc
+systemctl start samba-ad-dc
+-----------------------------------------------------
+
+7 - Organização do Diretório (OUs, Grupos e Usuários)
+
+samba-tool ou create "OU=TI,DC=empresa,DC=local"
+samba-tool ou create "OU=Financeiro,DC=empresa,DC=local"
+samba-tool ou create "OU=Comercial,DC=empresa,DC=local"
+------------------------------------------------------
+
+8 - Criar Grupos 
+
+samba-tool group add ti
+samba-tool group add financeiro
+samba-tool group add comercial
+-------------------------------------------------------
+
+9 - Criar Usuários
+
+samba-tool user create ti01
+samba-tool user create ti02
+
+samba-tool user create fin01
+samba-tool user create fin02
+
+samba-tool user create com01
+samba-tool user create com02
+-------------------------------------------------------
+
+10 - Associar usuários aos grupos
+
+samba-tool group addmembers ti ti01,ti02
+samba-tool group addmembers financeiro fin01,fin02
+samba-tool group addmembers comercial com01,com02
+------------------------------------------------------
+
+11 - Estrutura Corporativa de Diretórios + ACLs
+
+mkdir -p /srv/empresa/{ti,financeiro,comercial}
+------------------------------------------------------
+
+12 - Aplicar ACLs
+
+setfacl -m g:ti:rwx /srv/empresa/ti
+setfacl -m g:financeiro:rwx /srv/empresa/financeiro
+setfacl -m g:comercial:rwx /srv/empresa/comercial
+------------------------------------------------------
+
+13 - Aplicar máscara 
+
+setfacl -m m:rwx /srv/empresa/*
+-------------------------------------------------------
+
+14 - conflito real
+
+setfacl -m u:fin01:r-- /srv/empresa/ti
+setfacl -m m:r-- /srv/empresa/ti
+-------------------------------------------------------
+
+15 - Alteração do shell dos usuários no LDAP
+
+samba-tool group addunixattrs ti 10001
+samba-tool group addunixattrs financeiro 10002
+samba-tool group addunixattrs comercial 10003
+
+samba-tool user addunixattrs ti01 \
+  10001 --login-shell=/bin/bash --unix-home=/home/EMPRESA/ti01 --gid-number=10000
+
+samba-tool user addunixattrs ti02 \
+  10002 --login-shell=/bin/bash --unix-home=/home/EMPRESA/ti01 --gid-number=10000
+
+samba-tool user addunixattrs fin01 \
+  10003 --login-shell=/bin/bash --unix-home=/home/EMPRESA/ti01 --gid-number=10001
+
+samba-tool user addunixattrs fin02 \
+  10004 --login-shell=/bin/bash --unix-home=/home/EMPRESA/ti01 --gid-number=10001
+
+samba-tool user addunixattrs com01 \
+  10005 --login-shell=/bin/bash --unix-home=/home/EMPRESA/ti01 --gid-number=10002
+
+samba-tool user addunixattrs com02 \
+  10006 --login-shell=/bin/bash --unix-home=/home/EMPRESA/ti01 --gid-number=10002
+
+
+
+
