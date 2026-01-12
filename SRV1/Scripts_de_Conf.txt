@@ -127,6 +127,6 @@ samba-tool user addunixattrs com01 \
 samba-tool user addunixattrs com02 \
   10006 --login-shell=/bin/bash --unix-home=/home/EMPRESA/ti01 --gid-number=10002
 
-
+reboot
 
 
