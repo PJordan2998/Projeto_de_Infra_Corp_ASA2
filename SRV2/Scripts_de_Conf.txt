@@ -2,33 +2,37 @@
 
 systemctl restart networking
 -----------------------------------------------------
+2 - Comando para reiniciar servidor, após configuração de host
 
-2 - Habilitar roteamento
+init 6
+----------------------------------------------------
+
+3 - Habilitar roteamento
 
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
 -----------------------------------------------------
 
-3 - Instalação do firewall (iptables)
+4 - Instalação do firewall (iptables)
 
 apt update
 apt install -y iptables iptables-persistent
 -----------------------------------------------------
 
-4 - Política padrão
+5 - Política padrão
 
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
 iptables -P OUTPUT ACCEPT
 ----------------------------------------------------
 
-5 - Criação das cadeias personalizadas
+6 - Criação das cadeias personalizadas
 
 iptables -N LOGGING
 iptables -N PROTECAO_SSH
 iptables -N TRAFEGO_INTERNO
 -----------------------------------------------------
 
-6 - Cadeia LOGGING (registro de tentativas suspeitas)
+7 - Cadeia LOGGING (registro de tentativas suspeitas)
 
 iptables -A LOGGING -m limit --limit 5/min \
   -j LOG --log-prefix "FW_DROP: " --log-level 4
@@ -36,13 +40,13 @@ iptables -A LOGGING -m limit --limit 5/min \
 iptables -A LOGGING -j DROP
 ----------------------------------------------------
 
-7 - Proteção contra ataques (SYN flood e conexões abusivas)
+8 - Proteção contra ataques (SYN flood e conexões abusivas)
 
 iptables -A INPUT -p tcp --syn \
   -m limit --limit 1/s --limit-burst 3 -j ACCEPT
 -----------------------------------------------------
 
-8 - Cadeia PROTECAO_SSH (bloqueio progressivo)
+9 - Cadeia PROTECAO_SSH (bloqueio progressivo)
 
 iptables -A PROTECAO_SSH -m recent --set --name SSH
 iptables -A PROTECAO_SSH -m recent --update \
@@ -56,7 +60,7 @@ iptables -A INPUT -p tcp --dport 22 \
   -m state --state NEW -j 
 -----------------------------------------------------
 
-9 - Cadeia TRAFEGO_INTERNO (rede corporativa)
+10 - Cadeia TRAFEGO_INTERNO (rede corporativa)
 
 Permitir tráfego interno confiável:
 
@@ -67,7 +71,7 @@ Aplicar à cadeia INPUT:
 iptables -A INPUT -s 192.168.50.0/24 -j TRAFEGO_INTERNO
 -----------------------------------------------------
 
-10 - Permissões essenciais do sistema
+11 - Permissões essenciais do sistema
 
 Loopback:
 
@@ -79,19 +83,19 @@ Conexões estabelecidas:
 iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 -----------------------------------------------------------
 
-11 - NAT – SNAT / MASQUERADE (sem DNAT)
+12 - NAT – SNAT / MASQUERADE (sem DNAT)
 
 Se SRV2 sair para outra rede/interface:
 
 iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
 -----------------------------------------------------------
 
-12 - Regra final de log para descartes
+13 - Regra final de log para descartes
 
 iptables -A INPUT -j LOGGING
 ------------------------------------------------------------
 
-13 - Salvar regras
+14 - Salvar regras
 
 iptables-save > /etc/iptables/rules.v4
 

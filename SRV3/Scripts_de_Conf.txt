@@ -1,0 +1,104 @@
+1 - Comando para reiniciar serviço de rede, após configuração
+
+systemctl restart networking
+-----------------------------------------------------
+
+2 - Comando para reiniciar servidor, após configuração de host
+
+init 6
+-----------------------------------------------------
+
+3 - Preparação e Instalação do Antivírus (ClamAV)
+
+apt update
+apt install clamav clamav-daemon clamav-freshclam -y
+-----------------------------------------------------
+
+4 - Configuração de Varredura Periódica
+
+echo "0 2 * * * root clamscan -r /var/mail --move=/var/log/clamav/quarentena" > /etc/cron.d/clamav-scan
+-----------------------------------------------------
+
+5 - Servidor SMTP (Postfix) com Maildir e Postscreen
+Instalação:
+
+apt install postfix -y
+-----------------------------------------------------
+
+6 - Configuração do Maildir e Segurança no /etc/postfix/main.
+
+# Armazenamento Maildir
+postconf -e 'home_mailbox = Maildir/'
+
+# Postscreen (Proteção contra Botnets)
+postconf -e 'postscreen_access_list = permit_mynetworks'
+postconf -e 'postscreen_greet_action = enforce'
+postconf -e 'postscreen_dnsbl_threshold = 2'
+postconf -e 'postscreen_dnsbl_sites = zen.spamhaus.org*2, bl.spamcop.net*1'
+------------------------------------------------------
+
+7 - Antispam (SpamAssassin) e Filtros
+Instalação:
+
+apt install spamassassin spamc -
+systemctl enable --now spamd
+systemctl daemon-reload
+systemctl enable spamassassin
+systemctl start spamassassin
+------------------------------------------------------
+
+8 - Integração SMTP + Antivírus + Antispam (Amavis)
+
+apt install amavisd-new -y
+usermod -aG clamav amavis 
+------------------------------------------------------
+
+9 - Configurar Postfix para usar o Amavis:
+
+postconf -e 'content_filter = amavis:[127.0.0.1]:10024'
+------------------------------------------------------
+
+10 - Contas, Domínio Virtual e Aliases
+
+adduser user1
+adduser user2
+adduser user3
+
+10.1 - Após a criação do arquivo: /etc/postfix/virtual 
+
+postmap /etc/postfix/virtual
+systemctl restart postfix
+------------------------------------------------------
+
+11 - Implementação de Cotas (Dovecot)
+
+apt install dovecot-imapd dovecot-pop3d -
+------------------------------------------------------
+
+12 - Teste de Antivírus (EICAR)
+
+echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' > test-eicar.com
+clamscan test-eicar.com
+------------------------------------------------------
+
+13 - Reiniciar o Amavis e o Postfix
+
+systemctl restart amavis
+systemctl restart postfix
+------------------------------------------------------
+
+14 - Permissão de execução do script scan_corporativo.sh
+
+chmod +x /srv/scripts/scan_corporativo.
+-------------------------------------------------------
+
+15 - Reinicialização do antivírus, após adicionar configuração no arquivo clamd.conf
+
+systemctl restart clamav-daemon
+--------------------------------------------------------
+
+
+
+
+
+

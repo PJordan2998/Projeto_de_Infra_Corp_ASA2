@@ -1,0 +1,5 @@
+Diretório do arquivo: /etc/postfix/virtual
+
+empresa.local    DOMAIN
+suporte@empresa.local    user1
+vendas@empresa.local     user2

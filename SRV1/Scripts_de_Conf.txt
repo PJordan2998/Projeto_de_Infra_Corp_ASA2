@@ -2,17 +2,21 @@
 
 systemctl restart networking
 -----------------------------------------------------
+2 - Comando para reiniciar servidor, após configuração de host
 
-2 - Preparação da instalação das ferramentas necessárias
+init 6
+----------------------------------------------------
+
+3 - Preparação da instalação das ferramentas necessárias
 
 apt update && apt upgrade -y
 -----------------------------------------------------
-3 - Pacotes necessários
+4 - Pacotes necessários
 
 apt install -y samba krb5-user winbind smbclient dnsutils acl
 -----------------------------------------------------
 
-4 - Provisionamento do Samba Active Directory
+5 - Provisionamento do Samba Active Directory
 
 systemctl stop smbd nmbd winbind
 systemctl disable smbd nmbd winbind
@@ -33,35 +37,35 @@ samba-tool domain provision \
   --dns-backend=SAMBA_INTERNAL
 -----------------------------------------------------
 
-5 - Ajustar Kerberos
+6 - Ajustar Kerberos
 
 cp /var/lib/samba/private/krb5.conf /etc/krb5.conf
 kinit administrator
 klist
 -----------------------------------------------------
 
-6 - Iniciar o Samba AD
+7 - Iniciar o Samba AD
 
 systemctl unmask samba-ad-dc
 systemctl enable samba-ad-dc
 systemctl start samba-ad-dc
 -----------------------------------------------------
 
-7 - Organização do Diretório (OUs, Grupos e Usuários)
+8 - Organização do Diretório (OUs, Grupos e Usuários)
 
 samba-tool ou create "OU=TI,DC=empresa,DC=local"
 samba-tool ou create "OU=Financeiro,DC=empresa,DC=local"
 samba-tool ou create "OU=Comercial,DC=empresa,DC=local"
 ------------------------------------------------------
 
-8 - Criar Grupos 
+9 - Criar Grupos 
 
 samba-tool group add ti
 samba-tool group add financeiro
 samba-tool group add comercial
 -------------------------------------------------------
 
-9 - Criar Usuários
+10 - Criar Usuários
 
 samba-tool user create ti01
 samba-tool user create ti02
@@ -73,19 +77,19 @@ samba-tool user create com01
 samba-tool user create com02
 -------------------------------------------------------
 
-10 - Associar usuários aos grupos
+11 - Associar usuários aos grupos
 
 samba-tool group addmembers ti ti01,ti02
 samba-tool group addmembers financeiro fin01,fin02
 samba-tool group addmembers comercial com01,com02
 ------------------------------------------------------
 
-11 - Estrutura Corporativa de Diretórios + ACLs
+12 - Estrutura Corporativa de Diretórios + ACLs
 
 mkdir -p /srv/empresa/{ti,financeiro,comercial}
 ------------------------------------------------------
 
-12 - Aplicar ACLs
+12.1 - Aplicar ACLs
 
 setfacl -m g:ti:rwx /srv/empresa/ti
 setfacl -m g:financeiro:rwx /srv/empresa/financeiro

@@ -1,0 +1,5 @@
+Diretório do arquivo: /etc/amavis/conf.d/20-debian_defaults
+
+Alterar parâmetro em $final_virus_destiny para D_REJECT:
+
+$final_virus_destiny = D_REJECT;
