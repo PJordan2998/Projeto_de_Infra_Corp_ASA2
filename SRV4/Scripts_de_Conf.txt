@@ -1,0 +1,95 @@
+1 - Comando para reiniciar serviço de rede, após configuração
+
+systemctl restart networking
+-----------------------------------------------------
+
+2 - Comando para reiniciar servidor, após configuração de host
+
+init 6
+-----------------------------------------------------
+
+3 - Instalação do Banco de Dados MariaDB
+
+apt update
+apt install mariadb-server mariadb-client -y
+-----------------------------------------------------
+
+4 - Configuração básica de segurança
+
+mysql
+-----------------------------------------------------
+
+5 - Definir senha para o usuário root do banco
+
+ALTER USER 'root'@'localhost'
+IDENTIFIED VIA mysql_native_password
+USING PASSWORD('**********');
+FLUSH PRIVILEGES;
+-----------------------------------------------------
+
+6 - Criação do Banco Corporativo
+Acesso ao banco:
+
+mysql -u root -
+
+Criação do banco:
+
+CREATE DATABASE empresa_db;
+USE empresa_db;
+-----------------------------------------------------
+
+7 - Criação das Entidades (Tabelas)
+
+CREATE TABLE departamentos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE funcionarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    departamento_id INT,
+    FOREIGN KEY (departamento_id) REFERENCES departamentos(id)
+);
+
+CREATE TABLE acessos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    funcionario_id INT,
+    data_acesso DATETIME,
+    sistema VARCHAR(50),
+    FOREIGN KEY (funcionario_id) REFERENCES funcionarios(id)
+);
+-------------------------------------------------------
+
+8 - Implementação Completa do CRUD
+
+INSERT INTO departamentos (nome)
+VALUES ('TI'), ('Financeiro'), ('Comercial');
+
+INSERT INTO funcionarios (nome, email, departamento_id)
+VALUES ('João TI', 'ti01@empresa.local', 1);
+
+INSERT INTO acessos (funcionario_id, data_acesso, sistema)
+VALUES (1, NOW(), 'LDAP');
+-------------------------------------------------------
+
+9 - READ (Consulta)
+
+SELECT * FROM departamentos;
+SELECT * FROM funcionarios;
+SELECT * FROM acessos;
+-------------------------------------------------------
+
+10 - Criação do backup lógico
+
+mkdir /backup
+mysqldump -u root -p empresa_db > /backup/empresa_db.
+-------------------------------------------------------
+
+11 - Backup Físico
+
+systemctl stop mariadb
+cp -a /var/lib/mysql /backup/mysql_fisico
+
+

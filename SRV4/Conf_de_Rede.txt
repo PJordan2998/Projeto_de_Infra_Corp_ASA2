@@ -1,0 +1,8 @@
+Diretório do arquivo: /etc/network/interfaces
+
+auto enp0s8
+iface enp0s8 inet static
+    address 192.168.50.30
+    netmask 255.255.255.0
+    gateway 192.168.50.254
+    dns-nameservers 192.168.50.10
