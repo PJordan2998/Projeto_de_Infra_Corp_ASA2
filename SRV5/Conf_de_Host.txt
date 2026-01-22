@@ -1,0 +1,3 @@
+Diretório do arquivo: /etc/hosts
+
+192.168.50.40  srv5.empresa.local srv5

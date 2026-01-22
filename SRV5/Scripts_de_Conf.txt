@@ -1,3 +1,12 @@
+1 - Comando para reiniciar serviço de rede, após configuração
+
+systemctl restart networking
+-----------------------------------------------------
+
+2 - Comando para reiniciar servidor, após configuração de host
+
+init 6
+-----------------------------------------------------
 3 - Instalação do Serviço NTP
 
 apt update
