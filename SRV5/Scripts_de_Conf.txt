@@ -1,0 +1,220 @@
+3 - Instalação do Serviço NTP
+
+apt update
+apt install chrony -y
+systemctl enable chrony
+-------------------------------------------------
+
+4 - Configuração do Servidor NTP
+
+nano /etc/chrony/chrony.conf
+
+# Fontes públicas de tempo (fallback automático)
+server a.st1.ntp.br iburst
+server b.st1.ntp.br iburst
+server time.google.com iburst
+
+# Permitir clientes da rede interna
+allow 192.168.50.0/24
+local stratum 10
+
+------------------------------------------------
+5 - Reiniciar o Serviço
+
+systemctl restart chrony
+------------------------------------------------
+
+6 - Configuração dos Clientes NTP (SRV1 a SRV4)
+
+apt update
+apt install chrony -y
+------------------------------------------------
+
+7 - Configurar para usar o SRV5 como fonte
+
+nano /etc/chrony/chrony.conf
+
+server 192.168.50.40 iburst
+------------------------------------------------
+
+10 - Reiniciar o serviço
+
+systemctl restart chrony
+------------------------------------------------
+
+
+#Configuração dos Logs:
+
+1 - Instalação do rsyslog
+
+apt update
+apt install rsyslog -y
+systemctl enable rsyslog
+-------------------------------------------------
+
+2 - Habilitar Recebimento de Logs Remotos
+
+nano /etc/rsyslog.conf
+
+# Recebimento via UDP
+module(load="imudp")
+input(type="imudp" port="514")
+
+# Recebimento via TCP
+module(load="imtcp")
+input(type="imtcp" port="514")
+--------------------------------------------------
+
+3 - Criar Estrutura de Diretórios
+
+mkdir -p /var/log/hosts/{srv1,srv2,srv3,srv4}
+mkdir -p /var/log/servicos
+chmod -R 750 /var/log/hosts
+chmod -R 750 /var/log/servicos
+-------------------------------------------------
+
+4 - Regras de Organização por Host e Serviço
+
+nano /etc/rsyslog.d/50-centralizado.conf
+
+# Template por host
+$template RemoteHostLogs,"/var/log/hosts/%HOSTNAME%/%PROGRAMNAME%.log"
+
+# Logs remotos por host
+if ($fromhost-ip != '127.0.0.1') then {
+    action(type="omfile" dynaFile="RemoteHostLogs")
+    stop
+}
+
+# Separação por severidade
+*.err;*.crit;*.alert;*.emerg   /var/log/servicos/erros.log
+*.warning                      /var/log/servicos/alertas.log
+auth,authpriv.*                /var/log/servicos/auth.log
+mail.*                         /var/log/servicos/mail.log
+--------------------------------------------------
+
+5 - Reiniciar o Serviço
+
+systemctl restart rsyslog
+---------------------------------------------------
+
+6 - Configuração dos Clientes (SRV1–SRV4)
+
+Instalação do rsyslog:
+
+apt update
+apt install rsyslog -y
+systemctl enable rsyslog
+---------------------------------------------------
+
+7 - Editar Configuração do rsyslog
+
+nano /etc/rsyslog.conf
+
+*.* @@192.168.50.40:514
+---------------------------------------------------
+
+8 - Reiniciar o Serviço
+
+systemctl restart rsyslog
+--------------------------------------------------
+
+9 - Configuração de Políticas de Logrotate(SRV5)
+
+nano /etc/logrotate.d/auth-central
+
+/var/log/hosts/*/auth.log {
+    daily
+    rotate 14
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+    sharedscripts
+
+    postrotate
+        systemctl reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+--------------------------
+
+nano /etc/logrotate.d/erros-central
+
+/var/log/servicos/erros.log {
+    weekly
+    rotate 8
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+}
+----------------------------
+
+nano /etc/logrotate.d/firewall-central
+
+/var/log/hosts/*/iptables.log {
+    size 50M
+    rotate 10
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+}
+-------------------------------
+
+nano /etc/logrotate.d/hosts-central
+
+/var/log/hosts/*/*.log {
+    weekly
+    rotate 6
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+    sharedscripts
+
+    postrotate
+        systemctl reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+--------------------------------
+
+nano /etc/logrotate.d/mail-central
+
+/var/log/servicos/mail.log {
+    daily
+    rotate 30
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+}
+-------------------------------
+
+nano /etc/logrotate.d/system-central
+
+/var/log/syslog {
+    weekly
+    rotate 4
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+}
+-----------------------------------
+
+10 - Verificação do funcionamento do logrotate
+
+logrotate -d /etc/logrotate.conf
