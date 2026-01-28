@@ -1,0 +1,60 @@
+#Realizar configuração nos Srvs
+
+1 - Instalação dos pacotes 
+
+apt update
+apt install samba winbind libnss-winbind libpam-winbind krb5-user -y
+-----------------------------------------------
+
+2 - Ajustar /etc/hosts em todos os servidores (SRV1 a SRV5), com arquivo hosts
+
+nano /etc/hosts
+-----------------------------------------------
+
+3 - Configurar Samba como membro do domínio no SRV2–SRV5
+
+nano /etc/samba/smb.conf
+--------------------------------------------------
+
+4 - Entrar no domínio no SRV2–SRV5
+
+systemctl restart smbd nmbd
+net ads join -U Administrator
+--------------------------------------------------
+
+5 - Ativar e iniciar o Winbind
+
+systemctl enable --now winbind
+systemctl status winbind
+--------------------------------------------------
+
+6 - Ajustar o NSS
+
+nano /etc/nsswitch.conf
+--------------------------------------------------
+
+7 - Registrar hostname dos SRVs 2 a 5 no DNS do SRV 1
+
+samba-tool dns add srv1 empresa.local srv2 A 192.168.50.1 -U Administrator
+samba-tool dns add srv1 empresa.local srv3 A 192.168.50.20 -U Administrator
+samba-tool dns add srv1 empresa.local srv4 A 192.168.50.30 -U Administrator
+samba-tool dns add srv1 empresa.local srv5 A 192.168.50.40 -U Administrator
+--------------------------------------------------
+
+8 - Verificar Kerberos
+
+kdestroy
+kinit Administrator
+klist
+---------------------------------------------------
+
+9 - Reiniciar serviços
+
+systemctl restart smbd nmbd winbind
+systemctl status winbind
+----------------------------------------------------
+
+10 - Criar home automático em todos os servidores
+
+pam-auth-update
+Habilitar opção Create home directory on login
