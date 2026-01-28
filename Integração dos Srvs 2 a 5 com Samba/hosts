@@ -1,0 +1,9 @@
+Ajustar /etc/hosts em todos os servidores (SRV1 a SRV5):
+
+Diretório: nano /etc/hosts
+
+192.168.50.10   srv1.empresa.local srv1
+192.168.50.20   srv2.empresa.local srv2
+192.168.50.30   srv3.empresa.local srv3
+192.168.50.40   srv4.empresa.local srv4
+192.168.50.50   srv5.empresa.local srv5
