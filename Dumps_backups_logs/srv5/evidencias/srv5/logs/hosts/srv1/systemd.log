@@ -1,0 +1,1612 @@
+2026-01-19T18:12:44-03:00 srv1 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-19T18:12:44-03:00 srv1 systemd[1]: session-1.scope: Consumed 7.623s CPU time, 22.1M memory peak.
+2026-01-19T18:12:45-03:00 srv1 systemd[1]: session-2.scope: Deactivated successfully.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Activating special unit exit.target...
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopped target default.target - Main User Target.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Removed slice session.slice - User Core Session Slice.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopped target basic.target - Basic System.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopped target paths.target - Paths.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopped target sockets.target - Sockets.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopped target timers.target - Timers.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Removed slice app.slice - User Application Slice.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Reached target shutdown.target - Shutdown.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Finished systemd-exit.service - Exit the Session.
+2026-01-19T18:12:56-03:00 srv1 systemd[928]: Reached target exit.target - Exit the Session.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: user@1000.service: Consumed 1.175s CPU time, 13.4M memory peak.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-19T18:12:56-03:00 srv1 systemd[1]: user-1000.slice: Consumed 9.050s CPU time, 32.7M memory peak.
+2026-01-22T19:17:19-03:00 srv1 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:23:26-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-22T19:23:26-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-22T19:23:26-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-22T19:33:24-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T20:06:23-03:00 srv1 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T20:23:23-03:00 srv1 systemd[1]: Starting man-db.service - Daily man-db regeneration...
+2026-01-22T20:23:25-03:00 srv1 systemd[1]: man-db.service: Deactivated successfully.
+2026-01-22T20:23:25-03:00 srv1 systemd[1]: Finished man-db.service - Daily man-db regeneration.
+2026-01-22T20:33:23-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-22T20:48:23-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T10:20:25-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T10:29:26-03:00 srv1 systemd[1]: Starting logrotate.service - Rotate log files...
+2026-01-24T10:29:27-03:00 srv1 systemd[1]: logrotate.service: Deactivated successfully.
+2026-01-24T10:29:27-03:00 srv1 systemd[1]: Finished logrotate.service - Rotate log files.
+2026-01-24T10:30:26-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-24T10:30:27-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-24T10:30:27-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-24T10:32:26-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T10:32:27-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T11:08:26-03:00 srv1 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T11:31:37-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T11:44:26-03:00 srv1 systemd[1]: man-db.service - Daily man-db regeneration was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T12:32:37-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T12:32:37-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T13:33:46-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T14:31:46-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T14:31:46-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T06:06:29-03:00 srv1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T06:06:29-03:00 srv1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T06:06:30-03:00 srv1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T06:06:30-03:00 srv1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Queued start job for default target default.target.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Created slice app.slice - User Application Slice.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Reached target paths.target - Paths.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Reached target timers.target - Timers.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Reached target sockets.target - Sockets.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Reached target basic.target - Basic System.
+2026-01-25T06:06:31-03:00 srv1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Reached target default.target - Main User Target.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Startup finished in 1.091s.
+2026-01-25T06:06:31-03:00 srv1 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-25T06:06:31-03:00 srv1 systemd[1]: Started session-2.scope - Session 2 of User pedro.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Created slice session.slice - User Core Session Slice.
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T06:06:31-03:00 srv1 systemd[870]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T06:15:32-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-25T06:15:32-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-25T06:15:32-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-25T06:19:05-03:00 srv1 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-01-25T06:19:05-03:00 srv1 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-01-25T06:19:35-03:00 srv1 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-01-25T06:24:43-03:00 srv1 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-01-25T06:24:43-03:00 srv1 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-01-25T06:25:13-03:00 srv1 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-01-25T06:28:32-03:00 srv1 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T06:52:27-03:00 srv1 systemd[1]: Reload requested from client PID 1112 ('systemctl') (unit session-1.scope)...
+2026-01-25T06:52:28-03:00 srv1 systemd[1]: Reloading...
+2026-01-25T06:52:28-03:00 srv1 systemd[1]: Reloading finished in 740 ms.
+2026-01-25T06:52:28-03:00 srv1 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T06:52:29-03:00 srv1 systemd[1]: Reload requested from client PID 1144 ('systemctl') (unit session-1.scope)...
+2026-01-25T06:52:29-03:00 srv1 systemd[1]: Reloading...
+2026-01-25T06:52:29-03:00 srv1 systemd[1]: Reloading finished in 635 ms.
+2026-01-25T06:52:29-03:00 srv1 systemd[1]: Reload requested from client PID 1173 ('systemctl') (unit session-1.scope)...
+2026-01-25T06:52:29-03:00 srv1 systemd[1]: Reloading...
+2026-01-25T06:52:30-03:00 srv1 systemd[1]: Reloading finished in 590 ms.
+2026-01-25T06:52:30-03:00 srv1 systemd[1]: Reload requested from client PID 1140 ('systemctl') (unit session-1.scope)...
+2026-01-25T06:52:30-03:00 srv1 systemd[1]: Reloading...
+2026-01-25T06:52:30-03:00 srv1 systemd[1]: Reloading finished in 553 ms.
+2026-01-25T07:33:00-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T07:34:11-03:00 srv1 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2026-01-25T07:34:11-03:00 srv1 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2026-01-25T07:34:41-03:00 srv1 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: Stopping systemd-logind.service - User Login Management...
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: systemd-logind.service: Deactivated successfully.
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: Stopped systemd-logind.service - User Login Management.
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: modprobe@drm.service: Deactivated successfully.
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: Starting systemd-logind.service - User Login Management...
+2026-01-25T07:36:27-03:00 srv1 systemd[1]: Started systemd-logind.service - User Login Management.
+2026-01-25T07:39:53-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-25T07:39:53-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T07:39:53-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T07:39:53-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Queued start job for default target default.target.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Created slice app.slice - User Application Slice.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Reached target paths.target - Paths.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Reached target timers.target - Timers.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Reached target sockets.target - Sockets.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Reached target basic.target - Basic System.
+2026-01-25T07:39:53-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Reached target default.target - Main User Target.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Startup finished in 291ms.
+2026-01-25T07:39:53-03:00 srv1 systemd[1]: Started session-9.scope - Session 9 of User EMPRESA\ti01.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Created slice session.slice - User Core Session Slice.
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T07:39:53-03:00 srv1 systemd[1429]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T07:43:00-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T07:47:24-03:00 srv1 systemd[1]: session-9.scope: Deactivated successfully.
+2026-01-25T07:47:34-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Activating special unit exit.target...
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopped target default.target - Main User Target.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopped target basic.target - Basic System.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopped target paths.target - Paths.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopped target sockets.target - Sockets.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopped target timers.target - Timers.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Removed slice app.slice - User Application Slice.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Reached target shutdown.target - Shutdown.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T07:47:34-03:00 srv1 systemd[1429]: Reached target exit.target - Exit the Session.
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-25T07:47:35-03:00 srv1 systemd[1]: user-10001.slice: Consumed 1.313s CPU time, 11.1M memory peak.
+2026-01-25T08:04:36-03:00 srv1 systemd[1]: Created slice user-10002.slice - User Slice of UID 10002.
+2026-01-25T08:04:36-03:00 srv1 systemd[1]: Starting user-runtime-dir@10002.service - User Runtime Directory /run/user/10002...
+2026-01-25T08:04:36-03:00 srv1 systemd[1]: Finished user-runtime-dir@10002.service - User Runtime Directory /run/user/10002.
+2026-01-25T08:04:36-03:00 srv1 systemd[1]: Starting user@10002.service - User Manager for UID 10002...
+2026-01-25T08:04:36-03:00 srv1 systemd[1570]: Queued start job for default target default.target.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Created slice app.slice - User Application Slice.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Reached target paths.target - Paths.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Reached target timers.target - Timers.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Reached target sockets.target - Sockets.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Reached target basic.target - Basic System.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Reached target default.target - Main User Target.
+2026-01-25T08:04:37-03:00 srv1 systemd[1]: Started user@10002.service - User Manager for UID 10002.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Startup finished in 259ms.
+2026-01-25T08:04:37-03:00 srv1 systemd[1]: Started session-11.scope - Session 11 of User EMPRESA\ti02.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Created slice session.slice - User Core Session Slice.
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T08:04:37-03:00 srv1 systemd[1570]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T08:04:59-03:00 srv1 systemd[1]: session-11.scope: Deactivated successfully.
+2026-01-25T08:05:09-03:00 srv1 systemd[1]: Stopping user@10002.service - User Manager for UID 10002...
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Activating special unit exit.target...
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopped target default.target - Main User Target.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopped target basic.target - Basic System.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopped target paths.target - Paths.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopped target sockets.target - Sockets.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopped target timers.target - Timers.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Removed slice app.slice - User Application Slice.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Reached target shutdown.target - Shutdown.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T08:05:09-03:00 srv1 systemd[1570]: Reached target exit.target - Exit the Session.
+2026-01-25T08:05:10-03:00 srv1 systemd[1]: user@10002.service: Deactivated successfully.
+2026-01-25T08:05:10-03:00 srv1 systemd[1]: Stopped user@10002.service - User Manager for UID 10002.
+2026-01-25T08:05:10-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10002.service - User Runtime Directory /run/user/10002...
+2026-01-25T08:05:10-03:00 srv1 systemd[1]: run-user-10002.mount: Deactivated successfully.
+2026-01-25T08:05:10-03:00 srv1 systemd[1]: user-runtime-dir@10002.service: Deactivated successfully.
+2026-01-25T08:05:10-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10002.service - User Runtime Directory /run/user/10002.
+2026-01-25T08:05:10-03:00 srv1 systemd[1]: Removed slice user-10002.slice - User Slice of UID 10002.
+2026-01-25T08:33:44-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T09:16:00-03:00 srv1 systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T09:31:00-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T09:52:32-03:00 srv1 systemd[1]: Starting man-db.service - Daily man-db regeneration...
+2026-01-25T09:52:33-03:00 srv1 systemd[1]: man-db.service: Deactivated successfully.
+2026-01-25T09:52:33-03:00 srv1 systemd[1]: Finished man-db.service - Daily man-db regeneration.
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: winbind.service: Skipped due to 'exec-condition'.
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: Condition check resulted in winbind.service - Samba Winbind Daemon being skipped.
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: ssh.service: Deactivated successfully.
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: ssh.service: Consumed 1.004s CPU time, 28.6M memory peak.
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-25T09:57:46-03:00 srv1 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-01-25T09:57:47-03:00 srv1 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-01-25T10:33:00-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T10:33:00-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T10:38:47-03:00 srv1 systemd[1]: Stopping samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T10:38:47-03:00 srv1 systemd[1]: samba-ad-dc.service: Main process exited, code=exited, status=127/n/a
+2026-01-25T10:38:47-03:00 srv1 systemd[1]: samba-ad-dc.service: Failed with result 'exit-code'.
+2026-01-25T10:38:47-03:00 srv1 systemd[1]: Stopped samba-ad-dc.service - Samba AD Daemon.
+2026-01-25T10:38:47-03:00 srv1 systemd[1]: samba-ad-dc.service: Consumed 3min 37.768s CPU time, 353M memory peak.
+2026-01-25T10:38:47-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T10:38:48-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-25T10:39:00-03:00 srv1 systemd[1]: Stopping samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T10:39:00-03:00 srv1 systemd[1]: samba-ad-dc.service: Main process exited, code=exited, status=127/n/a
+2026-01-25T10:39:00-03:00 srv1 systemd[1]: samba-ad-dc.service: Failed with result 'exit-code'.
+2026-01-25T10:39:00-03:00 srv1 systemd[1]: Stopped samba-ad-dc.service - Samba AD Daemon.
+2026-01-25T10:39:00-03:00 srv1 systemd[1]: samba-ad-dc.service: Consumed 5.192s CPU time, 272.2M memory peak.
+2026-01-25T10:39:00-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T10:39:01-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-25T10:57:45-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-25T10:57:45-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T10:57:45-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T10:57:45-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Queued start job for default target default.target.
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Created slice app.slice - User Application Slice.
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Reached target paths.target - Paths.
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Reached target timers.target - Timers.
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T10:57:45-03:00 srv1 systemd[2550]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Reached target sockets.target - Sockets.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Reached target basic.target - Basic System.
+2026-01-25T10:57:46-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Reached target default.target - Main User Target.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Startup finished in 268ms.
+2026-01-25T10:57:46-03:00 srv1 systemd[1]: Started session-19.scope - Session 19 of User EMPRESA\ti01.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Created slice session.slice - User Core Session Slice.
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T10:57:46-03:00 srv1 systemd[2550]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T10:57:51-03:00 srv1 systemd[1]: session-19.scope: Deactivated successfully.
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Activating special unit exit.target...
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopped target default.target - Main User Target.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopped target basic.target - Basic System.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopped target paths.target - Paths.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopped target sockets.target - Sockets.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopped target timers.target - Timers.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Removed slice app.slice - User Application Slice.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Reached target shutdown.target - Shutdown.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T10:58:01-03:00 srv1 systemd[2550]: Reached target exit.target - Exit the Session.
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T10:58:01-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-25T11:30:32-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T11:31:07-03:00 srv1 systemd[1]: Stopping session-1.scope - Session 1 of User pedro...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: modprobe@drm.service: Deactivated successfully.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-udev-load-credentials.service - Load udev Rules from Credentials.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting ifupdown-pre.service - Helper to synchronize boot up for ifupdown...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Expecting device sys-subsystem-net-devices-enp0s3.device - /sys/subsystem/net/devices/enp0s3...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Found device sys-subsystem-net-devices-enp0s3.device - 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Found device dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.device - VBOX_HARDDISK 5.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Found device dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.device - VBOX_HARDDISK 6.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Activating swap dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.swap - /dev/disk/by-uuid/11c15728-2b53-44f8-89e3-04587a846f87...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting systemd-fsck@dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.service - File System Check on /dev/disk/by-uuid/5ee3ee71-9da9-4ed1-ac98-741b16c7752c...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Activated swap dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.swap - /dev/disk/by-uuid/11c15728-2b53-44f8-89e3-04587a846f87.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target swap.target - Swaps.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounting tmp.mount - Temporary Directory /tmp...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounted tmp.mount - Temporary Directory /tmp.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target sound.target - Sound Card.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-fsck@dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.service - File System Check on /dev/disk/by-uuid/5ee3ee71-9da9-4ed1-ac98-741b16c7752c.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished ifupdown-pre.service - Helper to synchronize boot up for ifupdown.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounting home.mount - /home...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounted home.mount - /home.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target local-fs.target - Local File Systems.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting console-setup.service - Set console font and keymap...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-setup.service - Create System Files and Directories...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 461 (systemd-binfmt)
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished console-setup.service - Set console font and keymap.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: systemd-machine-id-commit.service - Save Transient machine-id to Disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target sysinit.target - System Initialization.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started anacron.timer - Trigger anacron every hour.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started apt-daily.timer - Daily apt download activities.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started man-db.timer - Daily man-db regeneration.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target timers.target - Timer Units.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target ssh-access.target - SSH Access Available.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Listening on systemd-hostnamed.socket - Hostname Service Socket.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target sockets.target - Socket Units.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started ifup@enp0s3.service - ifup for enp0s3.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting networking.service - Raise network interfaces...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: systemd-pcrphase-sysinit.service - TPM PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Reached target basic.target - Basic System.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: System is tainted: unmerged-bin
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting chrony.service - chrony, an NTP client/server...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started cron.service - Regular background program processing daemon.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting grub-common.service - Record successful boot for GRUB...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting rsyslog.service - System Logging Service...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting systemd-logind.service - User Login Management...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: systemd-pcrphase.service - TPM PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Starting wtmpdb-update-boot.service - Write boot and shutdown times into wtmpdb...
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started systemd-logind.service - User Login Management.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: grub-common.service: Deactivated successfully.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished grub-common.service - Record successful boot for GRUB.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Started rsyslog.service - System Logging Service.
+2026-01-25T11:31:54-03:00 srv1 systemd[1]: Finished networking.service - Raise network interfaces.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Started dbus.service - D-Bus System Message Bus.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Starting wpa_supplicant.service - WPA supplicant...
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Finished wtmpdb-update-boot.service - Write boot and shutdown times into wtmpdb.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Started chrony.service - chrony, an NTP client/server.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Started wpa_supplicant.service - WPA supplicant.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Reached target network.target - Network.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Reached target network-online.target - Network is Online.
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T11:31:55-03:00 srv1 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-01-25T11:31:56-03:00 srv1 systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2026-01-25T11:31:56-03:00 srv1 systemd[1]: e2scrub_reap.service: Deactivated successfully.
+2026-01-25T11:31:56-03:00 srv1 systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+2026-01-25T11:31:56-03:00 srv1 systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2026-01-25T11:31:56-03:00 srv1 systemd[1]: Started getty@tty1.service - Getty on tty1.
+2026-01-25T11:31:56-03:00 srv1 systemd[1]: Reached target getty.target - Login Prompts.
+2026-01-25T11:31:57-03:00 srv1 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-01-25T11:32:02-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-25T11:32:02-03:00 srv1 systemd[1]: Reached target multi-user.target - Multi-User System.
+2026-01-25T11:32:02-03:00 srv1 systemd[1]: Reached target graphical.target - Graphical Interface.
+2026-01-25T11:32:02-03:00 srv1 systemd[1]: Startup finished in 9.014s (kernel) + 21.396s (userspace) = 30.410s.
+2026-01-25T11:32:39-03:00 srv1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T11:32:39-03:00 srv1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T11:32:40-03:00 srv1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T11:32:40-03:00 srv1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-25T11:32:41-03:00 srv1 systemd[864]: Queued start job for default target default.target.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Created slice app.slice - User Application Slice.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Reached target paths.target - Paths.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Reached target timers.target - Timers.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Reached target sockets.target - Sockets.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Reached target basic.target - Basic System.
+2026-01-25T11:32:42-03:00 srv1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Reached target default.target - Main User Target.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Startup finished in 1.618s.
+2026-01-25T11:32:42-03:00 srv1 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-25T11:32:42-03:00 srv1 systemd[1]: Started session-3.scope - Session 3 of User pedro.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Created slice session.slice - User Core Session Slice.
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T11:32:42-03:00 srv1 systemd[864]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T11:33:06-03:00 srv1 systemd[1]: Stopping samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T11:33:06-03:00 srv1 systemd[1]: samba-ad-dc.service: Main process exited, code=exited, status=127/n/a
+2026-01-25T11:33:07-03:00 srv1 systemd[1]: samba-ad-dc.service: Failed with result 'exit-code'.
+2026-01-25T11:33:07-03:00 srv1 systemd[1]: Stopped samba-ad-dc.service - Samba AD Daemon.
+2026-01-25T11:33:07-03:00 srv1 systemd[1]: samba-ad-dc.service: Consumed 16.388s CPU time, 320M memory peak.
+2026-01-25T11:33:07-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T11:33:08-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-25T11:47:16-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-25T11:47:17-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-25T11:47:17-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-25T11:50:57-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-25T11:50:57-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T11:50:58-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T11:50:58-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Queued start job for default target default.target.
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Created slice app.slice - User Application Slice.
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Reached target paths.target - Paths.
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Reached target timers.target - Timers.
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T11:50:58-03:00 srv1 systemd[1071]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Reached target sockets.target - Sockets.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Reached target basic.target - Basic System.
+2026-01-25T11:50:59-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Reached target default.target - Main User Target.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Startup finished in 445ms.
+2026-01-25T11:50:59-03:00 srv1 systemd[1]: Started session-4.scope - Session 4 of User EMPRESA\ti01.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Created slice session.slice - User Core Session Slice.
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T11:50:59-03:00 srv1 systemd[1071]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T11:51:09-03:00 srv1 systemd[1]: session-4.scope: Deactivated successfully.
+2026-01-25T11:51:19-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Activating special unit exit.target...
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopped target default.target - Main User Target.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopped target basic.target - Basic System.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopped target paths.target - Paths.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopped target sockets.target - Sockets.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopped target timers.target - Timers.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Removed slice app.slice - User Application Slice.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Reached target shutdown.target - Shutdown.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T11:51:20-03:00 srv1 systemd[1071]: Reached target exit.target - Exit the Session.
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-25T11:51:20-03:00 srv1 systemd[1]: user-10001.slice: Consumed 1.396s CPU time, 10.6M memory peak.
+2026-01-25T12:32:16-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T12:32:17-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T13:33:44-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T13:50:04-03:00 srv1 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-25T13:50:04-03:00 srv1 systemd[1]: session-1.scope: Consumed 9.066s CPU time, 30.1M memory peak.
+2026-01-25T13:50:06-03:00 srv1 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-25T13:50:16-03:00 srv1 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Activating special unit exit.target...
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopped target default.target - Main User Target.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopped target basic.target - Basic System.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopped target paths.target - Paths.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopped target sockets.target - Sockets.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopped target timers.target - Timers.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Removed slice app.slice - User Application Slice.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Reached target shutdown.target - Shutdown.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T13:50:16-03:00 srv1 systemd[864]: Reached target exit.target - Exit the Session.
+2026-01-25T13:50:16-03:00 srv1 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-25T13:50:16-03:00 srv1 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-25T13:50:16-03:00 srv1 systemd[1]: user@1000.service: Consumed 1.357s CPU time, 13.6M memory peak.
+2026-01-25T13:50:17-03:00 srv1 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T13:50:17-03:00 srv1 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv1 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv1 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T13:50:17-03:00 srv1 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T13:50:17-03:00 srv1 systemd[1]: user-1000.slice: Consumed 10.703s CPU time, 40.8M memory peak.
+2026-01-25T22:28:28-03:00 srv1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T22:28:28-03:00 srv1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T22:28:28-03:00 srv1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T22:28:28-03:00 srv1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Queued start job for default target default.target.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Created slice app.slice - User Application Slice.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Reached target paths.target - Paths.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Reached target timers.target - Timers.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Reached target sockets.target - Sockets.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Reached target basic.target - Basic System.
+2026-01-25T22:28:29-03:00 srv1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Reached target default.target - Main User Target.
+2026-01-25T22:28:29-03:00 srv1 systemd[896]: Startup finished in 936ms.
+2026-01-25T22:28:29-03:00 srv1 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-25T22:28:29-03:00 srv1 systemd[1]: Started session-2.scope - Session 2 of User pedro.
+2026-01-25T22:28:30-03:00 srv1 systemd[896]: Created slice session.slice - User Core Session Slice.
+2026-01-25T22:28:30-03:00 srv1 systemd[896]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T22:28:30-03:00 srv1 systemd[896]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T22:29:31-03:00 srv1 systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T22:31:31-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T22:34:48-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-25T22:34:48-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-25T22:34:48-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-25T23:35:31-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T23:35:31-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T23:57:58-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-25T23:57:58-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T23:57:58-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T23:57:58-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Queued start job for default target default.target.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Created slice app.slice - User Application Slice.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Reached target paths.target - Paths.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Reached target timers.target - Timers.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Reached target sockets.target - Sockets.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Reached target basic.target - Basic System.
+2026-01-25T23:57:58-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Reached target default.target - Main User Target.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Startup finished in 277ms.
+2026-01-25T23:57:58-03:00 srv1 systemd[1]: Started session-7.scope - Session 7 of User EMPRESA\ti01.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Created slice session.slice - User Core Session Slice.
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T23:57:58-03:00 srv1 systemd[1287]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T23:58:03-03:00 srv1 systemd[1]: session-7.scope: Deactivated successfully.
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Activating special unit exit.target...
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopped target default.target - Main User Target.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopped target basic.target - Basic System.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopped target paths.target - Paths.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopped target sockets.target - Sockets.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopped target timers.target - Timers.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Removed slice app.slice - User Application Slice.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Reached target shutdown.target - Shutdown.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T23:58:13-03:00 srv1 systemd[1287]: Reached target exit.target - Exit the Session.
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-25T23:58:13-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T00:00:17-03:00 srv1 systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+2026-01-26T00:00:18-03:00 srv1 systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+2026-01-26T00:00:18-03:00 srv1 systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+2026-01-26T00:09:31-03:00 srv1 systemd[1]: Starting logrotate.service - Rotate log files...
+2026-01-26T00:09:31-03:00 srv1 systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 598 (rsyslogd) on client request.
+2026-01-26T00:09:31-03:00 srv1 systemd[1]: logrotate.service: Deactivated successfully.
+2026-01-26T00:09:31-03:00 srv1 systemd[1]: Finished logrotate.service - Rotate log files.
+2026-01-26T00:14:26-03:00 srv1 systemd[1]: Created slice user-10002.slice - User Slice of UID 10002.
+2026-01-26T00:14:26-03:00 srv1 systemd[1]: Starting user-runtime-dir@10002.service - User Runtime Directory /run/user/10002...
+2026-01-26T00:14:26-03:00 srv1 systemd[1]: Finished user-runtime-dir@10002.service - User Runtime Directory /run/user/10002.
+2026-01-26T00:14:26-03:00 srv1 systemd[1]: Starting user@10002.service - User Manager for UID 10002...
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Queued start job for default target default.target.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Created slice app.slice - User Application Slice.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Reached target paths.target - Paths.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Reached target timers.target - Timers.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Reached target sockets.target - Sockets.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Reached target basic.target - Basic System.
+2026-01-26T00:14:27-03:00 srv1 systemd[1]: Started user@10002.service - User Manager for UID 10002.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Reached target default.target - Main User Target.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Startup finished in 277ms.
+2026-01-26T00:14:27-03:00 srv1 systemd[1]: Started session-9.scope - Session 9 of User EMPRESA\ti02.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Created slice session.slice - User Core Session Slice.
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T00:14:27-03:00 srv1 systemd[1469]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T00:14:34-03:00 srv1 systemd[1]: session-9.scope: Deactivated successfully.
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: Stopping user@10002.service - User Manager for UID 10002...
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Activating special unit exit.target...
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopped target default.target - Main User Target.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopped target basic.target - Basic System.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopped target paths.target - Paths.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopped target sockets.target - Sockets.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopped target timers.target - Timers.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Removed slice app.slice - User Application Slice.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Reached target shutdown.target - Shutdown.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T00:14:44-03:00 srv1 systemd[1469]: Reached target exit.target - Exit the Session.
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: user@10002.service: Deactivated successfully.
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: Stopped user@10002.service - User Manager for UID 10002.
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10002.service - User Runtime Directory /run/user/10002...
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: run-user-10002.mount: Deactivated successfully.
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: user-runtime-dir@10002.service: Deactivated successfully.
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10002.service - User Runtime Directory /run/user/10002.
+2026-01-26T00:14:44-03:00 srv1 systemd[1]: Removed slice user-10002.slice - User Slice of UID 10002.
+2026-01-26T00:15:08-03:00 srv1 systemd[1]: Stopping samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T00:15:08-03:00 srv1 systemd[1]: samba-ad-dc.service: Main process exited, code=exited, status=127/n/a
+2026-01-26T00:15:08-03:00 srv1 systemd[1]: samba-ad-dc.service: Failed with result 'exit-code'.
+2026-01-26T00:15:08-03:00 srv1 systemd[1]: Stopped samba-ad-dc.service - Samba AD Daemon.
+2026-01-26T00:15:08-03:00 srv1 systemd[1]: samba-ad-dc.service: Consumed 1min 39.685s CPU time, 375.5M memory peak.
+2026-01-26T00:15:08-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T00:15:09-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-26T00:23:42-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T00:23:42-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T00:23:42-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T00:23:42-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Queued start job for default target default.target.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Created slice app.slice - User Application Slice.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Reached target paths.target - Paths.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Reached target timers.target - Timers.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Reached target sockets.target - Sockets.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Reached target basic.target - Basic System.
+2026-01-26T00:23:42-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Reached target default.target - Main User Target.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Startup finished in 276ms.
+2026-01-26T00:23:42-03:00 srv1 systemd[1]: Started session-12.scope - Session 12 of User EMPRESA\ti01.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Created slice session.slice - User Core Session Slice.
+2026-01-26T00:23:42-03:00 srv1 systemd[1652]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T00:23:43-03:00 srv1 systemd[1652]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T00:23:51-03:00 srv1 systemd[1]: session-12.scope: Deactivated successfully.
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Activating special unit exit.target...
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopped target default.target - Main User Target.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopped target basic.target - Basic System.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopped target paths.target - Paths.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopped target sockets.target - Sockets.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopped target timers.target - Timers.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Removed slice app.slice - User Application Slice.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Reached target shutdown.target - Shutdown.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T00:24:01-03:00 srv1 systemd[1652]: Reached target exit.target - Exit the Session.
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T00:24:01-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T00:28:52-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T00:28:52-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T00:28:52-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T00:28:52-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Queued start job for default target default.target.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Created slice app.slice - User Application Slice.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Reached target paths.target - Paths.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Reached target timers.target - Timers.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Reached target sockets.target - Sockets.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Reached target basic.target - Basic System.
+2026-01-26T00:28:52-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Reached target default.target - Main User Target.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Startup finished in 267ms.
+2026-01-26T00:28:52-03:00 srv1 systemd[1]: Started session-14.scope - Session 14 of User EMPRESA\ti01.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Created slice session.slice - User Core Session Slice.
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T00:28:52-03:00 srv1 systemd[1734]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T00:29:02-03:00 srv1 systemd[1]: session-14.scope: Deactivated successfully.
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Activating special unit exit.target...
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopped target default.target - Main User Target.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopped target basic.target - Basic System.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopped target paths.target - Paths.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopped target sockets.target - Sockets.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopped target timers.target - Timers.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Removed slice app.slice - User Application Slice.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Reached target shutdown.target - Shutdown.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T00:29:12-03:00 srv1 systemd[1734]: Reached target exit.target - Exit the Session.
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T00:29:12-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T00:42:04-03:00 srv1 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-26T00:42:04-03:00 srv1 systemd[1]: session-1.scope: Consumed 7.068s CPU time, 27.3M memory peak.
+2026-01-26T00:42:04-03:00 srv1 systemd[1]: session-2.scope: Deactivated successfully.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Activating special unit exit.target...
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopped target default.target - Main User Target.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopped target basic.target - Basic System.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopped target paths.target - Paths.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopped target sockets.target - Sockets.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopped target timers.target - Timers.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Removed slice app.slice - User Application Slice.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Reached target shutdown.target - Shutdown.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T00:42:15-03:00 srv1 systemd[896]: Reached target exit.target - Exit the Session.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-26T00:42:15-03:00 srv1 systemd[1]: user-1000.slice: Consumed 8.203s CPU time, 38.1M memory peak.
+2026-01-26T14:38:05-03:00 srv1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-26T14:38:05-03:00 srv1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-26T14:38:05-03:00 srv1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-26T14:38:05-03:00 srv1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Queued start job for default target default.target.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Created slice app.slice - User Application Slice.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Reached target paths.target - Paths.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Reached target timers.target - Timers.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Reached target sockets.target - Sockets.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Reached target basic.target - Basic System.
+2026-01-26T14:38:06-03:00 srv1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-26T14:38:06-03:00 srv1 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-26T14:38:06-03:00 srv1 systemd[1]: Started session-3.scope - Session 3 of User pedro.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Reached target default.target - Main User Target.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Startup finished in 1.047s.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Created slice session.slice - User Core Session Slice.
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T14:38:06-03:00 srv1 systemd[895]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T14:47:48-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-26T14:47:49-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-26T14:47:49-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-26T14:52:46-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T14:52:46-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T14:52:46-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T14:52:46-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Queued start job for default target default.target.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Created slice app.slice - User Application Slice.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Reached target paths.target - Paths.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Reached target timers.target - Timers.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Reached target sockets.target - Sockets.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Reached target basic.target - Basic System.
+2026-01-26T14:52:47-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-26T14:52:47-03:00 srv1 systemd[1]: Started session-4.scope - Session 4 of User EMPRESA\ti01.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T14:52:47-03:00 srv1 systemd[1014]: Reached target default.target - Main User Target.
+2026-01-26T14:52:48-03:00 srv1 systemd[1014]: Startup finished in 868ms.
+2026-01-26T14:52:48-03:00 srv1 systemd[1014]: Created slice session.slice - User Core Session Slice.
+2026-01-26T14:52:48-03:00 srv1 systemd[1014]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T14:52:48-03:00 srv1 systemd[1014]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T14:52:52-03:00 srv1 systemd[1]: session-4.scope: Deactivated successfully.
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Activating special unit exit.target...
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopped target default.target - Main User Target.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopped target basic.target - Basic System.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopped target paths.target - Paths.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopped target sockets.target - Sockets.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopped target timers.target - Timers.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Removed slice app.slice - User Application Slice.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Reached target shutdown.target - Shutdown.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T14:53:02-03:00 srv1 systemd[1014]: Reached target exit.target - Exit the Session.
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: user@10001.service: Consumed 1.118s CPU time, 10.8M memory peak.
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-26T14:53:02-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T14:53:03-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T14:53:03-03:00 srv1 systemd[1]: user-10001.slice: Consumed 1.566s CPU time, 10.9M memory peak.
+2026-01-26T14:53:15-03:00 srv1 systemd[1]: Stopping samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T14:53:15-03:00 srv1 systemd[1]: samba-ad-dc.service: Main process exited, code=exited, status=127/n/a
+2026-01-26T14:53:16-03:00 srv1 systemd[1]: samba-ad-dc.service: Failed with result 'exit-code'.
+2026-01-26T14:53:16-03:00 srv1 systemd[1]: Stopped samba-ad-dc.service - Samba AD Daemon.
+2026-01-26T14:53:16-03:00 srv1 systemd[1]: samba-ad-dc.service: Consumed 50.303s CPU time, 398.3M memory peak.
+2026-01-26T14:53:16-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T14:53:18-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-26T14:53:24-03:00 srv1 systemd[1]: Stopping samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T14:53:25-03:00 srv1 systemd[1]: samba-ad-dc.service: Main process exited, code=exited, status=127/n/a
+2026-01-26T14:53:25-03:00 srv1 systemd[1]: samba-ad-dc.service: Failed with result 'exit-code'.
+2026-01-26T14:53:25-03:00 srv1 systemd[1]: Stopped samba-ad-dc.service - Samba AD Daemon.
+2026-01-26T14:53:25-03:00 srv1 systemd[1]: samba-ad-dc.service: Consumed 9.383s CPU time, 251.6M memory peak.
+2026-01-26T14:53:25-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T14:53:27-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-26T15:30:48-03:00 srv1 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T15:31:56-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T15:31:56-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T15:31:56-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T15:31:56-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Queued start job for default target default.target.
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Created slice app.slice - User Application Slice.
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Reached target paths.target - Paths.
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Reached target timers.target - Timers.
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T15:31:56-03:00 srv1 systemd[1402]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Reached target sockets.target - Sockets.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Reached target basic.target - Basic System.
+2026-01-26T15:31:57-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Reached target default.target - Main User Target.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Startup finished in 603ms.
+2026-01-26T15:31:57-03:00 srv1 systemd[1]: Started session-8.scope - Session 8 of User EMPRESA\ti01.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Created slice session.slice - User Core Session Slice.
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T15:31:57-03:00 srv1 systemd[1402]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T15:32:07-03:00 srv1 systemd[1]: session-8.scope: Deactivated successfully.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Activating special unit exit.target...
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopped target default.target - Main User Target.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopped target basic.target - Basic System.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopped target paths.target - Paths.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopped target sockets.target - Sockets.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopped target timers.target - Timers.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Removed slice app.slice - User Application Slice.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Reached target shutdown.target - Shutdown.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T15:32:17-03:00 srv1 systemd[1402]: Reached target exit.target - Exit the Session.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: user@10001.service: Consumed 1.125s CPU time, 10.1M memory peak.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T15:32:17-03:00 srv1 systemd[1]: user-10001.slice: Consumed 1.577s CPU time, 10.1M memory peak.
+2026-01-26T15:33:33-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T16:32:33-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T17:31:04-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T17:31:04-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T17:31:04-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T17:31:04-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Queued start job for default target default.target.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Created slice app.slice - User Application Slice.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Reached target paths.target - Paths.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Reached target timers.target - Timers.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Reached target sockets.target - Sockets.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Reached target basic.target - Basic System.
+2026-01-26T17:31:05-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Reached target default.target - Main User Target.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Startup finished in 590ms.
+2026-01-26T17:31:05-03:00 srv1 systemd[1]: Started session-14.scope - Session 14 of User EMPRESA\ti01.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Created slice session.slice - User Core Session Slice.
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T17:31:05-03:00 srv1 systemd[1853]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T17:32:33-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T17:32:52-03:00 srv1 systemd[1]: session-14.scope: Deactivated successfully.
+2026-01-26T17:32:52-03:00 srv1 systemd[1]: session-14.scope: Consumed 4.395s CPU time, 4.7M memory peak.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Activating special unit exit.target...
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopped target default.target - Main User Target.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopped target basic.target - Basic System.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopped target paths.target - Paths.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopped target sockets.target - Sockets.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopped target timers.target - Timers.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Removed slice app.slice - User Application Slice.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Reached target shutdown.target - Shutdown.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T17:33:02-03:00 srv1 systemd[1853]: Reached target exit.target - Exit the Session.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: user@10001.service: Consumed 1.182s CPU time, 10.9M memory peak.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T17:33:02-03:00 srv1 systemd[1]: user-10001.slice: Consumed 5.692s CPU time, 11M memory peak.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-tpm2-setup.service - TPM SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-udev-load-credentials.service - Load udev Rules from Credentials.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: modprobe@drm.service: Deactivated successfully.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting ifupdown-pre.service - Helper to synchronize boot up for ifupdown...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Expecting device sys-subsystem-net-devices-enp0s3.device - /sys/subsystem/net/devices/enp0s3...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Found device sys-subsystem-net-devices-enp0s3.device - 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Found device dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.device - VBOX_HARDDISK 5.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Activating swap dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.swap - /dev/disk/by-uuid/11c15728-2b53-44f8-89e3-04587a846f87...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Activated swap dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.swap - /dev/disk/by-uuid/11c15728-2b53-44f8-89e3-04587a846f87.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Found device dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.device - VBOX_HARDDISK 6.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target swap.target - Swaps.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Mounting tmp.mount - Temporary Directory /tmp...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-fsck@dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.service - File System Check on /dev/disk/by-uuid/5ee3ee71-9da9-4ed1-ac98-741b16c7752c...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Mounted tmp.mount - Temporary Directory /tmp.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target sound.target - Sound Card.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished ifupdown-pre.service - Helper to synchronize boot up for ifupdown.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-fsck@dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.service - File System Check on /dev/disk/by-uuid/5ee3ee71-9da9-4ed1-ac98-741b16c7752c.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Mounting home.mount - /home...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Mounted home.mount - /home.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target local-fs.target - Local File Systems.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting console-setup.service - Set console font and keymap...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-setup.service - Create System Files and Directories...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished console-setup.service - Set console font and keymap.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 481 (systemd-binfmt)
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-machine-id-commit.service - Save Transient machine-id to Disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target sysinit.target - System Initialization.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started anacron.timer - Trigger anacron every hour.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started apt-daily.timer - Daily apt download activities.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started man-db.timer - Daily man-db regeneration.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target timers.target - Timer Units.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target ssh-access.target - SSH Access Available.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Listening on systemd-hostnamed.socket - Hostname Service Socket.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target sockets.target - Socket Units.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started ifup@enp0s3.service - ifup for enp0s3.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting networking.service - Raise network interfaces...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-pcrphase-sysinit.service - TPM PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Reached target basic.target - Basic System.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: System is tainted: unmerged-bin
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting chrony.service - chrony, an NTP client/server...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started cron.service - Regular background program processing daemon.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting grub-common.service - Record successful boot for GRUB...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting rsyslog.service - System Logging Service...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting systemd-logind.service - User Login Management...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: systemd-pcrphase.service - TPM PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting wtmpdb-update-boot.service - Write boot and shutdown times into wtmpdb...
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started systemd-logind.service - User Login Management.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: grub-common.service: Deactivated successfully.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished grub-common.service - Record successful boot for GRUB.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Finished networking.service - Raise network interfaces.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started rsyslog.service - System Logging Service.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Started dbus.service - D-Bus System Message Bus.
+2026-01-26T18:59:54-03:00 srv1 systemd[1]: Starting wpa_supplicant.service - WPA supplicant...
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Finished wtmpdb-update-boot.service - Write boot and shutdown times into wtmpdb.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Started chrony.service - chrony, an NTP client/server.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Started wpa_supplicant.service - WPA supplicant.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Reached target network.target - Network.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Reached target network-online.target - Network is Online.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: e2scrub_reap.service: Deactivated successfully.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Started getty@tty1.service - Getty on tty1.
+2026-01-26T18:59:55-03:00 srv1 systemd[1]: Reached target getty.target - Login Prompts.
+2026-01-26T18:59:56-03:00 srv1 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-01-26T18:13:35-03:00 srv1 systemd[1]: Started samba-ad-dc.service - Samba AD Daemon.
+2026-01-26T18:13:35-03:00 srv1 systemd[1]: Reached target multi-user.target - Multi-User System.
+2026-01-26T18:13:35-03:00 srv1 systemd[1]: Reached target graphical.target - Graphical Interface.
+2026-01-26T18:13:35-03:00 srv1 systemd[1]: Startup finished in 8.504s (kernel) + 18.954s (userspace) = 27.458s.
+2026-01-26T18:15:02-03:00 srv1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-26T18:15:03-03:00 srv1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-26T18:15:03-03:00 srv1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-26T18:15:03-03:00 srv1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Queued start job for default target default.target.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Created slice app.slice - User Application Slice.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Reached target paths.target - Paths.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Reached target timers.target - Timers.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Reached target sockets.target - Sockets.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Reached target basic.target - Basic System.
+2026-01-26T18:15:03-03:00 srv1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-26T18:15:03-03:00 srv1 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Reached target default.target - Main User Target.
+2026-01-26T18:15:03-03:00 srv1 systemd[892]: Startup finished in 709ms.
+2026-01-26T18:15:03-03:00 srv1 systemd[1]: Started session-3.scope - Session 3 of User pedro.
+2026-01-26T18:15:04-03:00 srv1 systemd[892]: Created slice session.slice - User Core Session Slice.
+2026-01-26T18:15:04-03:00 srv1 systemd[892]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T18:15:04-03:00 srv1 systemd[892]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T18:16:03-03:00 srv1 systemd[1]: Created slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T18:16:03-03:00 srv1 systemd[1]: Starting user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T18:16:03-03:00 srv1 systemd[1]: Finished user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T18:16:03-03:00 srv1 systemd[1]: Starting user@10001.service - User Manager for UID 10001...
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Queued start job for default target default.target.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Created slice app.slice - User Application Slice.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Reached target paths.target - Paths.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Reached target timers.target - Timers.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Reached target sockets.target - Sockets.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Reached target basic.target - Basic System.
+2026-01-26T18:16:03-03:00 srv1 systemd[1]: Started user@10001.service - User Manager for UID 10001.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Reached target default.target - Main User Target.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Startup finished in 344ms.
+2026-01-26T18:16:03-03:00 srv1 systemd[1]: Started session-4.scope - Session 4 of User EMPRESA\ti01.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Created slice session.slice - User Core Session Slice.
+2026-01-26T18:16:03-03:00 srv1 systemd[945]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-26T18:16:04-03:00 srv1 systemd[945]: Started dbus.service - D-Bus User Message Bus.
+2026-01-26T18:16:36-03:00 srv1 systemd[1]: session-4.scope: Deactivated successfully.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: Stopping user@10001.service - User Manager for UID 10001...
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Activating special unit exit.target...
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopped target default.target - Main User Target.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopped target basic.target - Basic System.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopped target paths.target - Paths.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopped target sockets.target - Sockets.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopped target timers.target - Timers.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Removed slice app.slice - User Application Slice.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Reached target shutdown.target - Shutdown.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T18:16:46-03:00 srv1 systemd[945]: Reached target exit.target - Exit the Session.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: user@10001.service: Deactivated successfully.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: Stopped user@10001.service - User Manager for UID 10001.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: Stopping user-runtime-dir@10001.service - User Runtime Directory /run/user/10001...
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: run-user-10001.mount: Deactivated successfully.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: user-runtime-dir@10001.service: Deactivated successfully.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: Stopped user-runtime-dir@10001.service - User Runtime Directory /run/user/10001.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: Removed slice user-10001.slice - User Slice of UID 10001.
+2026-01-26T18:16:46-03:00 srv1 systemd[1]: user-10001.slice: Consumed 1.201s CPU time, 10.7M memory peak.
+2026-01-26T18:18:26-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-26T18:28:35-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-26T18:28:35-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-26T18:28:35-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-26T18:32:38-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T18:32:50-03:00 srv1 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-26T18:32:50-03:00 srv1 systemd[1]: session-1.scope: Consumed 1.205s CPU time, 22.1M memory peak.
+2026-01-26T18:32:51-03:00 srv1 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-26T18:33:01-03:00 srv1 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Activating special unit exit.target...
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Stopped target default.target - Main User Target.
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T18:33:01-03:00 srv1 systemd[892]: Stopped target basic.target - Basic System.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Stopped target paths.target - Paths.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Stopped target sockets.target - Sockets.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Stopped target timers.target - Timers.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Removed slice app.slice - User Application Slice.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Reached target shutdown.target - Shutdown.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T18:33:02-03:00 srv1 systemd[892]: Reached target exit.target - Exit the Session.
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-26T18:33:02-03:00 srv1 systemd[1]: user-1000.slice: Consumed 2.219s CPU time, 33M memory peak.
+2026-01-28T15:42:04-03:00 srv1 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-28T15:42:04-03:00 srv1 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-28T15:42:04-03:00 srv1 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-28T15:54:04-03:00 srv1 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T16:04:51-03:00 srv1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-28T16:04:51-03:00 srv1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-28T16:04:51-03:00 srv1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-28T16:04:51-03:00 srv1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Queued start job for default target default.target.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Created slice app.slice - User Application Slice.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Reached target paths.target - Paths.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Reached target timers.target - Timers.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Reached target sockets.target - Sockets.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Reached target basic.target - Basic System.
+2026-01-28T16:04:52-03:00 srv1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Reached target default.target - Main User Target.
+2026-01-28T16:04:52-03:00 srv1 systemd[994]: Startup finished in 906ms.
+2026-01-28T16:04:52-03:00 srv1 systemd[1]: Started session-2.scope - Session 2 of User pedro.
+2026-01-28T16:04:52-03:00 srv1 systemd[1]: Started session-3.scope - Session 3 of User pedro.
+2026-01-28T16:04:53-03:00 srv1 systemd[994]: Created slice session.slice - User Core Session Slice.
+2026-01-28T16:04:53-03:00 srv1 systemd[994]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-28T16:04:53-03:00 srv1 systemd[994]: Started dbus.service - D-Bus User Message Bus.
+2026-01-28T16:22:20-03:00 srv1 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T16:33:20-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-28T16:38:20-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-28T16:53:28-03:00 srv1 systemd[1]: Started session-7.scope - Session 7 of User pedro.
+2026-01-28T16:53:28-03:00 srv1 systemd[1]: session-7.scope: Deactivated successfully.
+2026-01-28T16:56:16-03:00 srv1 systemd[1]: Started session-8.scope - Session 8 of User pedro.
+2026-01-28T16:56:16-03:00 srv1 systemd[1]: session-8.scope: Deactivated successfully.
+2026-01-28T16:56:36-03:00 srv1 systemd[1]: Started session-9.scope - Session 9 of User pedro.
+2026-01-28T16:56:36-03:00 srv1 systemd[1]: session-9.scope: Deactivated successfully.
+2026-01-28T16:56:56-03:00 srv1 systemd[1]: Started session-10.scope - Session 10 of User pedro.
+2026-01-28T16:56:57-03:00 srv1 systemd[1]: session-10.scope: Deactivated successfully.
+2026-01-28T17:14:33-03:00 srv1 systemd[1]: Started session-11.scope - Session 11 of User pedro.
+2026-01-28T17:14:34-03:00 srv1 systemd[1]: session-11.scope: Deactivated successfully.
+2026-01-28T17:19:47-03:00 srv1 systemd[1]: session-2.scope: Deactivated successfully.
+2026-01-28T17:19:47-03:00 srv1 systemd[1]: session-2.scope: Consumed 17.257s CPU time, 68.3M memory peak.
+2026-01-28T17:19:48-03:00 srv1 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Activating special unit exit.target...
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopped target default.target - Main User Target.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Removed slice session.slice - User Core Session Slice.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopped target basic.target - Basic System.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopped target paths.target - Paths.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopped target sockets.target - Sockets.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopped target timers.target - Timers.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Removed slice app.slice - User Application Slice.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Reached target shutdown.target - Shutdown.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Finished systemd-exit.service - Exit the Session.
+2026-01-28T17:19:58-03:00 srv1 systemd[994]: Reached target exit.target - Exit the Session.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-28T17:19:58-03:00 srv1 systemd[1]: user-1000.slice: Consumed 19.089s CPU time, 79.2M memory peak.
+2026-01-28T17:20:49-03:00 srv1 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-28T17:20:49-03:00 srv1 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-28T17:20:49-03:00 srv1 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-28T17:20:49-03:00 srv1 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Queued start job for default target default.target.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Created slice app.slice - User Application Slice.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Reached target paths.target - Paths.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Reached target timers.target - Timers.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Reached target sockets.target - Sockets.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Reached target basic.target - Basic System.
+2026-01-28T17:20:50-03:00 srv1 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-28T17:20:50-03:00 srv1 systemd[1]: Started session-13.scope - Session 13 of User pedro.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Reached target default.target - Main User Target.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Startup finished in 318ms.
+2026-01-28T17:20:50-03:00 srv1 systemd[1]: Started session-15.scope - Session 15 of User pedro.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Created slice session.slice - User Core Session Slice.
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-28T17:20:50-03:00 srv1 systemd[1559]: Started dbus.service - D-Bus User Message Bus.
+2026-01-28T17:34:20-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T18:06:42-03:00 srv1 systemd[1]: Started session-17.scope - Session 17 of User pedro.
+2026-01-28T18:06:43-03:00 srv1 systemd[1]: session-17.scope: Deactivated successfully.
+2026-01-28T18:33:20-03:00 srv1 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T19:05:04-03:00 srv1 systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T19:31:20-03:00 srv1 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-28T19:31:20-03:00 srv1 systemd[1]: anacron.service: Deactivated successfully.

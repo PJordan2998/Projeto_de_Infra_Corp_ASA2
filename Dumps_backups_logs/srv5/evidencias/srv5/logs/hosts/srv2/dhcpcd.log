@@ -1,0 +1,16 @@
+2026-01-25T17:41:49-03:00 srv2 dhcpcd[641]: dhcpcd-10.1.0 starting
+2026-01-25T17:41:49-03:00 srv2 dhcpcd[719]: DUID 00:01:00:01:30:da:e6:5d:08:00:27:8f:c3:88
+2026-01-25T17:41:52-03:00 srv2 dhcpcd[719]: enp0s3: waiting for carrier
+2026-01-25T17:41:52-03:00 srv2 dhcpcd[719]: enp0s3: carrier acquired
+2026-01-25T17:41:52-03:00 srv2 dhcpcd[719]: enp0s3: IAID 27:e8:45:c6
+2026-01-25T17:41:52-03:00 srv2 dhcpcd[719]: enp0s3: adding address fe80::f357:a556:edb7:40b2
+2026-01-25T17:41:53-03:00 srv2 dhcpcd[719]: enp0s3: rebinding lease of 10.0.2.15
+2026-01-25T17:41:53-03:00 srv2 dhcpcd[719]: enp0s3: probing address 10.0.2.15/24
+2026-01-25T17:41:54-03:00 srv2 dhcpcd[719]: enp0s3: soliciting an IPv6 router
+2026-01-25T17:41:54-03:00 srv2 dhcpcd[719]: enp0s3: Router Advertisement from fe80::2
+2026-01-25T17:41:54-03:00 srv2 dhcpcd[719]: enp0s3: adding address fd17:625c:f037:2:853f:6c8b:97fc:39e6/64
+2026-01-25T17:41:54-03:00 srv2 dhcpcd[719]: enp0s3: adding route to fd17:625c:f037:2::/64
+2026-01-25T17:41:54-03:00 srv2 dhcpcd[719]: enp0s3: adding default route via fe80::2
+2026-01-25T12:04:56-03:00 srv2 dhcpcd[719]: enp0s3: leased 10.0.2.15 for 86400 seconds
+2026-01-25T12:04:56-03:00 srv2 dhcpcd[719]: enp0s3: adding route to 10.0.2.0/24
+2026-01-25T12:04:56-03:00 srv2 dhcpcd[719]: enp0s3: adding default route via 10.0.2.2

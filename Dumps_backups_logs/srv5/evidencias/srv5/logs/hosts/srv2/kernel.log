@@ -1,0 +1,803 @@
+2026-01-24T11:04:43-03:00 srv2 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1232463057 wd_nsec: 1232461591
+2026-01-24T12:02:15-03:00 srv2 kernel: hrtimer: interrupt took 16103888 ns
+2026-01-25T08:01:13-03:00 srv2 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T08:01:13-03:00 srv2 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T08:10:20-03:00 srv2 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1223284624 wd_nsec: 1223284011
+2026-01-25T10:27:02-03:00 srv2 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T10:27:02-03:00 srv2 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T10:28:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=19923 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:28:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=19924 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:28:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=19970 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T10:28:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=19971 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T10:28:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=19972 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T10:28:20-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=22071 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T10:30:44-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=43110 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:30:44-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=43111 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T10:33:48-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=5161 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:33:48-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=5162 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T10:37:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=42397 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:37:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=42398 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T10:39:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=45155 DF PROTO=UDP SPT=50562 DPT=137 LEN=58 
+2026-01-25T10:42:57-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=19427 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:42:57-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=19428 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T10:49:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=48084 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:49:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=48085 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T10:54:54-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=60604 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:54:54-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=60605 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:54:54-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=60626 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T10:54:54-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=60627 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T10:54:54-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=60628 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T10:55:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=62124 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T10:57:27-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=64399 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T10:57:27-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=64400 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:00:27-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=531 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:00:27-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=533 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:04:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=18516 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:04:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=18517 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:09:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=3585 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:09:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=3586 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:30:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=10325 DF PROTO=UDP SPT=54340 DPT=137 LEN=58 
+2026-01-25T11:32:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=26150 DF PROTO=UDP SPT=54411 DPT=137 LEN=58 
+2026-01-25T11:32:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=26193 DF PROTO=UDP SPT=49478 DPT=137 LEN=58 
+2026-01-25T11:32:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=26211 DF PROTO=UDP SPT=49884 DPT=137 LEN=58 
+2026-01-25T11:32:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=32301 DF PROTO=UDP SPT=50160 DPT=137 LEN=58 
+2026-01-25T11:32:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=32357 DF PROTO=UDP SPT=46878 DPT=137 LEN=58 
+2026-01-25T11:33:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=35965 DF PROTO=UDP SPT=39037 DPT=137 LEN=58 
+2026-01-25T11:33:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=36014 DF PROTO=UDP SPT=43483 DPT=137 LEN=58 
+2026-01-25T11:33:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=36042 DF PROTO=UDP SPT=37860 DPT=137 LEN=58 
+2026-01-25T11:33:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=37039 DF PROTO=UDP SPT=39284 DPT=137 LEN=58 
+2026-01-25T11:33:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=37079 DF PROTO=UDP SPT=57283 DPT=137 LEN=58 
+2026-01-25T11:34:16-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=39259 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:34:16-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=39260 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:34:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=40919 DF PROTO=UDP SPT=36798 DPT=137 LEN=58 
+2026-01-25T11:34:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=43864 DF PROTO=UDP SPT=41060 DPT=137 LEN=58 
+2026-01-25T11:34:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=43923 DF PROTO=UDP SPT=42074 DPT=137 LEN=58 
+2026-01-25T11:35:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=50577 DF PROTO=UDP SPT=48630 DPT=137 LEN=58 
+2026-01-25T11:35:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=50591 DF PROTO=UDP SPT=48840 DPT=137 LEN=58 
+2026-01-25T11:35:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=50644 DF PROTO=UDP SPT=36431 DPT=137 LEN=58 
+2026-01-25T11:35:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=51755 DF PROTO=UDP SPT=35954 DPT=137 LEN=58 
+2026-01-25T11:35:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=51776 DF PROTO=UDP SPT=33342 DPT=137 LEN=58 
+2026-01-25T11:36:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=58933 DF PROTO=UDP SPT=34644 DPT=137 LEN=58 
+2026-01-25T11:36:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=58942 DF PROTO=UDP SPT=57244 DPT=137 LEN=58 
+2026-01-25T11:36:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=58964 DF PROTO=UDP SPT=55951 DPT=137 LEN=58 
+2026-01-25T11:36:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=60647 DF PROTO=UDP SPT=44360 DPT=137 LEN=58 
+2026-01-25T11:36:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=60676 DF PROTO=UDP SPT=34668 DPT=137 LEN=58 
+2026-01-25T11:37:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=62296 DF PROTO=UDP SPT=57590 DPT=137 LEN=58 
+2026-01-25T11:37:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=62353 DF PROTO=UDP SPT=60423 DPT=137 LEN=58 
+2026-01-25T11:37:26-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=62386 DF PROTO=UDP SPT=36341 DPT=137 LEN=58 
+2026-01-25T11:37:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=3749 DF PROTO=UDP SPT=35902 DPT=137 LEN=58 
+2026-01-25T11:37:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=3763 DF PROTO=UDP SPT=52852 DPT=137 LEN=58 
+2026-01-25T11:38:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=4890 DF PROTO=UDP SPT=55614 DPT=137 LEN=58 
+2026-01-25T11:38:11-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=5203 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:41:20-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=6853 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:41:20-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=6854 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:41:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=6933 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:41:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=6934 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:41:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=6935 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:41:34-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=8189 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T11:43:57-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=29147 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:43:57-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=29148 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:46:58-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=45084 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:46:58-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=45085 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:50:58-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=58971 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:50:58-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=58972 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:52:09-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=64131 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:52:09-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=64132 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:52:10-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=64206 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:52:10-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=64207 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:52:10-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=64208 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:52:23-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=654 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T11:53:43-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=15973 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:53:43-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=15974 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:53:44-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=16080 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:53:44-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=16081 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:53:44-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=16082 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:53:57-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=17731 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T11:55:17-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=22939 DF PROTO=UDP SPT=35378 DPT=137 LEN=58 
+2026-01-25T11:56:17-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=32915 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:56:17-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=32916 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T11:56:22-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=33811 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:56:22-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=33815 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:56:22-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=33884 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:56:29-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=34711 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T11:56:41-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=36009 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T11:58:55-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=56985 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T11:58:55-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=56986 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:01:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=26186 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:01:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=26187 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:02:16-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=26205 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:02:16-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=26206 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:02:17-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=26243 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:02:17-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=26244 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:02:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=26802 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:02:32-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=28048 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T17:41:49-03:00 srv2 kernel: Linux version 6.12.57+deb13-amd64 (debian-kernel@lists.debian.org) (x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT_DYNAMIC Debian 6.12.57-1 (2025-11-05)
+2026-01-25T17:41:49-03:00 srv2 kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.12.57+deb13-amd64 root=UUID=3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro quiet
+2026-01-25T17:41:49-03:00 srv2 kernel: [Firmware Bug]: TSC doesn't count with P0 frequency!
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-provided physical RAM map:
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+2026-01-25T17:41:49-03:00 srv2 kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+2026-01-25T17:41:49-03:00 srv2 kernel: NX (Execute Disable) protection: active
+2026-01-25T17:41:49-03:00 srv2 kernel: APIC: Static calls initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: SMBIOS 2.5 present.
+2026-01-25T17:41:49-03:00 srv2 kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2026-01-25T17:41:49-03:00 srv2 kernel: DMI: Memory slots populated: 0/0
+2026-01-25T17:41:49-03:00 srv2 kernel: Hypervisor detected: KVM
+2026-01-25T17:41:49-03:00 srv2 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+2026-01-25T17:41:49-03:00 srv2 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+2026-01-25T17:41:49-03:00 srv2 kernel: kvm-clock: using sched offset of 19873058823 cycles
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2026-01-25T17:41:49-03:00 srv2 kernel: tsc: Detected 2295.626 MHz processor
+2026-01-25T17:41:49-03:00 srv2 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2026-01-25T17:41:49-03:00 srv2 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2026-01-25T17:41:49-03:00 srv2 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+2026-01-25T17:41:49-03:00 srv2 kernel: MTRR map: 3 entries (3 fixed + 0 variable; max 19), built from 8 variable MTRRs
+2026-01-25T17:41:49-03:00 srv2 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU MTRRs all blank - virtualized system.
+2026-01-25T17:41:49-03:00 srv2 kernel: found SMP MP-table at [mem 0x0009fbf0-0x0009fbff]
+2026-01-25T17:41:49-03:00 srv2 kernel: RAMDISK: [mem 0x339e3000-0x35ce8fff]
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Early table checksum verification disabled
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: DSDT 0x000000007FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: FACS 0x000000007FFF0200 000040
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: FACS 0x000000007FFF0200 000040
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: SSDT 0x000000007FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Reserving DSDT table memory at [mem 0x7fff0610-0x7fff2962]
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff029b]
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff060b]
+2026-01-25T17:41:49-03:00 srv2 kernel: No NUMA configuration found
+2026-01-25T17:41:49-03:00 srv2 kernel: Faking a node at [mem 0x0000000000000000-0x000000007fffffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: NODE_DATA(0) allocated [mem 0x7ffc5680-0x7ffeffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: Zone ranges:
+2026-01-25T17:41:49-03:00 srv2 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2026-01-25T17:41:49-03:00 srv2 kernel:   DMA32    [mem 0x0000000001000000-0x000000007fffffff]
+2026-01-25T17:41:49-03:00 srv2 kernel:   Normal   empty
+2026-01-25T17:41:49-03:00 srv2 kernel:   Device   empty
+2026-01-25T17:41:49-03:00 srv2 kernel: Movable zone start for each node
+2026-01-25T17:41:49-03:00 srv2 kernel: Early memory node ranges
+2026-01-25T17:41:49-03:00 srv2 kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+2026-01-25T17:41:49-03:00 srv2 kernel:   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2026-01-25T17:41:49-03:00 srv2 kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+2026-01-25T17:41:49-03:00 srv2 kernel: On node 0, zone DMA32: 16 pages in unavailable ranges
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: PM-Timer IO Port: 0x4008
+2026-01-25T17:41:49-03:00 srv2 kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU topo: Max. logical packages:   1
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU topo: Max. logical dies:       1
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU topo: Max. dies per package:   1
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU topo: Max. threads per core:   1
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU topo: Num. cores per package:     2
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU topo: Num. threads per package:   2
+2026-01-25T17:41:49-03:00 srv2 kernel: CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+2026-01-25T17:41:49-03:00 srv2 kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2026-01-25T17:41:49-03:00 srv2 kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000fffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: PM: hibernation: Registered nosave memory: [mem 0x7fff0000-0x7fffffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: [mem 0x80000000-0xfebfffff] available for PCI devices
+2026-01-25T17:41:49-03:00 srv2 kernel: Booting paravirtualized kernel on KVM
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+2026-01-25T17:41:49-03:00 srv2 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+2026-01-25T17:41:49-03:00 srv2 kernel: percpu: Embedded 66 pages/cpu s233472 r8192 d28672 u1048576
+2026-01-25T17:41:49-03:00 srv2 kernel: pcpu-alloc: s233472 r8192 d28672 u1048576 alloc=1*2097152
+2026-01-25T17:41:49-03:00 srv2 kernel: pcpu-alloc: [0] 0 1 
+2026-01-25T17:41:49-03:00 srv2 kernel: kvm-guest: PV spinlocks enabled
+2026-01-25T17:41:49-03:00 srv2 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.12.57+deb13-amd64 root=UUID=3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro quiet
+2026-01-25T17:41:49-03:00 srv2 kernel: random: crng init done
+2026-01-25T17:41:49-03:00 srv2 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: Fallback order for Node 0: 0 
+2026-01-25T17:41:49-03:00 srv2 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 524174
+2026-01-25T17:41:49-03:00 srv2 kernel: Policy zone: DMA32
+2026-01-25T17:41:49-03:00 srv2 kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2026-01-25T17:41:49-03:00 srv2 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2026-01-25T17:41:49-03:00 srv2 kernel: ftrace: allocating 45728 entries in 179 pages
+2026-01-25T17:41:49-03:00 srv2 kernel: ftrace: allocated 179 pages with 5 groups
+2026-01-25T17:41:49-03:00 srv2 kernel: Dynamic Preempt: voluntary
+2026-01-25T17:41:49-03:00 srv2 kernel: rcu: Preemptible hierarchical RCU implementation.
+2026-01-25T17:41:49-03:00 srv2 kernel: rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+2026-01-25T17:41:49-03:00 srv2 kernel: #011Trampoline variant of Tasks RCU enabled.
+2026-01-25T17:41:49-03:00 srv2 kernel: #011Rude variant of Tasks RCU enabled.
+2026-01-25T17:41:49-03:00 srv2 kernel: #011Tracing variant of Tasks RCU enabled.
+2026-01-25T17:41:49-03:00 srv2 kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+2026-01-25T17:41:49-03:00 srv2 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2026-01-25T17:41:49-03:00 srv2 kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-25T17:41:49-03:00 srv2 kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-25T17:41:49-03:00 srv2 kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-25T17:41:49-03:00 srv2 kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+2026-01-25T17:41:49-03:00 srv2 kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2026-01-25T17:41:49-03:00 srv2 kernel: Console: colour VGA+ 80x25
+2026-01-25T17:41:49-03:00 srv2 kernel: printk: legacy console [tty0] enabled
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Core revision 20240827
+2026-01-25T17:41:49-03:00 srv2 kernel: APIC: Switch to symmetric I/O mode setup
+2026-01-25T17:41:49-03:00 srv2 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2117114894f, max_idle_ns: 440795250968 ns
+2026-01-25T17:41:49-03:00 srv2 kernel: Calibrating delay loop (skipped) preset value.. 4591.25 BogoMIPS (lpj=9182504)
+2026-01-25T17:41:49-03:00 srv2 kernel: AMD Zen1 DIV0 bug detected. Disable SMT for full protection.
+2026-01-25T17:41:49-03:00 srv2 kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+2026-01-25T17:41:49-03:00 srv2 kernel: Last level dTLB entries: 4KB 1536, 2MB 1536, 4MB 768, 1GB 0
+2026-01-25T17:41:49-03:00 srv2 kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2026-01-25T17:41:49-03:00 srv2 kernel: Spectre V2 : Mitigation: Retpolines
+2026-01-25T17:41:49-03:00 srv2 kernel: Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+2026-01-25T17:41:49-03:00 srv2 kernel: active return thunk: retbleed_return_thunk
+2026-01-25T17:41:49-03:00 srv2 kernel: RETBleed: Mitigation: untrained return thunk
+2026-01-25T17:41:49-03:00 srv2 kernel: Speculative Return Stack Overflow: IBPB-extending microcode not applied!
+2026-01-25T17:41:49-03:00 srv2 kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-01-25T17:41:49-03:00 srv2 kernel: active return thunk: srso_return_thunk
+2026-01-25T17:41:49-03:00 srv2 kernel: Speculative Return Stack Overflow: Vulnerable: Safe RET, no microcode
+2026-01-25T17:41:49-03:00 srv2 kernel: x86/fpu: x87 FPU will use FXSAVE
+2026-01-25T17:41:49-03:00 srv2 kernel: Freeing SMP alternatives memory: 40K
+2026-01-25T17:41:49-03:00 srv2 kernel: pid_max: default: 32768 minimum: 301
+2026-01-25T17:41:49-03:00 srv2 kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,tomoyo,bpf,ipe,ima,evm
+2026-01-25T17:41:49-03:00 srv2 kernel: landlock: Up and running.
+2026-01-25T17:41:49-03:00 srv2 kernel: Yama: disabled by default; enable with sysctl kernel.yama.*
+2026-01-25T17:41:49-03:00 srv2 kernel: AppArmor: AppArmor initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: TOMOYO Linux initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: LSM support for eBPF active
+2026-01-25T17:41:49-03:00 srv2 kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: APIC calibration not consistent with PM-Timer: 104ms instead of 100ms
+2026-01-25T17:41:49-03:00 srv2 kernel: APIC delta adjusted to PM-Timer: 6313043 (6585227)
+2026-01-25T17:41:49-03:00 srv2 kernel: smpboot: CPU0: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx (family: 0x17, model: 0x18, stepping: 0x1)
+2026-01-25T17:41:49-03:00 srv2 kernel: Performance Events: PMU not available due to virtualization, using software events only.
+2026-01-25T17:41:49-03:00 srv2 kernel: signal: max sigframe size: 1440
+2026-01-25T17:41:49-03:00 srv2 kernel: rcu: Hierarchical SRCU implementation.
+2026-01-25T17:41:49-03:00 srv2 kernel: rcu: #011Max phase no-delay instances is 1000.
+2026-01-25T17:41:49-03:00 srv2 kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+2026-01-25T17:41:49-03:00 srv2 kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2026-01-25T17:41:49-03:00 srv2 kernel: smp: Bringing up secondary CPUs ...
+2026-01-25T17:41:49-03:00 srv2 kernel: smpboot: x86: Booting SMP configuration:
+2026-01-25T17:41:49-03:00 srv2 kernel: .... node  #0, CPUs:      #1
+2026-01-25T17:41:49-03:00 srv2 kernel: smp: Brought up 1 node, 2 CPUs
+2026-01-25T17:41:49-03:00 srv2 kernel: smpboot: Total of 2 processors activated (9182.50 BogoMIPS)
+2026-01-25T17:41:49-03:00 srv2 kernel: node 0 deferred pages initialised in 4ms
+2026-01-25T17:41:49-03:00 srv2 kernel: Memory: 1974548K/2096696K available (16384K kernel code, 2496K rwdata, 11800K rodata, 4152K init, 4936K bss, 118200K reserved, 0K cma-reserved)
+2026-01-25T17:41:49-03:00 srv2 kernel: devtmpfs: initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: x86/mm: Memory block size: 128MB
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+2026-01-25T17:41:49-03:00 srv2 kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: pinctrl core: initialized pinctrl subsystem
+2026-01-25T17:41:49-03:00 srv2 kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2026-01-25T17:41:49-03:00 srv2 kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+2026-01-25T17:41:49-03:00 srv2 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2026-01-25T17:41:49-03:00 srv2 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: initializing netlink subsys (disabled)
+2026-01-25T17:41:49-03:00 srv2 kernel: thermal_sys: Registered thermal governor 'fair_share'
+2026-01-25T17:41:49-03:00 srv2 kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2026-01-25T17:41:49-03:00 srv2 kernel: thermal_sys: Registered thermal governor 'step_wise'
+2026-01-25T17:41:49-03:00 srv2 kernel: thermal_sys: Registered thermal governor 'user_space'
+2026-01-25T17:41:49-03:00 srv2 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=2000 audit(1769373706.441:1): state=initialized audit_enabled=0 res=1
+2026-01-25T17:41:49-03:00 srv2 kernel: cpuidle: using governor ladder
+2026-01-25T17:41:49-03:00 srv2 kernel: cpuidle: using governor menu
+2026-01-25T17:41:49-03:00 srv2 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI: Using configuration type 1 for base access
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI: Using configuration type 1 for extended access
+2026-01-25T17:41:49-03:00 srv2 kernel: mtrr: your CPUs had inconsistent variable MTRR settings
+2026-01-25T17:41:49-03:00 srv2 kernel: mtrr: probably your BIOS does not setup all CPUs.
+2026-01-25T17:41:49-03:00 srv2 kernel: mtrr: corrected configuration.
+2026-01-25T17:41:49-03:00 srv2 kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2026-01-25T17:41:49-03:00 srv2 kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2026-01-25T17:41:49-03:00 srv2 kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Added _OSI(Module Device)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Added _OSI(Processor Device)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Interpreter enabled
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: PM: (supports S0 S5)
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Using IOAPIC for interrupt routing
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI: Using E820 reservations for host bridge windows
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2026-01-25T17:41:49-03:00 srv2 kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+2026-01-25T17:41:49-03:00 srv2 kernel: acpi PNP0A03:00: _OSC: platform does not support [PCIeCapability LTR]
+2026-01-25T17:41:49-03:00 srv2 kernel: acpi PNP0A03:00: _OSC: not requesting control; platform does not support [PCIeCapability]
+2026-01-25T17:41:49-03:00 srv2 kernel: acpi PNP0A03:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR]
+2026-01-25T17:41:49-03:00 srv2 kernel: acpi PNP0A03:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER]
+2026-01-25T17:41:49-03:00 srv2 kernel: acpi PNP0A03:00: _OSC: platform retains control of PCIe features (AE_SUPPORT)
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI host bridge to bus 0000:00
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:01.1: BAR 4 [io  0xd000-0xd00f]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: BAR 0 [io  0xd010-0xd01f]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: BAR 1 [mem 0xe0000000-0xe0ffffff pref]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: BAR 2 [mem 0xf0000000-0xf01fffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:03.0: BAR 0 [mem 0xf0200000-0xf021ffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:03.0: BAR 2 [io  0xd020-0xd027]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:04.0: BAR 0 [io  0xd040-0xd05f]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:04.0: BAR 1 [mem 0xf0400000-0xf07fffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:04.0: BAR 2 [mem 0xf0800000-0xf0803fff pref]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:05.0: BAR 0 [io  0xd100-0xd1ff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:05.0: BAR 1 [io  0xd200-0xd23f]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:06.0: BAR 0 [mem 0xf0804000-0xf0804fff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:08.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:08.0: BAR 0 [mem 0xf0820000-0xf083ffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:08.0: BAR 2 [io  0xd240-0xd247]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0b.0: BAR 0 [mem 0xf0840000-0xf0840fff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0d.0: BAR 0 [io  0xd248-0xd24f]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0d.0: BAR 1 [io  0xd250-0xd253]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0d.0: BAR 2 [io  0xd258-0xd25f]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0d.0: BAR 3 [io  0xd260-0xd263]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0d.0: BAR 4 [io  0xd270-0xd27f]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:0d.0: BAR 5 [mem 0xf0842000-0xf0843fff]
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+2026-01-25T17:41:49-03:00 srv2 kernel: iommu: Default domain type: Translated
+2026-01-25T17:41:49-03:00 srv2 kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2026-01-25T17:41:49-03:00 srv2 kernel: pps_core: LinuxPPS API ver. 1 registered
+2026-01-25T17:41:49-03:00 srv2 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2026-01-25T17:41:49-03:00 srv2 kernel: PTP clock support registered
+2026-01-25T17:41:49-03:00 srv2 kernel: EDAC MC: Ver: 3.0.0
+2026-01-25T17:41:49-03:00 srv2 kernel: NetLabel: Initializing
+2026-01-25T17:41:49-03:00 srv2 kernel: NetLabel:  domain hash size = 128
+2026-01-25T17:41:49-03:00 srv2 kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2026-01-25T17:41:49-03:00 srv2 kernel: NetLabel:  unlabeled traffic allowed by default
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI: Using ACPI for IRQ routing
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI: pci_cache_line_size set to 64 bytes
+2026-01-25T17:41:49-03:00 srv2 kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2026-01-25T17:41:49-03:00 srv2 kernel: vgaarb: loaded
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: Switched to clocksource kvm-clock
+2026-01-25T17:41:49-03:00 srv2 kernel: VFS: Disk quotas dquot_6.6.0
+2026-01-25T17:41:49-03:00 srv2 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2026-01-25T17:41:49-03:00 srv2 kernel: AppArmor: AppArmor Filesystem Enabled
+2026-01-25T17:41:49-03:00 srv2 kernel: pnp: PnP ACPI init
+2026-01-25T17:41:49-03:00 srv2 kernel: pnp: PnP ACPI: found 2 devices
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2026-01-25T17:41:49-03:00 srv2 kernel: NET: Registered PF_INET protocol family
+2026-01-25T17:41:49-03:00 srv2 kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: TCP: Hash tables configured (established 16384 bind 16384)
+2026-01-25T17:41:49-03:00 srv2 kernel: MPTCP token hash table entries: 2048 (order: 3, 49152 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-01-25T17:41:49-03:00 srv2 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2026-01-25T17:41:49-03:00 srv2 kernel: NET: Registered PF_XDP protocol family
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+2026-01-25T17:41:49-03:00 srv2 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2026-01-25T17:41:49-03:00 srv2 kernel: PCI: CLS 0 bytes, default 64
+2026-01-25T17:41:49-03:00 srv2 kernel: Trying to unpack rootfs image as initramfs...
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2117114894f, max_idle_ns: 440795250968 ns
+2026-01-25T17:41:49-03:00 srv2 kernel: clocksource: Switched to clocksource tsc
+2026-01-25T17:41:49-03:00 srv2 kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+2026-01-25T17:41:49-03:00 srv2 kernel: Initialise system trusted keyrings
+2026-01-25T17:41:49-03:00 srv2 kernel: Key type blacklist registered
+2026-01-25T17:41:49-03:00 srv2 kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+2026-01-25T17:41:49-03:00 srv2 kernel: zbud: loaded
+2026-01-25T17:41:49-03:00 srv2 kernel: fuse: init (API version 7.41)
+2026-01-25T17:41:49-03:00 srv2 kernel: integrity: Platform Keyring initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: integrity: Machine keyring initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: Key type asymmetric registered
+2026-01-25T17:41:49-03:00 srv2 kernel: Asymmetric key parser 'x509' registered
+2026-01-25T17:41:49-03:00 srv2 kernel: Freeing initrd memory: 35864K
+2026-01-25T17:41:49-03:00 srv2 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+2026-01-25T17:41:49-03:00 srv2 kernel: io scheduler mq-deadline registered
+2026-01-25T17:41:49-03:00 srv2 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2026-01-25T17:41:49-03:00 srv2 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2026-01-25T17:41:49-03:00 srv2 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+2026-01-25T17:41:49-03:00 srv2 kernel: Linux agpgart interface v0.103
+2026-01-25T17:41:49-03:00 srv2 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+2026-01-25T17:41:49-03:00 srv2 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2026-01-25T17:41:49-03:00 srv2 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2026-01-25T17:41:49-03:00 srv2 kernel: mousedev: PS/2 mouse device common for all mice
+2026-01-25T17:41:49-03:00 srv2 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+2026-01-25T17:41:49-03:00 srv2 kernel: rtc_cmos rtc_cmos: registered as rtc0
+2026-01-25T17:41:49-03:00 srv2 kernel: rtc_cmos rtc_cmos: setting system clock to 2026-01-25T20:41:26 UTC (1769373686)
+2026-01-25T17:41:49-03:00 srv2 kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+2026-01-25T17:41:49-03:00 srv2 kernel: NET: Registered PF_INET6 protocol family
+2026-01-25T17:41:49-03:00 srv2 kernel: Segment Routing with IPv6
+2026-01-25T17:41:49-03:00 srv2 kernel: In-situ OAM (IOAM) with IPv6
+2026-01-25T17:41:49-03:00 srv2 kernel: mip6: Mobile IPv6
+2026-01-25T17:41:49-03:00 srv2 kernel: NET: Registered PF_PACKET protocol family
+2026-01-25T17:41:49-03:00 srv2 kernel: mpls_gso: MPLS GSO support
+2026-01-25T17:41:49-03:00 srv2 kernel: IPI shorthand broadcast: enabled
+2026-01-25T17:41:49-03:00 srv2 kernel: sched_clock: Marking stable (1617348715, 143889605)->(1764381902, -3143582)
+2026-01-25T17:41:49-03:00 srv2 kernel: registered taskstats version 1
+2026-01-25T17:41:49-03:00 srv2 kernel: Loading compiled-in X.509 certificates
+2026-01-25T17:41:49-03:00 srv2 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 7c2b230a25e7258756ba9d8e66b30d6d89429d6d'
+2026-01-25T17:41:49-03:00 srv2 kernel: Demotion targets for Node 0: null
+2026-01-25T17:41:49-03:00 srv2 kernel: Key type .fscrypt registered
+2026-01-25T17:41:49-03:00 srv2 kernel: Key type fscrypt-provisioning registered
+2026-01-25T17:41:49-03:00 srv2 kernel: Key type encrypted registered
+2026-01-25T17:41:49-03:00 srv2 kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2026-01-25T17:41:49-03:00 srv2 kernel: ima: No TPM chip found, activating TPM-bypass!
+2026-01-25T17:41:49-03:00 srv2 kernel: ima: Allocated hash algorithm: sha256
+2026-01-25T17:41:49-03:00 srv2 kernel: ima: No architecture policies found
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: Initialising EVM extended attributes:
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.selinux
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.SMACK64 (disabled)
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.SMACK64EXEC (disabled)
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.SMACK64TRANSMUTE (disabled)
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.SMACK64MMAP (disabled)
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.apparmor
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.ima
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: security.capability
+2026-01-25T17:41:49-03:00 srv2 kernel: evm: HMAC attrs: 0x1
+2026-01-25T17:41:49-03:00 srv2 kernel: RAS: Correctable Errors collector initialized.
+2026-01-25T17:41:49-03:00 srv2 kernel: clk: Disabling unused clocks
+2026-01-25T17:41:49-03:00 srv2 kernel: PM: genpd: Disabling unused power domains
+2026-01-25T17:41:49-03:00 srv2 kernel: Freeing unused decrypted memory: 2028K
+2026-01-25T17:41:49-03:00 srv2 kernel: Freeing unused kernel image (initmem) memory: 4152K
+2026-01-25T17:41:49-03:00 srv2 kernel: Write protecting the kernel read-only data: 28672k
+2026-01-25T17:41:49-03:00 srv2 kernel: Freeing unused kernel image (rodata/data gap) memory: 488K
+2026-01-25T17:41:49-03:00 srv2 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2026-01-25T17:41:49-03:00 srv2 kernel: Run /init as init process
+2026-01-25T17:41:49-03:00 srv2 kernel:   with arguments:
+2026-01-25T17:41:49-03:00 srv2 kernel:     /init
+2026-01-25T17:41:49-03:00 srv2 kernel:   with environment:
+2026-01-25T17:41:49-03:00 srv2 kernel:     HOME=/
+2026-01-25T17:41:49-03:00 srv2 kernel:     TERM=linux
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: battery: Slot [BAT0] (battery present)
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000: Intel(R) PRO/1000 Network Driver
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+2026-01-25T17:41:49-03:00 srv2 kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+2026-01-25T17:41:49-03:00 srv2 kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+2026-01-25T17:41:49-03:00 srv2 kernel: SCSI subsystem initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: bus type USB registered
+2026-01-25T17:41:49-03:00 srv2 kernel: usbcore: registered new interface driver usbfs
+2026-01-25T17:41:49-03:00 srv2 kernel: usbcore: registered new interface driver hub
+2026-01-25T17:41:49-03:00 srv2 kernel: usbcore: registered new device driver usb
+2026-01-25T17:41:49-03:00 srv2 kernel: Warning! ehci_hcd should always be loaded before uhci_hcd and ohci_hcd, not after
+2026-01-25T17:41:49-03:00 srv2 kernel: libata version 3.00 loaded.
+2026-01-25T17:41:49-03:00 srv2 kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+2026-01-25T17:41:49-03:00 srv2 kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+2026-01-25T17:41:49-03:00 srv2 kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0840000
+2026-01-25T17:41:49-03:00 srv2 kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb1: Product: EHCI Host Controller
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb1: Manufacturer: Linux 6.12.57+deb13-amd64 ehci_hcd
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb1: SerialNumber: 0000:00:0b.0
+2026-01-25T17:41:49-03:00 srv2 kernel: hub 1-0:1.0: USB hub found
+2026-01-25T17:41:49-03:00 srv2 kernel: hub 1-0:1.0: 12 ports detected
+2026-01-25T17:41:49-03:00 srv2 kernel: ata_piix 0000:00:01.1: version 2.13
+2026-01-25T17:41:49-03:00 srv2 kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+2026-01-25T17:41:49-03:00 srv2 kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+2026-01-25T17:41:49-03:00 srv2 kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+2026-01-25T17:41:49-03:00 srv2 kernel: scsi host0: ata_piix
+2026-01-25T17:41:49-03:00 srv2 kernel: ahci 0000:00:0d.0: version 3.0
+2026-01-25T17:41:49-03:00 srv2 kernel: scsi host1: ata_piix
+2026-01-25T17:41:49-03:00 srv2 kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14 lpm-pol 0
+2026-01-25T17:41:49-03:00 srv2 kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15 lpm-pol 0
+2026-01-25T17:41:49-03:00 srv2 kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+2026-01-25T17:41:49-03:00 srv2 kernel: ahci 0000:00:0d.0: AHCI vers 0001.0100, 32 command slots, 3 Gbps, SATA mode
+2026-01-25T17:41:49-03:00 srv2 kernel: ahci 0000:00:0d.0: 1/1 ports implemented (port mask 0x1)
+2026-01-25T17:41:49-03:00 srv2 kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+2026-01-25T17:41:49-03:00 srv2 kernel: scsi host2: ahci
+2026-01-25T17:41:49-03:00 srv2 kernel: ata3: SATA max UDMA/133 abar m8192@0xf0842000 port 0xf0842100 irq 21 lpm-pol 1
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.12
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb2: Product: OHCI PCI host controller
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb2: Manufacturer: Linux 6.12.57+deb13-amd64 ohci_hcd
+2026-01-25T17:41:49-03:00 srv2 kernel: usb usb2: SerialNumber: 0000:00:06.0
+2026-01-25T17:41:49-03:00 srv2 kernel: hub 2-0:1.0: USB hub found
+2026-01-25T17:41:49-03:00 srv2 kernel: hub 2-0:1.0: 12 ports detected
+2026-01-25T17:41:49-03:00 srv2 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+2026-01-25T17:41:49-03:00 srv2 kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+2026-01-25T17:41:49-03:00 srv2 kernel: scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+2026-01-25T17:41:49-03:00 srv2 kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+2026-01-25T17:41:49-03:00 srv2 kernel: ata3.00: LPM support broken, forcing max_power
+2026-01-25T17:41:49-03:00 srv2 kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+2026-01-25T17:41:49-03:00 srv2 kernel: ata3.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 32)
+2026-01-25T17:41:49-03:00 srv2 kernel: ata3.00: LPM support broken, forcing max_power
+2026-01-25T17:41:49-03:00 srv2 kernel: ata3.00: configured for UDMA/133
+2026-01-25T17:41:49-03:00 srv2 kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+2026-01-25T17:41:49-03:00 srv2 kernel: sd 2:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+2026-01-25T17:41:49-03:00 srv2 kernel: sd 2:0:0:0: [sda] Write Protect is off
+2026-01-25T17:41:49-03:00 srv2 kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+2026-01-25T17:41:49-03:00 srv2 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2026-01-25T17:41:49-03:00 srv2 kernel: sd 2:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+2026-01-25T17:41:49-03:00 srv2 kernel: sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+2026-01-25T17:41:49-03:00 srv2 kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2026-01-25T17:41:49-03:00 srv2 kernel: sr 1:0:0:0: Attached scsi CD-ROM sr0
+2026-01-25T17:41:49-03:00 srv2 kernel: usb 2-1: new full-speed USB device number 2 using ohci-pci
+2026-01-25T17:41:49-03:00 srv2 kernel:  sda: sda1 sda2 < sda5 sda6 >
+2026-01-25T17:41:49-03:00 srv2 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+2026-01-25T17:41:49-03:00 srv2 kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2026-01-25T17:41:49-03:00 srv2 kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2026-01-25T17:41:49-03:00 srv2 kernel: usb 2-1: Product: USB Tablet
+2026-01-25T17:41:49-03:00 srv2 kernel: usb 2-1: Manufacturer: VirtualBox
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:e8:45:c6
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+2026-01-25T17:41:49-03:00 srv2 kernel: hid: raw HID events driver (C) Jiri Kosina
+2026-01-25T17:41:49-03:00 srv2 kernel: usbcore: registered new interface driver usbhid
+2026-01-25T17:41:49-03:00 srv2 kernel: usbhid: USB HID core driver
+2026-01-25T17:41:49-03:00 srv2 kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4
+2026-01-25T17:41:49-03:00 srv2 kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:3d:89:de
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000 0000:00:08.0 enp0s8: renamed from eth1
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+2026-01-25T17:41:49-03:00 srv2 kernel: PM: Image not found (code -22)
+2026-01-25T17:41:49-03:00 srv2 kernel: EXT4-fs (sda1): orphan cleanup on readonly fs
+2026-01-25T17:41:49-03:00 srv2 kernel: EXT4-fs (sda1): mounted filesystem 3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro with ordered data mode. Quota mode: none.
+2026-01-25T17:41:49-03:00 srv2 kernel: Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+2026-01-25T17:41:49-03:00 srv2 kernel: Guest personality initialized and is inactive
+2026-01-25T17:41:49-03:00 srv2 kernel: VMCI host device registered (name=vmci, major=10, minor=123)
+2026-01-25T17:41:49-03:00 srv2 kernel: Initialized host personality
+2026-01-25T17:41:49-03:00 srv2 kernel: NET: Registered PF_VSOCK protocol family
+2026-01-25T17:41:49-03:00 srv2 kernel: EXT4-fs (sda1): re-mounted 3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 r/w.
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: bus type drm_connector registered
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: AC: AC Adapter [AC] (off-line)
+2026-01-25T17:41:49-03:00 srv2 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input5
+2026-01-25T17:41:49-03:00 srv2 kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: button: Power Button [PWRF]
+2026-01-25T17:41:49-03:00 srv2 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input6
+2026-01-25T17:41:49-03:00 srv2 kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+2026-01-25T17:41:49-03:00 srv2 kernel: ACPI: button: Sleep Button [SLPF]
+2026-01-25T17:41:49-03:00 srv2 kernel: vboxguest: host-version: 7.1.8r168469 0x8000000f
+2026-01-25T17:41:49-03:00 srv2 kernel: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+2026-01-25T17:41:49-03:00 srv2 kernel: input: PC Speaker as /devices/platform/pcspkr/input/input7
+2026-01-25T17:41:49-03:00 srv2 kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input8
+2026-01-25T17:41:49-03:00 srv2 kernel: cryptd: max_cpu_qlen set to 1000
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+2026-01-25T17:41:49-03:00 srv2 kernel: Console: switching to colour dummy device 80x25
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 KiB
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 KiB
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, gbobject, 
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 KiB, FIFO = 2048 KiB, surface = 507904 KiB
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 131072 KiB, max mob pages = 4096
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 KiB
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Screen Target display unit initialized
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+2026-01-25T17:41:49-03:00 srv2 kernel: [drm] Initialized vmwgfx 2.20.0 for 0000:00:02.0 on minor 0
+2026-01-25T17:41:49-03:00 srv2 kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+2026-01-25T17:41:49-03:00 srv2 kernel: Console: switching to colour frame buffer device 160x50
+2026-01-25T17:41:49-03:00 srv2 kernel: Adding 1643516k swap on /dev/sda5.  Priority:-2 extents:1 across:1643516k 
+2026-01-25T17:41:49-03:00 srv2 kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2026-01-25T17:41:49-03:00 srv2 kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+2026-01-25T17:41:49-03:00 srv2 kernel: intel_rapl_common: Found RAPL domain package
+2026-01-25T17:41:49-03:00 srv2 kernel: intel_rapl_common: Found RAPL domain core
+2026-01-25T17:41:49-03:00 srv2 kernel: EXT4-fs (sda6): mounted filesystem 5ee3ee71-9da9-4ed1-ac98-741b16c7752c r/w with ordered data mode. Quota mode: none.
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.583:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=488 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.583:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=489 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.599:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=492 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.599:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=491 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.615:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=495 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.631:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=496 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.647:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=497 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.663:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=498 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.679:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=500 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: audit: type=1400 audit(1769373707.703:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=501 comm="apparmor_parser"
+2026-01-25T17:41:49-03:00 srv2 kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-01-25T17:41:50-03:00 srv2 kernel: 8021q: 802.1Q VLAN Support v1.8
+2026-01-25T17:41:50-03:00 srv2 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T17:41:51-03:00 srv2 kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+2026-01-25T17:41:51-03:00 srv2 kernel: Loaded X.509 cert 'benh@debian.org: 577e021cb980e0e820821ba7b54b4961b8b4fadf'
+2026-01-25T17:41:51-03:00 srv2 kernel: Loaded X.509 cert 'romain.perier@gmail.com: 3abbc6ec146e09d1b6016ab9d6cf71dd233f0328'
+2026-01-25T17:41:51-03:00 srv2 kernel: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+2026-01-25T17:41:51-03:00 srv2 kernel: Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+2026-01-25T17:41:51-03:00 srv2 kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-01-25T17:41:52-03:00 srv2 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s3
+2026-01-25T12:09:34-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=46373 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:09:34-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=46374 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:09:34-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=46375 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:09:34-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=46376 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:09:34-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=96 TOS=0x00 PREC=0x00 TTL=64 ID=46377 DF PROTO=UDP SPT=137 DPT=137 LEN=76 
+2026-01-25T12:09:47-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=48234 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T12:12:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=57783 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:12:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=57784 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:15:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=27653 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:15:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=27654 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:19:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=61304 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:19:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=61305 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:24:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=9890 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:24:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=9891 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:30:15-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=279 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:30:15-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=280 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:37:15-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=21001 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:37:15-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=21002 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:44:31-03:00 srv2 kernel: hrtimer: interrupt took 10495369 ns
+2026-01-25T12:45:15-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=33758 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:45:15-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=33759 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T12:54:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=52825 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T12:54:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=52826 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T13:04:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=3385 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T13:04:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=3386 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T13:11:51-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=54158 DF PROTO=UDP SPT=54352 DPT=137 LEN=58 
+2026-01-25T13:15:31-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=27717 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T13:15:31-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=27718 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T13:27:32-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=11246 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T13:27:32-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=11247 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T13:28:47-03:00 srv2 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1123746947 wd_nsec: 1123746104
+2026-01-25T13:39:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=16551 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T13:39:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=16552 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T22:26:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=47742 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-25T22:26:10-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=47936 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-25T22:26:11-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=48004 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-25T22:26:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=48133 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-25T22:26:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=49348 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T22:26:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=49349 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T22:26:32-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=50063 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-25T22:26:53-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=51685 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T22:30:43-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=5718 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T22:30:43-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=5719 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T22:35:45-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=13377 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T22:35:45-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=13378 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T22:41:45-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=55736 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T22:41:45-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=55737 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T22:48:51-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=25530 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T22:48:51-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=25531 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T22:56:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=29778 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T22:56:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=29779 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T23:05:58-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=18199 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T23:05:58-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=18200 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T23:16:03-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=51245 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T23:16:03-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=51246 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T23:27:04-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=57147 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T23:27:04-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=57148 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T23:39:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=40402 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T23:39:07-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=40403 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-25T23:51:18-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=62356 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-25T23:51:18-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=62357 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T00:03:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=44983 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T00:03:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=44984 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T00:15:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=55633 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T00:15:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=55634 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T00:27:29-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=60766 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T00:27:29-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=60767 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T14:39:11-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=61220 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-26T14:39:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=61278 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T14:39:13-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=61336 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-26T14:39:14-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=61547 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-26T14:39:15-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=61696 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-26T14:39:27-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=63126 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-26T14:39:35-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=64499 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-26T14:39:55-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=415 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T14:44:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=32158 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T14:44:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=32159 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T14:48:54-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=29368 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T14:48:54-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=29369 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T14:55:09-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=4015 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T14:55:09-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=4016 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T15:02:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=2369 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T15:02:12-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=2370 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T15:10:17-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=58882 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T15:10:17-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=58883 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T15:19:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=19879 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T15:19:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=19880 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T15:29:29-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=62592 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T15:29:29-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=62593 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T15:40:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=29288 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T15:40:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=29289 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T15:52:42-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=58859 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T15:52:42-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=58860 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T16:04:46-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=39173 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T16:04:46-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=39174 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T16:16:41-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=22824 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T16:16:41-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=22825 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T16:28:55-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=30674 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T16:28:55-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=30680 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T16:41:03-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=62082 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T16:41:03-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=62083 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T16:53:13-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=57831 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T16:53:13-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=57832 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T17:05:05-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=54060 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T17:05:05-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=54061 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T17:17:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=39961 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T17:17:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=39962 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T17:29:25-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=16645 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T17:29:25-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=16646 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T17:41:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=39627 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T17:41:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=39628 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T17:53:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=40586 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T17:53:33-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=40587 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T18:05:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=35595 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T18:05:24-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=35596 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T18:17:43-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=44491 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T18:17:43-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=44492 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-26T18:29:47-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=62301 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-26T18:29:47-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=62302 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T15:33:44-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=42676 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-28T15:33:46-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=42851 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-28T15:33:47-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=43065 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-28T15:33:48-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=78 TOS=0x00 PREC=0x00 TTL=64 ID=43081 DF PROTO=UDP SPT=137 DPT=137 LEN=58 
+2026-01-28T15:34:00-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=44931 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-28T15:34:02-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=44975 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-28T15:34:08-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=215 TOS=0x00 PREC=0x00 TTL=64 ID=45832 DF PROTO=UDP SPT=138 DPT=138 LEN=195 
+2026-01-28T15:34:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=47856 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T15:38:32-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=29743 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T15:38:32-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=29744 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T15:43:35-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=34643 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T15:43:35-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=34644 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T15:49:41-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=28514 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T15:49:41-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=28515 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T15:56:50-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=2220 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T15:56:50-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=2221 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T16:04:55-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=56477 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T16:04:55-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=56478 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T16:14:02-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=10787 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T16:14:02-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=10788 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T16:24:05-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=30436 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T16:24:05-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=30437 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T16:35:13-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=63524 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T16:35:13-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=63525 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T16:47:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=7183 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T16:47:21-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=7184 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T16:59:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=28980 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T16:59:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=28981 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T17:11:31-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=12576 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T17:11:31-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=12577 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T17:23:35-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=11981 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T17:23:35-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=11982 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T17:30:28-03:00 srv2 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1084534362 wd_nsec: 1084535247
+2026-01-28T17:35:40-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=7495 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T17:35:40-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=7499 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T17:47:42-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=55490 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T17:47:42-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=55491 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T17:59:47-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=12087 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T17:59:47-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=12088 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T18:11:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=46832 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T18:11:56-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=46833 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T18:24:00-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=64592 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T18:24:00-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=64593 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T18:36:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=54047 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T18:36:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=54048 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T18:48:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=41933 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T18:48:01-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=41934 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T19:00:03-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=51976 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T19:00:03-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=51977 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T19:12:11-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=14392 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T19:12:11-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=14393 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T19:24:20-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=59286 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T19:24:20-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=59287 DF PROTO=UDP SPT=138 DPT=138 LEN=213 
+2026-01-28T19:36:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=270 TOS=0x00 PREC=0x00 TTL=64 ID=58127 DF PROTO=UDP SPT=138 DPT=138 LEN=250 
+2026-01-28T19:36:28-03:00 srv2 kernel: FW_DROP: IN=enp0s3 OUT= MAC= SRC=10.0.2.15 DST=10.0.2.255 LEN=233 TOS=0x00 PREC=0x00 TTL=64 ID=58128 DF PROTO=UDP SPT=138 DPT=138 LEN=213 

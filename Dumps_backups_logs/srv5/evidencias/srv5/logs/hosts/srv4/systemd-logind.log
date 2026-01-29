@@ -1,0 +1,21 @@
+2026-01-19T18:12:44-03:00 srv4 systemd-logind[603]: Session 1 logged out. Waiting for processes to exit.
+2026-01-19T18:12:44-03:00 srv4 systemd-logind[603]: Removed session 1.
+2026-01-19T18:12:44-03:00 srv4 systemd-logind[603]: Session 3 logged out. Waiting for processes to exit.
+2026-01-19T18:12:44-03:00 srv4 systemd-logind[603]: Removed session 3.
+2026-01-19T18:12:55-03:00 srv4 systemd-logind[603]: Removed session 2.
+2026-01-25T06:07:44-03:00 srv4 systemd-logind[620]: New session 1 of user pedro.
+2026-01-25T06:07:44-03:00 srv4 systemd-logind[620]: New session 3 of user pedro.
+2026-01-25T06:07:44-03:00 srv4 systemd-logind[620]: New session 2 of user pedro.
+2026-01-25T13:50:05-03:00 srv4 systemd-logind[620]: Session 1 logged out. Waiting for processes to exit.
+2026-01-25T13:50:05-03:00 srv4 systemd-logind[620]: Removed session 1.
+2026-01-25T13:50:05-03:00 srv4 systemd-logind[620]: Session 3 logged out. Waiting for processes to exit.
+2026-01-25T13:50:05-03:00 srv4 systemd-logind[620]: Removed session 3.
+2026-01-25T13:50:17-03:00 srv4 systemd-logind[620]: Removed session 2.
+2026-01-25T22:29:51-03:00 srv4 systemd-logind[599]: New session 1 of user pedro.
+2026-01-25T22:29:52-03:00 srv4 systemd-logind[599]: New session 2 of user pedro.
+2026-01-25T22:29:52-03:00 srv4 systemd-logind[599]: New session 3 of user pedro.
+2026-01-26T00:41:48-03:00 srv4 systemd-logind[599]: Session 3 logged out. Waiting for processes to exit.
+2026-01-26T00:41:48-03:00 srv4 systemd-logind[599]: Removed session 3.
+2026-01-26T00:41:48-03:00 srv4 systemd-logind[599]: Session 1 logged out. Waiting for processes to exit.
+2026-01-26T00:41:48-03:00 srv4 systemd-logind[599]: Removed session 1.
+2026-01-26T00:41:58-03:00 srv4 systemd-logind[599]: Removed session 2.

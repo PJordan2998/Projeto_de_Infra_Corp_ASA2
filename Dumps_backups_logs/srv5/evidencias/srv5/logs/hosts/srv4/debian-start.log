@@ -1,0 +1,6 @@
+2026-01-28T18:51:50-03:00 srv4 debian-start[1775]: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2026-01-28T18:52:05-03:00 srv4 debian-start[1871]: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2026-01-28T19:01:22-03:00 srv4 debian-start[2095]: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2026-01-28T19:01:33-03:00 srv4 debian-start[2186]: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2026-01-28T19:02:55-03:00 srv4 debian-start[2284]: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2026-01-28T19:03:05-03:00 srv4 debian-start[2377]: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)

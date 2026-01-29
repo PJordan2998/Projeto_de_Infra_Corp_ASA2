@@ -1,0 +1,25 @@
+2026-01-22T19:18:39-03:00 srv2 chronyd[720]: Selected source 192.168.50.40
+2026-01-22T19:18:39-03:00 srv2 chronyd[720]: System clock TAI offset set to 37 seconds
+2026-01-24T10:25:18-03:00 srv2 chronyd[687]: Selected source 192.168.50.40
+2026-01-24T10:25:18-03:00 srv2 chronyd[687]: System clock TAI offset set to 37 seconds
+2026-01-25T06:11:03-03:00 srv2 chronyd[717]: Selected source 192.168.50.40
+2026-01-25T06:11:03-03:00 srv2 chronyd[717]: System clock TAI offset set to 37 seconds
+2026-01-25T06:33:40-03:00 srv2 chronyd[717]: Can't synchronise: no selectable sources
+2026-01-25T06:33:40-03:00 srv2 chronyd[717]: Selected source 192.168.50.40
+2026-01-25T11:32:15-03:00 srv2 chronyd[717]: Selected source 192.168.50.40
+2026-01-25T17:41:50-03:00 srv2 chronyd[728]: chronyd version 4.6.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+2026-01-25T17:41:50-03:00 srv2 chronyd[728]: Loaded 0 symmetric keys
+2026-01-25T17:41:50-03:00 srv2 chronyd[728]: Using leap second list /usr/share/zoneinfo/leap-seconds.list
+2026-01-25T17:41:50-03:00 srv2 chronyd[728]: Frequency 12.762 +/- 0.115 ppm read from /var/lib/chrony/chrony.drift
+2026-01-25T17:41:50-03:00 srv2 chronyd[728]: Loaded seccomp filter (level 1)
+2026-01-25T12:04:53-03:00 srv2 chronyd[728]: Selected source 192.168.50.40
+2026-01-25T12:04:53-03:00 srv2 chronyd[728]: System clock wrong by -20221.641881 seconds
+2026-01-25T12:04:53-03:00 srv2 chronyd[728]: System clock was stepped by -20221.641881 seconds
+2026-01-25T12:04:53-03:00 srv2 chronyd[728]: System clock TAI offset set to 37 seconds
+2026-01-25T22:29:48-03:00 srv2 chronyd[746]: Selected source 192.168.50.40
+2026-01-25T22:29:48-03:00 srv2 chronyd[746]: System clock TAI offset set to 37 seconds
+2026-01-26T14:42:41-03:00 srv2 chronyd[732]: Selected source 192.168.50.40
+2026-01-26T14:42:41-03:00 srv2 chronyd[732]: System clock TAI offset set to 37 seconds
+2026-01-26T15:22:34-03:00 srv2 chronyd[732]: System clock wrong by 3.198142 seconds
+2026-01-28T15:37:30-03:00 srv2 chronyd[728]: Selected source 192.168.50.40
+2026-01-28T15:37:30-03:00 srv2 chronyd[728]: System clock TAI offset set to 37 seconds

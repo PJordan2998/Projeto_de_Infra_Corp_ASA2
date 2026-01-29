@@ -1,0 +1,9 @@
+[2025/12/21 15:28:39.526490,  0] source3/rpc_server/rpc_host.c:2894(main)
+  samba-dcerpcd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2025/12/21 15:28:40.777020,  0] source3/rpc_server/rpc_worker.c:1148(rpc_worker_main)
+  rpcd_lsad version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2025/12/21 15:28:40.926112,  0] source3/rpc_server/rpc_worker.c:1148(rpc_worker_main)
+  rpcd_lsad version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025

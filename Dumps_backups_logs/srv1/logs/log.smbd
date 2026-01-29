@@ -1,0 +1,72 @@
+[2025/12/21 15:28:29.004980,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2025/12/21 15:50:45.064312,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2025/12/21 18:46:09.912572,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/01 18:18:25.486448,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/03 20:35:28.780613,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/06 14:10:39.726410,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/07 17:14:26.364653,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/11 21:58:05.745729,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/18 17:41:33.776341,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/19 15:38:21.997094,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/22 19:08:30.856790,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/24 10:15:33.981425,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 06:01:03.284306,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 10:38:48.145382,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 10:39:01.352982,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 11:32:03.254492,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 11:33:08.120263,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 22:19:49.323714,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 00:15:09.154109,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 14:32:45.675565,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 14:53:17.706178,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 14:53:26.651051,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 18:13:36.142990,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/28 15:27:17.282771,  0] source3/smbd/server.c:1971(main)
+  smbd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025

@@ -1,0 +1,141 @@
+2026-01-19T18:12:44-03:00 srv1 systemd-logind[601]: Session 1 logged out. Waiting for processes to exit.
+2026-01-19T18:12:44-03:00 srv1 systemd-logind[601]: Removed session 1.
+2026-01-19T18:12:45-03:00 srv1 systemd-logind[601]: Session 2 logged out. Waiting for processes to exit.
+2026-01-19T18:12:45-03:00 srv1 systemd-logind[601]: Removed session 2.
+2026-01-19T18:12:56-03:00 srv1 systemd-logind[601]: Removed session 3.
+2026-01-25T06:06:29-03:00 srv1 systemd-logind[592]: New session 1 of user pedro.
+2026-01-25T06:06:30-03:00 srv1 systemd-logind[592]: New session 2 of user pedro.
+2026-01-25T06:06:30-03:00 srv1 systemd-logind[592]: New session 3 of user pedro.
+2026-01-25T07:36:27-03:00 srv1 systemd-logind[1391]: New seat seat0.
+2026-01-25T07:36:27-03:00 srv1 systemd-logind[1391]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T07:36:27-03:00 srv1 systemd-logind[1391]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T07:36:27-03:00 srv1 systemd-logind[1391]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T07:36:27-03:00 srv1 systemd-logind[1391]: New session 3 of user pedro.
+2026-01-25T07:36:27-03:00 srv1 systemd-logind[1391]: New session 1 of user pedro.
+2026-01-25T07:36:27-03:00 srv1 systemd-logind[1391]: New session 2 of user pedro.
+2026-01-25T07:39:53-03:00 srv1 systemd-logind[1391]: New session 9 of user EMPRESA\ti01.
+2026-01-25T07:39:53-03:00 srv1 systemd-logind[1391]: New session 10 of user EMPRESA\ti01.
+2026-01-25T07:47:24-03:00 srv1 systemd-logind[1391]: Session 9 logged out. Waiting for processes to exit.
+2026-01-25T07:47:24-03:00 srv1 systemd-logind[1391]: Removed session 9.
+2026-01-25T07:47:35-03:00 srv1 systemd-logind[1391]: Removed session 10.
+2026-01-25T08:04:36-03:00 srv1 systemd-logind[1391]: New session 11 of user EMPRESA\ti02.
+2026-01-25T08:04:36-03:00 srv1 systemd-logind[1391]: New session 12 of user EMPRESA\ti02.
+2026-01-25T08:04:59-03:00 srv1 systemd-logind[1391]: Session 11 logged out. Waiting for processes to exit.
+2026-01-25T08:04:59-03:00 srv1 systemd-logind[1391]: Removed session 11.
+2026-01-25T08:05:10-03:00 srv1 systemd-logind[1391]: Removed session 12.
+2026-01-25T10:57:45-03:00 srv1 systemd-logind[1391]: New session 19 of user EMPRESA\ti01.
+2026-01-25T10:57:45-03:00 srv1 systemd-logind[1391]: New session 20 of user EMPRESA\ti01.
+2026-01-25T10:57:51-03:00 srv1 systemd-logind[1391]: Session 19 logged out. Waiting for processes to exit.
+2026-01-25T10:57:51-03:00 srv1 systemd-logind[1391]: Removed session 19.
+2026-01-25T10:58:01-03:00 srv1 systemd-logind[1391]: Removed session 20.
+2026-01-25T11:31:07-03:00 srv1 systemd-logind[1391]: The system will reboot now!
+2026-01-25T11:31:07-03:00 srv1 systemd-logind[1391]: System is rebooting.
+2026-01-25T11:31:54-03:00 srv1 systemd-logind[595]: New seat seat0.
+2026-01-25T11:31:54-03:00 srv1 systemd-logind[595]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T11:31:54-03:00 srv1 systemd-logind[595]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T11:31:54-03:00 srv1 systemd-logind[595]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T11:32:40-03:00 srv1 systemd-logind[595]: New session 1 of user pedro.
+2026-01-25T11:32:40-03:00 srv1 systemd-logind[595]: New session 2 of user pedro.
+2026-01-25T11:32:40-03:00 srv1 systemd-logind[595]: New session 3 of user pedro.
+2026-01-25T11:50:57-03:00 srv1 systemd-logind[595]: New session 4 of user EMPRESA\ti01.
+2026-01-25T11:50:58-03:00 srv1 systemd-logind[595]: New session 5 of user EMPRESA\ti01.
+2026-01-25T11:51:09-03:00 srv1 systemd-logind[595]: Session 4 logged out. Waiting for processes to exit.
+2026-01-25T11:51:09-03:00 srv1 systemd-logind[595]: Removed session 4.
+2026-01-25T11:51:20-03:00 srv1 systemd-logind[595]: Removed session 5.
+2026-01-25T13:50:04-03:00 srv1 systemd-logind[595]: Session 1 logged out. Waiting for processes to exit.
+2026-01-25T13:50:04-03:00 srv1 systemd-logind[595]: Removed session 1.
+2026-01-25T13:50:06-03:00 srv1 systemd-logind[595]: Session 3 logged out. Waiting for processes to exit.
+2026-01-25T13:50:06-03:00 srv1 systemd-logind[595]: Removed session 3.
+2026-01-25T13:50:16-03:00 srv1 systemd-logind[595]: Removed session 2.
+2026-01-25T22:28:28-03:00 srv1 systemd-logind[601]: New session 1 of user pedro.
+2026-01-25T22:28:28-03:00 srv1 systemd-logind[601]: New session 2 of user pedro.
+2026-01-25T22:28:28-03:00 srv1 systemd-logind[601]: New session 3 of user pedro.
+2026-01-25T23:57:58-03:00 srv1 systemd-logind[601]: New session 7 of user EMPRESA\ti01.
+2026-01-25T23:57:58-03:00 srv1 systemd-logind[601]: New session 8 of user EMPRESA\ti01.
+2026-01-25T23:58:03-03:00 srv1 systemd-logind[601]: Session 7 logged out. Waiting for processes to exit.
+2026-01-25T23:58:03-03:00 srv1 systemd-logind[601]: Removed session 7.
+2026-01-25T23:58:13-03:00 srv1 systemd-logind[601]: Removed session 8.
+2026-01-26T00:14:26-03:00 srv1 systemd-logind[601]: New session 9 of user EMPRESA\ti02.
+2026-01-26T00:14:26-03:00 srv1 systemd-logind[601]: New session 10 of user EMPRESA\ti02.
+2026-01-26T00:14:34-03:00 srv1 systemd-logind[601]: Session 9 logged out. Waiting for processes to exit.
+2026-01-26T00:14:34-03:00 srv1 systemd-logind[601]: Removed session 9.
+2026-01-26T00:14:44-03:00 srv1 systemd-logind[601]: Removed session 10.
+2026-01-26T00:23:42-03:00 srv1 systemd-logind[601]: New session 12 of user EMPRESA\ti01.
+2026-01-26T00:23:42-03:00 srv1 systemd-logind[601]: New session 13 of user EMPRESA\ti01.
+2026-01-26T00:23:51-03:00 srv1 systemd-logind[601]: Session 12 logged out. Waiting for processes to exit.
+2026-01-26T00:23:51-03:00 srv1 systemd-logind[601]: Removed session 12.
+2026-01-26T00:24:01-03:00 srv1 systemd-logind[601]: Removed session 13.
+2026-01-26T00:28:52-03:00 srv1 systemd-logind[601]: New session 14 of user EMPRESA\ti01.
+2026-01-26T00:28:52-03:00 srv1 systemd-logind[601]: New session 15 of user EMPRESA\ti01.
+2026-01-26T00:29:02-03:00 srv1 systemd-logind[601]: Session 14 logged out. Waiting for processes to exit.
+2026-01-26T00:29:02-03:00 srv1 systemd-logind[601]: Removed session 14.
+2026-01-26T00:29:12-03:00 srv1 systemd-logind[601]: Removed session 15.
+2026-01-26T00:42:04-03:00 srv1 systemd-logind[601]: Session 1 logged out. Waiting for processes to exit.
+2026-01-26T00:42:04-03:00 srv1 systemd-logind[601]: Removed session 1.
+2026-01-26T00:42:04-03:00 srv1 systemd-logind[601]: Session 2 logged out. Waiting for processes to exit.
+2026-01-26T00:42:04-03:00 srv1 systemd-logind[601]: Removed session 2.
+2026-01-26T00:42:15-03:00 srv1 systemd-logind[601]: Removed session 3.
+2026-01-26T14:38:05-03:00 srv1 systemd-logind[605]: New session 1 of user pedro.
+2026-01-26T14:38:05-03:00 srv1 systemd-logind[605]: New session 2 of user pedro.
+2026-01-26T14:38:05-03:00 srv1 systemd-logind[605]: New session 3 of user pedro.
+2026-01-26T14:52:46-03:00 srv1 systemd-logind[605]: New session 4 of user EMPRESA\ti01.
+2026-01-26T14:52:46-03:00 srv1 systemd-logind[605]: New session 5 of user EMPRESA\ti01.
+2026-01-26T14:52:52-03:00 srv1 systemd-logind[605]: Session 4 logged out. Waiting for processes to exit.
+2026-01-26T14:52:52-03:00 srv1 systemd-logind[605]: Removed session 4.
+2026-01-26T14:53:02-03:00 srv1 systemd-logind[605]: Removed session 5.
+2026-01-26T15:31:56-03:00 srv1 systemd-logind[605]: New session 8 of user EMPRESA\ti01.
+2026-01-26T15:31:56-03:00 srv1 systemd-logind[605]: New session 9 of user EMPRESA\ti01.
+2026-01-26T15:32:07-03:00 srv1 systemd-logind[605]: Session 8 logged out. Waiting for processes to exit.
+2026-01-26T15:32:07-03:00 srv1 systemd-logind[605]: Removed session 8.
+2026-01-26T15:32:17-03:00 srv1 systemd-logind[605]: Removed session 9.
+2026-01-26T17:31:04-03:00 srv1 systemd-logind[605]: New session 14 of user EMPRESA\ti01.
+2026-01-26T17:31:04-03:00 srv1 systemd-logind[605]: New session 15 of user EMPRESA\ti01.
+2026-01-26T17:32:52-03:00 srv1 systemd-logind[605]: Session 14 logged out. Waiting for processes to exit.
+2026-01-26T17:32:52-03:00 srv1 systemd-logind[605]: Removed session 14.
+2026-01-26T17:33:02-03:00 srv1 systemd-logind[605]: Removed session 15.
+2026-01-26T18:59:54-03:00 srv1 systemd-logind[614]: New seat seat0.
+2026-01-26T18:59:54-03:00 srv1 systemd-logind[614]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-26T18:59:54-03:00 srv1 systemd-logind[614]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-26T18:59:54-03:00 srv1 systemd-logind[614]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-26T18:15:03-03:00 srv1 systemd-logind[614]: New session 1 of user pedro.
+2026-01-26T18:15:03-03:00 srv1 systemd-logind[614]: New session 2 of user pedro.
+2026-01-26T18:15:03-03:00 srv1 systemd-logind[614]: New session 3 of user pedro.
+2026-01-26T18:16:03-03:00 srv1 systemd-logind[614]: New session 4 of user EMPRESA\ti01.
+2026-01-26T18:16:03-03:00 srv1 systemd-logind[614]: New session 5 of user EMPRESA\ti01.
+2026-01-26T18:16:36-03:00 srv1 systemd-logind[614]: Session 4 logged out. Waiting for processes to exit.
+2026-01-26T18:16:36-03:00 srv1 systemd-logind[614]: Removed session 4.
+2026-01-26T18:16:46-03:00 srv1 systemd-logind[614]: Removed session 5.
+2026-01-26T18:32:50-03:00 srv1 systemd-logind[614]: Session 1 logged out. Waiting for processes to exit.
+2026-01-26T18:32:50-03:00 srv1 systemd-logind[614]: Removed session 1.
+2026-01-26T18:32:51-03:00 srv1 systemd-logind[614]: Session 3 logged out. Waiting for processes to exit.
+2026-01-26T18:32:51-03:00 srv1 systemd-logind[614]: Removed session 3.
+2026-01-26T18:33:02-03:00 srv1 systemd-logind[614]: Removed session 2.
+2026-01-28T16:04:51-03:00 srv1 systemd-logind[598]: New session 2 of user pedro.
+2026-01-28T16:04:51-03:00 srv1 systemd-logind[598]: New session 3 of user pedro.
+2026-01-28T16:04:51-03:00 srv1 systemd-logind[598]: New session 4 of user pedro.
+2026-01-28T16:53:28-03:00 srv1 systemd-logind[598]: New session 7 of user pedro.
+2026-01-28T16:53:28-03:00 srv1 systemd-logind[598]: Session 7 logged out. Waiting for processes to exit.
+2026-01-28T16:53:28-03:00 srv1 systemd-logind[598]: Removed session 7.
+2026-01-28T16:56:16-03:00 srv1 systemd-logind[598]: New session 8 of user pedro.
+2026-01-28T16:56:16-03:00 srv1 systemd-logind[598]: Session 8 logged out. Waiting for processes to exit.
+2026-01-28T16:56:16-03:00 srv1 systemd-logind[598]: Removed session 8.
+2026-01-28T16:56:36-03:00 srv1 systemd-logind[598]: New session 9 of user pedro.
+2026-01-28T16:56:36-03:00 srv1 systemd-logind[598]: Session 9 logged out. Waiting for processes to exit.
+2026-01-28T16:56:36-03:00 srv1 systemd-logind[598]: Removed session 9.
+2026-01-28T16:56:56-03:00 srv1 systemd-logind[598]: New session 10 of user pedro.
+2026-01-28T16:56:57-03:00 srv1 systemd-logind[598]: Session 10 logged out. Waiting for processes to exit.
+2026-01-28T16:56:57-03:00 srv1 systemd-logind[598]: Removed session 10.
+2026-01-28T17:14:33-03:00 srv1 systemd-logind[598]: New session 11 of user pedro.
+2026-01-28T17:14:34-03:00 srv1 systemd-logind[598]: Session 11 logged out. Waiting for processes to exit.
+2026-01-28T17:14:34-03:00 srv1 systemd-logind[598]: Removed session 11.
+2026-01-28T17:19:47-03:00 srv1 systemd-logind[598]: Session 2 logged out. Waiting for processes to exit.
+2026-01-28T17:19:47-03:00 srv1 systemd-logind[598]: Removed session 2.
+2026-01-28T17:19:48-03:00 srv1 systemd-logind[598]: Session 3 logged out. Waiting for processes to exit.
+2026-01-28T17:19:48-03:00 srv1 systemd-logind[598]: Removed session 3.
+2026-01-28T17:19:58-03:00 srv1 systemd-logind[598]: Removed session 4.
+2026-01-28T17:20:49-03:00 srv1 systemd-logind[598]: New session 13 of user pedro.
+2026-01-28T17:20:49-03:00 srv1 systemd-logind[598]: New session 14 of user pedro.
+2026-01-28T17:20:49-03:00 srv1 systemd-logind[598]: New session 15 of user pedro.
+2026-01-28T18:06:42-03:00 srv1 systemd-logind[598]: New session 17 of user pedro.
+2026-01-28T18:06:43-03:00 srv1 systemd-logind[598]: Session 17 logged out. Waiting for processes to exit.
+2026-01-28T18:06:43-03:00 srv1 systemd-logind[598]: Removed session 17.

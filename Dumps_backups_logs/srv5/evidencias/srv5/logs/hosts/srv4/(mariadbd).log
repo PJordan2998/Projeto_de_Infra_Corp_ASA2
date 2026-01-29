@@ -1,0 +1,7 @@
+2026-01-28T18:51:45-03:00 srv4 (mariadbd)[1744]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+2026-01-28T18:52:00-03:00 srv4 (mariadbd)[1838]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+2026-01-28T19:00:43-03:00 srv4 (mariadbd)[1990]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+2026-01-28T19:01:15-03:00 srv4 (mariadbd)[2063]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+2026-01-28T19:01:30-03:00 srv4 (mariadbd)[2158]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+2026-01-28T19:02:51-03:00 srv4 (mariadbd)[2254]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER
+2026-01-28T19:03:02-03:00 srv4 (mariadbd)[2345]: mariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER

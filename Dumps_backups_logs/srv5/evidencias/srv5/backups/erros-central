@@ -1,0 +1,19 @@
+#/var/log/servicos/erros.log {
+#    size 20M
+#    rotate 10
+#    compress
+#    delaycompress
+#
+#}
+
+/var/log/servicos/erros.log {
+    weekly
+    rotate 8
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+}
+

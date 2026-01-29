@@ -1,0 +1,82 @@
+2026-01-25T08:13:17-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi escrito para
+2026-01-25T09:55:31-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi escrito para
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o arquivo “/etc/nsswitch.conf” (14)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o diretório “/etc” (2)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o arquivo “/etc/passwd” (10)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o diretório “/etc” (2)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o arquivo “/etc/nsswitch.conf” (15)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o diretório “/etc” (2)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o arquivo “/etc/group” (8)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o diretório “/etc” (2)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/nsswitch.conf” foi moved into place, adicionando inspeção
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o arquivo “/etc/nsswitch.conf” (17)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 monitorando o diretório “/etc” (2)
+2026-01-25T10:08:39-03:00 srv2 nscd: 2309 desabilitado monitoramento baseado em inotify para o arquivo “/etc/netgroup”: Arquivo ou diretório inexistente
+2026-01-25T10:43:02-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/resolv.conf” foi escrito para
+2026-01-25T10:46:18-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/resolv.conf” foi escrito para
+2026-01-25T11:09:08-03:00 srv2 nscd: 2309 arquivo monitorado “/etc/resolv.conf” foi escrito para
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/passwd” (1)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/group” (3)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/hosts” (4)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/resolv.conf” (5)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/services” (6)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 desabilitado monitoramento baseado em inotify para o arquivo “/etc/netgroup”: Arquivo ou diretório inexistente
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 obtenção de estado falhou para o arquivo “/etc/netgroup”; nova tentativa posteriormente: Arquivo ou diretório inexistente
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-25T17:41:49-03:00 srv2 nscd: 637 monitorando o diretório “/etc” (2)
+2026-01-25T17:41:51-03:00 srv2 nscd: 637 arquivo monitorado “/etc/resolv.conf” foi escrito para
+2026-01-25T12:04:54-03:00 srv2 nscd: 637 arquivo monitorado “/etc/resolv.conf” foi escrito para
+2026-01-25T12:04:56-03:00 srv2 nscd: 637 arquivo monitorado “/etc/resolv.conf” foi escrito para
+2026-01-25T12:05:06-03:00 srv2 nscd: 637 verificando pelo arquivo monitorado “/etc/netgroup”: Arquivo ou diretório inexistente
+2026-01-25T12:10:30-03:00 srv2 nscd: 637 arquivo monitorado “/etc/nsswitch.conf” foi escrito para
+2026-01-28T17:32:54-03:00 srv2 nscd: 625 arquivo monitorado “/etc/passwd” foi escrito para
+2026-01-28T17:32:54-03:00 srv2 nscd: 625 arquivo monitorado “/etc/group” foi escrito para
+2026-01-28T17:32:54-03:00 srv2 nscd: 625 arquivo monitorado “/etc/group” foi moved into place, adicionando inspeção
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/passwd” (1)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/group” (8)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/passwd” (1)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/nsswitch.conf” (7)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o arquivo “/etc/group” (8)
+2026-01-28T17:32:55-03:00 srv2 nscd: 625 monitorando o diretório “/etc” (2)

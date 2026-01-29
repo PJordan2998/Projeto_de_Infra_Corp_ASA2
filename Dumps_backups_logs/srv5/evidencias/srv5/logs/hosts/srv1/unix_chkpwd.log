@@ -1,0 +1,4 @@
+2026-01-28T16:04:43-03:00 srv1 unix_chkpwd[985]: password check failed for user (pedro)
+2026-01-28T16:54:15-03:00 srv1 unix_chkpwd[1273]: password check failed for user (root)
+2026-01-28T16:54:30-03:00 srv1 unix_chkpwd[1274]: password check failed for user (root)
+2026-01-28T16:54:38-03:00 srv1 unix_chkpwd[1275]: password check failed for user (root)

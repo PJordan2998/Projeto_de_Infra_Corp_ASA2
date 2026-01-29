@@ -1,0 +1,241 @@
+2026-01-25T08:01:13-03:00 srv2 nslcd[2776]: caught signal SIGUSR1 (10), refresh retries
+2026-01-25T08:02:03-03:00 srv2 nslcd[2776]: [3c9869] <passwd(all)> connected to LDAP server ldap://srv1.empresa.local
+2026-01-25T08:02:03-03:00 srv2 nslcd[2776]: [3c9869] <passwd(all)> ldap_result() failed: Operations error: 00002020: Operation unavailable without authentication
+2026-01-25T08:02:53-03:00 srv2 nslcd[2776]: [334873] <passwd="ti02"> ldap_result() failed: Operations error: 00002020: Operation unavailable without authentication
+2026-01-25T08:03:16-03:00 srv2 nslcd[2776]: [b0dc51] <passwd="EMPRESAti02"> ldap_result() failed: Operations error: 00002020: Operation unavailable without authentication
+2026-01-25T08:03:22-03:00 srv2 nslcd[2776]: [495cff] <passwd="EMPRESA\ti02"> ldap_result() failed: Operations error: 00002020: Operation unavailable without authentication
+2026-01-25T08:03:52-03:00 srv2 nslcd[2776]: [e8944a] <passwd="ti01"> ldap_result() failed: Operations error: 00002020: Operation unavailable without authentication
+2026-01-25T08:05:24-03:00 srv2 nslcd[2776]: [5558ec] <passwd="systemd-coredump"> ldap_result() failed: Operations error: 00002020: Operation unavailable without authentication
+2026-01-25T08:16:06-03:00 srv2 nslcd[2776]: [8e1f29] <passwd="systemd-coredump"> ldap_result() failed: Operations error: 00002020: Operation unavailable without authentication
+2026-01-25T08:17:20-03:00 srv2 nslcd[2776]: caught signal SIGTERM (15), shutting down
+2026-01-25T08:17:20-03:00 srv2 nslcd[2776]: version 0.9.13 bailing out
+2026-01-25T08:17:20-03:00 srv2 nslcd[2917]: Stopping LDAP connection daemon: nslcd.
+2026-01-25T08:17:21-03:00 srv2 nslcd[2939]: version 0.9.13 starting
+2026-01-25T08:17:21-03:00 srv2 nslcd[2939]: accepting connections
+2026-01-25T08:17:21-03:00 srv2 nslcd[2929]: Starting LDAP connection daemon: nslcd.
+2026-01-25T08:17:38-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:38-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:39-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:39-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:40-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:40-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:41-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:41-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:42-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:42-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:43-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:43-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:43-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:43-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:44-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:44-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:44-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:44-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:45-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:45-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:45-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:45-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:46-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:46-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:46-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:46-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:47-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:47-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:47-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:47-03:00 srv2 nslcd[2939]: [8b4567] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:17:48-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:48-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:17:49-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:17:49-03:00 srv2 nslcd[2939]: [7b23c6] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:18:42-03:00 srv2 nslcd[2939]: [3c9869] <passwd="systemd-coredump"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:18:42-03:00 srv2 nslcd[2939]: [3c9869] <passwd="systemd-coredump"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:24:24-03:00 srv2 nslcd[2939]: caught signal SIGTERM (15), shutting down
+2026-01-25T08:24:24-03:00 srv2 nslcd[2939]: version 0.9.13 bailing out
+2026-01-25T08:24:24-03:00 srv2 nslcd[2968]: Stopping LDAP connection daemon: nslcd.
+2026-01-25T08:24:24-03:00 srv2 nslcd[2990]: version 0.9.13 starting
+2026-01-25T08:24:24-03:00 srv2 nslcd[2990]: accepting connections
+2026-01-25T08:24:24-03:00 srv2 nslcd[2981]: Starting LDAP connection daemon: nslcd.
+2026-01-25T08:24:32-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:32-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:33-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:33-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:34-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:34-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:35-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:35-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:36-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:36-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:37-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:37-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:37-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:37-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:38-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:38-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:38-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:38-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:39-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:39-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:39-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:39-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:40-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:40-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:40-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:40-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:41-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:41-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:41-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:41-03:00 srv2 nslcd[2990]: [8b4567] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:24:42-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:42-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:24:43-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:24:43-03:00 srv2 nslcd[2990]: [7b23c6] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:54:14-03:00 srv2 nslcd[2990]: caught signal SIGTERM (15), shutting down
+2026-01-25T08:54:14-03:00 srv2 nslcd[2990]: version 0.9.13 bailing out
+2026-01-25T08:54:14-03:00 srv2 nslcd[3097]: Stopping LDAP connection daemon: nslcd.
+2026-01-25T08:54:14-03:00 srv2 nslcd[3118]: version 0.9.13 starting
+2026-01-25T08:54:14-03:00 srv2 nslcd[3118]: accepting connections
+2026-01-25T08:54:14-03:00 srv2 nslcd[3109]: Starting LDAP connection daemon: nslcd.
+2026-01-25T08:54:26-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:26-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:27-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:27-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:28-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:28-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:29-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:29-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:30-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:30-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:31-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:31-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:31-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:31-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:32-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:32-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:32-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:32-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:33-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:33-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:33-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:33-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:34-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:34-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:34-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:34-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:35-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:35-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:35-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:35-03:00 srv2 nslcd[3118]: [8b4567] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:54:36-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:36-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T08:54:37-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:54:37-03:00 srv2 nslcd[3118]: [7b23c6] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:55:15-03:00 srv2 nslcd[3118]: [3c9869] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:55:15-03:00 srv2 nslcd[3118]: [3c9869] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T08:55:41-03:00 srv2 nslcd[3118]: [334873] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T08:55:41-03:00 srv2 nslcd[3118]: [334873] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:07:53-03:00 srv2 nslcd[3118]: caught signal SIGTERM (15), shutting down
+2026-01-25T09:07:53-03:00 srv2 nslcd[3118]: version 0.9.13 bailing out
+2026-01-25T09:07:53-03:00 srv2 nslcd[3147]: Stopping LDAP connection daemon: nslcd.
+2026-01-25T09:07:53-03:00 srv2 nslcd[3169]: version 0.9.13 starting
+2026-01-25T09:07:53-03:00 srv2 nslcd[3169]: accepting connections
+2026-01-25T09:07:53-03:00 srv2 nslcd[3159]: Starting LDAP connection daemon: nslcd.
+2026-01-25T09:07:56-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:07:56-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:07:57-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:07:57-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:07:58-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:07:58-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:07:59-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:07:59-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:00-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:00-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:01-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:01-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:01-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:01-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:02-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:02-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:02-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:02-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:03-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:03-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:03-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:03-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:04-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:04-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:04-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:04-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:05-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:05-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:05-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:05-03:00 srv2 nslcd[3169]: [8b4567] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:08:06-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:06-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:08:07-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:08:07-03:00 srv2 nslcd[3169]: [7b23c6] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:08:14-03:00 srv2 nslcd[3169]: [3c9869] <passwd="ti02"> no available LDAP server found: Server is unavailable
+2026-01-25T09:17:39-03:00 srv2 nslcd[3169]: [334873] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:17:39-03:00 srv2 nslcd[3169]: [334873] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:17:51-03:00 srv2 nslcd[3169]: [b0dc51] <authc="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:17:51-03:00 srv2 nslcd[3169]: [b0dc51] <authc="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:18:03-03:00 srv2 nslcd[3169]: [495cff] <authc="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:18:03-03:00 srv2 nslcd[3169]: [495cff] <authc="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:18:40-03:00 srv2 nslcd[3169]: [e8944a] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:18:40-03:00 srv2 nslcd[3169]: [e8944a] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:18:40-03:00 srv2 nslcd[3169]: [5558ec] <authc="ti01"> no available LDAP server found: Server is unavailable: Resource temporarily unavailable
+2026-01-25T09:20:17-03:00 srv2 nslcd[3169]: [8e1f29] <passwd="ti02"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:20:17-03:00 srv2 nslcd[3169]: [8e1f29] <passwd="ti02"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:20:25-03:00 srv2 nslcd[3169]: [e87ccd] <passwd="ti01"> no available LDAP server found: Server is unavailable
+2026-01-25T09:54:26-03:00 srv2 nslcd[3169]: [1b58ba] <passwd="systemd-coredump"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:54:26-03:00 srv2 nslcd[3169]: [1b58ba] <passwd="systemd-coredump"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:55:50-03:00 srv2 nslcd[3169]: caught signal SIGTERM (15), shutting down
+2026-01-25T09:55:50-03:00 srv2 nslcd[3169]: version 0.9.13 bailing out
+2026-01-25T09:55:50-03:00 srv2 nslcd[3300]: Stopping LDAP connection daemon: nslcd.
+2026-01-25T09:55:50-03:00 srv2 nslcd[3321]: version 0.9.13 starting
+2026-01-25T09:55:50-03:00 srv2 nslcd[3321]: accepting connections
+2026-01-25T09:55:50-03:00 srv2 nslcd[3312]: Starting LDAP connection daemon: nslcd.
+2026-01-25T09:57:34-03:00 srv2 nslcd[3321]: caught signal SIGTERM (15), shutting down
+2026-01-25T09:57:34-03:00 srv2 nslcd[3321]: version 0.9.13 bailing out
+2026-01-25T09:57:34-03:00 srv2 nslcd[3332]: Stopping LDAP connection daemon: nslcd.
+2026-01-25T09:57:34-03:00 srv2 nslcd[3354]: version 0.9.13 starting
+2026-01-25T09:57:34-03:00 srv2 nslcd[3354]: accepting connections
+2026-01-25T09:57:34-03:00 srv2 nslcd[3344]: Starting LDAP connection daemon: nslcd.
+2026-01-25T09:58:44-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:44-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:45-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:45-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:46-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:46-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:47-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:47-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:48-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:48-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:49-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:49-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:49-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:49-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:50-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:50-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:50-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:50-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:51-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:51-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:51-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:51-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:52-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:52-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:52-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:52-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:53-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:53-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:53-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:53-03:00 srv2 nslcd[3354]: [8b4567] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T09:58:54-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:54-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> no available LDAP server found, sleeping 1 seconds
+2026-01-25T09:58:55-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T09:58:55-03:00 srv2 nslcd[3354]: [7b23c6] <passwd="ti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T10:02:50-03:00 srv2 nslcd[3354]: [3c9869] <passwd="EMPRESAti01"> failed to bind to LDAP server ldap://srv1.empresa.local: Strong(er) authentication required: BindSimple: Transport encryption required.
+2026-01-25T10:02:50-03:00 srv2 nslcd[3354]: [3c9869] <passwd="EMPRESAti01"> no available LDAP server found: Strong(er) authentication required
+2026-01-25T10:07:42-03:00 srv2 nslcd[3354]: caught signal SIGTERM (15), shutting down
+2026-01-25T10:07:42-03:00 srv2 nslcd[3354]: version 0.9.13 bailing out
+2026-01-25T10:07:42-03:00 srv2 nslcd[3399]: Stopping LDAP connection daemon: nslcd.

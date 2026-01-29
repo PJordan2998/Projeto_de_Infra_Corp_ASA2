@@ -1,0 +1,5 @@
+2026-01-26T00:40:45-03:00 srv4 ifdown[10693]: RTNETLINK answers: No such process
+2026-01-26T00:40:45-03:00 srv4 ifdown[10714]: sending signal ALRM to pid 643
+2026-01-26T00:40:45-03:00 srv4 ifdown[10714]: waiting for pid 643 to exit
+2026-01-26T15:46:17-03:00 srv4 ifdown[1956]: sending signal ALRM to pid 678
+2026-01-26T15:46:17-03:00 srv4 ifdown[1956]: waiting for pid 678 to exit

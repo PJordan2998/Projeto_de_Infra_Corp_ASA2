@@ -1,0 +1,65 @@
+2026-01-19T18:12:43-03:00 srv3 sshd-session[1086]: Received disconnect from 10.0.2.2 port 60157:11: disconnected by user
+2026-01-19T18:12:43-03:00 srv3 sshd-session[1086]: Disconnected from user pedro 10.0.2.2 port 60157
+2026-01-19T18:12:43-03:00 srv3 sshd-session[1045]: pam_unix(sshd:session): session closed for user pedro
+2026-01-19T18:12:43-03:00 srv3 sshd-session[1045]: syslogin_perform_logout: logout() returned an error
+2026-01-19T18:12:44-03:00 srv3 sshd-session[1085]: Connection closed by 10.0.2.2 port 60159
+2026-01-19T18:12:44-03:00 srv3 sshd-session[1049]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T06:07:19-03:00 srv3 sshd-session[967]: Accepted password for pedro from 10.0.2.2 port 63151 ssh2
+2026-01-25T06:07:19-03:00 srv3 sshd-session[967]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T06:07:20-03:00 srv3 sshd-session[971]: Accepted password for pedro from 10.0.2.2 port 63153 ssh2
+2026-01-25T06:07:20-03:00 srv3 sshd-session[971]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T13:50:04-03:00 srv3 sshd-session[1008]: Received disconnect from 10.0.2.2 port 63151:11: disconnected by user
+2026-01-25T13:50:04-03:00 srv3 sshd-session[1008]: Disconnected from user pedro 10.0.2.2 port 63151
+2026-01-25T13:50:04-03:00 srv3 sshd-session[967]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T13:50:05-03:00 srv3 sshd-session[967]: syslogin_perform_logout: logout() returned an error
+2026-01-25T13:50:05-03:00 srv3 sshd-session[1007]: Connection closed by 10.0.2.2 port 63153
+2026-01-25T13:50:05-03:00 srv3 sshd-session[971]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T22:29:27-03:00 srv3 sshd-session[1017]: Accepted password for pedro from 10.0.2.2 port 60919 ssh2
+2026-01-25T22:29:27-03:00 srv3 sshd-session[1017]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T22:29:27-03:00 srv3 sshd-session[1021]: Accepted password for pedro from 10.0.2.2 port 60921 ssh2
+2026-01-25T22:29:27-03:00 srv3 sshd-session[1021]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T23:57:38-03:00 srv3 sshd-session[1319]: Accepted password for ti01 from 192.168.50.30 port 58796 ssh2
+2026-01-25T23:57:38-03:00 srv3 sshd-session[1319]: pam_unix(sshd:session): session opened for user ti01(uid=5001) by ti01(uid=0)
+2026-01-25T23:57:44-03:00 srv3 sshd-session[1319]: syslogin_perform_logout: logout() returned an error
+2026-01-25T23:57:44-03:00 srv3 sshd-session[1347]: Received disconnect from 192.168.50.30 port 58796:11: disconnected by user
+2026-01-25T23:57:44-03:00 srv3 sshd-session[1347]: Disconnected from user ti01 192.168.50.30 port 58796
+2026-01-25T23:57:44-03:00 srv3 sshd-session[1319]: pam_unix(sshd:session): session closed for user ti01
+2026-01-26T00:38:16-03:00 srv3 sshd-session[1028]: Received disconnect from 10.0.2.2 port 60919:11: disconnected by user
+2026-01-26T00:38:16-03:00 srv3 sshd-session[1028]: Disconnected from user pedro 10.0.2.2 port 60919
+2026-01-26T00:38:16-03:00 srv3 sshd-session[1017]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T00:38:16-03:00 srv3 sshd-session[1017]: syslogin_perform_logout: logout() returned an error
+2026-01-26T00:38:17-03:00 srv3 sshd-session[1034]: Connection closed by 10.0.2.2 port 60921
+2026-01-26T00:38:17-03:00 srv3 sshd-session[1021]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T14:39:06-03:00 srv3 sshd-session[1017]: Accepted password for pedro from 10.0.2.2 port 49358 ssh2
+2026-01-26T14:39:06-03:00 srv3 sshd-session[1017]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T14:39:07-03:00 srv3 sshd-session[1023]: Accepted password for pedro from 10.0.2.2 port 49360 ssh2
+2026-01-26T14:39:07-03:00 srv3 sshd-session[1023]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T18:15:29-03:00 srv3 sshd-session[1008]: Accepted password for pedro from 10.0.2.2 port 64286 ssh2
+2026-01-26T18:15:29-03:00 srv3 sshd-session[1008]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T18:15:29-03:00 srv3 sshd-session[1014]: Accepted password for pedro from 10.0.2.2 port 64289 ssh2
+2026-01-26T18:15:29-03:00 srv3 sshd-session[1014]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T18:32:49-03:00 srv3 sshd-session[1018]: Received disconnect from 10.0.2.2 port 64286:11: disconnected by user
+2026-01-26T18:32:49-03:00 srv3 sshd-session[1018]: Disconnected from user pedro 10.0.2.2 port 64286
+2026-01-26T18:32:49-03:00 srv3 sshd-session[1008]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T18:32:49-03:00 srv3 sshd-session[1008]: syslogin_perform_logout: logout() returned an error
+2026-01-26T18:32:50-03:00 srv3 sshd-session[1025]: Connection closed by 10.0.2.2 port 64289
+2026-01-26T18:32:50-03:00 srv3 sshd-session[1014]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T16:05:56-03:00 srv3 sshd-session[1111]: Accepted password for pedro from 10.0.2.2 port 55875 ssh2
+2026-01-28T16:05:56-03:00 srv3 sshd-session[1111]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T16:05:56-03:00 srv3 sshd-session[1115]: Accepted password for pedro from 10.0.2.2 port 55877 ssh2
+2026-01-28T16:05:56-03:00 srv3 sshd-session[1115]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T17:19:47-03:00 srv3 sshd-session[1121]: Received disconnect from 10.0.2.2 port 55875:11: disconnected by user
+2026-01-28T17:19:47-03:00 srv3 sshd-session[1121]: Disconnected from user pedro 10.0.2.2 port 55875
+2026-01-28T17:19:47-03:00 srv3 sshd-session[1111]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T17:19:47-03:00 srv3 sshd-session[1111]: syslogin_perform_logout: logout() returned an error
+2026-01-28T17:19:48-03:00 srv3 sshd-session[1128]: Connection closed by 10.0.2.2 port 55877
+2026-01-28T17:19:48-03:00 srv3 sshd-session[1115]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T18:19:56-03:00 srv3 sshd-session[1599]: Accepted password for pedro from 10.0.2.2 port 60016 ssh2
+2026-01-28T18:19:56-03:00 srv3 sshd-session[1599]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T18:19:56-03:00 srv3 sshd-session[1607]: Accepted password for pedro from 10.0.2.2 port 60018 ssh2
+2026-01-28T18:19:56-03:00 srv3 sshd-session[1607]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T18:27:52-03:00 srv3 sshd-session[1733]: Accepted password for pedro from 10.0.2.2 port 53353 ssh2
+2026-01-28T18:27:52-03:00 srv3 sshd-session[1733]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T18:27:54-03:00 srv3 sshd-session[1741]: Received disconnect from 10.0.2.2 port 53353:11: disconnected by user
+2026-01-28T18:27:54-03:00 srv3 sshd-session[1741]: Disconnected from user pedro 10.0.2.2 port 53353
+2026-01-28T18:27:54-03:00 srv3 sshd-session[1733]: pam_unix(sshd:session): session closed for user pedro

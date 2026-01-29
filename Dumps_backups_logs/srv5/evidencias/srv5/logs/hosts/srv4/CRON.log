@@ -1,0 +1,144 @@
+2026-01-22T19:17:02-03:00 srv4 CRON[888]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T19:17:02-03:00 srv4 CRON[890]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-22T19:17:02-03:00 srv4 CRON[888]: pam_unix(cron:session): session closed for user root
+2026-01-22T19:30:01-03:00 srv4 CRON[928]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T19:30:01-03:00 srv4 CRON[930]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-22T19:30:01-03:00 srv4 CRON[928]: pam_unix(cron:session): session closed for user root
+2026-01-22T20:17:01-03:00 srv4 CRON[1029]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T20:17:01-03:00 srv4 CRON[1031]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-22T20:17:01-03:00 srv4 CRON[1029]: pam_unix(cron:session): session closed for user root
+2026-01-22T20:30:01-03:00 srv4 CRON[1065]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T20:30:01-03:00 srv4 CRON[1067]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-22T20:30:01-03:00 srv4 CRON[1065]: pam_unix(cron:session): session closed for user root
+2026-01-24T10:30:01-03:00 srv4 CRON[1007]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T10:30:01-03:00 srv4 CRON[1009]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-24T10:30:01-03:00 srv4 CRON[1007]: pam_unix(cron:session): session closed for user root
+2026-01-24T11:17:01-03:00 srv4 CRON[1150]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T11:17:01-03:00 srv4 CRON[1152]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-24T11:17:01-03:00 srv4 CRON[1150]: pam_unix(cron:session): session closed for user root
+2026-01-24T11:30:01-03:00 srv4 CRON[1189]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T11:30:02-03:00 srv4 CRON[1191]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-24T11:30:02-03:00 srv4 CRON[1189]: pam_unix(cron:session): session closed for user root
+2026-01-24T12:17:01-03:00 srv4 CRON[1335]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T12:17:01-03:00 srv4 CRON[1337]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-24T12:17:01-03:00 srv4 CRON[1335]: pam_unix(cron:session): session closed for user root
+2026-01-24T12:30:01-03:00 srv4 CRON[1375]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T12:30:01-03:00 srv4 CRON[1377]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-24T12:30:01-03:00 srv4 CRON[1375]: pam_unix(cron:session): session closed for user root
+2026-01-24T13:17:01-03:00 srv4 CRON[1501]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T13:17:01-03:00 srv4 CRON[1503]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-24T13:17:01-03:00 srv4 CRON[1501]: pam_unix(cron:session): session closed for user root
+2026-01-24T13:30:01-03:00 srv4 CRON[1542]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T13:30:02-03:00 srv4 CRON[1544]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-24T13:30:02-03:00 srv4 CRON[1542]: pam_unix(cron:session): session closed for user root
+2026-01-24T14:17:02-03:00 srv4 CRON[1688]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T14:17:02-03:00 srv4 CRON[1690]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-24T14:17:02-03:00 srv4 CRON[1688]: pam_unix(cron:session): session closed for user root
+2026-01-24T14:30:01-03:00 srv4 CRON[1726]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T14:30:01-03:00 srv4 CRON[1728]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-24T14:30:01-03:00 srv4 CRON[1726]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:17:02-03:00 srv4 CRON[967]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:17:02-03:00 srv4 CRON[969]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T06:17:02-03:00 srv4 CRON[967]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:25:01-03:00 srv4 CRON[985]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:25:01-03:00 srv4 CRON[987]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+2026-01-25T06:25:01-03:00 srv4 CRON[985]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:47:02-03:00 srv4 CRON[1051]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:47:02-03:00 srv4 CRON[1053]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.weekly; })
+2026-01-25T06:47:02-03:00 srv4 CRON[1051]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:17:01-03:00 srv4 CRON[1120]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:17:01-03:00 srv4 CRON[1122]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T07:17:01-03:00 srv4 CRON[1120]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:30:01-03:00 srv4 CRON[1171]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:30:01-03:00 srv4 CRON[1173]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T07:30:01-03:00 srv4 CRON[1171]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:17:01-03:00 srv4 CRON[1327]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:17:01-03:00 srv4 CRON[1329]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T08:17:01-03:00 srv4 CRON[1327]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:30:02-03:00 srv4 CRON[1348]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:30:02-03:00 srv4 CRON[1350]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T08:30:02-03:00 srv4 CRON[1348]: pam_unix(cron:session): session closed for user root
+2026-01-25T09:17:01-03:00 srv4 CRON[1486]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T09:17:02-03:00 srv4 CRON[1488]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T09:17:02-03:00 srv4 CRON[1486]: pam_unix(cron:session): session closed for user root
+2026-01-25T09:30:01-03:00 srv4 CRON[1523]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T09:30:01-03:00 srv4 CRON[1525]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T09:30:01-03:00 srv4 CRON[1523]: pam_unix(cron:session): session closed for user root
+2026-01-25T10:17:01-03:00 srv4 CRON[1649]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T10:17:01-03:00 srv4 CRON[1651]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T10:17:01-03:00 srv4 CRON[1649]: pam_unix(cron:session): session closed for user root
+2026-01-25T10:30:01-03:00 srv4 CRON[1682]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T10:30:01-03:00 srv4 CRON[1684]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T10:30:01-03:00 srv4 CRON[1682]: pam_unix(cron:session): session closed for user root
+2026-01-25T11:17:01-03:00 srv4 CRON[1818]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T11:17:01-03:00 srv4 CRON[1820]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T11:17:01-03:00 srv4 CRON[1818]: pam_unix(cron:session): session closed for user root
+2026-01-25T11:30:01-03:00 srv4 CRON[1858]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T11:30:01-03:00 srv4 CRON[1860]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T11:30:01-03:00 srv4 CRON[1858]: pam_unix(cron:session): session closed for user root
+2026-01-25T12:17:01-03:00 srv4 CRON[1987]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T12:17:01-03:00 srv4 CRON[1989]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T12:17:01-03:00 srv4 CRON[1987]: pam_unix(cron:session): session closed for user root
+2026-01-25T12:30:01-03:00 srv4 CRON[2027]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T12:30:01-03:00 srv4 CRON[2029]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T12:30:01-03:00 srv4 CRON[2027]: pam_unix(cron:session): session closed for user root
+2026-01-25T13:17:01-03:00 srv4 CRON[2166]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T13:17:01-03:00 srv4 CRON[2168]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-25T13:17:01-03:00 srv4 CRON[2166]: pam_unix(cron:session): session closed for user root
+2026-01-25T13:30:01-03:00 srv4 CRON[2199]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T13:30:01-03:00 srv4 CRON[2201]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T13:30:01-03:00 srv4 CRON[2199]: pam_unix(cron:session): session closed for user root
+2026-01-25T22:30:01-03:00 srv4 CRON[923]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T22:30:01-03:00 srv4 CRON[925]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-25T22:30:01-03:00 srv4 CRON[923]: pam_unix(cron:session): session closed for user root
+2026-01-26T00:17:01-03:00 srv4 CRON[10445]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T00:17:01-03:00 srv4 CRON[10447]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-26T00:17:01-03:00 srv4 CRON[10445]: pam_unix(cron:session): session closed for user root
+2026-01-26T15:17:01-03:00 srv4 CRON[1310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T15:17:01-03:00 srv4 CRON[1312]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-26T15:17:01-03:00 srv4 CRON[1310]: pam_unix(cron:session): session closed for user root
+2026-01-26T15:30:01-03:00 srv4 CRON[1392]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T15:30:01-03:00 srv4 CRON[1394]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-26T15:30:01-03:00 srv4 CRON[1392]: pam_unix(cron:session): session closed for user root
+2026-01-26T16:17:01-03:00 srv4 CRON[2336]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T16:17:01-03:00 srv4 CRON[2338]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-26T16:17:01-03:00 srv4 CRON[2336]: pam_unix(cron:session): session closed for user root
+2026-01-26T16:30:01-03:00 srv4 CRON[2381]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T16:30:01-03:00 srv4 CRON[2383]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-26T16:30:01-03:00 srv4 CRON[2381]: pam_unix(cron:session): session closed for user root
+2026-01-26T17:17:02-03:00 srv4 CRON[2526]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T17:17:02-03:00 srv4 CRON[2528]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-26T17:17:02-03:00 srv4 CRON[2526]: pam_unix(cron:session): session closed for user root
+2026-01-26T17:30:01-03:00 srv4 CRON[2553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T17:30:01-03:00 srv4 CRON[2555]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-26T17:30:01-03:00 srv4 CRON[2553]: pam_unix(cron:session): session closed for user root
+2026-01-26T18:17:01-03:00 srv4 CRON[2705]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T18:17:01-03:00 srv4 CRON[2707]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-26T18:17:01-03:00 srv4 CRON[2705]: pam_unix(cron:session): session closed for user root
+2026-01-26T18:30:01-03:00 srv4 CRON[2751]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T18:30:01-03:00 srv4 CRON[2753]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-26T18:30:01-03:00 srv4 CRON[2751]: pam_unix(cron:session): session closed for user root
+2026-01-28T16:17:02-03:00 srv4 CRON[1061]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T16:17:03-03:00 srv4 CRON[1063]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-28T16:17:03-03:00 srv4 CRON[1061]: pam_unix(cron:session): session closed for user root
+2026-01-28T16:30:01-03:00 srv4 CRON[1100]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T16:30:01-03:00 srv4 CRON[1102]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-28T16:30:01-03:00 srv4 CRON[1100]: pam_unix(cron:session): session closed for user root
+2026-01-28T17:17:01-03:00 srv4 CRON[1257]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T17:17:01-03:00 srv4 CRON[1259]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-28T17:17:01-03:00 srv4 CRON[1257]: pam_unix(cron:session): session closed for user root
+2026-01-28T17:30:01-03:00 srv4 CRON[1309]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T17:30:01-03:00 srv4 CRON[1311]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-28T17:30:01-03:00 srv4 CRON[1309]: pam_unix(cron:session): session closed for user root
+2026-01-28T18:17:01-03:00 srv4 CRON[1448]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T18:17:01-03:00 srv4 CRON[1450]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-28T18:17:01-03:00 srv4 CRON[1448]: pam_unix(cron:session): session closed for user root
+2026-01-28T18:30:01-03:00 srv4 CRON[1504]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T18:30:01-03:00 srv4 CRON[1506]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-28T18:30:01-03:00 srv4 CRON[1504]: pam_unix(cron:session): session closed for user root
+2026-01-28T19:17:01-03:00 srv4 CRON[2530]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T19:17:01-03:00 srv4 CRON[2532]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-01-28T19:17:01-03:00 srv4 CRON[2530]: pam_unix(cron:session): session closed for user root
+2026-01-28T19:30:02-03:00 srv4 CRON[2565]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T19:30:02-03:00 srv4 CRON[2567]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-01-28T19:30:02-03:00 srv4 CRON[2565]: pam_unix(cron:session): session closed for user root

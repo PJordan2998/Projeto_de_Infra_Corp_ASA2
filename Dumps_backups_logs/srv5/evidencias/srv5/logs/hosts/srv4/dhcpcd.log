@@ -1,0 +1,56 @@
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[10714]: sending signal ALRM to pid 643
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[10714]: waiting for pid 643 to exit
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: received SIGALRM, releasing
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: removing interface
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: deleting address fd17:625c:f037:2:6fb:a242:780f:3e85/64
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: deleting route to fd17:625c:f037:2::/64
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: deleting default route via fe80::2
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: deleting address fe80::8e82:b3bf:7044:b6c6
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: releasing lease of 10.0.2.15
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: deleting route to 10.0.2.0/24
+2026-01-26T00:40:45-03:00 srv4 dhcpcd[645]: enp0s3: deleting default route via 10.0.2.2
+2026-01-26T00:40:46-03:00 srv4 dhcpcd[10850]: dhcpcd-10.1.0 starting
+2026-01-26T00:40:46-03:00 srv4 dhcpcd[10853]: DUID 00:01:00:01:30:da:e6:5d:08:00:27:8f:c3:88
+2026-01-26T00:40:46-03:00 srv4 dhcpcd[10853]: enp0s3: waiting for carrier
+2026-01-26T00:40:48-03:00 srv4 dhcpcd[10853]: enp0s3: carrier acquired
+2026-01-26T00:40:48-03:00 srv4 dhcpcd[10853]: enp0s3: IAID 27:a0:65:52
+2026-01-26T00:40:48-03:00 srv4 dhcpcd[10853]: enp0s3: adding address fe80::8e82:b3bf:7044:b6c6
+2026-01-26T00:40:49-03:00 srv4 dhcpcd[10853]: enp0s3: soliciting a DHCP lease
+2026-01-26T00:40:49-03:00 srv4 dhcpcd[10853]: enp0s3: offered 10.0.2.15 from 10.0.2.2
+2026-01-26T00:40:49-03:00 srv4 dhcpcd[10853]: enp0s3: probing address 10.0.2.15/24
+2026-01-26T00:40:50-03:00 srv4 dhcpcd[10853]: enp0s3: soliciting an IPv6 router
+2026-01-26T00:40:50-03:00 srv4 dhcpcd[10853]: enp0s3: Router Advertisement from fe80::2
+2026-01-26T00:40:50-03:00 srv4 dhcpcd[10853]: enp0s3: adding address fd17:625c:f037:2:6fb:a242:780f:3e85/64
+2026-01-26T00:40:50-03:00 srv4 dhcpcd[10853]: enp0s3: adding route to fd17:625c:f037:2::/64
+2026-01-26T00:40:50-03:00 srv4 dhcpcd[10853]: enp0s3: adding default route via fe80::2
+2026-01-26T00:40:54-03:00 srv4 dhcpcd[10853]: enp0s3: leased 10.0.2.15 for 86400 seconds
+2026-01-26T00:40:54-03:00 srv4 dhcpcd[10853]: enp0s3: adding route to 10.0.2.0/24
+2026-01-26T00:40:54-03:00 srv4 dhcpcd[10853]: enp0s3: adding default route via 10.0.2.2
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[1956]: sending signal ALRM to pid 678
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[1956]: waiting for pid 678 to exit
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: received SIGALRM, releasing
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: removing interface
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: deleting address fd17:625c:f037:2:6fb:a242:780f:3e85/64
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: deleting route to fd17:625c:f037:2::/64
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: deleting default route via fe80::2
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: deleting address fe80::8e82:b3bf:7044:b6c6
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: releasing lease of 10.0.2.15
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: deleting route to 10.0.2.0/24
+2026-01-26T15:46:17-03:00 srv4 dhcpcd[679]: enp0s3: deleting default route via 10.0.2.2
+2026-01-26T15:46:18-03:00 srv4 dhcpcd[2093]: dhcpcd-10.1.0 starting
+2026-01-26T15:46:18-03:00 srv4 dhcpcd[2096]: DUID 00:01:00:01:30:da:e6:5d:08:00:27:8f:c3:88
+2026-01-26T15:46:18-03:00 srv4 dhcpcd[2096]: enp0s3: waiting for carrier
+2026-01-26T15:46:20-03:00 srv4 dhcpcd[2096]: enp0s3: carrier acquired
+2026-01-26T15:46:20-03:00 srv4 dhcpcd[2096]: enp0s3: IAID 27:a0:65:52
+2026-01-26T15:46:20-03:00 srv4 dhcpcd[2096]: enp0s3: adding address fe80::8e82:b3bf:7044:b6c6
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: soliciting a DHCP lease
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: offered 10.0.2.15 from 10.0.2.2
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: probing address 10.0.2.15/24
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: soliciting an IPv6 router
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: Router Advertisement from fe80::2
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: adding address fd17:625c:f037:2:6fb:a242:780f:3e85/64
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: adding route to fd17:625c:f037:2::/64
+2026-01-26T15:46:22-03:00 srv4 dhcpcd[2096]: enp0s3: adding default route via fe80::2
+2026-01-26T15:46:27-03:00 srv4 dhcpcd[2096]: enp0s3: leased 10.0.2.15 for 86400 seconds
+2026-01-26T15:46:27-03:00 srv4 dhcpcd[2096]: enp0s3: adding route to 10.0.2.0/24
+2026-01-26T15:46:27-03:00 srv4 dhcpcd[2096]: enp0s3: adding default route via 10.0.2.2

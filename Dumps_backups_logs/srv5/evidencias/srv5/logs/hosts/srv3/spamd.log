@@ -1,0 +1,7 @@
+2026-01-26T18:14:46-03:00 srv3 spamd[720]: zoom: able to use 384/384 'body_0' compiled rules (100%)
+2026-01-26T18:15:01-03:00 srv3 spamd[720]: async: aborting after 15.351 s, past original deadline: AskDNS, A/compiling.spamassassin.taint.org.fresh.fmb.la, rules: __FROM_FMBLA_NDBLOCKED, __FROM_FMBLA_NEWDOM, __FROM_FMBLA_NEWDOM14, __FROM_FMBLA_NEWDOM28
+2026-01-26T18:15:01-03:00 srv3 spamd[720]: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+2026-01-26T18:15:01-03:00 srv3 spamd[720]: spamd: server pid: 720
+2026-01-26T18:15:01-03:00 srv3 spamd[720]: spamd: server successfully spawned child process, pid 1003
+2026-01-26T18:15:01-03:00 srv3 spamd[720]: spamd: server successfully spawned child process, pid 1004
+2026-01-26T18:15:01-03:00 srv3 spamd[720]: prefork: child states: II

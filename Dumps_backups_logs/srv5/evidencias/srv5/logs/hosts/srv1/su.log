@@ -1,0 +1,35 @@
+2026-01-19T18:12:44-03:00 srv1 su[972]: pam_unix(su-l:session): session closed for user root
+2026-01-25T06:18:25-03:00 srv1 su[971]: (to root) pedro on pts/0
+2026-01-25T06:18:25-03:00 srv1 su[971]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-25T09:07:01-03:00 srv1 su: pam_winbind(su-l:account): user 'EMPRESA\ti01' granted access
+2026-01-25T09:07:01-03:00 srv1 su[1957]: (to EMPRESA\ti01) root on pts/0
+2026-01-25T09:07:01-03:00 srv1 su[1957]: pam_unix(su-l:session): session opened for user EMPRESA\ti01(uid=10001) by pedro(uid=0)
+2026-01-25T09:17:24-03:00 srv1 su[1957]: pam_unix(su-l:session): session closed for user EMPRESA\ti01
+2026-01-25T09:20:48-03:00 srv1 su: pam_winbind(su-l:account): user 'EMPRESA\ti01' granted access
+2026-01-25T09:20:48-03:00 srv1 su[2014]: (to EMPRESA\ti01) root on pts/0
+2026-01-25T09:20:48-03:00 srv1 su[2014]: pam_unix(su-l:session): session opened for user EMPRESA\ti01(uid=10001) by pedro(uid=0)
+2026-01-25T09:51:57-03:00 srv1 su[2014]: pam_unix(su-l:session): session closed for user EMPRESA\ti01
+2026-01-25T11:32:50-03:00 srv1 su[907]: (to root) pedro on pts/0
+2026-01-25T11:32:50-03:00 srv1 su[907]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-25T13:50:04-03:00 srv1 su[907]: pam_unix(su-l:session): session closed for user root
+2026-01-25T22:28:40-03:00 srv1 su[938]: (to root) pedro on pts/0
+2026-01-25T22:28:40-03:00 srv1 su[938]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-25T22:41:34-03:00 srv1 su: pam_winbind(su-l:account): user 'EMPRESA\ti01' granted access
+2026-01-25T22:41:34-03:00 srv1 su[1003]: (to EMPRESA\ti01) root on pts/0
+2026-01-25T22:41:35-03:00 srv1 su[1003]: pam_unix(su-l:session): session opened for user EMPRESA\ti01(uid=10001) by pedro(uid=0)
+2026-01-25T22:41:40-03:00 srv1 su[1003]: pam_unix(su-l:session): session closed for user EMPRESA\ti01
+2026-01-26T00:42:04-03:00 srv1 su[938]: pam_unix(su-l:session): session closed for user root
+2026-01-26T14:38:16-03:00 srv1 su[937]: (to root) pedro on pts/0
+2026-01-26T14:38:16-03:00 srv1 su[937]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-26T18:15:15-03:00 srv1 su[934]: (to root) pedro on pts/0
+2026-01-26T18:15:15-03:00 srv1 su[934]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-26T18:32:50-03:00 srv1 su[934]: pam_unix(su-l:session): session closed for user root
+2026-01-28T16:05:05-03:00 srv1 su[1035]: (to root) pedro on pts/0
+2026-01-28T16:05:05-03:00 srv1 su[1035]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T16:55:57-03:00 srv1 su[1035]: pam_unix(su-l:session): session closed for user root
+2026-01-28T17:07:55-03:00 srv1 su[1408]: (to root) pedro on pts/0
+2026-01-28T17:07:55-03:00 srv1 su[1408]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:08:17-03:00 srv1 su[1408]: pam_unix(su-l:session): session closed for user root
+2026-01-28T17:26:57-03:00 srv1 su[1695]: (to root) pedro on pts/0
+2026-01-28T17:26:57-03:00 srv1 su[1695]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:55:09-03:00 srv1 su[1695]: pam_unix(su-l:session): session closed for user root

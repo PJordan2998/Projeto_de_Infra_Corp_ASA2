@@ -1,0 +1,30 @@
+2026-01-26T15:42:43-03:00 srv4 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl restart systemd-resolved.service
+2026-01-26T15:42:44-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-26T15:42:44-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T15:42:53-03:00 srv4 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/service network-manager restart
+2026-01-26T15:42:53-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-26T15:42:53-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T15:45:29-03:00 srv4 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl restart systemd-resolved
+2026-01-26T15:45:29-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-26T15:45:29-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-26T15:45:56-03:00 srv4 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl restart resolvconf
+2026-01-26T15:45:56-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-26T15:45:56-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:32:47-03:00 srv4 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/ls
+2026-01-28T18:32:47-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:32:47-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:38:20-03:00 srv4 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mysql -e 'SHOW VARIABLES LIKE \'log_error\';'
+2026-01-28T18:38:20-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-28T18:38:20-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:39:06-03:00 srv4 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mariadb -e 'SHOW VARIABLES LIKE \'log_error\';'
+2026-01-28T18:39:06-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-28T18:39:06-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T19:06:06-03:00 srv4 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chown pedro:pedro -R evidencias/
+2026-01-28T19:06:08-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T19:06:08-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T19:07:08-03:00 srv4 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 777 evidencias/
+2026-01-28T19:07:08-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T19:07:08-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T19:10:20-03:00 srv4 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/mv evidencias/ /root/
+2026-01-28T19:10:20-03:00 srv4 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T19:10:20-03:00 srv4 sudo: pam_unix(sudo:session): session closed for user root

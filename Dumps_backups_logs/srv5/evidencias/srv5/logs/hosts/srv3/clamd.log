@@ -1,0 +1,57 @@
+2026-01-22T20:11:37-03:00 srv3 clamd[644]: Thu Jan 22 20:11:37 2026 -> SelfCheck: Database status OK.
+2026-01-24T11:18:15-03:00 srv3 clamd[624]: Sat Jan 24 11:18:15 2026 -> SelfCheck: Database status OK.
+2026-01-24T12:18:15-03:00 srv3 clamd[624]: Sat Jan 24 12:18:15 2026 -> SelfCheck: Database status OK.
+2026-01-24T13:18:15-03:00 srv3 clamd[624]: Sat Jan 24 13:18:15 2026 -> SelfCheck: Database status OK.
+2026-01-24T14:18:15-03:00 srv3 clamd[624]: Sat Jan 24 14:18:15 2026 -> SelfCheck: Database status OK.
+2026-01-25T07:04:32-03:00 srv3 clamd[661]: Sun Jan 25 07:04:32 2026 -> SelfCheck: Database status OK.
+2026-01-25T08:04:32-03:00 srv3 clamd[661]: Sun Jan 25 08:04:32 2026 -> SelfCheck: Database status OK.
+2026-01-25T09:04:32-03:00 srv3 clamd[661]: Sun Jan 25 09:04:32 2026 -> SelfCheck: Database status OK.
+2026-01-25T10:04:32-03:00 srv3 clamd[661]: Sun Jan 25 10:04:32 2026 -> SelfCheck: Database status OK.
+2026-01-25T11:04:33-03:00 srv3 clamd[661]: Sun Jan 25 11:04:33 2026 -> SelfCheck: Database status OK.
+2026-01-25T12:04:33-03:00 srv3 clamd[661]: Sun Jan 25 12:04:33 2026 -> SelfCheck: Database status OK.
+2026-01-25T13:04:33-03:00 srv3 clamd[661]: Sun Jan 25 13:04:33 2026 -> SelfCheck: Database status OK.
+2026-01-25T23:23:22-03:00 srv3 clamd[636]: Sun Jan 25 23:23:22 2026 -> SelfCheck: Database status OK.
+2026-01-26T00:23:22-03:00 srv3 clamd[636]: Mon Jan 26 00:23:22 2026 -> SelfCheck: Database status OK.
+2026-01-26T00:38:11-03:00 srv3 clamd[636]: Mon Jan 26 00:38:11 2026 -> SIGHUP caught: re-opening log file.
+2026-01-26T15:36:15-03:00 srv3 clamd[622]: Mon Jan 26 15:36:15 2026 -> SelfCheck: Database status OK.
+2026-01-26T19:00:57-03:00 srv3 clamd[638]: WARNING: Ignoring deprecated option ScanOnAccess at /etc/clamav/clamd.conf:89
+2026-01-26T19:01:02-03:00 srv3 clamd[638]: LibClamAV Warning: **************************************************
+2026-01-26T19:01:02-03:00 srv3 clamd[638]: LibClamAV Warning: ***  The virus database is older than 7 days!  ***
+2026-01-26T19:01:02-03:00 srv3 clamd[638]: LibClamAV Warning: ***   Please update it as soon as possible.    ***
+2026-01-26T19:01:02-03:00 srv3 clamd[638]: LibClamAV Warning: **************************************************
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: Global time limit set to 120000 milliseconds.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: Global size limit set to 104857600 bytes.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: File size limit set to 26214400 bytes.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: Recursion level limit set to 16.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: Files limit set to 10000.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxPartitions limit set to 50.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxIconsPE limit set to 100.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: MaxRecHWP3 limit set to 16.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: PCREMatchLimit limit set to 10000.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: PCRERecMatchLimit limit set to 5000.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Limits: PCREMaxFileSize limit set to 26214400.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Archive support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Image (graphics) scanning support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Detection using image fuzzy hash enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> AlertExceedsMax heuristic detection disabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Heuristic alerts enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Portable Executable support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> ELF support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Mail files support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> OLE2 support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> PDF support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> SWF support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> HTML support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> XMLDOCS support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> HWP3 support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> OneNote support enabled.
+2026-01-26T18:15:10-03:00 srv3 clamd[638]: Mon Jan 26 18:15:10 2026 -> Self checking every 3600 seconds.
+2026-01-28T16:31:00-03:00 srv3 clamd[652]: Wed Jan 28 16:31:00 2026 -> SelfCheck: Database status OK.
+2026-01-28T17:31:00-03:00 srv3 clamd[652]: Wed Jan 28 17:31:00 2026 -> SelfCheck: Database status OK.
+2026-01-28T18:31:00-03:00 srv3 clamd[652]: Wed Jan 28 18:31:00 2026 -> SelfCheck: Database status OK.
+2026-01-28T19:31:00-03:00 srv3 clamd[652]: Wed Jan 28 19:31:00 2026 -> SelfCheck: Database status OK.

@@ -1,0 +1,24 @@
+2026-01-19T18:12:44-03:00 srv3 systemd-logind[640]: Session 1 logged out. Waiting for processes to exit.
+2026-01-19T18:12:44-03:00 srv3 systemd-logind[640]: Removed session 1.
+2026-01-19T18:12:45-03:00 srv3 systemd-logind[640]: Session 3 logged out. Waiting for processes to exit.
+2026-01-19T18:12:45-03:00 srv3 systemd-logind[640]: Removed session 3.
+2026-01-19T18:12:56-03:00 srv3 systemd-logind[640]: Removed session 2.
+2026-01-25T06:07:19-03:00 srv3 systemd-logind[633]: New session 1 of user pedro.
+2026-01-25T06:07:19-03:00 srv3 systemd-logind[633]: New session 2 of user pedro.
+2026-01-25T06:07:20-03:00 srv3 systemd-logind[633]: New session 3 of user pedro.
+2026-01-25T13:00:55-03:00 srv3 systemd-logind[3939]: New seat seat0.
+2026-01-25T13:00:55-03:00 srv3 systemd-logind[3939]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T13:00:55-03:00 srv3 systemd-logind[3939]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T13:00:55-03:00 srv3 systemd-logind[3939]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T13:00:55-03:00 srv3 systemd-logind[3939]: New session 2 of user pedro.
+2026-01-25T13:00:55-03:00 srv3 systemd-logind[3939]: New session 1 of user pedro.
+2026-01-25T13:00:55-03:00 srv3 systemd-logind[3939]: New session 3 of user pedro.
+2026-01-25T13:50:05-03:00 srv3 systemd-logind[3939]: Session 1 logged out. Waiting for processes to exit.
+2026-01-25T13:50:05-03:00 srv3 systemd-logind[3939]: Removed session 1.
+2026-01-25T13:50:05-03:00 srv3 systemd-logind[3939]: Session 3 logged out. Waiting for processes to exit.
+2026-01-25T13:50:05-03:00 srv3 systemd-logind[3939]: Removed session 3.
+2026-01-25T13:50:17-03:00 srv3 systemd-logind[3939]: Removed session 2.
+2026-01-26T19:00:57-03:00 srv3 systemd-logind[604]: New seat seat0.
+2026-01-26T19:00:57-03:00 srv3 systemd-logind[604]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-26T19:00:57-03:00 srv3 systemd-logind[604]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-26T19:00:57-03:00 srv3 systemd-logind[604]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)

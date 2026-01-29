@@ -1,0 +1,5 @@
+2026-01-25T09:57:34-03:00 srv2 sshd[730]: Received signal 15; terminating.
+2026-01-25T09:57:34-03:00 srv2 sshd[3368]: Server listening on 0.0.0.0 port 22.
+2026-01-25T09:57:34-03:00 srv2 sshd[3368]: Server listening on :: port 22.
+2026-01-25T17:41:52-03:00 srv2 sshd[757]: Server listening on 0.0.0.0 port 22.
+2026-01-25T17:41:52-03:00 srv2 sshd[757]: Server listening on :: port 22.

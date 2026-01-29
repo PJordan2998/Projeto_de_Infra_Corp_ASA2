@@ -1,0 +1,3 @@
+2026-01-25T11:31:54-03:00 srv1 systemd-fsck[430]: /dev/sda6: clean, 35/1335296 files, 128399/5332480 blocks
+2026-01-26T18:59:54-03:00 srv1 systemd-fsck[469]: /dev/sda6: recovering journal
+2026-01-26T18:59:54-03:00 srv1 systemd-fsck[469]: /dev/sda6: clean, 35/1335296 files, 128399/5332480 blocks

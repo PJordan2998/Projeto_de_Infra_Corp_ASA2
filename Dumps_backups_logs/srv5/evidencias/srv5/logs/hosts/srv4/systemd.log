@@ -1,0 +1,481 @@
+2026-01-19T18:12:44-03:00 srv4 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-19T18:12:44-03:00 srv4 systemd[1]: session-1.scope: Consumed 2.484s CPU time, 22M memory peak.
+2026-01-19T18:12:44-03:00 srv4 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Activating special unit exit.target...
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopped target default.target - Main User Target.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Removed slice session.slice - User Core Session Slice.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopped target basic.target - Basic System.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopped target paths.target - Paths.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopped target sockets.target - Sockets.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopped target timers.target - Timers.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Removed slice app.slice - User Application Slice.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Reached target shutdown.target - Shutdown.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Finished systemd-exit.service - Exit the Session.
+2026-01-19T18:12:55-03:00 srv4 systemd[960]: Reached target exit.target - Exit the Session.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-19T18:12:55-03:00 srv4 systemd[1]: user-1000.slice: Consumed 3.727s CPU time, 30.1M memory peak.
+2026-01-22T19:15:37-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:27:37-03:00 srv4 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-22T19:27:39-03:00 srv4 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-22T19:27:39-03:00 srv4 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-22T19:30:57-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:45:37-03:00 srv4 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:57:37-03:00 srv4 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T20:34:37-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-22T20:39:37-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T10:22:46-03:00 srv4 systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+2026-01-24T10:22:49-03:00 srv4 systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+2026-01-24T10:22:49-03:00 srv4 systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+2026-01-24T10:22:49-03:00 srv4 systemd[1]: apt-daily-upgrade.service: Consumed 2.549s CPU time, 62.9M memory peak.
+2026-01-24T10:28:41-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T10:33:40-03:00 srv4 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-24T10:33:41-03:00 srv4 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-24T10:33:41-03:00 srv4 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-24T10:35:11-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T10:35:12-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T11:00:46-03:00 srv4 systemd[1]: Starting logrotate.service - Rotate log files...
+2026-01-24T11:00:46-03:00 srv4 systemd[1]: logrotate.service: Deactivated successfully.
+2026-01-24T11:00:46-03:00 srv4 systemd[1]: Finished logrotate.service - Rotate log files.
+2026-01-24T11:34:11-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T12:32:46-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T12:32:46-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T13:32:46-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T14:32:11-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T14:32:12-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T06:07:44-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T06:07:44-03:00 srv4 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T06:07:44-03:00 srv4 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T06:07:44-03:00 srv4 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T06:07:44-03:00 srv4 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Queued start job for default target default.target.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Created slice app.slice - User Application Slice.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Reached target paths.target - Paths.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Reached target timers.target - Timers.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Reached target sockets.target - Sockets.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Reached target basic.target - Basic System.
+2026-01-25T06:07:45-03:00 srv4 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Reached target default.target - Main User Target.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Startup finished in 627ms.
+2026-01-25T06:07:45-03:00 srv4 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-25T06:07:45-03:00 srv4 systemd[1]: Started session-3.scope - Session 3 of User pedro.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Created slice session.slice - User Core Session Slice.
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T06:07:45-03:00 srv4 systemd[905]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T06:08:08-03:00 srv4 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T06:20:08-03:00 srv4 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-25T06:20:09-03:00 srv4 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-25T06:20:09-03:00 srv4 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-25T06:22:30-03:00 srv4 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-01-25T06:22:30-03:00 srv4 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-01-25T06:23:01-03:00 srv4 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-01-25T06:53:32-03:00 srv4 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T07:34:53-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T07:35:10-03:00 srv4 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2026-01-25T07:35:10-03:00 srv4 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2026-01-25T07:35:40-03:00 srv4 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2026-01-25T07:39:53-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T08:26:08-03:00 srv4 systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T08:33:53-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T09:33:53-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T09:33:53-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T10:31:52-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T10:31:52-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T11:33:52-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T12:32:52-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T12:32:52-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T13:20:52-03:00 srv4 systemd[1]: Starting man-db.service - Daily man-db regeneration...
+2026-01-25T13:20:54-03:00 srv4 systemd[1]: man-db.service: Deactivated successfully.
+2026-01-25T13:20:54-03:00 srv4 systemd[1]: Finished man-db.service - Daily man-db regeneration.
+2026-01-25T13:34:53-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T13:50:05-03:00 srv4 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-25T13:50:05-03:00 srv4 systemd[1]: session-1.scope: Consumed 7.405s CPU time, 23.4M memory peak.
+2026-01-25T13:50:05-03:00 srv4 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-25T13:50:15-03:00 srv4 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Activating special unit exit.target...
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopped target default.target - Main User Target.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopped target basic.target - Basic System.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopped target paths.target - Paths.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopped target sockets.target - Sockets.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopped target timers.target - Timers.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Removed slice app.slice - User Application Slice.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Reached target shutdown.target - Shutdown.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T13:50:16-03:00 srv4 systemd[905]: Reached target exit.target - Exit the Session.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: user@1000.service: Consumed 1.442s CPU time, 8.3M memory peak.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T13:50:17-03:00 srv4 systemd[1]: user-1000.slice: Consumed 9.175s CPU time, 31.6M memory peak.
+2026-01-25T22:26:31-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T22:29:51-03:00 srv4 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T22:29:51-03:00 srv4 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T22:29:51-03:00 srv4 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T22:29:51-03:00 srv4 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-25T22:29:52-03:00 srv4 systemd[888]: Queued start job for default target default.target.
+2026-01-25T22:29:52-03:00 srv4 systemd[888]: Created slice app.slice - User Application Slice.
+2026-01-25T22:29:52-03:00 srv4 systemd[888]: Reached target paths.target - Paths.
+2026-01-25T22:29:52-03:00 srv4 systemd[888]: Reached target timers.target - Timers.
+2026-01-25T22:29:52-03:00 srv4 systemd[888]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T22:29:52-03:00 srv4 systemd[888]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Reached target sockets.target - Sockets.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Reached target basic.target - Basic System.
+2026-01-25T22:29:53-03:00 srv4 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Reached target default.target - Main User Target.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Startup finished in 744ms.
+2026-01-25T22:29:53-03:00 srv4 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-25T22:29:53-03:00 srv4 systemd[1]: Started session-3.scope - Session 3 of User pedro.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Created slice session.slice - User Core Session Slice.
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T22:29:53-03:00 srv4 systemd[888]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T22:31:31-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T22:38:42-03:00 srv4 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-25T22:38:43-03:00 srv4 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-25T22:38:43-03:00 srv4 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-25T23:04:31-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T23:37:37-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T23:37:37-03:00 srv4 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T23:37:37-03:00 srv4 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T23:37:37-03:00 srv4 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T23:37:52-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T23:37:53-03:00 srv4 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T23:37:53-03:00 srv4 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T23:37:53-03:00 srv4 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T23:37:53-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T23:37:53-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T23:42:53-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T23:42:54-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: ssh.service: Deactivated successfully.
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-01-25T23:45:59-03:00 srv4 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-01-25T23:49:19-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T23:49:20-03:00 srv4 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T23:49:20-03:00 srv4 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T23:49:20-03:00 srv4 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T23:50:25-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T23:50:25-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T23:50:25-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T23:50:25-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T23:50:25-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T23:50:25-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T23:50:25-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T23:50:26-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T23:50:26-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T23:50:26-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reload requested from client PID 9879 ('systemctl') (unit session-1.scope)...
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reloading...
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reloading finished in 388 ms.
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reload requested from client PID 9908 ('systemctl') (unit session-1.scope)...
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reloading...
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reloading finished in 349 ms.
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reload requested from client PID 9875 ('systemctl') (unit session-1.scope)...
+2026-01-25T23:51:07-03:00 srv4 systemd[1]: Reloading...
+2026-01-25T23:51:08-03:00 srv4 systemd[1]: Reloading finished in 392 ms.
+2026-01-25T23:51:08-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T23:51:08-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: winbind.service: Consumed 3.051s CPU time, 40.8M memory peak.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T00:00:16-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T00:00:17-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T00:01:38-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T00:01:39-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T00:02:42-03:00 srv4 systemd[1]: Starting man-db.service - Daily man-db regeneration...
+2026-01-26T00:02:43-03:00 srv4 systemd[1]: man-db.service: Deactivated successfully.
+2026-01-26T00:02:43-03:00 srv4 systemd[1]: Finished man-db.service - Daily man-db regeneration.
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: ssh.service: Deactivated successfully.
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-01-26T00:09:36-03:00 srv4 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T00:11:46-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T00:11:47-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T00:26:31-03:00 srv4 systemd[1]: Starting logrotate.service - Rotate log files...
+2026-01-26T00:26:32-03:00 srv4 systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 595 (rsyslogd) on client request.
+2026-01-26T00:26:32-03:00 srv4 systemd[1]: logrotate.service: Deactivated successfully.
+2026-01-26T00:26:32-03:00 srv4 systemd[1]: Finished logrotate.service - Rotate log files.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: winbind.service: Consumed 4.728s CPU time, 42.5M memory peak.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T00:27:04-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T00:27:05-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T00:27:05-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T00:27:05-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T00:40:45-03:00 srv4 systemd[1]: Stopping networking.service - Raise network interfaces...
+2026-01-26T00:40:45-03:00 srv4 systemd[1]: networking.service: Deactivated successfully.
+2026-01-26T00:40:45-03:00 srv4 systemd[1]: Stopped networking.service - Raise network interfaces.
+2026-01-26T00:40:45-03:00 srv4 systemd[1]: Starting networking.service - Raise network interfaces...
+2026-01-26T00:40:51-03:00 srv4 systemd[1]: Finished networking.service - Raise network interfaces.
+2026-01-26T00:41:48-03:00 srv4 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-26T00:41:48-03:00 srv4 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-26T00:41:48-03:00 srv4 systemd[1]: session-1.scope: Consumed 6min 23.065s CPU time, 606.7M memory peak.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Activating special unit exit.target...
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopped target default.target - Main User Target.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Removed slice session.slice - User Core Session Slice.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopped target basic.target - Basic System.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopped target paths.target - Paths.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopped target sockets.target - Sockets.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopped target timers.target - Timers.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Removed slice app.slice - User Application Slice.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Reached target shutdown.target - Shutdown.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Finished systemd-exit.service - Exit the Session.
+2026-01-26T00:41:58-03:00 srv4 systemd[888]: Reached target exit.target - Exit the Session.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-26T00:41:58-03:00 srv4 systemd[1]: user-1000.slice: Consumed 6min 24.111s CPU time, 614.9M memory peak.
+2026-01-26T14:40:32-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T14:43:32-03:00 srv4 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T14:50:15-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T14:50:16-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T14:51:24-03:00 srv4 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-26T14:51:24-03:00 srv4 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-26T14:51:24-03:00 srv4 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-26T14:51:24-03:00 srv4 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-26T14:51:24-03:00 srv4 systemd[1]: winbind.service: Consumed 5.588s CPU time, 51.5M memory peak.
+2026-01-26T14:51:24-03:00 srv4 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-26T14:51:24-03:00 srv4 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-26T14:52:02-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T14:52:02-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T14:57:35-03:00 srv4 systemd[1]: Starting fstrim.service - Discard unused blocks on filesystems from /etc/fstab...
+2026-01-26T14:57:35-03:00 srv4 systemd[1]: fstrim.service: Deactivated successfully.
+2026-01-26T14:57:35-03:00 srv4 systemd[1]: Finished fstrim.service - Discard unused blocks on filesystems from /etc/fstab.
+2026-01-26T15:01:45-03:00 srv4 systemd[1]: Reload requested from client PID 1143 ('systemctl') (unit ssh.service)...
+2026-01-26T15:01:45-03:00 srv4 systemd[1]: Reloading...
+2026-01-26T15:01:46-03:00 srv4 systemd[1]: Reloading finished in 896 ms.
+2026-01-26T15:01:46-03:00 srv4 systemd[1]: Reload requested from client PID 1166 ('systemctl') (unit ssh.service)...
+2026-01-26T15:01:46-03:00 srv4 systemd[1]: Reloading...
+2026-01-26T15:01:47-03:00 srv4 systemd[1]: Reloading finished in 751 ms.
+2026-01-26T15:01:47-03:00 srv4 systemd[1]: Reload requested from client PID 1139 ('systemctl') (unit ssh.service)...
+2026-01-26T15:01:47-03:00 srv4 systemd[1]: Reloading...
+2026-01-26T15:01:48-03:00 srv4 systemd[1]: Reloading finished in 728 ms.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: winbind.service: Consumed 1.057s CPU time, 8.2M memory peak.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-26T15:04:50-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T15:04:51-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T15:04:51-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T15:04:51-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T15:04:51-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T15:04:52-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T15:28:38-03:00 srv4 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-26T15:28:38-03:00 srv4 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-26T15:28:38-03:00 srv4 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-26T15:28:38-03:00 srv4 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-26T15:28:38-03:00 srv4 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-26T15:28:38-03:00 srv4 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-26T15:28:38-03:00 srv4 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-26T15:28:39-03:00 srv4 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-26T15:28:39-03:00 srv4 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-26T15:28:39-03:00 srv4 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T15:28:39-03:00 srv4 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T15:28:39-03:00 srv4 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T15:28:39-03:00 srv4 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T15:28:40-03:00 srv4 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T15:28:41-03:00 srv4 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T15:34:32-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T15:46:17-03:00 srv4 systemd[1]: Stopping networking.service - Raise network interfaces...
+2026-01-26T15:46:18-03:00 srv4 systemd[1]: networking.service: Deactivated successfully.
+2026-01-26T15:46:18-03:00 srv4 systemd[1]: Stopped networking.service - Raise network interfaces.
+2026-01-26T15:46:18-03:00 srv4 systemd[1]: Starting networking.service - Raise network interfaces...
+2026-01-26T15:46:24-03:00 srv4 systemd[1]: Finished networking.service - Raise network interfaces.
+2026-01-26T15:54:51-03:00 srv4 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2026-01-26T15:54:51-03:00 srv4 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2026-01-26T15:55:18-03:00 srv4 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-01-26T15:55:18-03:00 srv4 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-01-26T15:55:22-03:00 srv4 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2026-01-26T15:55:48-03:00 srv4 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-01-26T16:30:32-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T17:31:32-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T18:32:25-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T15:34:16-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T15:46:16-03:00 srv4 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-28T15:46:16-03:00 srv4 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-28T15:46:16-03:00 srv4 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-28T16:09:06-03:00 srv4 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T16:09:06-03:00 srv4 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T16:35:16-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-28T16:40:16-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-28T17:34:30-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T18:19:18-03:00 srv4 systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T18:35:16-03:00 srv4 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T18:51:44-03:00 srv4 systemd[1]: Stopping mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T18:51:45-03:00 srv4 systemd[1]: mariadb.service: Deactivated successfully.
+2026-01-28T18:51:45-03:00 srv4 systemd[1]: Stopped mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T18:51:45-03:00 srv4 systemd[1]: mariadb.service: Consumed 18.507s CPU time, 162.4M memory peak.
+2026-01-28T18:51:45-03:00 srv4 systemd[1]: Starting mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T18:51:50-03:00 srv4 systemd[1]: Started mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T18:51:59-03:00 srv4 systemd[1]: Stopping mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T18:52:00-03:00 srv4 systemd[1]: mariadb.service: Deactivated successfully.
+2026-01-28T18:52:00-03:00 srv4 systemd[1]: Stopped mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T18:52:00-03:00 srv4 systemd[1]: mariadb.service: Consumed 4.483s CPU time, 127M memory peak.
+2026-01-28T18:52:00-03:00 srv4 systemd[1]: Starting mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T18:52:05-03:00 srv4 systemd[1]: Started mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:00:42-03:00 srv4 systemd[1]: Stopping mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:00:42-03:00 srv4 systemd[1]: mariadb.service: Deactivated successfully.
+2026-01-28T19:00:42-03:00 srv4 systemd[1]: Stopped mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:00:42-03:00 srv4 systemd[1]: mariadb.service: Consumed 5.195s CPU time, 127M memory peak.
+2026-01-28T19:00:42-03:00 srv4 systemd[1]: Starting mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:00:46-03:00 srv4 systemd[1]: mariadb.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+2026-01-28T19:00:46-03:00 srv4 systemd[1]: mariadb.service: Failed with result 'exit-code'.
+2026-01-28T19:00:46-03:00 srv4 systemd[1]: Failed to start mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:00:46-03:00 srv4 systemd[1]: mariadb.service: Consumed 2.709s CPU time, 119.2M memory peak.
+2026-01-28T19:01:14-03:00 srv4 systemd[1]: Starting mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:01:22-03:00 srv4 systemd[1]: Started mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:01:29-03:00 srv4 systemd[1]: Stopping mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:01:30-03:00 srv4 systemd[1]: mariadb.service: Deactivated successfully.
+2026-01-28T19:01:30-03:00 srv4 systemd[1]: Stopped mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:01:30-03:00 srv4 systemd[1]: mariadb.service: Consumed 7.228s CPU time, 126.3M memory peak.
+2026-01-28T19:01:30-03:00 srv4 systemd[1]: Starting mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:01:32-03:00 srv4 systemd[1]: Started mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:02:49-03:00 srv4 systemd[1]: Stopping mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:02:50-03:00 srv4 systemd[1]: mariadb.service: Deactivated successfully.
+2026-01-28T19:02:50-03:00 srv4 systemd[1]: Stopped mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:02:50-03:00 srv4 systemd[1]: mariadb.service: Consumed 2.475s CPU time, 126.7M memory peak.
+2026-01-28T19:02:50-03:00 srv4 systemd[1]: Starting mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:02:54-03:00 srv4 systemd[1]: Started mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:03:00-03:00 srv4 systemd[1]: Stopping mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:03:01-03:00 srv4 systemd[1]: mariadb.service: Deactivated successfully.
+2026-01-28T19:03:01-03:00 srv4 systemd[1]: Stopped mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:03:01-03:00 srv4 systemd[1]: mariadb.service: Consumed 3.979s CPU time, 126.1M memory peak.
+2026-01-28T19:03:01-03:00 srv4 systemd[1]: Starting mariadb.service - MariaDB 11.8.3 database server...
+2026-01-28T19:03:05-03:00 srv4 systemd[1]: Started mariadb.service - MariaDB 11.8.3 database server.
+2026-01-28T19:31:30-03:00 srv4 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-28T19:31:30-03:00 srv4 systemd[1]: anacron.service: Deactivated successfully.

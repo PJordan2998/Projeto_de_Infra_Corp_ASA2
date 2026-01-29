@@ -1,0 +1,8 @@
+2026-01-19T18:06:59-03:00 srv3 kernel: clocksource: timekeeping watchdog on CPU1: Marking clocksource 'tsc' as unstable because the skew is too large:
+2026-01-19T18:06:59-03:00 srv3 kernel: clocksource:                       'kvm-clock' wd_nsec: 765245132 wd_now: 8066a12bfcf wd_last: 8063c760903 mask: ffffffffffffffff
+2026-01-19T18:06:59-03:00 srv3 kernel: clocksource:                       'tsc' cs_nsec: 765887863 cs_now: 126c2b04a474 cs_last: 126bc238c251 mask: ffffffffffffffff
+2026-01-19T18:06:59-03:00 srv3 kernel: clocksource:                       Clocksource 'tsc' skewed 642731 ns (0 ms) over watchdog 'kvm-clock' interval of 765245132 ns (765 ms)
+2026-01-19T18:06:59-03:00 srv3 kernel: clocksource:                       'tsc' is current clocksource.
+2026-01-19T18:06:59-03:00 srv3 kernel: tsc: Marking TSC unstable due to clocksource watchdog
+2026-01-19T18:06:59-03:00 srv3 kernel: clocksource: Checking clocksource tsc synchronization from CPU 0 to CPUs 1.
+2026-01-19T18:06:59-03:00 srv3 kernel: clocksource: Switched to clocksource kvm-clock

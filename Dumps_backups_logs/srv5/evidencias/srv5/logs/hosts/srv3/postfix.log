@@ -1,0 +1,6 @@
+2026-01-26T18:14:38-03:00 srv3 postfix[897]: updating /etc/resolv.conf => /var/spool/postfix//etc/resolv.conf
+2026-01-26T18:14:39-03:00 srv3 postfix[923]: postfix/postlog: warning: group or other writable: /etc/postfix/./virtual
+2026-01-26T18:14:39-03:00 srv3 postfix/postfix-script[923]: warning: group or other writable: /etc/postfix/./virtual
+2026-01-26T18:14:39-03:00 srv3 postfix[924]: postfix/postlog: warning: group or other writable: /etc/postfix/./virtual_domains
+2026-01-26T18:14:39-03:00 srv3 postfix/postfix-script[924]: warning: group or other writable: /etc/postfix/./virtual_domains
+2026-01-26T18:14:40-03:00 srv3 postfix/master[965]: daemon started -- version 3.10.5, configuration /etc/postfix

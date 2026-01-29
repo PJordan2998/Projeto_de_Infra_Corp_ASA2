@@ -1,0 +1,4 @@
+2026-01-25T11:31:54-03:00 srv1 apparmor.systemd[459]: Restarting AppArmor
+2026-01-25T11:31:54-03:00 srv1 apparmor.systemd[459]: Reloading AppArmor profiles
+2026-01-26T18:59:54-03:00 srv1 apparmor.systemd[478]: Restarting AppArmor
+2026-01-26T18:59:54-03:00 srv1 apparmor.systemd[478]: Reloading AppArmor profiles

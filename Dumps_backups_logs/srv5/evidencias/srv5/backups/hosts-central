@@ -1,0 +1,27 @@
+#/var/log/hosts/*/*.log {
+#    weekly
+#    rotate 6
+#    compress
+#    delaycompress
+#    missingok
+#    notifempty
+#    create 0640 root adm
+#}
+
+
+/var/log/hosts/*/*.log {
+    weekly
+    rotate 6
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+    sharedscripts
+
+    postrotate
+        systemctl reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+

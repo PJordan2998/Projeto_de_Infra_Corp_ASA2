@@ -1,0 +1,132 @@
+Mon Jan 26 14:35:04 2026 -> +++ Started at Mon Jan 26 14:35:04 2026
+Mon Jan 26 14:35:05 2026 -> Received 1 file descriptor(s) from systemd.
+Mon Jan 26 14:35:05 2026 -> clamd daemon 1.4.3 (OS: Linux, ARCH: x86_64, CPU: x86_64)
+Mon Jan 26 14:35:05 2026 -> Log file size limited to 9223372036854775807 bytes.
+Mon Jan 26 14:35:05 2026 -> Reading databases from /var/lib/clamav
+Mon Jan 26 14:35:05 2026 -> Not loading PUA signatures.
+Mon Jan 26 14:35:05 2026 -> Bytecode: Security mode set to "TrustSigned".
+Mon Jan 26 14:35:47 2026 -> Loaded 3627214 signatures.
+Mon Jan 26 14:36:15 2026 -> TCP: No tcp AF_INET/AF_INET6 SOCK_STREAM socket received from systemd.
+Mon Jan 26 14:36:15 2026 -> LOCAL: Received AF_UNIX SOCK_STREAM socket from systemd.
+Mon Jan 26 14:36:15 2026 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Jan 26 14:36:15 2026 -> Limits: Global size limit set to 104857600 bytes.
+Mon Jan 26 14:36:15 2026 -> Limits: File size limit set to 26214400 bytes.
+Mon Jan 26 14:36:15 2026 -> Limits: Recursion level limit set to 16.
+Mon Jan 26 14:36:15 2026 -> Limits: Files limit set to 10000.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxPartitions limit set to 50.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxIconsPE limit set to 100.
+Mon Jan 26 14:36:15 2026 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Jan 26 14:36:15 2026 -> Limits: PCREMatchLimit limit set to 10000.
+Mon Jan 26 14:36:15 2026 -> Limits: PCRERecMatchLimit limit set to 5000.
+Mon Jan 26 14:36:15 2026 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Jan 26 14:36:15 2026 -> Archive support enabled.
+Mon Jan 26 14:36:15 2026 -> Image (graphics) scanning support enabled.
+Mon Jan 26 14:36:15 2026 -> Detection using image fuzzy hash enabled.
+Mon Jan 26 14:36:15 2026 -> AlertExceedsMax heuristic detection disabled.
+Mon Jan 26 14:36:15 2026 -> Heuristic alerts enabled.
+Mon Jan 26 14:36:15 2026 -> Portable Executable support enabled.
+Mon Jan 26 14:36:15 2026 -> ELF support enabled.
+Mon Jan 26 14:36:15 2026 -> Mail files support enabled.
+Mon Jan 26 14:36:15 2026 -> OLE2 support enabled.
+Mon Jan 26 14:36:15 2026 -> PDF support enabled.
+Mon Jan 26 14:36:15 2026 -> SWF support enabled.
+Mon Jan 26 14:36:15 2026 -> HTML support enabled.
+Mon Jan 26 14:36:15 2026 -> XMLDOCS support enabled.
+Mon Jan 26 14:36:15 2026 -> HWP3 support enabled.
+Mon Jan 26 14:36:15 2026 -> OneNote support enabled.
+Mon Jan 26 14:36:15 2026 -> Self checking every 3600 seconds.
+Mon Jan 26 15:36:15 2026 -> SelfCheck: Database status OK.
+Mon Jan 26 16:36:15 2026 -> SelfCheck: Database status OK.
+Mon Jan 26 16:56:58 2026 -> /var/lib/amavis/tmp/amavis-20260126T165657-01013-MkTFXXks/parts/p001: Eicar-Signature(f079fa479d272525a158e63decc82bcc:71) FOUND
+Mon Jan 26 17:37:57 2026 -> SelfCheck: Database status OK.
+Mon Jan 26 19:00:57 2026 -> +++ Started at Mon Jan 26 19:00:57 2026
+Mon Jan 26 19:00:58 2026 -> Received 1 file descriptor(s) from systemd.
+Mon Jan 26 19:00:58 2026 -> clamd daemon 1.4.3 (OS: Linux, ARCH: x86_64, CPU: x86_64)
+Mon Jan 26 19:00:58 2026 -> Log file size limited to 9223372036854775807 bytes.
+Mon Jan 26 19:00:58 2026 -> Reading databases from /var/lib/clamav
+Mon Jan 26 19:00:58 2026 -> Not loading PUA signatures.
+Mon Jan 26 19:00:58 2026 -> Bytecode: Security mode set to "TrustSigned".
+Mon Jan 26 18:15:06 2026 -> Loaded 3627214 signatures.
+Mon Jan 26 18:15:10 2026 -> TCP: No tcp AF_INET/AF_INET6 SOCK_STREAM socket received from systemd.
+Mon Jan 26 18:15:10 2026 -> LOCAL: Received AF_UNIX SOCK_STREAM socket from systemd.
+Mon Jan 26 18:15:10 2026 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Jan 26 18:15:10 2026 -> Limits: Global size limit set to 104857600 bytes.
+Mon Jan 26 18:15:10 2026 -> Limits: File size limit set to 26214400 bytes.
+Mon Jan 26 18:15:10 2026 -> Limits: Recursion level limit set to 16.
+Mon Jan 26 18:15:10 2026 -> Limits: Files limit set to 10000.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxPartitions limit set to 50.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxIconsPE limit set to 100.
+Mon Jan 26 18:15:10 2026 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Jan 26 18:15:10 2026 -> Limits: PCREMatchLimit limit set to 10000.
+Mon Jan 26 18:15:10 2026 -> Limits: PCRERecMatchLimit limit set to 5000.
+Mon Jan 26 18:15:10 2026 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Jan 26 18:15:10 2026 -> Archive support enabled.
+Mon Jan 26 18:15:10 2026 -> Image (graphics) scanning support enabled.
+Mon Jan 26 18:15:10 2026 -> Detection using image fuzzy hash enabled.
+Mon Jan 26 18:15:10 2026 -> AlertExceedsMax heuristic detection disabled.
+Mon Jan 26 18:15:10 2026 -> Heuristic alerts enabled.
+Mon Jan 26 18:15:10 2026 -> Portable Executable support enabled.
+Mon Jan 26 18:15:10 2026 -> ELF support enabled.
+Mon Jan 26 18:15:10 2026 -> Mail files support enabled.
+Mon Jan 26 18:15:10 2026 -> OLE2 support enabled.
+Mon Jan 26 18:15:10 2026 -> PDF support enabled.
+Mon Jan 26 18:15:10 2026 -> SWF support enabled.
+Mon Jan 26 18:15:10 2026 -> HTML support enabled.
+Mon Jan 26 18:15:10 2026 -> XMLDOCS support enabled.
+Mon Jan 26 18:15:10 2026 -> HWP3 support enabled.
+Mon Jan 26 18:15:10 2026 -> OneNote support enabled.
+Mon Jan 26 18:15:10 2026 -> Self checking every 3600 seconds.
+Wed Jan 28 15:29:52 2026 -> +++ Started at Wed Jan 28 15:29:52 2026
+Wed Jan 28 15:29:52 2026 -> Received 1 file descriptor(s) from systemd.
+Wed Jan 28 15:29:52 2026 -> clamd daemon 1.4.3 (OS: Linux, ARCH: x86_64, CPU: x86_64)
+Wed Jan 28 15:29:52 2026 -> Log file size limited to 9223372036854775807 bytes.
+Wed Jan 28 15:29:52 2026 -> Reading databases from /var/lib/clamav
+Wed Jan 28 15:29:52 2026 -> Not loading PUA signatures.
+Wed Jan 28 15:29:52 2026 -> Bytecode: Security mode set to "TrustSigned".
+Wed Jan 28 15:30:32 2026 -> Loaded 3627214 signatures.
+Wed Jan 28 15:30:59 2026 -> TCP: No tcp AF_INET/AF_INET6 SOCK_STREAM socket received from systemd.
+Wed Jan 28 15:30:59 2026 -> LOCAL: Received AF_UNIX SOCK_STREAM socket from systemd.
+Wed Jan 28 15:30:59 2026 -> Limits: Global time limit set to 120000 milliseconds.
+Wed Jan 28 15:30:59 2026 -> Limits: Global size limit set to 104857600 bytes.
+Wed Jan 28 15:30:59 2026 -> Limits: File size limit set to 26214400 bytes.
+Wed Jan 28 15:30:59 2026 -> Limits: Recursion level limit set to 16.
+Wed Jan 28 15:30:59 2026 -> Limits: Files limit set to 10000.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxPartitions limit set to 50.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxIconsPE limit set to 100.
+Wed Jan 28 15:30:59 2026 -> Limits: MaxRecHWP3 limit set to 16.
+Wed Jan 28 15:30:59 2026 -> Limits: PCREMatchLimit limit set to 10000.
+Wed Jan 28 15:30:59 2026 -> Limits: PCRERecMatchLimit limit set to 5000.
+Wed Jan 28 15:30:59 2026 -> Limits: PCREMaxFileSize limit set to 26214400.
+Wed Jan 28 15:30:59 2026 -> Archive support enabled.
+Wed Jan 28 15:30:59 2026 -> Image (graphics) scanning support enabled.
+Wed Jan 28 15:30:59 2026 -> Detection using image fuzzy hash enabled.
+Wed Jan 28 15:30:59 2026 -> AlertExceedsMax heuristic detection disabled.
+Wed Jan 28 15:30:59 2026 -> Heuristic alerts enabled.
+Wed Jan 28 15:30:59 2026 -> Portable Executable support enabled.
+Wed Jan 28 15:30:59 2026 -> ELF support enabled.
+Wed Jan 28 15:30:59 2026 -> Mail files support enabled.
+Wed Jan 28 15:30:59 2026 -> OLE2 support enabled.
+Wed Jan 28 15:30:59 2026 -> PDF support enabled.
+Wed Jan 28 15:30:59 2026 -> SWF support enabled.
+Wed Jan 28 15:30:59 2026 -> HTML support enabled.
+Wed Jan 28 15:30:59 2026 -> XMLDOCS support enabled.
+Wed Jan 28 15:30:59 2026 -> HWP3 support enabled.
+Wed Jan 28 15:30:59 2026 -> OneNote support enabled.
+Wed Jan 28 15:30:59 2026 -> Self checking every 3600 seconds.
+Wed Jan 28 16:31:00 2026 -> SelfCheck: Database status OK.
+Wed Jan 28 17:31:00 2026 -> SelfCheck: Database status OK.

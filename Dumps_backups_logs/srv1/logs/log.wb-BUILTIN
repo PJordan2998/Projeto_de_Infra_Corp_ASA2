@@ -1,0 +1,6 @@
+[2025/12/21 19:00:32.632254,  0] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=0)
+[2026/01/25 10:38:47.522566,  0] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=0)
+[2026/01/26 14:53:15.775415,  0] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=0)

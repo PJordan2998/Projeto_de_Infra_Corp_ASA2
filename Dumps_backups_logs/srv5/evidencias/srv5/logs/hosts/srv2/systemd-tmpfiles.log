@@ -1,0 +1,8 @@
+2026-01-22T19:25:07-03:00 srv2 systemd-tmpfiles[857]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-01-24T10:31:42-03:00 srv2 systemd-tmpfiles[925]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-01-25T06:17:01-03:00 srv2 systemd-tmpfiles[885]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-01-25T17:41:49-03:00 srv2 systemd-tmpfiles[470]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-01-25T12:20:01-03:00 srv2 systemd-tmpfiles[1010]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-01-25T22:35:38-03:00 srv2 systemd-tmpfiles[967]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-01-26T14:48:54-03:00 srv2 systemd-tmpfiles[949]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.
+2026-01-28T15:43:15-03:00 srv2 systemd-tmpfiles[884]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path "/run/lock", ignoring.

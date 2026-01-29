@@ -1,0 +1,17 @@
+#/var/log/servicos/mail.log {
+#    daily
+#    rotate 14
+#    compress
+#    missingok
+#}
+
+/var/log/servicos/mail.log {
+    daily
+    rotate 30
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+}

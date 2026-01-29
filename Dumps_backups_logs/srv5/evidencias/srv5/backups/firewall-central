@@ -1,0 +1,18 @@
+#/var/log/hosts/srv2/iptables.log {
+#    daily
+#    rotate 10
+#    compress
+#    missingok
+#    notifempty
+#}
+
+/var/log/hosts/*/iptables.log {
+    size 50M
+    rotate 10
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+}

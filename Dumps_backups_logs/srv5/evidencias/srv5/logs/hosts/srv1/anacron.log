@@ -1,0 +1,54 @@
+2026-01-22T20:33:23-03:00 srv1 anacron[1184]: Anacron 2.3 started on 2026-01-22
+2026-01-22T20:33:23-03:00 srv1 anacron[1184]: Will run job `cron.daily' in 5 min.
+2026-01-22T20:33:23-03:00 srv1 anacron[1184]: Will run job `cron.monthly' in 15 min.
+2026-01-22T20:33:23-03:00 srv1 anacron[1184]: Jobs will be executed sequentially
+2026-01-22T20:38:23-03:00 srv1 anacron[1184]: Job `cron.daily' started
+2026-01-22T20:38:23-03:00 srv1 anacron[1207]: Updated timestamp for job `cron.daily' to 2026-01-22
+2026-01-22T20:38:23-03:00 srv1 anacron[1184]: Job `cron.daily' terminated
+2026-01-22T20:48:23-03:00 srv1 anacron[1184]: Job `cron.monthly' started
+2026-01-22T20:48:23-03:00 srv1 anacron[1184]: Job `cron.monthly' terminated
+2026-01-22T20:48:23-03:00 srv1 anacron[1184]: Normal exit (2 jobs run)
+2026-01-22T20:48:23-03:00 srv1 anacron[1243]: Updated timestamp for job `cron.monthly' to 2026-01-22
+2026-01-24T10:20:25-03:00 srv1 anacron[584]: Job `cron.daily' started
+2026-01-24T10:20:25-03:00 srv1 anacron[895]: Updated timestamp for job `cron.daily' to 2026-01-24
+2026-01-24T10:20:25-03:00 srv1 anacron[584]: Job `cron.daily' terminated
+2026-01-24T10:20:25-03:00 srv1 anacron[584]: Normal exit (1 job run)
+2026-01-24T10:32:27-03:00 srv1 anacron[945]: Anacron 2.3 started on 2026-01-24
+2026-01-24T10:32:27-03:00 srv1 anacron[945]: Normal exit (0 jobs run)
+2026-01-24T12:32:37-03:00 srv1 anacron[1370]: Anacron 2.3 started on 2026-01-24
+2026-01-24T12:32:37-03:00 srv1 anacron[1370]: Normal exit (0 jobs run)
+2026-01-24T14:31:46-03:00 srv1 anacron[1817]: Anacron 2.3 started on 2026-01-24
+2026-01-24T14:31:46-03:00 srv1 anacron[1817]: Normal exit (0 jobs run)
+2026-01-25T07:33:00-03:00 srv1 anacron[1365]: Anacron 2.3 started on 2026-01-25
+2026-01-25T07:33:00-03:00 srv1 anacron[1365]: Will run job `cron.daily' in 5 min.
+2026-01-25T07:33:00-03:00 srv1 anacron[1365]: Will run job `cron.weekly' in 10 min.
+2026-01-25T07:33:00-03:00 srv1 anacron[1365]: Jobs will be executed sequentially
+2026-01-25T07:38:00-03:00 srv1 anacron[1365]: Job `cron.daily' started
+2026-01-25T07:38:00-03:00 srv1 anacron[1408]: Updated timestamp for job `cron.daily' to 2026-01-25
+2026-01-25T07:38:00-03:00 srv1 anacron[1365]: Job `cron.daily' terminated
+2026-01-25T07:43:00-03:00 srv1 anacron[1365]: Job `cron.weekly' started
+2026-01-25T07:43:00-03:00 srv1 anacron[1476]: Updated timestamp for job `cron.weekly' to 2026-01-25
+2026-01-25T07:43:00-03:00 srv1 anacron[1365]: Job `cron.weekly' terminated
+2026-01-25T07:43:00-03:00 srv1 anacron[1365]: Normal exit (2 jobs run)
+2026-01-25T10:33:00-03:00 srv1 anacron[2296]: Anacron 2.3 started on 2026-01-25
+2026-01-25T10:33:00-03:00 srv1 anacron[2296]: Normal exit (0 jobs run)
+2026-01-25T12:32:16-03:00 srv1 anacron[1267]: Anacron 2.3 started on 2026-01-25
+2026-01-25T12:32:17-03:00 srv1 anacron[1267]: Normal exit (0 jobs run)
+2026-01-25T23:35:31-03:00 srv1 anacron[1192]: Anacron 2.3 started on 2026-01-25
+2026-01-25T23:35:31-03:00 srv1 anacron[1192]: Normal exit (0 jobs run)
+2026-01-26T18:59:54-03:00 srv1 anacron[598]: Anacron 2.3 started on 2026-01-26
+2026-01-26T18:59:54-03:00 srv1 anacron[598]: Will run job `cron.daily' in 5 min.
+2026-01-26T18:59:54-03:00 srv1 anacron[598]: Jobs will be executed sequentially
+2026-01-26T18:18:26-03:00 srv1 anacron[598]: Job `cron.daily' started
+2026-01-26T18:18:26-03:00 srv1 anacron[1017]: Updated timestamp for job `cron.daily' to 2026-01-26
+2026-01-26T18:18:26-03:00 srv1 anacron[598]: Job `cron.daily' terminated
+2026-01-26T18:18:26-03:00 srv1 anacron[598]: Normal exit (1 job run)
+2026-01-28T16:33:20-03:00 srv1 anacron[1172]: Anacron 2.3 started on 2026-01-28
+2026-01-28T16:33:20-03:00 srv1 anacron[1172]: Will run job `cron.daily' in 5 min.
+2026-01-28T16:33:20-03:00 srv1 anacron[1172]: Jobs will be executed sequentially
+2026-01-28T16:38:20-03:00 srv1 anacron[1172]: Job `cron.daily' started
+2026-01-28T16:38:20-03:00 srv1 anacron[1196]: Updated timestamp for job `cron.daily' to 2026-01-28
+2026-01-28T16:38:20-03:00 srv1 anacron[1172]: Job `cron.daily' terminated
+2026-01-28T16:38:20-03:00 srv1 anacron[1172]: Normal exit (1 job run)
+2026-01-28T19:31:20-03:00 srv1 anacron[2206]: Anacron 2.3 started on 2026-01-28
+2026-01-28T19:31:20-03:00 srv1 anacron[2206]: Normal exit (0 jobs run)

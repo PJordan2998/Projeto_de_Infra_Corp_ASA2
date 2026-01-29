@@ -1,0 +1,46 @@
+2026-01-25T07:47:52-03:00 srv2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/su -
+2026-01-25T07:47:52-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-25T12:02:50-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:53:37-03:00 srv2 sudo:    pedro : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/cat /etc/network/interfaces
+2026-01-28T17:54:50-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/cat /etc/network/interfaces
+2026-01-28T17:54:50-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:54:50-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:57:28-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -L POSTROUTING -n -v
+2026-01-28T17:57:28-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:57:28-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:57:38-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -D POSTROUTING -o enp0s3 -j MASQUERADE
+2026-01-28T17:57:38-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:57:38-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:57:42-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -L POSTROUTING -n -v
+2026-01-28T17:57:42-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:57:42-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:58:19-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -A POSTROUTING -o enp0s8 -j MASQUERADE
+2026-01-28T17:58:19-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:58:19-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:58:23-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -L POSTROUTING -n -v
+2026-01-28T17:58:23-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:58:23-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:09:49-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/ls -lR evidencias/
+2026-01-28T18:09:49-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:09:49-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:10:17-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chown -R pedro:pedro evidencias/
+2026-01-28T18:10:18-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:10:18-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:10:37-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/ls -lR evidencias/
+2026-01-28T18:10:37-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:10:37-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:11:07-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 777 /root/evidencias
+2026-01-28T18:11:07-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:11:07-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:11:24-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 666 evidencias
+2026-01-28T18:11:24-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:11:24-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:11:49-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/ls -lR evidencias/
+2026-01-28T18:11:49-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:11:49-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:12:04-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 777 evidencias
+2026-01-28T18:12:05-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:12:05-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:14:59-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/mv evidencias/ /root/
+2026-01-28T18:14:59-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:14:59-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root

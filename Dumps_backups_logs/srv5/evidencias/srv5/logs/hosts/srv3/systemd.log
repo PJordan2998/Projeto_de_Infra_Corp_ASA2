@@ -1,0 +1,531 @@
+2026-01-19T18:12:44-03:00 srv3 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-19T18:12:44-03:00 srv3 systemd[1]: session-1.scope: Consumed 1.759s CPU time, 21.8M memory peak.
+2026-01-19T18:12:45-03:00 srv3 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-19T18:12:55-03:00 srv3 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Activating special unit exit.target...
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopped target default.target - Main User Target.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Removed slice session.slice - User Core Session Slice.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopped target basic.target - Basic System.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopped target paths.target - Paths.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopped target sockets.target - Sockets.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopped target timers.target - Timers.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-19T18:12:55-03:00 srv3 systemd[1053]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-19T18:12:56-03:00 srv3 systemd[1053]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-19T18:12:56-03:00 srv3 systemd[1053]: Removed slice app.slice - User Application Slice.
+2026-01-19T18:12:56-03:00 srv3 systemd[1053]: Reached target shutdown.target - Shutdown.
+2026-01-19T18:12:56-03:00 srv3 systemd[1053]: Finished systemd-exit.service - Exit the Session.
+2026-01-19T18:12:56-03:00 srv3 systemd[1053]: Reached target exit.target - Exit the Session.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: user@1000.service: Consumed 1.399s CPU time, 13.9M memory peak.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-19T18:12:56-03:00 srv3 systemd[1]: user-1000.slice: Consumed 3.418s CPU time, 32.6M memory peak.
+2026-01-22T19:14:01-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:17:36-03:00 srv3 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:25:36-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-22T19:25:36-03:00 srv3 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-22T19:25:36-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-22T19:28:36-03:00 srv3 systemd[1]: spamassassin-maintenance.service - Daily spamassassin rule refresh was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:31:07-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T19:36:07-03:00 srv3 systemd[1]: man-db.service - Daily man-db regeneration was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T20:08:01-03:00 srv3 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-22T20:30:36-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-22T20:35:39-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T10:22:30-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T10:30:56-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T10:30:56-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T10:32:59-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-24T10:32:59-03:00 srv3 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-24T10:32:59-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-24T10:38:56-03:00 srv3 systemd[1]: Starting logrotate.service - Rotate log files...
+2026-01-24T10:38:57-03:00 srv3 systemd[1]: logrotate.service: Deactivated successfully.
+2026-01-24T10:38:57-03:00 srv3 systemd[1]: Finished logrotate.service - Rotate log files.
+2026-01-24T10:47:09-03:00 srv3 systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+2026-01-24T10:47:11-03:00 srv3 systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+2026-01-24T10:47:11-03:00 srv3 systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+2026-01-24T10:47:11-03:00 srv3 systemd[1]: apt-daily-upgrade.service: Consumed 1.233s CPU time, 63M memory peak.
+2026-01-24T11:05:56-03:00 srv3 systemd[1]: spamassassin-maintenance.service - Daily spamassassin rule refresh was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T11:30:56-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T12:31:56-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T12:31:56-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-24T13:33:56-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-24T14:31:56-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-24T14:31:56-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T06:06:26-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T06:07:19-03:00 srv3 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T06:07:19-03:00 srv3 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T06:07:19-03:00 srv3 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T06:07:19-03:00 srv3 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-01-25T06:07:20-03:00 srv3 systemd[976]: Queued start job for default target default.target.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Created slice app.slice - User Application Slice.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Reached target paths.target - Paths.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Reached target timers.target - Timers.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Reached target sockets.target - Sockets.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Reached target basic.target - Basic System.
+2026-01-25T06:07:21-03:00 srv3 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-01-25T06:07:21-03:00 srv3 systemd[1]: Started session-1.scope - Session 1 of User pedro.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Reached target default.target - Main User Target.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Startup finished in 1.221s.
+2026-01-25T06:07:21-03:00 srv3 systemd[1]: Started session-3.scope - Session 3 of User pedro.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Created slice session.slice - User Core Session Slice.
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Starting dbus.service - D-Bus User Message Bus...
+2026-01-25T06:07:21-03:00 srv3 systemd[976]: Started dbus.service - D-Bus User Message Bus.
+2026-01-25T06:17:01-03:00 srv3 systemd[1]: spamassassin-maintenance.service - Daily spamassassin rule refresh was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T06:18:01-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-25T06:18:01-03:00 srv3 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-25T06:18:01-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-25T06:22:18-03:00 srv3 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-01-25T06:22:19-03:00 srv3 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-01-25T06:22:49-03:00 srv3 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-01-25T06:26:31-03:00 srv3 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-01-25T06:26:32-03:00 srv3 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-01-25T06:27:02-03:00 srv3 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-01-25T06:43:26-03:00 srv3 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T06:55:26-03:00 srv3 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T07:33:26-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T07:38:26-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T08:34:56-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T09:35:01-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T09:35:01-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T10:31:26-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T10:31:26-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T11:30:26-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T12:30:26-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T12:30:26-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-25T12:42:43-03:00 srv3 systemd[1]: Reload requested from client PID 3127 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:43-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:44-03:00 srv3 systemd[1]: Reloading finished in 1564 ms.
+2026-01-25T12:42:44-03:00 srv3 systemd[1]: Starting man-db.service - Daily man-db regeneration...
+2026-01-25T12:42:45-03:00 srv3 systemd[1]: Reload requested from client PID 3167 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:45-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:45-03:00 srv3 systemd[1]: Reloading finished in 447 ms.
+2026-01-25T12:42:45-03:00 srv3 systemd[1]: Starting apt-daily.service - Daily apt download activities...
+2026-01-25T12:42:45-03:00 srv3 systemd[1]: Reload requested from client PID 3228 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:45-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:46-03:00 srv3 systemd[1]: Reloading finished in 485 ms.
+2026-01-25T12:42:46-03:00 srv3 systemd[1]: apt-daily.service: Deactivated successfully.
+2026-01-25T12:42:46-03:00 srv3 systemd[1]: Finished apt-daily.service - Daily apt download activities.
+2026-01-25T12:42:46-03:00 srv3 systemd[1]: Reached target network-online.target - Network is Online.
+2026-01-25T12:42:46-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T12:42:47-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T12:42:47-03:00 srv3 systemd[1]: Reload requested from client PID 3300 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:47-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:48-03:00 srv3 systemd[1]: Reloading finished in 421 ms.
+2026-01-25T12:42:48-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T12:42:48-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T12:42:48-03:00 srv3 systemd[1]: Reload requested from client PID 3354 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:48-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:49-03:00 srv3 systemd[1]: Reloading finished in 444 ms.
+2026-01-25T12:42:49-03:00 srv3 systemd[1]: Reload requested from client PID 3395 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:49-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:50-03:00 srv3 systemd[1]: Reloading finished in 386 ms.
+2026-01-25T12:42:50-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T12:42:50-03:00 srv3 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-25T12:42:51-03:00 srv3 systemd[1]: Reload requested from client PID 3459 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:51-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:51-03:00 srv3 systemd[1]: Reloading finished in 506 ms.
+2026-01-25T12:42:52-03:00 srv3 systemd[1]: Reload requested from client PID 3500 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:42:52-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:42:52-03:00 srv3 systemd[1]: Reloading finished in 441 ms.
+2026-01-25T12:42:52-03:00 srv3 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T12:42:52-03:00 srv3 systemd[1]: samba-ad-dc.service: Skipped due to 'exec-condition'.
+2026-01-25T12:42:52-03:00 srv3 systemd[1]: Condition check resulted in samba-ad-dc.service - Samba AD Daemon being skipped.
+2026-01-25T12:42:56-03:00 srv3 systemd[1]: man-db.service: Deactivated successfully.
+2026-01-25T12:42:56-03:00 srv3 systemd[1]: Finished man-db.service - Daily man-db regeneration.
+2026-01-25T12:42:56-03:00 srv3 systemd[1]: man-db.service: Consumed 2.016s CPU time, 34.1M memory peak.
+2026-01-25T12:44:58-03:00 srv3 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T12:44:58-03:00 srv3 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T12:44:58-03:00 srv3 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T12:44:58-03:00 srv3 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T12:44:58-03:00 srv3 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T12:44:58-03:00 srv3 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T12:44:58-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T12:44:59-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T12:44:59-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T12:44:59-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T12:45:38-03:00 srv3 systemd[1]: Reload requested from client PID 3601 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:45:38-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:45:39-03:00 srv3 systemd[1]: Reloading finished in 573 ms.
+2026-01-25T12:45:39-03:00 srv3 systemd[1]: Reload requested from client PID 3632 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:45:39-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:45:39-03:00 srv3 systemd[1]: Reloading finished in 385 ms.
+2026-01-25T12:45:39-03:00 srv3 systemd[1]: Reload requested from client PID 3597 ('systemctl') (unit session-1.scope)...
+2026-01-25T12:45:39-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T12:45:40-03:00 srv3 systemd[1]: Reloading finished in 367 ms.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Stopping winbind.service - Samba Winbind Daemon...
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: winbind.service: Deactivated successfully.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Stopped winbind.service - Samba Winbind Daemon.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: winbind.service: Consumed 4.395s CPU time, 42.1M memory peak.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T12:57:53-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T12:57:54-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T12:57:54-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T12:57:54-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T12:57:54-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T12:58:43-03:00 srv3 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-25T12:58:43-03:00 srv3 systemd[1]: samba-ad-dc.service: Skipped due to 'exec-condition'.
+2026-01-25T12:58:43-03:00 srv3 systemd[1]: Condition check resulted in samba-ad-dc.service - Samba AD Daemon being skipped.
+2026-01-25T12:58:56-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T12:58:56-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T12:58:56-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T12:58:56-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T13:00:54-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: Stopping systemd-logind.service - User Login Management...
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: systemd-logind.service: Deactivated successfully.
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: Stopped systemd-logind.service - User Login Management.
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: modprobe@drm.service: Deactivated successfully.
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: Starting systemd-logind.service - User Login Management...
+2026-01-25T13:00:55-03:00 srv3 systemd[1]: Started systemd-logind.service - User Login Management.
+2026-01-25T13:02:25-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:02:25-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T13:02:25-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T13:02:25-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:02:34-03:00 srv3 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T13:02:34-03:00 srv3 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T13:02:34-03:00 srv3 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T13:02:34-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T13:02:35-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:04:30-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:04:31-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T13:04:31-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T13:04:31-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:12:32-03:00 srv3 systemd[1]: Reload requested from client PID 4072 ('systemctl') (unit session-1.scope)...
+2026-01-25T13:12:32-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T13:12:33-03:00 srv3 systemd[1]: Reloading finished in 476 ms.
+2026-01-25T13:12:33-03:00 srv3 systemd[1]: Reload requested from client PID 4104 ('systemctl') (unit session-1.scope)...
+2026-01-25T13:12:33-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T13:12:33-03:00 srv3 systemd[1]: Reloading finished in 434 ms.
+2026-01-25T13:12:33-03:00 srv3 systemd[1]: Reload requested from client PID 4068 ('systemctl') (unit session-1.scope)...
+2026-01-25T13:12:33-03:00 srv3 systemd[1]: Reloading...
+2026-01-25T13:12:34-03:00 srv3 systemd[1]: Reloading finished in 332 ms.
+2026-01-25T13:12:34-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:12:34-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T13:12:34-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T13:12:34-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: ssh.service: Deactivated successfully.
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: ssh.service: Consumed 1.112s CPU time, 27.1M memory peak.
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-01-25T13:12:56-03:00 srv3 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T13:16:23-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T13:16:45-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:16:46-03:00 srv3 systemd[1]: winbind.service: Main process exited, code=exited, status=1/FAILURE
+2026-01-25T13:16:46-03:00 srv3 systemd[1]: winbind.service: Failed with result 'exit-code'.
+2026-01-25T13:16:46-03:00 srv3 systemd[1]: Failed to start winbind.service - Samba Winbind Daemon.
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Stopping smbd.service - Samba SMB Daemon...
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: smbd.service: Deactivated successfully.
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Stopped smbd.service - Samba SMB Daemon.
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Stopping nmbd.service - Samba NMB Daemon...
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: nmbd.service: Deactivated successfully.
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Stopped nmbd.service - Samba NMB Daemon.
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-25T13:24:19-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-25T13:24:20-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-25T13:33:26-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T13:50:05-03:00 srv3 systemd[1]: session-1.scope: Deactivated successfully.
+2026-01-25T13:50:05-03:00 srv3 systemd[1]: session-1.scope: Consumed 1min 12.459s CPU time, 343.6M memory peak, 4K memory swap peak.
+2026-01-25T13:50:05-03:00 srv3 systemd[1]: session-3.scope: Deactivated successfully.
+2026-01-25T13:50:16-03:00 srv3 systemd[1]: Stopping user@1000.service - User Manager for UID 1000...
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Activating special unit exit.target...
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopped target default.target - Main User Target.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopping mpris-proxy.service - Bluetooth mpris proxy...
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopped mpris-proxy.service - Bluetooth mpris proxy.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopping dbus.service - D-Bus User Message Bus...
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopped dbus.service - D-Bus User Message Bus.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Removed slice session.slice - User Core Session Slice.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopped target basic.target - Basic System.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopped target paths.target - Paths.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopped target sockets.target - Sockets.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Stopped target timers.target - Timers.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-01-25T13:50:16-03:00 srv3 systemd[976]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Stopping gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Closed keyboxd.socket - GnuPG public key management service.
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Removed slice app.slice - User Application Slice.
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Reached target shutdown.target - Shutdown.
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Finished systemd-exit.service - Exit the Session.
+2026-01-25T13:50:17-03:00 srv3 systemd[976]: Reached target exit.target - Exit the Session.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: user@1000.service: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: Stopped user@1000.service - User Manager for UID 1000.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: user@1000.service: Consumed 2.057s CPU time, 13.4M memory peak.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: Stopping user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: run-user-1000.mount: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: Stopped user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: Removed slice user-1000.slice - User Slice of UID 1000.
+2026-01-25T13:50:17-03:00 srv3 systemd[1]: user-1000.slice: Consumed 1min 14.991s CPU time, 354M memory peak, 4K memory swap peak.
+2026-01-25T22:26:19-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T22:31:06-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-25T22:37:11-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-25T22:37:12-03:00 srv3 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-25T22:37:12-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-25T23:31:11-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-25T23:31:11-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-26T00:00:01-03:00 srv3 systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+2026-01-26T00:00:01-03:00 srv3 systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+2026-01-26T00:00:01-03:00 srv3 systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+2026-01-26T00:38:11-03:00 srv3 systemd[1]: Starting logrotate.service - Rotate log files...
+2026-01-26T00:38:11-03:00 srv3 systemd[1]: clamav-daemon.service: Sent signal SIGHUP to main process 636 (clamd) on client request.
+2026-01-26T00:38:11-03:00 srv3 systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 601 (rsyslogd) on client request.
+2026-01-26T00:38:11-03:00 srv3 systemd[1]: logrotate.service: Deactivated successfully.
+2026-01-26T00:38:11-03:00 srv3 systemd[1]: Finished logrotate.service - Rotate log files.
+2026-01-26T14:49:57-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-26T14:49:58-03:00 srv3 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-26T14:49:58-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-26T15:06:37-03:00 srv3 systemd[1]: spamassassin-maintenance.service - Daily spamassassin rule refresh was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T15:24:37-03:00 srv3 systemd[1]: Starting fstrim.service - Discard unused blocks on filesystems from /etc/fstab...
+2026-01-26T15:24:37-03:00 srv3 systemd[1]: fstrim.service: Deactivated successfully.
+2026-01-26T15:24:37-03:00 srv3 systemd[1]: Finished fstrim.service - Discard unused blocks on filesystems from /etc/fstab.
+2026-01-26T15:27:58-03:00 srv3 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T15:32:58-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T15:53:58-03:00 srv3 systemd[1]: Starting apt-daily.service - Daily apt download activities...
+2026-01-26T15:54:00-03:00 srv3 systemd[1]: apt-daily.service: Deactivated successfully.
+2026-01-26T15:54:00-03:00 srv3 systemd[1]: Finished apt-daily.service - Daily apt download activities.
+2026-01-26T15:54:00-03:00 srv3 systemd[1]: apt-daily.service: Consumed 1.248s CPU time, 62.9M memory peak.
+2026-01-26T16:30:37-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted run-lock.mount - Legacy Locks Directory /run/lock.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-udev-load-credentials.service - Load udev Rules from Credentials.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-tpm2-setup.service - TPM SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: modprobe@drm.service: Deactivated successfully.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting ifupdown-pre.service - Helper to synchronize boot up for ifupdown...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Expecting device sys-subsystem-net-devices-enp0s3.device - /sys/subsystem/net/devices/enp0s3...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Found device sys-subsystem-net-devices-enp0s3.device - 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Found device dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.device - VBOX_HARDDISK 5.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Activating swap dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.swap - /dev/disk/by-uuid/11c15728-2b53-44f8-89e3-04587a846f87...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Found device dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.device - VBOX_HARDDISK 6.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-fsck@dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.service - File System Check on /dev/disk/by-uuid/5ee3ee71-9da9-4ed1-ac98-741b16c7752c...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Activated swap dev-disk-by\x2duuid-11c15728\x2d2b53\x2d44f8\x2d89e3\x2d04587a846f87.swap - /dev/disk/by-uuid/11c15728-2b53-44f8-89e3-04587a846f87.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target swap.target - Swaps.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounting tmp.mount - Temporary Directory /tmp...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted tmp.mount - Temporary Directory /tmp.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target sound.target - Sound Card.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished ifupdown-pre.service - Helper to synchronize boot up for ifupdown.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-fsck@dev-disk-by\x2duuid-5ee3ee71\x2d9da9\x2d4ed1\x2dac98\x2d741b16c7752c.service - File System Check on /dev/disk/by-uuid/5ee3ee71-9da9-4ed1-ac98-741b16c7752c.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounting home.mount - /home...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted home.mount - /home.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target local-fs.target - Local File Systems.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting console-setup.service - Set console font and keymap...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-setup.service - Create System Files and Directories...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished console-setup.service - Set console font and keymap.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 466 (systemd-binfmt)
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-machine-id-commit.service - Save Transient machine-id to Disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target sysinit.target - System Initialization.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started anacron.timer - Trigger anacron every hour.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started apt-daily.timer - Daily apt download activities.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started man-db.timer - Daily man-db regeneration.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started spamassassin-maintenance.timer - Daily spamassassin maintenance.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target timers.target - Timer Units.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting clamav-daemon.socket - Socket for Clam AntiVirus userspace daemon...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target ssh-access.target - SSH Access Available.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Listening on systemd-hostnamed.socket - Hostname Service Socket.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started ifup@enp0s3.service - ifup for enp0s3.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting networking.service - Raise network interfaces...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-pcrphase-sysinit.service - TPM PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting wtmpdb-update-boot.service - Write boot and shutdown times into wtmpdb...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Listening on clamav-daemon.socket - Socket for Clam AntiVirus userspace daemon.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target sockets.target - Socket Units.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Reached target basic.target - Basic System.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: System is tainted: unmerged-bin
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting chrony.service - chrony, an NTP client/server...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting clamav-daemon.service - Clam AntiVirus userspace daemon...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started cron.service - Regular background program processing daemon.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting grub-common.service - Record successful boot for GRUB...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting rsyslog.service - System Logging Service...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: sshd-keygen.service - Generate sshd host keys on first boot was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting systemd-logind.service - User Login Management...
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: systemd-pcrphase.service - TPM PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started clamav-daemon.service - Clam AntiVirus userspace daemon.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started systemd-logind.service - User Login Management.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: grub-common.service: Deactivated successfully.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished grub-common.service - Record successful boot for GRUB.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Finished networking.service - Raise network interfaces.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started rsyslog.service - System Logging Service.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Started dbus.service - D-Bus System Message Bus.
+2026-01-26T19:00:57-03:00 srv3 systemd[1]: Starting wpa_supplicant.service - WPA supplicant...
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Finished wtmpdb-update-boot.service - Write boot and shutdown times into wtmpdb.
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Started chrony.service - chrony, an NTP client/server.
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Started wpa_supplicant.service - WPA supplicant.
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Reached target network.target - Network.
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Reached target network-online.target - Network is Online.
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Starting amavis.service - Interface between MTA and virus scanner/content filters...
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Starting dovecot.service - Dovecot IMAP/POP3 email server...
+2026-01-26T19:00:58-03:00 srv3 systemd[1]: Starting nmbd.service - Samba NMB Daemon...
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Starting postfix.service - Postfix Mail Transport Agent (main/default instance)...
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Started spamd.service - Perl-based spam filter using text analysis.
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: e2scrub_reap.service: Deactivated successfully.
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Started getty@tty1.service - Getty on tty1.
+2026-01-26T19:00:59-03:00 srv3 systemd[1]: Reached target getty.target - Login Prompts.
+2026-01-26T19:01:00-03:00 srv3 systemd[1]: Started amavis.service - Interface between MTA and virus scanner/content filters.
+2026-01-26T19:01:00-03:00 srv3 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-01-26T18:14:36-03:00 srv3 systemd[1]: Started dovecot.service - Dovecot IMAP/POP3 email server.
+2026-01-26T18:14:38-03:00 srv3 systemd[1]: samba-ad-dc.service: Skipped due to 'exec-condition'.
+2026-01-26T18:14:38-03:00 srv3 systemd[1]: Condition check resulted in samba-ad-dc.service - Samba AD Daemon being skipped.
+2026-01-26T18:14:39-03:00 srv3 systemd[1]: Started nmbd.service - Samba NMB Daemon.
+2026-01-26T18:14:39-03:00 srv3 systemd[1]: Starting winbind.service - Samba Winbind Daemon...
+2026-01-26T18:14:40-03:00 srv3 systemd[1]: Started postfix.service - Postfix Mail Transport Agent (main/default instance).
+2026-01-26T18:14:40-03:00 srv3 systemd[1]: Started winbind.service - Samba Winbind Daemon.
+2026-01-26T18:14:40-03:00 srv3 systemd[1]: Starting smbd.service - Samba SMB Daemon...
+2026-01-26T18:14:50-03:00 srv3 systemd[1]: Started smbd.service - Samba SMB Daemon.
+2026-01-26T18:14:50-03:00 srv3 systemd[1]: Reached target multi-user.target - Multi-User System.
+2026-01-26T18:14:50-03:00 srv3 systemd[1]: Reached target graphical.target - Graphical Interface.
+2026-01-26T18:14:50-03:00 srv3 systemd[1]: Startup finished in 8.380s (kernel) + 32.619s (userspace) = 41.000s.
+2026-01-26T18:29:22-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-26T18:29:22-03:00 srv3 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-26T18:29:22-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-28T15:34:31-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T15:44:59-03:00 srv3 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-01-28T15:44:59-03:00 srv3 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-01-28T15:44:59-03:00 srv3 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-01-28T15:57:31-03:00 srv3 systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T16:00:31-03:00 srv3 systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T16:14:31-03:00 srv3 systemd[1]: spamassassin-maintenance.service - Daily spamassassin rule refresh was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T16:32:31-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-28T16:42:31-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.
+2026-01-28T17:34:49-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T18:34:31-03:00 srv3 systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+2026-01-28T19:31:49-03:00 srv3 systemd[1]: Started anacron.service - Run anacron jobs.
+2026-01-28T19:31:49-03:00 srv3 systemd[1]: anacron.service: Deactivated successfully.

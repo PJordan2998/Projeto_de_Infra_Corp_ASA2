@@ -1,0 +1,2 @@
+2026-01-25T17:41:49-03:00 srv2 netfilter-persistent[479]: run-parts: executing /usr/share/netfilter-persistent/plugins.d/15-ip4tables start
+2026-01-25T17:41:49-03:00 srv2 netfilter-persistent[479]: run-parts: executing /usr/share/netfilter-persistent/plugins.d/25-ip6tables start

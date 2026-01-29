@@ -1,0 +1,1040 @@
+2026-01-24T10:40:11-03:00 srv1 kernel: hrtimer: interrupt took 11134221 ns
+2026-01-24T11:30:51-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1066595332 wd_nsec: 1066595176
+2026-01-24T15:02:03-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 2605888338 wd_nsec: 2605888105
+2026-01-25T06:11:03-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1048906256 wd_nsec: 1048906162
+2026-01-25T08:33:44-03:00 srv1 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T08:33:44-03:00 srv1 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T11:31:54-03:00 srv1 kernel: Linux version 6.12.57+deb13-amd64 (debian-kernel@lists.debian.org) (x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT_DYNAMIC Debian 6.12.57-1 (2025-11-05)
+2026-01-25T11:31:54-03:00 srv1 kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.12.57+deb13-amd64 root=UUID=3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro quiet
+2026-01-25T11:31:54-03:00 srv1 kernel: [Firmware Bug]: TSC doesn't count with P0 frequency!
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-provided physical RAM map:
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+2026-01-25T11:31:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+2026-01-25T11:31:54-03:00 srv1 kernel: NX (Execute Disable) protection: active
+2026-01-25T11:31:54-03:00 srv1 kernel: APIC: Static calls initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: SMBIOS 2.5 present.
+2026-01-25T11:31:54-03:00 srv1 kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2026-01-25T11:31:54-03:00 srv1 kernel: DMI: Memory slots populated: 0/0
+2026-01-25T11:31:54-03:00 srv1 kernel: Hypervisor detected: KVM
+2026-01-25T11:31:54-03:00 srv1 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+2026-01-25T11:31:54-03:00 srv1 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+2026-01-25T11:31:54-03:00 srv1 kernel: kvm-clock: using sched offset of 19878077760903 cycles
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2026-01-25T11:31:54-03:00 srv1 kernel: tsc: Detected 2295.626 MHz processor
+2026-01-25T11:31:54-03:00 srv1 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2026-01-25T11:31:54-03:00 srv1 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2026-01-25T11:31:54-03:00 srv1 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+2026-01-25T11:31:54-03:00 srv1 kernel: MTRR map: 3 entries (3 fixed + 0 variable; max 19), built from 8 variable MTRRs
+2026-01-25T11:31:54-03:00 srv1 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU MTRRs all blank - virtualized system.
+2026-01-25T11:31:54-03:00 srv1 kernel: found SMP MP-table at [mem 0x0009fbf0-0x0009fbff]
+2026-01-25T11:31:54-03:00 srv1 kernel: RAMDISK: [mem 0x339e3000-0x35ce8fff]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Early table checksum verification disabled
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: DSDT 0x000000007FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: FACS 0x000000007FFF0200 000040
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: FACS 0x000000007FFF0200 000040
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: SSDT 0x000000007FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Reserving DSDT table memory at [mem 0x7fff0610-0x7fff2962]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff029b]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff060b]
+2026-01-25T11:31:54-03:00 srv1 kernel: No NUMA configuration found
+2026-01-25T11:31:54-03:00 srv1 kernel: Faking a node at [mem 0x0000000000000000-0x000000007fffffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: NODE_DATA(0) allocated [mem 0x7ffc5680-0x7ffeffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: Zone ranges:
+2026-01-25T11:31:54-03:00 srv1 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2026-01-25T11:31:54-03:00 srv1 kernel:   DMA32    [mem 0x0000000001000000-0x000000007fffffff]
+2026-01-25T11:31:54-03:00 srv1 kernel:   Normal   empty
+2026-01-25T11:31:54-03:00 srv1 kernel:   Device   empty
+2026-01-25T11:31:54-03:00 srv1 kernel: Movable zone start for each node
+2026-01-25T11:31:54-03:00 srv1 kernel: Early memory node ranges
+2026-01-25T11:31:54-03:00 srv1 kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+2026-01-25T11:31:54-03:00 srv1 kernel:   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2026-01-25T11:31:54-03:00 srv1 kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+2026-01-25T11:31:54-03:00 srv1 kernel: On node 0, zone DMA32: 16 pages in unavailable ranges
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: PM-Timer IO Port: 0x4008
+2026-01-25T11:31:54-03:00 srv1 kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU topo: Max. logical packages:   1
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU topo: Max. logical dies:       1
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU topo: Max. dies per package:   1
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU topo: Max. threads per core:   1
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU topo: Num. cores per package:     2
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU topo: Num. threads per package:   2
+2026-01-25T11:31:54-03:00 srv1 kernel: CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+2026-01-25T11:31:54-03:00 srv1 kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2026-01-25T11:31:54-03:00 srv1 kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000fffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: PM: hibernation: Registered nosave memory: [mem 0x7fff0000-0x7fffffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: [mem 0x80000000-0xfebfffff] available for PCI devices
+2026-01-25T11:31:54-03:00 srv1 kernel: Booting paravirtualized kernel on KVM
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+2026-01-25T11:31:54-03:00 srv1 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+2026-01-25T11:31:54-03:00 srv1 kernel: percpu: Embedded 66 pages/cpu s233472 r8192 d28672 u1048576
+2026-01-25T11:31:54-03:00 srv1 kernel: pcpu-alloc: s233472 r8192 d28672 u1048576 alloc=1*2097152
+2026-01-25T11:31:54-03:00 srv1 kernel: pcpu-alloc: [0] 0 1 
+2026-01-25T11:31:54-03:00 srv1 kernel: kvm-guest: PV spinlocks enabled
+2026-01-25T11:31:54-03:00 srv1 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.12.57+deb13-amd64 root=UUID=3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro quiet
+2026-01-25T11:31:54-03:00 srv1 kernel: random: crng init done
+2026-01-25T11:31:54-03:00 srv1 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: Fallback order for Node 0: 0 
+2026-01-25T11:31:54-03:00 srv1 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 524174
+2026-01-25T11:31:54-03:00 srv1 kernel: Policy zone: DMA32
+2026-01-25T11:31:54-03:00 srv1 kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2026-01-25T11:31:54-03:00 srv1 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2026-01-25T11:31:54-03:00 srv1 kernel: ftrace: allocating 45728 entries in 179 pages
+2026-01-25T11:31:54-03:00 srv1 kernel: ftrace: allocated 179 pages with 5 groups
+2026-01-25T11:31:54-03:00 srv1 kernel: Dynamic Preempt: voluntary
+2026-01-25T11:31:54-03:00 srv1 kernel: rcu: Preemptible hierarchical RCU implementation.
+2026-01-25T11:31:54-03:00 srv1 kernel: rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+2026-01-25T11:31:54-03:00 srv1 kernel: #011Trampoline variant of Tasks RCU enabled.
+2026-01-25T11:31:54-03:00 srv1 kernel: #011Rude variant of Tasks RCU enabled.
+2026-01-25T11:31:54-03:00 srv1 kernel: #011Tracing variant of Tasks RCU enabled.
+2026-01-25T11:31:54-03:00 srv1 kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+2026-01-25T11:31:54-03:00 srv1 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2026-01-25T11:31:54-03:00 srv1 kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-25T11:31:54-03:00 srv1 kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-25T11:31:54-03:00 srv1 kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-25T11:31:54-03:00 srv1 kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+2026-01-25T11:31:54-03:00 srv1 kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2026-01-25T11:31:54-03:00 srv1 kernel: Console: colour VGA+ 80x25
+2026-01-25T11:31:54-03:00 srv1 kernel: printk: legacy console [tty0] enabled
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Core revision 20240827
+2026-01-25T11:31:54-03:00 srv1 kernel: APIC: Switch to symmetric I/O mode setup
+2026-01-25T11:31:54-03:00 srv1 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2117114894f, max_idle_ns: 440795250968 ns
+2026-01-25T11:31:54-03:00 srv1 kernel: Calibrating delay loop (skipped) preset value.. 4591.25 BogoMIPS (lpj=9182504)
+2026-01-25T11:31:54-03:00 srv1 kernel: AMD Zen1 DIV0 bug detected. Disable SMT for full protection.
+2026-01-25T11:31:54-03:00 srv1 kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+2026-01-25T11:31:54-03:00 srv1 kernel: Last level dTLB entries: 4KB 1536, 2MB 1536, 4MB 768, 1GB 0
+2026-01-25T11:31:54-03:00 srv1 kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2026-01-25T11:31:54-03:00 srv1 kernel: Spectre V2 : Mitigation: Retpolines
+2026-01-25T11:31:54-03:00 srv1 kernel: Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+2026-01-25T11:31:54-03:00 srv1 kernel: active return thunk: retbleed_return_thunk
+2026-01-25T11:31:54-03:00 srv1 kernel: RETBleed: Mitigation: untrained return thunk
+2026-01-25T11:31:54-03:00 srv1 kernel: Speculative Return Stack Overflow: IBPB-extending microcode not applied!
+2026-01-25T11:31:54-03:00 srv1 kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-01-25T11:31:54-03:00 srv1 kernel: active return thunk: srso_return_thunk
+2026-01-25T11:31:54-03:00 srv1 kernel: Speculative Return Stack Overflow: Vulnerable: Safe RET, no microcode
+2026-01-25T11:31:54-03:00 srv1 kernel: x86/fpu: x87 FPU will use FXSAVE
+2026-01-25T11:31:54-03:00 srv1 kernel: Freeing SMP alternatives memory: 40K
+2026-01-25T11:31:54-03:00 srv1 kernel: pid_max: default: 32768 minimum: 301
+2026-01-25T11:31:54-03:00 srv1 kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,tomoyo,bpf,ipe,ima,evm
+2026-01-25T11:31:54-03:00 srv1 kernel: landlock: Up and running.
+2026-01-25T11:31:54-03:00 srv1 kernel: Yama: disabled by default; enable with sysctl kernel.yama.*
+2026-01-25T11:31:54-03:00 srv1 kernel: AppArmor: AppArmor initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: TOMOYO Linux initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: LSM support for eBPF active
+2026-01-25T11:31:54-03:00 srv1 kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: smpboot: CPU0: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx (family: 0x17, model: 0x18, stepping: 0x1)
+2026-01-25T11:31:54-03:00 srv1 kernel: Performance Events: PMU not available due to virtualization, using software events only.
+2026-01-25T11:31:54-03:00 srv1 kernel: signal: max sigframe size: 1440
+2026-01-25T11:31:54-03:00 srv1 kernel: rcu: Hierarchical SRCU implementation.
+2026-01-25T11:31:54-03:00 srv1 kernel: rcu: #011Max phase no-delay instances is 1000.
+2026-01-25T11:31:54-03:00 srv1 kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+2026-01-25T11:31:54-03:00 srv1 kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2026-01-25T11:31:54-03:00 srv1 kernel: smp: Bringing up secondary CPUs ...
+2026-01-25T11:31:54-03:00 srv1 kernel: smpboot: x86: Booting SMP configuration:
+2026-01-25T11:31:54-03:00 srv1 kernel: .... node  #0, CPUs:      #1
+2026-01-25T11:31:54-03:00 srv1 kernel: smp: Brought up 1 node, 2 CPUs
+2026-01-25T11:31:54-03:00 srv1 kernel: smpboot: Total of 2 processors activated (9182.50 BogoMIPS)
+2026-01-25T11:31:54-03:00 srv1 kernel: node 0 deferred pages initialised in 4ms
+2026-01-25T11:31:54-03:00 srv1 kernel: Memory: 1974548K/2096696K available (16384K kernel code, 2496K rwdata, 11800K rodata, 4152K init, 4936K bss, 118200K reserved, 0K cma-reserved)
+2026-01-25T11:31:54-03:00 srv1 kernel: devtmpfs: initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: x86/mm: Memory block size: 128MB
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+2026-01-25T11:31:54-03:00 srv1 kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: pinctrl core: initialized pinctrl subsystem
+2026-01-25T11:31:54-03:00 srv1 kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2026-01-25T11:31:54-03:00 srv1 kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+2026-01-25T11:31:54-03:00 srv1 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2026-01-25T11:31:54-03:00 srv1 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: initializing netlink subsys (disabled)
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=2000 audit(1769391593.051:1): state=initialized audit_enabled=0 res=1
+2026-01-25T11:31:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'fair_share'
+2026-01-25T11:31:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2026-01-25T11:31:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'step_wise'
+2026-01-25T11:31:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'user_space'
+2026-01-25T11:31:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2026-01-25T11:31:54-03:00 srv1 kernel: cpuidle: using governor ladder
+2026-01-25T11:31:54-03:00 srv1 kernel: cpuidle: using governor menu
+2026-01-25T11:31:54-03:00 srv1 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI: Using configuration type 1 for base access
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI: Using configuration type 1 for extended access
+2026-01-25T11:31:54-03:00 srv1 kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2026-01-25T11:31:54-03:00 srv1 kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2026-01-25T11:31:54-03:00 srv1 kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Added _OSI(Module Device)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Added _OSI(Processor Device)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Interpreter enabled
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: PM: (supports S0 S5)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Using IOAPIC for interrupt routing
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI: Using E820 reservations for host bridge windows
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2026-01-25T11:31:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+2026-01-25T11:31:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: platform does not support [PCIeCapability LTR]
+2026-01-25T11:31:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: not requesting control; platform does not support [PCIeCapability]
+2026-01-25T11:31:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR]
+2026-01-25T11:31:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER]
+2026-01-25T11:31:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: platform retains control of PCIe features (AE_SUPPORT)
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI host bridge to bus 0000:00
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 4 [io  0xd000-0xd00f]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: BAR 0 [io  0xd010-0xd01f]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: BAR 1 [mem 0xe0000000-0xe0ffffff pref]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: BAR 2 [mem 0xf0000000-0xf01fffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:03.0: BAR 0 [mem 0xf0200000-0xf021ffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:03.0: BAR 2 [io  0xd020-0xd027]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:04.0: BAR 0 [io  0xd040-0xd05f]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:04.0: BAR 1 [mem 0xf0400000-0xf07fffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:04.0: BAR 2 [mem 0xf0800000-0xf0803fff pref]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:05.0: BAR 0 [io  0xd100-0xd1ff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:05.0: BAR 1 [io  0xd200-0xd23f]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:06.0: BAR 0 [mem 0xf0804000-0xf0804fff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:08.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:08.0: BAR 0 [mem 0xf0820000-0xf083ffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:08.0: BAR 2 [io  0xd240-0xd247]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0b.0: BAR 0 [mem 0xf0840000-0xf0840fff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 0 [io  0xd248-0xd24f]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 1 [io  0xd250-0xd253]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 2 [io  0xd258-0xd25f]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 3 [io  0xd260-0xd263]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 4 [io  0xd270-0xd27f]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 5 [mem 0xf0842000-0xf0843fff]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+2026-01-25T11:31:54-03:00 srv1 kernel: iommu: Default domain type: Translated
+2026-01-25T11:31:54-03:00 srv1 kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2026-01-25T11:31:54-03:00 srv1 kernel: pps_core: LinuxPPS API ver. 1 registered
+2026-01-25T11:31:54-03:00 srv1 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2026-01-25T11:31:54-03:00 srv1 kernel: PTP clock support registered
+2026-01-25T11:31:54-03:00 srv1 kernel: EDAC MC: Ver: 3.0.0
+2026-01-25T11:31:54-03:00 srv1 kernel: NetLabel: Initializing
+2026-01-25T11:31:54-03:00 srv1 kernel: NetLabel:  domain hash size = 128
+2026-01-25T11:31:54-03:00 srv1 kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2026-01-25T11:31:54-03:00 srv1 kernel: NetLabel:  unlabeled traffic allowed by default
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI: Using ACPI for IRQ routing
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI: pci_cache_line_size set to 64 bytes
+2026-01-25T11:31:54-03:00 srv1 kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2026-01-25T11:31:54-03:00 srv1 kernel: vgaarb: loaded
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: Switched to clocksource kvm-clock
+2026-01-25T11:31:54-03:00 srv1 kernel: VFS: Disk quotas dquot_6.6.0
+2026-01-25T11:31:54-03:00 srv1 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2026-01-25T11:31:54-03:00 srv1 kernel: AppArmor: AppArmor Filesystem Enabled
+2026-01-25T11:31:54-03:00 srv1 kernel: pnp: PnP ACPI init
+2026-01-25T11:31:54-03:00 srv1 kernel: pnp: PnP ACPI: found 2 devices
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2026-01-25T11:31:54-03:00 srv1 kernel: NET: Registered PF_INET protocol family
+2026-01-25T11:31:54-03:00 srv1 kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: TCP: Hash tables configured (established 16384 bind 16384)
+2026-01-25T11:31:54-03:00 srv1 kernel: MPTCP token hash table entries: 2048 (order: 3, 49152 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-01-25T11:31:54-03:00 srv1 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2026-01-25T11:31:54-03:00 srv1 kernel: NET: Registered PF_XDP protocol family
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+2026-01-25T11:31:54-03:00 srv1 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2026-01-25T11:31:54-03:00 srv1 kernel: PCI: CLS 0 bytes, default 64
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2117114894f, max_idle_ns: 440795250968 ns
+2026-01-25T11:31:54-03:00 srv1 kernel: clocksource: Switched to clocksource tsc
+2026-01-25T11:31:54-03:00 srv1 kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+2026-01-25T11:31:54-03:00 srv1 kernel: Trying to unpack rootfs image as initramfs...
+2026-01-25T11:31:54-03:00 srv1 kernel: Initialise system trusted keyrings
+2026-01-25T11:31:54-03:00 srv1 kernel: Key type blacklist registered
+2026-01-25T11:31:54-03:00 srv1 kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+2026-01-25T11:31:54-03:00 srv1 kernel: zbud: loaded
+2026-01-25T11:31:54-03:00 srv1 kernel: fuse: init (API version 7.41)
+2026-01-25T11:31:54-03:00 srv1 kernel: integrity: Platform Keyring initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: integrity: Machine keyring initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: Key type asymmetric registered
+2026-01-25T11:31:54-03:00 srv1 kernel: Asymmetric key parser 'x509' registered
+2026-01-25T11:31:54-03:00 srv1 kernel: Freeing initrd memory: 35864K
+2026-01-25T11:31:54-03:00 srv1 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+2026-01-25T11:31:54-03:00 srv1 kernel: io scheduler mq-deadline registered
+2026-01-25T11:31:54-03:00 srv1 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2026-01-25T11:31:54-03:00 srv1 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2026-01-25T11:31:54-03:00 srv1 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+2026-01-25T11:31:54-03:00 srv1 kernel: Linux agpgart interface v0.103
+2026-01-25T11:31:54-03:00 srv1 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+2026-01-25T11:31:54-03:00 srv1 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2026-01-25T11:31:54-03:00 srv1 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2026-01-25T11:31:54-03:00 srv1 kernel: mousedev: PS/2 mouse device common for all mice
+2026-01-25T11:31:54-03:00 srv1 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+2026-01-25T11:31:54-03:00 srv1 kernel: rtc_cmos rtc_cmos: registered as rtc0
+2026-01-25T11:31:54-03:00 srv1 kernel: rtc_cmos rtc_cmos: setting system clock to 2026-01-25T14:31:33 UTC (1769351493)
+2026-01-25T11:31:54-03:00 srv1 kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+2026-01-25T11:31:54-03:00 srv1 kernel: NET: Registered PF_INET6 protocol family
+2026-01-25T11:31:54-03:00 srv1 kernel: Segment Routing with IPv6
+2026-01-25T11:31:54-03:00 srv1 kernel: In-situ OAM (IOAM) with IPv6
+2026-01-25T11:31:54-03:00 srv1 kernel: mip6: Mobile IPv6
+2026-01-25T11:31:54-03:00 srv1 kernel: NET: Registered PF_PACKET protocol family
+2026-01-25T11:31:54-03:00 srv1 kernel: mpls_gso: MPLS GSO support
+2026-01-25T11:31:54-03:00 srv1 kernel: IPI shorthand broadcast: enabled
+2026-01-25T11:31:54-03:00 srv1 kernel: sched_clock: Marking stable (1270260738, 147789073)->(1456789393, -38739582)
+2026-01-25T11:31:54-03:00 srv1 kernel: registered taskstats version 1
+2026-01-25T11:31:54-03:00 srv1 kernel: Loading compiled-in X.509 certificates
+2026-01-25T11:31:54-03:00 srv1 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 7c2b230a25e7258756ba9d8e66b30d6d89429d6d'
+2026-01-25T11:31:54-03:00 srv1 kernel: Demotion targets for Node 0: null
+2026-01-25T11:31:54-03:00 srv1 kernel: Key type .fscrypt registered
+2026-01-25T11:31:54-03:00 srv1 kernel: Key type fscrypt-provisioning registered
+2026-01-25T11:31:54-03:00 srv1 kernel: Key type encrypted registered
+2026-01-25T11:31:54-03:00 srv1 kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2026-01-25T11:31:54-03:00 srv1 kernel: ima: No TPM chip found, activating TPM-bypass!
+2026-01-25T11:31:54-03:00 srv1 kernel: ima: Allocated hash algorithm: sha256
+2026-01-25T11:31:54-03:00 srv1 kernel: ima: No architecture policies found
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: Initialising EVM extended attributes:
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.selinux
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.SMACK64 (disabled)
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.SMACK64EXEC (disabled)
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.SMACK64TRANSMUTE (disabled)
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.SMACK64MMAP (disabled)
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.apparmor
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.ima
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: security.capability
+2026-01-25T11:31:54-03:00 srv1 kernel: evm: HMAC attrs: 0x1
+2026-01-25T11:31:54-03:00 srv1 kernel: RAS: Correctable Errors collector initialized.
+2026-01-25T11:31:54-03:00 srv1 kernel: clk: Disabling unused clocks
+2026-01-25T11:31:54-03:00 srv1 kernel: PM: genpd: Disabling unused power domains
+2026-01-25T11:31:54-03:00 srv1 kernel: Freeing unused decrypted memory: 2028K
+2026-01-25T11:31:54-03:00 srv1 kernel: Freeing unused kernel image (initmem) memory: 4152K
+2026-01-25T11:31:54-03:00 srv1 kernel: Write protecting the kernel read-only data: 28672k
+2026-01-25T11:31:54-03:00 srv1 kernel: Freeing unused kernel image (rodata/data gap) memory: 488K
+2026-01-25T11:31:54-03:00 srv1 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2026-01-25T11:31:54-03:00 srv1 kernel: Run /init as init process
+2026-01-25T11:31:54-03:00 srv1 kernel:   with arguments:
+2026-01-25T11:31:54-03:00 srv1 kernel:     /init
+2026-01-25T11:31:54-03:00 srv1 kernel:   with environment:
+2026-01-25T11:31:54-03:00 srv1 kernel:     HOME=/
+2026-01-25T11:31:54-03:00 srv1 kernel:     TERM=linux
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: battery: Slot [BAT0] (battery present)
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+2026-01-25T11:31:54-03:00 srv1 kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+2026-01-25T11:31:54-03:00 srv1 kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000: Intel(R) PRO/1000 Network Driver
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2026-01-25T11:31:54-03:00 srv1 kernel: SCSI subsystem initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: bus type USB registered
+2026-01-25T11:31:54-03:00 srv1 kernel: usbcore: registered new interface driver usbfs
+2026-01-25T11:31:54-03:00 srv1 kernel: usbcore: registered new interface driver hub
+2026-01-25T11:31:54-03:00 srv1 kernel: usbcore: registered new device driver usb
+2026-01-25T11:31:54-03:00 srv1 kernel: Warning! ehci_hcd should always be loaded before uhci_hcd and ohci_hcd, not after
+2026-01-25T11:31:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+2026-01-25T11:31:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+2026-01-25T11:31:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0840000
+2026-01-25T11:31:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb1: Product: EHCI Host Controller
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb1: Manufacturer: Linux 6.12.57+deb13-amd64 ehci_hcd
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb1: SerialNumber: 0000:00:0b.0
+2026-01-25T11:31:54-03:00 srv1 kernel: hub 1-0:1.0: USB hub found
+2026-01-25T11:31:54-03:00 srv1 kernel: hub 1-0:1.0: 12 ports detected
+2026-01-25T11:31:54-03:00 srv1 kernel: libata version 3.00 loaded.
+2026-01-25T11:31:54-03:00 srv1 kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+2026-01-25T11:31:54-03:00 srv1 kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+2026-01-25T11:31:54-03:00 srv1 kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+2026-01-25T11:31:54-03:00 srv1 kernel: ata_piix 0000:00:01.1: version 2.13
+2026-01-25T11:31:54-03:00 srv1 kernel: ahci 0000:00:0d.0: version 3.0
+2026-01-25T11:31:54-03:00 srv1 kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+2026-01-25T11:31:54-03:00 srv1 kernel: ahci 0000:00:0d.0: AHCI vers 0001.0100, 32 command slots, 3 Gbps, SATA mode
+2026-01-25T11:31:54-03:00 srv1 kernel: ahci 0000:00:0d.0: 1/1 ports implemented (port mask 0x1)
+2026-01-25T11:31:54-03:00 srv1 kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.12
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb2: Product: OHCI PCI host controller
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb2: Manufacturer: Linux 6.12.57+deb13-amd64 ohci_hcd
+2026-01-25T11:31:54-03:00 srv1 kernel: usb usb2: SerialNumber: 0000:00:06.0
+2026-01-25T11:31:54-03:00 srv1 kernel: hub 2-0:1.0: USB hub found
+2026-01-25T11:31:54-03:00 srv1 kernel: hub 2-0:1.0: 12 ports detected
+2026-01-25T11:31:54-03:00 srv1 kernel: scsi host0: ata_piix
+2026-01-25T11:31:54-03:00 srv1 kernel: scsi host1: ahci
+2026-01-25T11:31:54-03:00 srv1 kernel: ata3: SATA max UDMA/133 abar m8192@0xf0842000 port 0xf0842100 irq 21 lpm-pol 1
+2026-01-25T11:31:54-03:00 srv1 kernel: scsi host2: ata_piix
+2026-01-25T11:31:54-03:00 srv1 kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14 lpm-pol 0
+2026-01-25T11:31:54-03:00 srv1 kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15 lpm-pol 0
+2026-01-25T11:31:54-03:00 srv1 kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+2026-01-25T11:31:54-03:00 srv1 kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+2026-01-25T11:31:54-03:00 srv1 kernel: ata3.00: LPM support broken, forcing max_power
+2026-01-25T11:31:54-03:00 srv1 kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+2026-01-25T11:31:54-03:00 srv1 kernel: ata3.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 32)
+2026-01-25T11:31:54-03:00 srv1 kernel: ata3.00: LPM support broken, forcing max_power
+2026-01-25T11:31:54-03:00 srv1 kernel: ata3.00: configured for UDMA/133
+2026-01-25T11:31:54-03:00 srv1 kernel: scsi 1:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+2026-01-25T11:31:54-03:00 srv1 kernel: scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+2026-01-25T11:31:54-03:00 srv1 kernel: sd 1:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+2026-01-25T11:31:54-03:00 srv1 kernel: sd 1:0:0:0: [sda] Write Protect is off
+2026-01-25T11:31:54-03:00 srv1 kernel: sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+2026-01-25T11:31:54-03:00 srv1 kernel: sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2026-01-25T11:31:54-03:00 srv1 kernel: sd 1:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+2026-01-25T11:31:54-03:00 srv1 kernel: usb 2-1: new full-speed USB device number 2 using ohci-pci
+2026-01-25T11:31:54-03:00 srv1 kernel:  sda: sda1 sda2 < sda5 sda6 >
+2026-01-25T11:31:54-03:00 srv1 kernel: sd 1:0:0:0: [sda] Attached SCSI disk
+2026-01-25T11:31:54-03:00 srv1 kernel: sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+2026-01-25T11:31:54-03:00 srv1 kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2026-01-25T11:31:54-03:00 srv1 kernel: sr 2:0:0:0: Attached scsi CD-ROM sr0
+2026-01-25T11:31:54-03:00 srv1 kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2026-01-25T11:31:54-03:00 srv1 kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2026-01-25T11:31:54-03:00 srv1 kernel: usb 2-1: Product: USB Tablet
+2026-01-25T11:31:54-03:00 srv1 kernel: usb 2-1: Manufacturer: VirtualBox
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:8f:c3:88
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+2026-01-25T11:31:54-03:00 srv1 kernel: hid: raw HID events driver (C) Jiri Kosina
+2026-01-25T11:31:54-03:00 srv1 kernel: usbcore: registered new interface driver usbhid
+2026-01-25T11:31:54-03:00 srv1 kernel: usbhid: USB HID core driver
+2026-01-25T11:31:54-03:00 srv1 kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4
+2026-01-25T11:31:54-03:00 srv1 kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:e3:03:c3
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000 0000:00:08.0 enp0s8: renamed from eth1
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+2026-01-25T11:31:54-03:00 srv1 kernel: PM: Image not found (code -22)
+2026-01-25T11:31:54-03:00 srv1 kernel: EXT4-fs (sda1): orphan cleanup on readonly fs
+2026-01-25T11:31:54-03:00 srv1 kernel: EXT4-fs (sda1): mounted filesystem 3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro with ordered data mode. Quota mode: none.
+2026-01-25T11:31:54-03:00 srv1 kernel: Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+2026-01-25T11:31:54-03:00 srv1 kernel: Guest personality initialized and is inactive
+2026-01-25T11:31:54-03:00 srv1 kernel: VMCI host device registered (name=vmci, major=10, minor=123)
+2026-01-25T11:31:54-03:00 srv1 kernel: Initialized host personality
+2026-01-25T11:31:54-03:00 srv1 kernel: NET: Registered PF_VSOCK protocol family
+2026-01-25T11:31:54-03:00 srv1 kernel: EXT4-fs (sda1): re-mounted 3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 r/w.
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: bus type drm_connector registered
+2026-01-25T11:31:54-03:00 srv1 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input5
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: button: Power Button [PWRF]
+2026-01-25T11:31:54-03:00 srv1 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input6
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: button: Sleep Button [SLPF]
+2026-01-25T11:31:54-03:00 srv1 kernel: ACPI: AC: AC Adapter [AC] (off-line)
+2026-01-25T11:31:54-03:00 srv1 kernel: input: PC Speaker as /devices/platform/pcspkr/input/input7
+2026-01-25T11:31:54-03:00 srv1 kernel: vboxguest: host-version: 7.1.8r168469 0x8000000f
+2026-01-25T11:31:54-03:00 srv1 kernel: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+2026-01-25T11:31:54-03:00 srv1 kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input8
+2026-01-25T11:31:54-03:00 srv1 kernel: cryptd: max_cpu_qlen set to 1000
+2026-01-25T11:31:54-03:00 srv1 kernel: sd 1:0:0:0: Attached scsi generic sg0 type 0
+2026-01-25T11:31:54-03:00 srv1 kernel: sr 2:0:0:0: Attached scsi generic sg1 type 5
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+2026-01-25T11:31:54-03:00 srv1 kernel: Console: switching to colour dummy device 80x25
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 KiB
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 KiB
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, gbobject, 
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 KiB, FIFO = 2048 KiB, surface = 507904 KiB
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 131072 KiB, max mob pages = 4096
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 KiB
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Screen Target display unit initialized
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+2026-01-25T11:31:54-03:00 srv1 kernel: [drm] Initialized vmwgfx 2.20.0 for 0000:00:02.0 on minor 0
+2026-01-25T11:31:54-03:00 srv1 kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+2026-01-25T11:31:54-03:00 srv1 kernel: Console: switching to colour frame buffer device 160x50
+2026-01-25T11:31:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2026-01-25T11:31:54-03:00 srv1 kernel: Adding 1643516k swap on /dev/sda5.  Priority:-2 extents:1 across:1643516k 
+2026-01-25T11:31:54-03:00 srv1 kernel: intel_rapl_common: Found RAPL domain package
+2026-01-25T11:31:54-03:00 srv1 kernel: intel_rapl_common: Found RAPL domain core
+2026-01-25T11:31:54-03:00 srv1 kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+2026-01-25T11:31:54-03:00 srv1 kernel: EXT4-fs (sda6): mounted filesystem 5ee3ee71-9da9-4ed1-ac98-741b16c7752c r/w with ordered data mode. Quota mode: none.
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.763:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=478 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.763:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=477 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.771:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=480 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.771:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=479 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.787:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=482 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.799:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=483 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.811:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=484 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.819:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=485 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.835:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=486 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: audit: type=1400 audit(1769351512.847:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=487 comm="apparmor_parser"
+2026-01-25T11:31:54-03:00 srv1 kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-01-25T11:31:55-03:00 srv1 kernel: 8021q: 802.1Q VLAN Support v1.8
+2026-01-25T11:31:55-03:00 srv1 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-25T11:31:57-03:00 srv1 kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+2026-01-25T11:31:57-03:00 srv1 kernel: Loaded X.509 cert 'benh@debian.org: 577e021cb980e0e820821ba7b54b4961b8b4fadf'
+2026-01-25T11:31:57-03:00 srv1 kernel: Loaded X.509 cert 'romain.perier@gmail.com: 3abbc6ec146e09d1b6016ab9d6cf71dd233f0328'
+2026-01-25T11:31:57-03:00 srv1 kernel: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+2026-01-25T11:31:57-03:00 srv1 kernel: Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+2026-01-25T11:31:57-03:00 srv1 kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-01-25T11:31:57-03:00 srv1 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s3
+2026-01-25T11:32:21-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1038191142 wd_nsec: 1038191040
+2026-01-25T11:33:42-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 2085637196 wd_nsec: 2085636940
+2026-01-25T13:31:51-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 5465866892 wd_nsec: 5465866269
+2026-01-26T15:23:30-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1047623696 wd_nsec: 1047623623
+2026-01-26T17:46:56-03:00 srv1 kernel: hrtimer: interrupt took 115756915 ns
+2026-01-26T18:59:54-03:00 srv1 kernel: Linux version 6.12.57+deb13-amd64 (debian-kernel@lists.debian.org) (x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT_DYNAMIC Debian 6.12.57-1 (2025-11-05)
+2026-01-26T18:59:54-03:00 srv1 kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.12.57+deb13-amd64 root=UUID=3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro quiet
+2026-01-26T18:59:54-03:00 srv1 kernel: [Firmware Bug]: TSC doesn't count with P0 frequency!
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-provided physical RAM map:
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+2026-01-26T18:59:54-03:00 srv1 kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+2026-01-26T18:59:54-03:00 srv1 kernel: NX (Execute Disable) protection: active
+2026-01-26T18:59:54-03:00 srv1 kernel: APIC: Static calls initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: SMBIOS 2.5 present.
+2026-01-26T18:59:54-03:00 srv1 kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+2026-01-26T18:59:54-03:00 srv1 kernel: DMI: Memory slots populated: 0/0
+2026-01-26T18:59:54-03:00 srv1 kernel: Hypervisor detected: KVM
+2026-01-26T18:59:54-03:00 srv1 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+2026-01-26T18:59:54-03:00 srv1 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+2026-01-26T18:59:54-03:00 srv1 kernel: kvm-clock: using sched offset of 15225466964 cycles
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2026-01-26T18:59:54-03:00 srv1 kernel: tsc: Detected 2295.626 MHz processor
+2026-01-26T18:59:54-03:00 srv1 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2026-01-26T18:59:54-03:00 srv1 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2026-01-26T18:59:54-03:00 srv1 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+2026-01-26T18:59:54-03:00 srv1 kernel: MTRR map: 3 entries (3 fixed + 0 variable; max 19), built from 8 variable MTRRs
+2026-01-26T18:59:54-03:00 srv1 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU MTRRs all blank - virtualized system.
+2026-01-26T18:59:54-03:00 srv1 kernel: found SMP MP-table at [mem 0x0009fbf0-0x0009fbff]
+2026-01-26T18:59:54-03:00 srv1 kernel: RAMDISK: [mem 0x339e3000-0x35ce8fff]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Early table checksum verification disabled
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: DSDT 0x000000007FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: FACS 0x000000007FFF0200 000040
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: FACS 0x000000007FFF0200 000040
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: SSDT 0x000000007FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Reserving DSDT table memory at [mem 0x7fff0610-0x7fff2962]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff029b]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff060b]
+2026-01-26T18:59:54-03:00 srv1 kernel: No NUMA configuration found
+2026-01-26T18:59:54-03:00 srv1 kernel: Faking a node at [mem 0x0000000000000000-0x000000007fffffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: NODE_DATA(0) allocated [mem 0x7ffc5680-0x7ffeffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: Zone ranges:
+2026-01-26T18:59:54-03:00 srv1 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2026-01-26T18:59:54-03:00 srv1 kernel:   DMA32    [mem 0x0000000001000000-0x000000007fffffff]
+2026-01-26T18:59:54-03:00 srv1 kernel:   Normal   empty
+2026-01-26T18:59:54-03:00 srv1 kernel:   Device   empty
+2026-01-26T18:59:54-03:00 srv1 kernel: Movable zone start for each node
+2026-01-26T18:59:54-03:00 srv1 kernel: Early memory node ranges
+2026-01-26T18:59:54-03:00 srv1 kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+2026-01-26T18:59:54-03:00 srv1 kernel:   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2026-01-26T18:59:54-03:00 srv1 kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+2026-01-26T18:59:54-03:00 srv1 kernel: On node 0, zone DMA32: 16 pages in unavailable ranges
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: PM-Timer IO Port: 0x4008
+2026-01-26T18:59:54-03:00 srv1 kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU topo: Max. logical packages:   1
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU topo: Max. logical dies:       1
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU topo: Max. dies per package:   1
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU topo: Max. threads per core:   1
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU topo: Num. cores per package:     2
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU topo: Num. threads per package:   2
+2026-01-26T18:59:54-03:00 srv1 kernel: CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+2026-01-26T18:59:54-03:00 srv1 kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2026-01-26T18:59:54-03:00 srv1 kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000fffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: PM: hibernation: Registered nosave memory: [mem 0x7fff0000-0x7fffffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: [mem 0x80000000-0xfebfffff] available for PCI devices
+2026-01-26T18:59:54-03:00 srv1 kernel: Booting paravirtualized kernel on KVM
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+2026-01-26T18:59:54-03:00 srv1 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+2026-01-26T18:59:54-03:00 srv1 kernel: percpu: Embedded 66 pages/cpu s233472 r8192 d28672 u1048576
+2026-01-26T18:59:54-03:00 srv1 kernel: pcpu-alloc: s233472 r8192 d28672 u1048576 alloc=1*2097152
+2026-01-26T18:59:54-03:00 srv1 kernel: pcpu-alloc: [0] 0 1 
+2026-01-26T18:59:54-03:00 srv1 kernel: kvm-guest: PV spinlocks enabled
+2026-01-26T18:59:54-03:00 srv1 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.12.57+deb13-amd64 root=UUID=3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro quiet
+2026-01-26T18:59:54-03:00 srv1 kernel: random: crng init done
+2026-01-26T18:59:54-03:00 srv1 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: Fallback order for Node 0: 0 
+2026-01-26T18:59:54-03:00 srv1 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 524174
+2026-01-26T18:59:54-03:00 srv1 kernel: Policy zone: DMA32
+2026-01-26T18:59:54-03:00 srv1 kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2026-01-26T18:59:54-03:00 srv1 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2026-01-26T18:59:54-03:00 srv1 kernel: ftrace: allocating 45728 entries in 179 pages
+2026-01-26T18:59:54-03:00 srv1 kernel: ftrace: allocated 179 pages with 5 groups
+2026-01-26T18:59:54-03:00 srv1 kernel: Dynamic Preempt: voluntary
+2026-01-26T18:59:54-03:00 srv1 kernel: rcu: Preemptible hierarchical RCU implementation.
+2026-01-26T18:59:54-03:00 srv1 kernel: rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+2026-01-26T18:59:54-03:00 srv1 kernel: #011Trampoline variant of Tasks RCU enabled.
+2026-01-26T18:59:54-03:00 srv1 kernel: #011Rude variant of Tasks RCU enabled.
+2026-01-26T18:59:54-03:00 srv1 kernel: #011Tracing variant of Tasks RCU enabled.
+2026-01-26T18:59:54-03:00 srv1 kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+2026-01-26T18:59:54-03:00 srv1 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2026-01-26T18:59:54-03:00 srv1 kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-26T18:59:54-03:00 srv1 kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-26T18:59:54-03:00 srv1 kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-01-26T18:59:54-03:00 srv1 kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+2026-01-26T18:59:54-03:00 srv1 kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2026-01-26T18:59:54-03:00 srv1 kernel: Console: colour VGA+ 80x25
+2026-01-26T18:59:54-03:00 srv1 kernel: printk: legacy console [tty0] enabled
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Core revision 20240827
+2026-01-26T18:59:54-03:00 srv1 kernel: APIC: Switch to symmetric I/O mode setup
+2026-01-26T18:59:54-03:00 srv1 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2117114894f, max_idle_ns: 440795250968 ns
+2026-01-26T18:59:54-03:00 srv1 kernel: Calibrating delay loop (skipped) preset value.. 4591.25 BogoMIPS (lpj=9182504)
+2026-01-26T18:59:54-03:00 srv1 kernel: AMD Zen1 DIV0 bug detected. Disable SMT for full protection.
+2026-01-26T18:59:54-03:00 srv1 kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+2026-01-26T18:59:54-03:00 srv1 kernel: Last level dTLB entries: 4KB 1536, 2MB 1536, 4MB 768, 1GB 0
+2026-01-26T18:59:54-03:00 srv1 kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2026-01-26T18:59:54-03:00 srv1 kernel: Spectre V2 : Mitigation: Retpolines
+2026-01-26T18:59:54-03:00 srv1 kernel: Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+2026-01-26T18:59:54-03:00 srv1 kernel: active return thunk: retbleed_return_thunk
+2026-01-26T18:59:54-03:00 srv1 kernel: RETBleed: Mitigation: untrained return thunk
+2026-01-26T18:59:54-03:00 srv1 kernel: Speculative Return Stack Overflow: IBPB-extending microcode not applied!
+2026-01-26T18:59:54-03:00 srv1 kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+2026-01-26T18:59:54-03:00 srv1 kernel: active return thunk: srso_return_thunk
+2026-01-26T18:59:54-03:00 srv1 kernel: Speculative Return Stack Overflow: Vulnerable: Safe RET, no microcode
+2026-01-26T18:59:54-03:00 srv1 kernel: x86/fpu: x87 FPU will use FXSAVE
+2026-01-26T18:59:54-03:00 srv1 kernel: Freeing SMP alternatives memory: 40K
+2026-01-26T18:59:54-03:00 srv1 kernel: pid_max: default: 32768 minimum: 301
+2026-01-26T18:59:54-03:00 srv1 kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,tomoyo,bpf,ipe,ima,evm
+2026-01-26T18:59:54-03:00 srv1 kernel: landlock: Up and running.
+2026-01-26T18:59:54-03:00 srv1 kernel: Yama: disabled by default; enable with sysctl kernel.yama.*
+2026-01-26T18:59:54-03:00 srv1 kernel: AppArmor: AppArmor initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: TOMOYO Linux initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: LSM support for eBPF active
+2026-01-26T18:59:54-03:00 srv1 kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: smpboot: CPU0: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx (family: 0x17, model: 0x18, stepping: 0x1)
+2026-01-26T18:59:54-03:00 srv1 kernel: Performance Events: PMU not available due to virtualization, using software events only.
+2026-01-26T18:59:54-03:00 srv1 kernel: signal: max sigframe size: 1440
+2026-01-26T18:59:54-03:00 srv1 kernel: rcu: Hierarchical SRCU implementation.
+2026-01-26T18:59:54-03:00 srv1 kernel: rcu: #011Max phase no-delay instances is 1000.
+2026-01-26T18:59:54-03:00 srv1 kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+2026-01-26T18:59:54-03:00 srv1 kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2026-01-26T18:59:54-03:00 srv1 kernel: smp: Bringing up secondary CPUs ...
+2026-01-26T18:59:54-03:00 srv1 kernel: smpboot: x86: Booting SMP configuration:
+2026-01-26T18:59:54-03:00 srv1 kernel: .... node  #0, CPUs:      #1
+2026-01-26T18:59:54-03:00 srv1 kernel: smp: Brought up 1 node, 2 CPUs
+2026-01-26T18:59:54-03:00 srv1 kernel: smpboot: Total of 2 processors activated (9182.50 BogoMIPS)
+2026-01-26T18:59:54-03:00 srv1 kernel: node 0 deferred pages initialised in 4ms
+2026-01-26T18:59:54-03:00 srv1 kernel: Memory: 1974548K/2096696K available (16384K kernel code, 2496K rwdata, 11800K rodata, 4152K init, 4936K bss, 118200K reserved, 0K cma-reserved)
+2026-01-26T18:59:54-03:00 srv1 kernel: devtmpfs: initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: x86/mm: Memory block size: 128MB
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+2026-01-26T18:59:54-03:00 srv1 kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: pinctrl core: initialized pinctrl subsystem
+2026-01-26T18:59:54-03:00 srv1 kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2026-01-26T18:59:54-03:00 srv1 kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+2026-01-26T18:59:54-03:00 srv1 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2026-01-26T18:59:54-03:00 srv1 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: initializing netlink subsys (disabled)
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=2000 audit(1769464791.555:1): state=initialized audit_enabled=0 res=1
+2026-01-26T18:59:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'fair_share'
+2026-01-26T18:59:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2026-01-26T18:59:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'step_wise'
+2026-01-26T18:59:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'user_space'
+2026-01-26T18:59:54-03:00 srv1 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2026-01-26T18:59:54-03:00 srv1 kernel: cpuidle: using governor ladder
+2026-01-26T18:59:54-03:00 srv1 kernel: cpuidle: using governor menu
+2026-01-26T18:59:54-03:00 srv1 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI: Using configuration type 1 for base access
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI: Using configuration type 1 for extended access
+2026-01-26T18:59:54-03:00 srv1 kernel: mtrr: your CPUs had inconsistent variable MTRR settings
+2026-01-26T18:59:54-03:00 srv1 kernel: mtrr: probably your BIOS does not setup all CPUs.
+2026-01-26T18:59:54-03:00 srv1 kernel: mtrr: corrected configuration.
+2026-01-26T18:59:54-03:00 srv1 kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2026-01-26T18:59:54-03:00 srv1 kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2026-01-26T18:59:54-03:00 srv1 kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Added _OSI(Module Device)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Added _OSI(Processor Device)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Interpreter enabled
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: PM: (supports S0 S5)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Using IOAPIC for interrupt routing
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI: Using E820 reservations for host bridge windows
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2026-01-26T18:59:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+2026-01-26T18:59:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: platform does not support [PCIeCapability LTR]
+2026-01-26T18:59:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: not requesting control; platform does not support [PCIeCapability]
+2026-01-26T18:59:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR]
+2026-01-26T18:59:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER]
+2026-01-26T18:59:54-03:00 srv1 kernel: acpi PNP0A03:00: _OSC: platform retains control of PCIe features (AE_SUPPORT)
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI host bridge to bus 0000:00
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 4 [io  0xd000-0xd00f]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: BAR 0 [io  0xd010-0xd01f]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: BAR 1 [mem 0xe0000000-0xe0ffffff pref]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: BAR 2 [mem 0xf0000000-0xf01fffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:03.0: BAR 0 [mem 0xf0200000-0xf021ffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:03.0: BAR 2 [io  0xd020-0xd027]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:04.0: BAR 0 [io  0xd040-0xd05f]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:04.0: BAR 1 [mem 0xf0400000-0xf07fffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:04.0: BAR 2 [mem 0xf0800000-0xf0803fff pref]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:05.0: BAR 0 [io  0xd100-0xd1ff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:05.0: BAR 1 [io  0xd200-0xd23f]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:06.0: BAR 0 [mem 0xf0804000-0xf0804fff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:08.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:08.0: BAR 0 [mem 0xf0820000-0xf083ffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:08.0: BAR 2 [io  0xd240-0xd247]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0b.0: BAR 0 [mem 0xf0840000-0xf0840fff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 0 [io  0xd248-0xd24f]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 1 [io  0xd250-0xd253]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 2 [io  0xd258-0xd25f]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 3 [io  0xd260-0xd263]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 4 [io  0xd270-0xd27f]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:0d.0: BAR 5 [mem 0xf0842000-0xf0843fff]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+2026-01-26T18:59:54-03:00 srv1 kernel: iommu: Default domain type: Translated
+2026-01-26T18:59:54-03:00 srv1 kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2026-01-26T18:59:54-03:00 srv1 kernel: pps_core: LinuxPPS API ver. 1 registered
+2026-01-26T18:59:54-03:00 srv1 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2026-01-26T18:59:54-03:00 srv1 kernel: PTP clock support registered
+2026-01-26T18:59:54-03:00 srv1 kernel: EDAC MC: Ver: 3.0.0
+2026-01-26T18:59:54-03:00 srv1 kernel: NetLabel: Initializing
+2026-01-26T18:59:54-03:00 srv1 kernel: NetLabel:  domain hash size = 128
+2026-01-26T18:59:54-03:00 srv1 kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2026-01-26T18:59:54-03:00 srv1 kernel: NetLabel:  unlabeled traffic allowed by default
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI: Using ACPI for IRQ routing
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI: pci_cache_line_size set to 64 bytes
+2026-01-26T18:59:54-03:00 srv1 kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2026-01-26T18:59:54-03:00 srv1 kernel: vgaarb: loaded
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: Switched to clocksource kvm-clock
+2026-01-26T18:59:54-03:00 srv1 kernel: VFS: Disk quotas dquot_6.6.0
+2026-01-26T18:59:54-03:00 srv1 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2026-01-26T18:59:54-03:00 srv1 kernel: AppArmor: AppArmor Filesystem Enabled
+2026-01-26T18:59:54-03:00 srv1 kernel: pnp: PnP ACPI init
+2026-01-26T18:59:54-03:00 srv1 kernel: pnp: PnP ACPI: found 2 devices
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2026-01-26T18:59:54-03:00 srv1 kernel: NET: Registered PF_INET protocol family
+2026-01-26T18:59:54-03:00 srv1 kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: TCP: Hash tables configured (established 16384 bind 16384)
+2026-01-26T18:59:54-03:00 srv1 kernel: MPTCP token hash table entries: 2048 (order: 3, 49152 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+2026-01-26T18:59:54-03:00 srv1 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2026-01-26T18:59:54-03:00 srv1 kernel: NET: Registered PF_XDP protocol family
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+2026-01-26T18:59:54-03:00 srv1 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2026-01-26T18:59:54-03:00 srv1 kernel: PCI: CLS 0 bytes, default 64
+2026-01-26T18:59:54-03:00 srv1 kernel: Trying to unpack rootfs image as initramfs...
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2117114894f, max_idle_ns: 440795250968 ns
+2026-01-26T18:59:54-03:00 srv1 kernel: clocksource: Switched to clocksource tsc
+2026-01-26T18:59:54-03:00 srv1 kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+2026-01-26T18:59:54-03:00 srv1 kernel: Initialise system trusted keyrings
+2026-01-26T18:59:54-03:00 srv1 kernel: Key type blacklist registered
+2026-01-26T18:59:54-03:00 srv1 kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+2026-01-26T18:59:54-03:00 srv1 kernel: zbud: loaded
+2026-01-26T18:59:54-03:00 srv1 kernel: fuse: init (API version 7.41)
+2026-01-26T18:59:54-03:00 srv1 kernel: integrity: Platform Keyring initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: integrity: Machine keyring initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: Key type asymmetric registered
+2026-01-26T18:59:54-03:00 srv1 kernel: Asymmetric key parser 'x509' registered
+2026-01-26T18:59:54-03:00 srv1 kernel: Freeing initrd memory: 35864K
+2026-01-26T18:59:54-03:00 srv1 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+2026-01-26T18:59:54-03:00 srv1 kernel: io scheduler mq-deadline registered
+2026-01-26T18:59:54-03:00 srv1 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2026-01-26T18:59:54-03:00 srv1 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2026-01-26T18:59:54-03:00 srv1 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+2026-01-26T18:59:54-03:00 srv1 kernel: Linux agpgart interface v0.103
+2026-01-26T18:59:54-03:00 srv1 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+2026-01-26T18:59:54-03:00 srv1 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2026-01-26T18:59:54-03:00 srv1 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2026-01-26T18:59:54-03:00 srv1 kernel: mousedev: PS/2 mouse device common for all mice
+2026-01-26T18:59:54-03:00 srv1 kernel: rtc_cmos rtc_cmos: registered as rtc0
+2026-01-26T18:59:54-03:00 srv1 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+2026-01-26T18:59:54-03:00 srv1 kernel: rtc_cmos rtc_cmos: setting system clock to 2026-01-26T21:59:35 UTC (1769464775)
+2026-01-26T18:59:54-03:00 srv1 kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+2026-01-26T18:59:54-03:00 srv1 kernel: NET: Registered PF_INET6 protocol family
+2026-01-26T18:59:54-03:00 srv1 kernel: Segment Routing with IPv6
+2026-01-26T18:59:54-03:00 srv1 kernel: In-situ OAM (IOAM) with IPv6
+2026-01-26T18:59:54-03:00 srv1 kernel: mip6: Mobile IPv6
+2026-01-26T18:59:54-03:00 srv1 kernel: NET: Registered PF_PACKET protocol family
+2026-01-26T18:59:54-03:00 srv1 kernel: mpls_gso: MPLS GSO support
+2026-01-26T18:59:54-03:00 srv1 kernel: IPI shorthand broadcast: enabled
+2026-01-26T18:59:54-03:00 srv1 kernel: sched_clock: Marking stable (1025164425, 87867515)->(1115587514, -2555574)
+2026-01-26T18:59:54-03:00 srv1 kernel: registered taskstats version 1
+2026-01-26T18:59:54-03:00 srv1 kernel: Loading compiled-in X.509 certificates
+2026-01-26T18:59:54-03:00 srv1 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 7c2b230a25e7258756ba9d8e66b30d6d89429d6d'
+2026-01-26T18:59:54-03:00 srv1 kernel: Demotion targets for Node 0: null
+2026-01-26T18:59:54-03:00 srv1 kernel: Key type .fscrypt registered
+2026-01-26T18:59:54-03:00 srv1 kernel: Key type fscrypt-provisioning registered
+2026-01-26T18:59:54-03:00 srv1 kernel: Key type encrypted registered
+2026-01-26T18:59:54-03:00 srv1 kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2026-01-26T18:59:54-03:00 srv1 kernel: ima: No TPM chip found, activating TPM-bypass!
+2026-01-26T18:59:54-03:00 srv1 kernel: ima: Allocated hash algorithm: sha256
+2026-01-26T18:59:54-03:00 srv1 kernel: ima: No architecture policies found
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: Initialising EVM extended attributes:
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.selinux
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.SMACK64 (disabled)
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.SMACK64EXEC (disabled)
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.SMACK64TRANSMUTE (disabled)
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.SMACK64MMAP (disabled)
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.apparmor
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.ima
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: security.capability
+2026-01-26T18:59:54-03:00 srv1 kernel: evm: HMAC attrs: 0x1
+2026-01-26T18:59:54-03:00 srv1 kernel: RAS: Correctable Errors collector initialized.
+2026-01-26T18:59:54-03:00 srv1 kernel: clk: Disabling unused clocks
+2026-01-26T18:59:54-03:00 srv1 kernel: PM: genpd: Disabling unused power domains
+2026-01-26T18:59:54-03:00 srv1 kernel: Freeing unused decrypted memory: 2028K
+2026-01-26T18:59:54-03:00 srv1 kernel: Freeing unused kernel image (initmem) memory: 4152K
+2026-01-26T18:59:54-03:00 srv1 kernel: Write protecting the kernel read-only data: 28672k
+2026-01-26T18:59:54-03:00 srv1 kernel: Freeing unused kernel image (rodata/data gap) memory: 488K
+2026-01-26T18:59:54-03:00 srv1 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2026-01-26T18:59:54-03:00 srv1 kernel: Run /init as init process
+2026-01-26T18:59:54-03:00 srv1 kernel:   with arguments:
+2026-01-26T18:59:54-03:00 srv1 kernel:     /init
+2026-01-26T18:59:54-03:00 srv1 kernel:   with environment:
+2026-01-26T18:59:54-03:00 srv1 kernel:     HOME=/
+2026-01-26T18:59:54-03:00 srv1 kernel:     TERM=linux
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: battery: Slot [BAT0] (battery present)
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: bus type USB registered
+2026-01-26T18:59:54-03:00 srv1 kernel: usbcore: registered new interface driver usbfs
+2026-01-26T18:59:54-03:00 srv1 kernel: usbcore: registered new interface driver hub
+2026-01-26T18:59:54-03:00 srv1 kernel: usbcore: registered new device driver usb
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000: Intel(R) PRO/1000 Network Driver
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+2026-01-26T18:59:54-03:00 srv1 kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+2026-01-26T18:59:54-03:00 srv1 kernel: Warning! ehci_hcd should always be loaded before uhci_hcd and ohci_hcd, not after
+2026-01-26T18:59:54-03:00 srv1 kernel: SCSI subsystem initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+2026-01-26T18:59:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+2026-01-26T18:59:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+2026-01-26T18:59:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0840000
+2026-01-26T18:59:54-03:00 srv1 kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.12
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb1: Product: EHCI Host Controller
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb1: Manufacturer: Linux 6.12.57+deb13-amd64 ehci_hcd
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb1: SerialNumber: 0000:00:0b.0
+2026-01-26T18:59:54-03:00 srv1 kernel: hub 1-0:1.0: USB hub found
+2026-01-26T18:59:54-03:00 srv1 kernel: hub 1-0:1.0: 12 ports detected
+2026-01-26T18:59:54-03:00 srv1 kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+2026-01-26T18:59:54-03:00 srv1 kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+2026-01-26T18:59:54-03:00 srv1 kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+2026-01-26T18:59:54-03:00 srv1 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+2026-01-26T18:59:54-03:00 srv1 kernel: libata version 3.00 loaded.
+2026-01-26T18:59:54-03:00 srv1 kernel: ata_piix 0000:00:01.1: version 2.13
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.12
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb2: Product: OHCI PCI host controller
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb2: Manufacturer: Linux 6.12.57+deb13-amd64 ohci_hcd
+2026-01-26T18:59:54-03:00 srv1 kernel: usb usb2: SerialNumber: 0000:00:06.0
+2026-01-26T18:59:54-03:00 srv1 kernel: scsi host0: ata_piix
+2026-01-26T18:59:54-03:00 srv1 kernel: hub 2-0:1.0: USB hub found
+2026-01-26T18:59:54-03:00 srv1 kernel: hub 2-0:1.0: 12 ports detected
+2026-01-26T18:59:54-03:00 srv1 kernel: scsi host1: ata_piix
+2026-01-26T18:59:54-03:00 srv1 kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14 lpm-pol 0
+2026-01-26T18:59:54-03:00 srv1 kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15 lpm-pol 0
+2026-01-26T18:59:54-03:00 srv1 kernel: ahci 0000:00:0d.0: version 3.0
+2026-01-26T18:59:54-03:00 srv1 kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+2026-01-26T18:59:54-03:00 srv1 kernel: ahci 0000:00:0d.0: AHCI vers 0001.0100, 32 command slots, 3 Gbps, SATA mode
+2026-01-26T18:59:54-03:00 srv1 kernel: ahci 0000:00:0d.0: 1/1 ports implemented (port mask 0x1)
+2026-01-26T18:59:54-03:00 srv1 kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+2026-01-26T18:59:54-03:00 srv1 kernel: scsi host2: ahci
+2026-01-26T18:59:54-03:00 srv1 kernel: ata3: SATA max UDMA/133 abar m8192@0xf0842000 port 0xf0842100 irq 21 lpm-pol 1
+2026-01-26T18:59:54-03:00 srv1 kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+2026-01-26T18:59:54-03:00 srv1 kernel: scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+2026-01-26T18:59:54-03:00 srv1 kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+2026-01-26T18:59:54-03:00 srv1 kernel: ata3.00: LPM support broken, forcing max_power
+2026-01-26T18:59:54-03:00 srv1 kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+2026-01-26T18:59:54-03:00 srv1 kernel: ata3.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 32)
+2026-01-26T18:59:54-03:00 srv1 kernel: ata3.00: LPM support broken, forcing max_power
+2026-01-26T18:59:54-03:00 srv1 kernel: ata3.00: configured for UDMA/133
+2026-01-26T18:59:54-03:00 srv1 kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+2026-01-26T18:59:54-03:00 srv1 kernel: sd 2:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+2026-01-26T18:59:54-03:00 srv1 kernel: sd 2:0:0:0: [sda] Write Protect is off
+2026-01-26T18:59:54-03:00 srv1 kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+2026-01-26T18:59:54-03:00 srv1 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+2026-01-26T18:59:54-03:00 srv1 kernel: sd 2:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+2026-01-26T18:59:54-03:00 srv1 kernel: usb 2-1: new full-speed USB device number 2 using ohci-pci
+2026-01-26T18:59:54-03:00 srv1 kernel:  sda: sda1 sda2 < sda5 sda6 >
+2026-01-26T18:59:54-03:00 srv1 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:8f:c3:88
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+2026-01-26T18:59:54-03:00 srv1 kernel: sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+2026-01-26T18:59:54-03:00 srv1 kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2026-01-26T18:59:54-03:00 srv1 kernel: sr 1:0:0:0: Attached scsi CD-ROM sr0
+2026-01-26T18:59:54-03:00 srv1 kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+2026-01-26T18:59:54-03:00 srv1 kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+2026-01-26T18:59:54-03:00 srv1 kernel: usb 2-1: Product: USB Tablet
+2026-01-26T18:59:54-03:00 srv1 kernel: usb 2-1: Manufacturer: VirtualBox
+2026-01-26T18:59:54-03:00 srv1 kernel: hid: raw HID events driver (C) Jiri Kosina
+2026-01-26T18:59:54-03:00 srv1 kernel: usbcore: registered new interface driver usbhid
+2026-01-26T18:59:54-03:00 srv1 kernel: usbhid: USB HID core driver
+2026-01-26T18:59:54-03:00 srv1 kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4
+2026-01-26T18:59:54-03:00 srv1 kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:e3:03:c3
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000 0000:00:08.0 enp0s8: renamed from eth1
+2026-01-26T18:59:54-03:00 srv1 kernel: PM: Image not found (code -22)
+2026-01-26T18:59:54-03:00 srv1 kernel: EXT4-fs (sda1): orphan cleanup on readonly fs
+2026-01-26T18:59:54-03:00 srv1 kernel: EXT4-fs (sda1): mounted filesystem 3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 ro with ordered data mode. Quota mode: none.
+2026-01-26T18:59:54-03:00 srv1 kernel: Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+2026-01-26T18:59:54-03:00 srv1 kernel: Guest personality initialized and is inactive
+2026-01-26T18:59:54-03:00 srv1 kernel: VMCI host device registered (name=vmci, major=10, minor=123)
+2026-01-26T18:59:54-03:00 srv1 kernel: Initialized host personality
+2026-01-26T18:59:54-03:00 srv1 kernel: NET: Registered PF_VSOCK protocol family
+2026-01-26T18:59:54-03:00 srv1 kernel: EXT4-fs (sda1): re-mounted 3c479c65-cc9a-4a16-ab6e-2915eecfa0e2 r/w.
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: bus type drm_connector registered
+2026-01-26T18:59:54-03:00 srv1 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input5
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: button: Power Button [PWRF]
+2026-01-26T18:59:54-03:00 srv1 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input6
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: button: Sleep Button [SLPF]
+2026-01-26T18:59:54-03:00 srv1 kernel: ACPI: AC: AC Adapter [AC] (on-line)
+2026-01-26T18:59:54-03:00 srv1 kernel: input: PC Speaker as /devices/platform/pcspkr/input/input7
+2026-01-26T18:59:54-03:00 srv1 kernel: cryptd: max_cpu_qlen set to 1000
+2026-01-26T18:59:54-03:00 srv1 kernel: vboxguest: host-version: 7.1.8r168469 0x8000000f
+2026-01-26T18:59:54-03:00 srv1 kernel: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+2026-01-26T18:59:54-03:00 srv1 kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input8
+2026-01-26T18:59:54-03:00 srv1 kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+2026-01-26T18:59:54-03:00 srv1 kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+2026-01-26T18:59:54-03:00 srv1 kernel: Console: switching to colour dummy device 80x25
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 KiB
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 KiB
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, gbobject, 
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 KiB, FIFO = 2048 KiB, surface = 507904 KiB
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 131072 KiB, max mob pages = 4096
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 KiB
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Screen Target display unit initialized
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+2026-01-26T18:59:54-03:00 srv1 kernel: [drm] Initialized vmwgfx 2.20.0 for 0000:00:02.0 on minor 0
+2026-01-26T18:59:54-03:00 srv1 kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+2026-01-26T18:59:54-03:00 srv1 kernel: Console: switching to colour frame buffer device 160x50
+2026-01-26T18:59:54-03:00 srv1 kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2026-01-26T18:59:54-03:00 srv1 kernel: Adding 1643516k swap on /dev/sda5.  Priority:-2 extents:1 across:1643516k 
+2026-01-26T18:59:54-03:00 srv1 kernel: intel_rapl_common: Found RAPL domain package
+2026-01-26T18:59:54-03:00 srv1 kernel: intel_rapl_common: Found RAPL domain core
+2026-01-26T18:59:54-03:00 srv1 kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+2026-01-26T18:59:54-03:00 srv1 kernel: EXT4-fs (sda6): mounted filesystem 5ee3ee71-9da9-4ed1-ac98-741b16c7752c r/w with ordered data mode. Quota mode: none.
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.111:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=496 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.111:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=495 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.119:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=499 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.119:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=498 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.147:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=501 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.159:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=502 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.167:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=503 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.171:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=504 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.183:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=505 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: audit: type=1400 audit(1769464793.187:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Xorg" pid=500 comm="apparmor_parser"
+2026-01-26T18:59:54-03:00 srv1 kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-01-26T18:59:55-03:00 srv1 kernel: 8021q: 802.1Q VLAN Support v1.8
+2026-01-26T18:59:55-03:00 srv1 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s8
+2026-01-26T18:59:56-03:00 srv1 kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+2026-01-26T18:59:56-03:00 srv1 kernel: Loaded X.509 cert 'benh@debian.org: 577e021cb980e0e820821ba7b54b4961b8b4fadf'
+2026-01-26T18:59:56-03:00 srv1 kernel: Loaded X.509 cert 'romain.perier@gmail.com: 3abbc6ec146e09d1b6016ab9d6cf71dd233f0328'
+2026-01-26T18:59:56-03:00 srv1 kernel: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+2026-01-26T18:59:56-03:00 srv1 kernel: Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+2026-01-26T18:59:56-03:00 srv1 kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-01-26T18:59:56-03:00 srv1 kernel: 8021q: adding VLAN 0 to HW filter on device enp0s3
+2026-01-26T18:13:48-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1426915478 wd_nsec: 1426915194
+2026-01-26T18:14:03-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 3769174957 wd_nsec: 3769174559
+2026-01-28T15:37:18-03:00 srv1 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 1407284190 wd_nsec: 1407284069
+2026-01-28T17:35:20-03:00 srv1 kernel: hrtimer: interrupt took 59095231 ns

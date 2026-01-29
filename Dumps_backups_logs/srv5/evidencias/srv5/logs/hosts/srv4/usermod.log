@@ -1,0 +1,2 @@
+2026-01-28T18:31:40-03:00 srv4 usermod[1544]: add 'pedro' to group 'sudo'
+2026-01-28T18:31:40-03:00 srv4 usermod[1544]: add 'pedro' to shadow group 'sudo'

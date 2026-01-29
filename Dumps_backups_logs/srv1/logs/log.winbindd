@@ -1,0 +1,84 @@
+[2025/12/21 15:28:34.450221,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2025/12/21 15:29:41.493429,  0, traceid=1] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=1)
+[2025/12/21 15:50:45.882836,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2025/12/21 18:46:09.578052,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2025/12/21 19:00:32.596104,  0, traceid=1] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=1)
+[2026/01/01 18:18:25.396840,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/03 20:35:28.736446,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/06 14:10:39.696783,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/07 17:14:26.810297,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/11 21:58:05.406325,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/18 17:41:33.241787,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/19 15:38:21.261890,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/22 19:08:30.095916,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/24 10:15:33.585171,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 06:01:02.473354,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 10:38:47.438074,  0, traceid=1] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=1)
+[2026/01/25 10:38:47.438271,  0, traceid=1] lib/util/pidfile.c:235(pidfile_unlink)
+  Failed to delete pidfile /run/samba/winbindd.pid. Error was Arquivo ou diretório inexistente
+[2026/01/25 10:38:48.455838,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 10:39:01.562458,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 11:32:03.172580,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 11:33:06.621394,  0, traceid=1] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=1)
+[2026/01/25 11:33:08.573839,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/25 22:19:48.854698,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 00:15:09.524926,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 14:32:45.451433,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 14:53:15.807953,  0, traceid=1] source3/winbindd/winbindd_dual.c:1984(winbindd_sig_term_handler)
+  Got sig[15] terminate (is_parent=1)
+[2026/01/26 14:53:18.330215,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 14:53:27.793019,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/26 18:13:35.780932,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/01/28 15:27:16.779019,  0] source3/winbindd/winbindd.c:1445(main)
+  winbindd version 4.22.6-Debian-4.22.6+dfsg-0+deb13u1 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025

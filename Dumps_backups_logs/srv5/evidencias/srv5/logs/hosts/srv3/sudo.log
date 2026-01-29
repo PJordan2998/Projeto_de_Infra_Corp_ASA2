@@ -1,0 +1,15 @@
+2026-01-28T18:21:35-03:00 srv3 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/cat
+2026-01-28T18:21:35-03:00 srv3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:21:58-03:00 srv3 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:26:19-03:00 srv3 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chown -R pedro:pedro evidencias/
+2026-01-28T18:26:19-03:00 srv3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:26:19-03:00 srv3 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:29:23-03:00 srv3 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/mv evidencias/ /root/
+2026-01-28T18:29:23-03:00 srv3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T18:29:23-03:00 srv3 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:30:00-03:00 srv3 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chown -R root:root evidencias/
+2026-01-28T18:30:00-03:00 srv3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-28T18:30:00-03:00 srv3 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:30:34-03:00 srv3 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod -R 644 evidencias/
+2026-01-28T18:30:34-03:00 srv3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-28T18:30:34-03:00 srv3 sudo: pam_unix(sudo:session): session closed for user root

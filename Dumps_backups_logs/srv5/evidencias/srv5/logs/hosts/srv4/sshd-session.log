@@ -1,0 +1,73 @@
+2026-01-19T18:12:43-03:00 srv4 sshd-session[984]: Received disconnect from 10.0.2.2 port 59028:11: disconnected by user
+2026-01-19T18:12:44-03:00 srv4 sshd-session[984]: Disconnected from user pedro 10.0.2.2 port 59028
+2026-01-19T18:12:44-03:00 srv4 sshd-session[952]: pam_unix(sshd:session): session closed for user pedro
+2026-01-19T18:12:44-03:00 srv4 sshd-session[952]: syslogin_perform_logout: logout() returned an error
+2026-01-19T18:12:44-03:00 srv4 sshd-session[983]: Connection closed by 10.0.2.2 port 59030
+2026-01-19T18:12:44-03:00 srv4 sshd-session[956]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T06:07:44-03:00 srv4 sshd-session[896]: Accepted password for pedro from 10.0.2.2 port 50326 ssh2
+2026-01-25T06:07:44-03:00 srv4 sshd-session[896]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T06:07:44-03:00 srv4 sshd-session[900]: Accepted password for pedro from 10.0.2.2 port 50328 ssh2
+2026-01-25T06:07:44-03:00 srv4 sshd-session[900]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T13:50:04-03:00 srv4 sshd-session[928]: Received disconnect from 10.0.2.2 port 50326:11: disconnected by user
+2026-01-25T13:50:05-03:00 srv4 sshd-session[928]: Disconnected from user pedro 10.0.2.2 port 50326
+2026-01-25T13:50:05-03:00 srv4 sshd-session[896]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T13:50:05-03:00 srv4 sshd-session[896]: syslogin_perform_logout: logout() returned an error
+2026-01-25T13:50:05-03:00 srv4 sshd-session[927]: Connection closed by 10.0.2.2 port 50328
+2026-01-25T13:50:05-03:00 srv4 sshd-session[900]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T22:29:51-03:00 srv4 sshd-session[880]: Accepted password for pedro from 10.0.2.2 port 60922 ssh2
+2026-01-25T22:29:51-03:00 srv4 sshd-session[880]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T22:29:52-03:00 srv4 sshd-session[884]: Accepted password for pedro from 10.0.2.2 port 60925 ssh2
+2026-01-25T22:29:52-03:00 srv4 sshd-session[884]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T00:23:00-03:00 srv4 sshd-session[10490]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.30  user=ti01
+2026-01-26T00:23:00-03:00 srv4 sshd-session[10490]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-01-26T00:23:00-03:00 srv4 sshd-session[10490]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-01-26T00:23:00-03:00 srv4 sshd-session[10490]: pam_winbind(sshd:auth): user 'ti01' granted access
+2026-01-26T00:23:00-03:00 srv4 sshd-session[10490]: pam_winbind(sshd:account): user 'ti01' granted access
+2026-01-26T00:23:00-03:00 srv4 sshd-session[10490]: Accepted password for ti01 from 192.168.50.30 port 46080 ssh2
+2026-01-26T00:23:00-03:00 srv4 sshd-session[10490]: pam_unix(sshd:session): session opened for user ti01(uid=11106) by ti01(uid=0)
+2026-01-26T00:23:06-03:00 srv4 sshd-session[10496]: Received disconnect from 192.168.50.30 port 46080:11: disconnected by user
+2026-01-26T00:23:07-03:00 srv4 sshd-session[10496]: Disconnected from user ti01 192.168.50.30 port 46080
+2026-01-26T00:23:07-03:00 srv4 sshd-session[10490]: syslogin_perform_logout: logout() returned an error
+2026-01-26T00:23:07-03:00 srv4 sshd-session[10490]: pam_unix(sshd:session): session closed for user ti01
+2026-01-26T00:23:07-03:00 srv4 sshd-session[10490]: pam_winbind(sshd:setcred): user 'ti01' OK
+2026-01-26T00:41:48-03:00 srv4 sshd-session[912]: Received disconnect from 10.0.2.2 port 60922:11: disconnected by user
+2026-01-26T00:41:48-03:00 srv4 sshd-session[880]: syslogin_perform_logout: logout() returned an error
+2026-01-26T00:41:48-03:00 srv4 sshd-session[912]: Disconnected from user pedro 10.0.2.2 port 60922
+2026-01-26T00:41:48-03:00 srv4 sshd-session[911]: Connection closed by 10.0.2.2 port 60925
+2026-01-26T00:41:48-03:00 srv4 sshd-session[884]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T00:41:48-03:00 srv4 sshd-session[880]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T14:39:37-03:00 srv4 sshd-session[927]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2  user=pedro
+2026-01-26T14:39:37-03:00 srv4 sshd-session[927]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-01-26T14:39:37-03:00 srv4 sshd-session[927]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-01-26T14:39:38-03:00 srv4 sshd-session[927]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_AUTH_ERROR, PAM error: PAM_AUTHINFO_UNAVAIL (9), NTSTATUS: NT_STATUS_NO_LOGON_SERVERS, Error message was: No logon servers are currently available to service the logon request.
+2026-01-26T14:39:38-03:00 srv4 sshd-session[927]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'pedro')
+2026-01-26T14:39:40-03:00 srv4 sshd-session[927]: Failed password for pedro from 10.0.2.2 port 49361 ssh2
+2026-01-26T14:39:45-03:00 srv4 sshd-session[927]: Accepted password for pedro from 10.0.2.2 port 49361 ssh2
+2026-01-26T14:39:45-03:00 srv4 sshd-session[927]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T14:39:45-03:00 srv4 sshd-session[934]: Accepted password for pedro from 10.0.2.2 port 49363 ssh2
+2026-01-26T14:39:45-03:00 srv4 sshd-session[934]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T18:32:49-03:00 srv4 sshd-session[944]: Received disconnect from 10.0.2.2 port 49361:11: disconnected by user
+2026-01-26T18:32:49-03:00 srv4 sshd-session[944]: Disconnected from user pedro 10.0.2.2 port 49361
+2026-01-26T18:32:49-03:00 srv4 sshd-session[927]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T18:32:49-03:00 srv4 sshd-session[927]: syslogin_perform_logout: logout() returned an error
+2026-01-26T18:32:50-03:00 srv4 sshd-session[945]: Connection closed by 10.0.2.2 port 49363
+2026-01-26T18:32:50-03:00 srv4 sshd-session[934]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T16:06:26-03:00 srv4 sshd-session[1007]: Accepted password for pedro from 10.0.2.2 port 55878 ssh2
+2026-01-28T16:06:27-03:00 srv4 sshd-session[1007]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T16:06:27-03:00 srv4 sshd-session[1011]: Accepted password for pedro from 10.0.2.2 port 55880 ssh2
+2026-01-28T16:06:27-03:00 srv4 sshd-session[1011]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T17:19:47-03:00 srv4 sshd-session[1017]: Received disconnect from 10.0.2.2 port 55878:11: disconnected by user
+2026-01-28T17:19:47-03:00 srv4 sshd-session[1017]: Disconnected from user pedro 10.0.2.2 port 55878
+2026-01-28T17:19:47-03:00 srv4 sshd-session[1007]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T17:19:47-03:00 srv4 sshd-session[1007]: syslogin_perform_logout: logout() returned an error
+2026-01-28T17:19:48-03:00 srv4 sshd-session[1024]: Connection closed by 10.0.2.2 port 55880
+2026-01-28T17:19:48-03:00 srv4 sshd-session[1011]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T18:31:06-03:00 srv4 sshd-session[1507]: Accepted password for pedro from 10.0.2.2 port 58579 ssh2
+2026-01-28T18:31:06-03:00 srv4 sshd-session[1507]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T18:31:06-03:00 srv4 sshd-session[1516]: Accepted password for pedro from 10.0.2.2 port 58581 ssh2
+2026-01-28T18:31:06-03:00 srv4 sshd-session[1516]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T19:08:36-03:00 srv4 sshd-session[2455]: Connection reset by 10.0.2.2 port 57410 [preauth]
+2026-01-28T19:09:12-03:00 srv4 sshd-session[2457]: Accepted password for pedro from 10.0.2.2 port 57411 ssh2
+2026-01-28T19:09:12-03:00 srv4 sshd-session[2457]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T19:09:12-03:00 srv4 sshd-session[2465]: Read error from remote host 10.0.2.2 port 57411: Connection reset by peer
+2026-01-28T19:09:12-03:00 srv4 sshd-session[2457]: pam_unix(sshd:session): session closed for user pedro

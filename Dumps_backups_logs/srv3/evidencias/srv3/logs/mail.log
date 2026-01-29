@@ -1,0 +1,296 @@
+2026-01-26T14:35:09.531293-03:00 srv3 dovecot: master: Dovecot v2.4.1-4 (7d8c0e5759) starting up for imap, pop3 (core dumps disabled)
+2026-01-26T14:35:13.526022-03:00 srv3 postfix/postfix-script[899]: warning: group or other writable: /etc/postfix/./virtual
+2026-01-26T14:35:13.579456-03:00 srv3 postfix/postfix-script[904]: warning: group or other writable: /etc/postfix/./virtual_domains
+2026-01-26T14:35:15.798109-03:00 srv3 postfix/master[964]: daemon started -- version 3.10.5, configuration /etc/postfix
+2026-01-26T14:35:22.787013-03:00 srv3 amavis[734]: starting. /usr/sbin/amavisd at srv3.empresa.local amavis-2.13.0 (20230106), Unicode aware, LANG="pt_BR.UTF-8"
+2026-01-26T14:35:22.788755-03:00 srv3 amavis[734]: perl=5.040001, user=988, EUID: 988 (988);  group=(), EGID: 988 105 988 (988 105 988)
+2026-01-26T14:35:29.830315-03:00 srv3 spamd[717]: zoom: able to use 384/384 'body_0' compiled rules (100%)
+2026-01-26T14:35:30.772210-03:00 srv3 amavis[734]: Net::Server: Group Not Defined.  Defaulting to EGID '988 105 988'
+2026-01-26T14:35:30.775231-03:00 srv3 amavis[734]: Net::Server: User Not Defined.  Defaulting to EUID '988'
+2026-01-26T14:35:30.844772-03:00 srv3 amavis[734]: No ext program for   .lrz, tried: lrzip -q -k -d -o -, lrzcat -q -k
+2026-01-26T14:35:30.866516-03:00 srv3 amavis[734]: No ext program for   .lzo, tried: lzop -d
+2026-01-26T14:35:30.866928-03:00 srv3 amavis[734]: No ext program for   .lz4, tried: lz4c -d
+2026-01-26T14:35:30.867036-03:00 srv3 amavis[734]: No ext program for   .rpm, tried: rpm2cpio.pl, rpm2cpio
+2026-01-26T14:35:30.867335-03:00 srv3 amavis[734]: No ext program for   .rar, tried: unrar-free
+2026-01-26T14:35:30.867414-03:00 srv3 amavis[734]: No ext program for   .arj, tried: arj, unarj
+2026-01-26T14:35:30.867467-03:00 srv3 amavis[734]: No ext program for   .arc, tried: nomarch, arc
+2026-01-26T14:35:30.867541-03:00 srv3 amavis[734]: No ext program for   .zoo, tried: zoo
+2026-01-26T14:35:30.867594-03:00 srv3 amavis[734]: No ext program for   .doc, tried: ripole
+2026-01-26T14:35:30.867640-03:00 srv3 amavis[734]: No ext program for   .cab, tried: cabextract
+2026-01-26T14:35:30.867687-03:00 srv3 amavis[734]: No ext program for   .zip, tried: 7za, 7zz, 7z
+2026-01-26T14:35:30.867741-03:00 srv3 amavis[734]: No ext program for   .kmz, tried: 7za, 7zz, 7z
+2026-01-26T14:35:30.867938-03:00 srv3 amavis[734]: No ext program for   .7z, tried: 7zr, 7za, 7zz, 7z
+2026-01-26T14:35:30.868083-03:00 srv3 amavis[734]: No ext program for   .jar, tried: 7zz, 7z
+2026-01-26T14:35:30.868148-03:00 srv3 amavis[734]: No ext program for   .arj, tried: 7zz, 7z
+2026-01-26T14:35:30.868202-03:00 srv3 amavis[734]: No ext program for   .rar, tried: 7zz, 7z
+2026-01-26T14:35:30.868257-03:00 srv3 amavis[734]: No ext program for   .swf, tried: 7zz, 7z
+2026-01-26T14:35:30.868312-03:00 srv3 amavis[734]: No ext program for   .lha, tried: 7zz, 7z
+2026-01-26T14:35:30.868366-03:00 srv3 amavis[734]: No ext program for   .iso, tried: 7zz, 7z
+2026-01-26T14:35:30.868422-03:00 srv3 amavis[734]: No ext program for   .cab, tried: 7zz, 7z
+2026-01-26T14:35:30.868474-03:00 srv3 amavis[734]: No ext program for   .rpm, tried: 7zz, 7z
+2026-01-26T14:35:30.868526-03:00 srv3 amavis[734]: No ext program for   .exe, tried: unrar-free; arj, unarj
+2026-01-26T14:35:30.868581-03:00 srv3 amavis[734]: No decoder for       .7z  
+2026-01-26T14:35:30.868651-03:00 srv3 amavis[734]: No decoder for       .F   
+2026-01-26T14:35:30.868714-03:00 srv3 amavis[734]: No decoder for       .arc 
+2026-01-26T14:35:30.868778-03:00 srv3 amavis[734]: No decoder for       .arj 
+2026-01-26T14:35:30.868874-03:00 srv3 amavis[734]: No decoder for       .cab 
+2026-01-26T14:35:30.868966-03:00 srv3 amavis[734]: No decoder for       .doc 
+2026-01-26T14:35:30.869061-03:00 srv3 amavis[734]: No decoder for       .exe 
+2026-01-26T14:35:30.869156-03:00 srv3 amavis[734]: No decoder for       .iso 
+2026-01-26T14:35:30.869256-03:00 srv3 amavis[734]: No decoder for       .jar 
+2026-01-26T14:35:30.869355-03:00 srv3 amavis[734]: No decoder for       .lha 
+2026-01-26T14:35:30.869421-03:00 srv3 amavis[734]: No decoder for       .lrz 
+2026-01-26T14:35:30.869490-03:00 srv3 amavis[734]: No decoder for       .lz4 
+2026-01-26T14:35:30.869577-03:00 srv3 amavis[734]: No decoder for       .lzo 
+2026-01-26T14:35:30.869657-03:00 srv3 amavis[734]: No decoder for       .rar 
+2026-01-26T14:35:30.869732-03:00 srv3 amavis[734]: No decoder for       .rpm 
+2026-01-26T14:35:30.869795-03:00 srv3 amavis[734]: No decoder for       .swf 
+2026-01-26T14:35:30.869863-03:00 srv3 amavis[734]: No decoder for       .zoo 
+2026-01-26T14:35:30.869947-03:00 srv3 amavis[734]: Using primary internal av scanner code for ClamAV-clamd
+2026-01-26T14:35:30.891213-03:00 srv3 amavis[734]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+2026-01-26T14:35:39.088606-03:00 srv3 spamd[717]: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+2026-01-26T14:35:39.239844-03:00 srv3 spamd[717]: spamd: server pid: 717
+2026-01-26T14:35:39.287702-03:00 srv3 spamd[717]: spamd: server successfully spawned child process, pid 1014
+2026-01-26T14:35:39.364572-03:00 srv3 spamd[717]: spamd: server successfully spawned child process, pid 1015
+2026-01-26T14:35:39.379804-03:00 srv3 spamd[717]: prefork: child states: IS
+2026-01-26T14:35:39.390796-03:00 srv3 spamd[717]: prefork: child states: II
+2026-01-26T16:55:35.183826-03:00 srv3 postfix/postscreen[1719]: cache btree:/var/lib/postfix/postscreen_cache full cleanup: retained=0 dropped=0 entries
+2026-01-26T16:55:35.197690-03:00 srv3 postfix/postscreen[1719]: CONNECT from [::1]:56182 to [::1]:25
+2026-01-26T16:55:35.197952-03:00 srv3 postfix/postscreen[1719]: ALLOWLISTED [::1]:56182
+2026-01-26T16:55:35.743610-03:00 srv3 postfix/smtpd[1720]: connect from localhost[::1]
+2026-01-26T16:55:45.924523-03:00 srv3 postfix/smtpd[1720]: E14AC4027F: client=localhost[::1]
+2026-01-26T16:55:45.928760-03:00 srv3 postfix/cleanup[1726]: E14AC4027F: message-id=<20260126165534.001718@srv3.empresa.local>
+2026-01-26T16:55:45.956044-03:00 srv3 postfix/qmgr[967]: E14AC4027F: from=<vendas@empresa.local>, size=466, nrcpt=1 (queue active)
+2026-01-26T16:55:45.958316-03:00 srv3 postfix/smtpd[1720]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T16:55:48.199466-03:00 srv3 postfix/smtpd[1730]: connect from localhost[127.0.0.1]
+2026-01-26T16:55:48.216018-03:00 srv3 postfix/smtpd[1730]: 3408640DA4: client=localhost[127.0.0.1]
+2026-01-26T16:55:48.226118-03:00 srv3 postfix/cleanup[1726]: 3408640DA4: message-id=<20260126165534.001718@srv3.empresa.local>
+2026-01-26T16:55:48.249974-03:00 srv3 postfix/qmgr[967]: 3408640DA4: from=<vendas@empresa.local>, size=908, nrcpt=1 (queue active)
+2026-01-26T16:55:48.297578-03:00 srv3 amavis[1012]: (01012-01) Passed CLEAN {RelayedInbound}, [::1]:56182 <vendas@empresa.local> -> <suporte@empresa.local>, Queue-ID: E14AC4027F, Message-ID: <20260126165534.001718@srv3.empresa.local>, mail_id: rgoS9XNaziSy, Hits: -0.2, size: 466, queued_as: 3408640DA4, 2238 ms
+2026-01-26T16:55:48.309397-03:00 srv3 postfix/lmtp[1727]: E14AC4027F: to=<suporte@empresa.local>, relay=127.0.0.1[127.0.0.1]:10024, delay=12, delays=10/0.09/0.07/2.2, dsn=2.0.0, status=sent (250 2.0.0 from MTA(smtp:[127.0.0.1]:10025): 250 2.0.0 Ok: queued as 3408640DA4)
+2026-01-26T16:55:48.343533-03:00 srv3 postfix/qmgr[967]: E14AC4027F: removed
+2026-01-26T16:55:48.354061-03:00 srv3 postfix/local[1731]: 3408640DA4: to=<user1@empresa.local>, orig_to=<suporte@empresa.local>, relay=local, delay=0.14, delays=0.04/0.07/0/0.04, dsn=2.0.0, status=sent (delivered to maildir)
+2026-01-26T16:55:48.358041-03:00 srv3 postfix/qmgr[967]: 3408640DA4: removed
+2026-01-26T16:56:57.495723-03:00 srv3 postfix/postscreen[1719]: CONNECT from [::1]:40644 to [::1]:25
+2026-01-26T16:56:57.496644-03:00 srv3 postfix/postscreen[1719]: ALLOWLISTED [::1]:40644
+2026-01-26T16:56:57.500262-03:00 srv3 postfix/smtpd[1720]: connect from localhost[::1]
+2026-01-26T16:56:57.537419-03:00 srv3 postfix/smtpd[1720]: 82E1B4027F: client=localhost[::1]
+2026-01-26T16:56:57.548156-03:00 srv3 postfix/cleanup[1726]: 82E1B4027F: message-id=<20260126165657.001734@srv3.empresa.local>
+2026-01-26T16:56:57.862622-03:00 srv3 postfix/qmgr[967]: 82E1B4027F: from=<vendas@empresa.local>, size=499, nrcpt=1 (queue active)
+2026-01-26T16:56:57.867161-03:00 srv3 postfix/smtpd[1720]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T16:56:58.320984-03:00 srv3 postfix/smtpd[1737]: connect from localhost[127.0.0.1]
+2026-01-26T16:56:58.335828-03:00 srv3 postfix/smtpd[1737]: 5157140E2B: client=localhost[127.0.0.1]
+2026-01-26T16:56:58.348904-03:00 srv3 postfix/cleanup[1726]: 5157140E2B: message-id=<VAl4tcmfEJJSr2@srv3.empresa.local>
+2026-01-26T16:56:58.366499-03:00 srv3 postfix/qmgr[967]: 5157140E2B: from=<postmaster@srv3.empresa.local>, size=2125, nrcpt=1 (queue active)
+2026-01-26T16:56:58.393122-03:00 srv3 amavis[1013]: (01013-01) Blocked INFECTED (Eicar-Signature) {RejectedInbound,Quarantined}, [::1]:40644 <vendas@empresa.local> -> <suporte@empresa.local>, quarantine: l/virus-l4tcmfEJJSr2, Queue-ID: 82E1B4027F, Message-ID: <20260126165657.001734@srv3.empresa.local>, mail_id: l4tcmfEJJSr2, Hits: -, size: 499, 508 ms
+2026-01-26T16:56:58.394901-03:00 srv3 postfix/local[1731]: 5157140E2B: to=<root@empresa.local>, orig_to=<postmaster@empresa.local>, relay=local, delay=0.06, delays=0.04/0/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+2026-01-26T16:56:58.400021-03:00 srv3 postfix/qmgr[967]: 5157140E2B: removed
+2026-01-26T16:56:58.465003-03:00 srv3 postfix/lmtp[1727]: 82E1B4027F: to=<suporte@empresa.local>, relay=127.0.0.1[127.0.0.1]:10024, delay=0.89, delays=0.35/0.01/0.06/0.47, dsn=5.7.0, status=bounced (host 127.0.0.1[127.0.0.1] said: 554 5.7.0 Reject, id=01013-01 - INFECTED: Eicar-Signature (in reply to end of DATA command))
+2026-01-26T16:56:58.490134-03:00 srv3 postfix/cleanup[1726]: 74BB840E2C: message-id=<20260126195658.74BB840E2C@srv3.empresa.local>
+2026-01-26T16:56:58.515676-03:00 srv3 postfix/bounce[1738]: 82E1B4027F: sender non-delivery notification: 74BB840E2C
+2026-01-26T16:56:58.516335-03:00 srv3 postfix/qmgr[967]: 74BB840E2C: from=<>, size=2560, nrcpt=1 (queue active)
+2026-01-26T16:56:58.518505-03:00 srv3 postfix/qmgr[967]: 82E1B4027F: removed
+2026-01-26T16:56:58.551035-03:00 srv3 postfix/local[1731]: 74BB840E2C: to=<user2@empresa.local>, orig_to=<vendas@empresa.local>, relay=local, delay=0.07, delays=0.03/0/0/0.04, dsn=2.0.0, status=sent (delivered to maildir)
+2026-01-26T16:56:58.552240-03:00 srv3 postfix/qmgr[967]: 74BB840E2C: removed
+2026-01-26T16:57:57.834682-03:00 srv3 postfix/postscreen[1719]: CONNECT from [::1]:54174 to [::1]:25
+2026-01-26T16:57:57.840355-03:00 srv3 postfix/postscreen[1719]: ALLOWLISTED [::1]:54174
+2026-01-26T16:57:57.842873-03:00 srv3 postfix/smtpd[1720]: connect from localhost[::1]
+2026-01-26T16:58:03.713015-03:00 srv3 postfix/smtpd[1720]: NOQUEUE: reject: RCPT from localhost[::1]: 550 5.1.1 <contato@empresa.local>: Recipient address rejected: User unknown in local recipient table; from=<suporte@empresa.local> to=<contato@empresa.local> proto=ESMTP helo=<srv3.empresa.local>
+2026-01-26T16:58:03.718770-03:00 srv3 postfix/smtpd[1720]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=0/1 quit=1 commands=3/4
+2026-01-26T16:59:31.543651-03:00 srv3 postfix/postscreen[1719]: CONNECT from [::1]:51370 to [::1]:25
+2026-01-26T16:59:31.544509-03:00 srv3 postfix/postscreen[1719]: ALLOWLISTED [::1]:51370
+2026-01-26T16:59:31.552047-03:00 srv3 postfix/smtpd[1720]: connect from localhost[::1]
+2026-01-26T16:59:31.608816-03:00 srv3 postfix/smtpd[1720]: 944184027F: client=localhost[::1]
+2026-01-26T16:59:31.636069-03:00 srv3 postfix/cleanup[1758]: 944184027F: message-id=<20260126165931.001757@srv3.empresa.local>
+2026-01-26T16:59:31.653563-03:00 srv3 postfix/qmgr[967]: 944184027F: from=<externo@gmail.com>, size=482, nrcpt=1 (queue active)
+2026-01-26T16:59:31.653842-03:00 srv3 postfix/smtpd[1720]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T16:59:40.477569-03:00 srv3 postfix/smtpd[1730]: 742F840E2B: client=localhost[127.0.0.1]
+2026-01-26T16:59:40.484395-03:00 srv3 postfix/cleanup[1758]: 742F840E2B: message-id=<20260126165931.001757@srv3.empresa.local>
+2026-01-26T16:59:40.504484-03:00 srv3 postfix/smtpd[1730]: disconnect from localhost[127.0.0.1] ehlo=1 mail=2 rcpt=2 data=2 noop=1 quit=1 commands=9
+2026-01-26T16:59:40.506191-03:00 srv3 postfix/qmgr[967]: 742F840E2B: from=<externo@gmail.com>, size=924, nrcpt=1 (queue active)
+2026-01-26T16:59:40.541235-03:00 srv3 amavis[1012]: (01012-02) Passed CLEAN {RelayedInbound}, [::1]:51370 <externo@gmail.com> -> <suporte@empresa.local>, Queue-ID: 944184027F, Message-ID: <20260126165931.001757@srv3.empresa.local>, mail_id: 1yrPOw-C186Q, Hits: 1.202, size: 482, queued_as: 742F840E2B, 8812 ms
+2026-01-26T16:59:40.543945-03:00 srv3 postfix/lmtp[1759]: 944184027F: to=<suporte@empresa.local>, relay=127.0.0.1[127.0.0.1]:10024, delay=9, delays=0.09/0.06/0.03/8.8, dsn=2.0.0, status=sent (250 2.0.0 from MTA(smtp:[127.0.0.1]:10025): 250 2.0.0 Ok: queued as 742F840E2B)
+2026-01-26T16:59:40.564691-03:00 srv3 postfix/local[1764]: 742F840E2B: to=<user1@empresa.local>, orig_to=<suporte@empresa.local>, relay=local, delay=0.09, delays=0.03/0.04/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+2026-01-26T16:59:40.565345-03:00 srv3 postfix/qmgr[967]: 742F840E2B: removed
+2026-01-26T16:59:40.569235-03:00 srv3 postfix/qmgr[967]: 944184027F: removed
+2026-01-26T17:01:58.590801-03:00 srv3 postfix/smtpd[1737]: NOQUEUE: timeout after END-OF-MESSAGE from localhost[127.0.0.1]
+2026-01-26T17:01:58.592725-03:00 srv3 postfix/smtpd[1737]: disconnect from localhost[127.0.0.1] ehlo=1 mail=1 rcpt=1 data=1 commands=4
+2026-01-26T17:09:05.400550-03:00 srv3 postfix/postscreen[1810]: CONNECT from [::1]:56502 to [::1]:25
+2026-01-26T17:09:05.400858-03:00 srv3 postfix/postscreen[1810]: ALLOWLISTED [::1]:56502
+2026-01-26T17:09:05.500293-03:00 srv3 postfix/smtpd[1811]: connect from localhost[::1]
+2026-01-26T17:09:10.023779-03:00 srv3 postfix/smtpd[1811]: NOQUEUE: reject: RCPT from localhost[::1]: 550 5.1.1 <admin@empresa.local>: Recipient address rejected: User unknown in local recipient table; from=<root@srv3.empresa.local> to=<admin@empresa.local> proto=ESMTP helo=<srv3.empresa.local>
+2026-01-26T17:09:10.025689-03:00 srv3 postfix/smtpd[1811]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=0/1 quit=1 commands=3/4
+2026-01-26T17:21:24.563543-03:00 srv3 postfix/postfix-script[1856]: stopping the Postfix mail system
+2026-01-26T17:21:24.575536-03:00 srv3 postfix/master[964]: terminating on signal 15
+2026-01-26T17:21:26.400263-03:00 srv3 postfix/postfix-script[1940]: warning: group or other writable: /etc/postfix/./virtual
+2026-01-26T17:21:26.415683-03:00 srv3 postfix/postfix-script[1941]: warning: group or other writable: /etc/postfix/./virtual_domains
+2026-01-26T17:21:26.991452-03:00 srv3 postfix/master[1977]: daemon started -- version 3.10.5, configuration /etc/postfix
+2026-01-26T17:22:37.348902-03:00 srv3 postfix/postscreen[1998]: CONNECT from [::1]:41950 to [::1]:25
+2026-01-26T17:22:37.463439-03:00 srv3 postfix/postscreen[1998]: ALLOWLISTED [::1]:41950
+2026-01-26T17:22:37.533247-03:00 srv3 postfix/smtpd[1999]: connect from localhost[::1]
+2026-01-26T17:22:37.717860-03:00 srv3 postfix/smtpd[1999]: AEE37409A2: client=localhost[::1]
+2026-01-26T17:22:37.728439-03:00 srv3 postfix/cleanup[2003]: AEE37409A2: message-id=<20260126172237.001997@srv3.empresa.local>
+2026-01-26T17:22:37.920249-03:00 srv3 postfix/qmgr[1979]: AEE37409A2: from=<root@srv3.empresa.local>, size=474, nrcpt=1 (queue active)
+2026-01-26T17:22:37.920932-03:00 srv3 postfix/smtpd[1999]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T17:22:38.999782-03:00 srv3 postfix/smtpd[2007]: connect from localhost[127.0.0.1]
+2026-01-26T17:22:39.008465-03:00 srv3 postfix/smtpd[2007]: 01D3F40E2B: client=localhost[127.0.0.1]
+2026-01-26T17:22:39.012656-03:00 srv3 postfix/cleanup[2003]: 01D3F40E2B: message-id=<20260126172237.001997@srv3.empresa.local>
+2026-01-26T17:22:39.129014-03:00 srv3 postfix/smtpd[2007]: disconnect from localhost[127.0.0.1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T17:22:39.131998-03:00 srv3 postfix/qmgr[1979]: 01D3F40E2B: from=<root@srv3.empresa.local>, size=916, nrcpt=1 (queue active)
+2026-01-26T17:22:39.152646-03:00 srv3 amavis[1013]: (01013-02) Passed CLEAN {RelayedInbound}, [::1]:41950 <root@srv3.empresa.local> -> <suporte@empresa.local>, Queue-ID: AEE37409A2, Message-ID: <20260126172237.001997@srv3.empresa.local>, mail_id: oBjbPRebhQR4, Hits: -0.2, size: 474, queued_as: 01D3F40E2B, 1157 ms
+2026-01-26T17:22:39.154272-03:00 srv3 postfix/lmtp[2004]: AEE37409A2: to=<suporte@empresa.local>, relay=127.0.0.1[127.0.0.1]:10024, delay=1.5, delays=0.31/0.06/0.03/1.2, dsn=2.0.0, status=sent (250 2.0.0 from MTA(smtp:[127.0.0.1]:10025): 250 2.0.0 Ok: queued as 01D3F40E2B)
+2026-01-26T17:22:39.154629-03:00 srv3 postfix/qmgr[1979]: AEE37409A2: removed
+2026-01-26T17:22:39.170894-03:00 srv3 postfix/local[2008]: 01D3F40E2B: to=<user1@empresa.local>, orig_to=<suporte@empresa.local>, relay=local, delay=0.16, delays=0.12/0.02/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+2026-01-26T17:22:39.171935-03:00 srv3 postfix/qmgr[1979]: 01D3F40E2B: removed
+2026-01-26T17:26:37.347545-03:00 srv3 postfix/postscreen[2032]: CONNECT from [::1]:45624 to [::1]:25
+2026-01-26T17:26:37.349152-03:00 srv3 postfix/postscreen[2032]: ALLOWLISTED [::1]:45624
+2026-01-26T17:26:37.497270-03:00 srv3 postfix/smtpd[2033]: connect from localhost[::1]
+2026-01-26T17:26:37.600127-03:00 srv3 postfix/smtpd[2033]: 90C8A409A2: client=localhost[::1]
+2026-01-26T17:26:37.618339-03:00 srv3 postfix/cleanup[2036]: 90C8A409A2: message-id=<20260126172636.002031@srv3.empresa.local>
+2026-01-26T17:26:37.651624-03:00 srv3 postfix/qmgr[1979]: 90C8A409A2: from=<root@srv3.empresa.local>, size=486, nrcpt=1 (queue active)
+2026-01-26T17:26:37.654862-03:00 srv3 postfix/smtpd[2033]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T17:26:38.890503-03:00 srv3 postfix/smtpd[2040]: connect from localhost[127.0.0.1]
+2026-01-26T17:26:39.012483-03:00 srv3 postfix/smtpd[2040]: DC07740E2B: client=localhost[127.0.0.1]
+2026-01-26T17:26:39.023104-03:00 srv3 postfix/cleanup[2036]: DC07740E2B: message-id=<20260126172636.002031@srv3.empresa.local>
+2026-01-26T17:26:39.055697-03:00 srv3 postfix/smtpd[2040]: disconnect from localhost[127.0.0.1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T17:26:39.057033-03:00 srv3 postfix/qmgr[1979]: DC07740E2B: from=<root@srv3.empresa.local>, size=928, nrcpt=1 (queue active)
+2026-01-26T17:26:39.088805-03:00 srv3 amavis[1012]: (01012-03) Passed CLEAN {RelayedInbound}, [::1]:45624 <root@srv3.empresa.local> -> <suporte@empresa.local>, Queue-ID: 90C8A409A2, Message-ID: <20260126172636.002031@srv3.empresa.local>, mail_id: ZACH-baKOlkO, Hits: -0.2, size: 486, queued_as: DC07740E2B, 1361 ms
+2026-01-26T17:26:39.098573-03:00 srv3 postfix/lmtp[2037]: 90C8A409A2: to=<suporte@empresa.local>, relay=127.0.0.1[127.0.0.1]:10024, delay=1.6, delays=0.1/0.07/0.04/1.3, dsn=2.0.0, status=sent (250 2.0.0 from MTA(smtp:[127.0.0.1]:10025): 250 2.0.0 Ok: queued as DC07740E2B)
+2026-01-26T17:26:39.110431-03:00 srv3 postfix/qmgr[1979]: 90C8A409A2: removed
+2026-01-26T17:26:39.121325-03:00 srv3 postfix/local[2041]: DC07740E2B: to=<user1@empresa.local>, orig_to=<suporte@empresa.local>, relay=local, delay=0.22, delays=0.15/0.04/0/0.03, dsn=2.0.0, status=sent (delivered to maildir)
+2026-01-26T17:26:39.122143-03:00 srv3 postfix/qmgr[1979]: DC07740E2B: removed
+2026-01-26T17:36:37.484375-03:00 srv3 postfix/postfix-script[2124]: stopping the Postfix mail system
+2026-01-26T17:36:37.508642-03:00 srv3 postfix/master[1977]: terminating on signal 15
+2026-01-26T17:36:39.270007-03:00 srv3 postfix/postfix-script[2207]: warning: group or other writable: /etc/postfix/./virtual
+2026-01-26T17:36:39.285435-03:00 srv3 postfix/postfix-script[2208]: warning: group or other writable: /etc/postfix/./virtual_domains
+2026-01-26T17:36:39.723810-03:00 srv3 postfix/master[2244]: daemon started -- version 3.10.5, configuration /etc/postfix
+2026-01-26T17:37:57.336906-03:00 srv3 postfix/postscreen[2251]: CONNECT from [::1]:35478 to [::1]:25
+2026-01-26T17:37:57.338103-03:00 srv3 postfix/postscreen[2251]: ALLOWLISTED [::1]:35478
+2026-01-26T17:37:57.587849-03:00 srv3 postfix/smtpd[2252]: connect from localhost[::1]
+2026-01-26T17:37:57.696340-03:00 srv3 postfix/smtpd[2252]: A941F409A2: client=localhost[::1]
+2026-01-26T17:37:57.708552-03:00 srv3 postfix/cleanup[2256]: A941F409A2: message-id=<20260126173757.002250@srv3.empresa.local>
+2026-01-26T17:37:57.774631-03:00 srv3 postfix/qmgr[2246]: A941F409A2: from=<root@srv3.empresa.local>, size=474, nrcpt=1 (queue active)
+2026-01-26T17:37:57.779475-03:00 srv3 postfix/smtpd[2252]: disconnect from localhost[::1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T17:37:59.416664-03:00 srv3 postfix/smtpd[2260]: connect from localhost[127.0.0.1]
+2026-01-26T17:37:59.424936-03:00 srv3 postfix/smtpd[2260]: 6784940E2B: client=localhost[127.0.0.1]
+2026-01-26T17:37:59.430935-03:00 srv3 postfix/cleanup[2256]: 6784940E2B: message-id=<20260126173757.002250@srv3.empresa.local>
+2026-01-26T17:37:59.464860-03:00 srv3 postfix/smtpd[2260]: disconnect from localhost[127.0.0.1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+2026-01-26T17:37:59.468720-03:00 srv3 postfix/qmgr[2246]: 6784940E2B: from=<root@srv3.empresa.local>, size=916, nrcpt=1 (queue active)
+2026-01-26T17:37:59.481802-03:00 srv3 amavis[1013]: (01013-03) Passed CLEAN {RelayedInbound}, [::1]:35478 <root@srv3.empresa.local> -> <suporte@empresa.local>, Queue-ID: A941F409A2, Message-ID: <20260126173757.002250@srv3.empresa.local>, mail_id: QTyv0PLBow6E, Hits: -0.2, size: 474, queued_as: 6784940E2B, 1642 ms
+2026-01-26T17:37:59.486482-03:00 srv3 postfix/lmtp[2257]: A941F409A2: to=<suporte@empresa.local>, relay=127.0.0.1[127.0.0.1]:10024, delay=1.9, delays=0.14/0.06/0.03/1.6, dsn=2.0.0, status=sent (250 2.0.0 from MTA(smtp:[127.0.0.1]:10025): 250 2.0.0 Ok: queued as 6784940E2B)
+2026-01-26T17:37:59.500009-03:00 srv3 postfix/qmgr[2246]: A941F409A2: removed
+2026-01-26T17:37:59.524431-03:00 srv3 postfix/local[2261]: 6784940E2B: to=<user1@empresa.local>, orig_to=<suporte@empresa.local>, relay=local, delay=0.1, delays=0.04/0.03/0/0.02, dsn=2.0.0, status=sent (delivered to maildir)
+2026-01-26T17:37:59.526500-03:00 srv3 postfix/qmgr[2246]: 6784940E2B: removed
+2026-01-26T18:14:36.682977-03:00 srv3 dovecot: master: Dovecot v2.4.1-4 (7d8c0e5759) starting up for imap, pop3 (core dumps disabled)
+2026-01-26T18:14:39.298571-03:00 srv3 postfix/postfix-script[923]: warning: group or other writable: /etc/postfix/./virtual
+2026-01-26T18:14:39.364017-03:00 srv3 postfix/postfix-script[924]: warning: group or other writable: /etc/postfix/./virtual_domains
+2026-01-26T18:14:40.246865-03:00 srv3 postfix/master[965]: daemon started -- version 3.10.5, configuration /etc/postfix
+2026-01-26T18:14:44.198342-03:00 srv3 amavis[751]: starting. /usr/sbin/amavisd at srv3.empresa.local amavis-2.13.0 (20230106), Unicode aware, LANG="pt_BR.UTF-8"
+2026-01-26T18:14:44.202111-03:00 srv3 amavis[751]: perl=5.040001, user=988, EUID: 988 (988);  group=(), EGID: 988 105 988 (988 105 988)
+2026-01-26T18:14:46.386027-03:00 srv3 spamd[720]: zoom: able to use 384/384 'body_0' compiled rules (100%)
+2026-01-26T18:14:48.044904-03:00 srv3 amavis[751]: Net::Server: Group Not Defined.  Defaulting to EGID '988 105 988'
+2026-01-26T18:14:48.046344-03:00 srv3 amavis[751]: Net::Server: User Not Defined.  Defaulting to EUID '988'
+2026-01-26T18:14:48.095967-03:00 srv3 amavis[751]: No ext program for   .lrz, tried: lrzip -q -k -d -o -, lrzcat -q -k
+2026-01-26T18:14:48.096041-03:00 srv3 amavis[751]: No ext program for   .lzo, tried: lzop -d
+2026-01-26T18:14:48.096068-03:00 srv3 amavis[751]: No ext program for   .lz4, tried: lz4c -d
+2026-01-26T18:14:48.096092-03:00 srv3 amavis[751]: No ext program for   .rpm, tried: rpm2cpio.pl, rpm2cpio
+2026-01-26T18:14:48.096116-03:00 srv3 amavis[751]: No ext program for   .rar, tried: unrar-free
+2026-01-26T18:14:48.096139-03:00 srv3 amavis[751]: No ext program for   .arj, tried: arj, unarj
+2026-01-26T18:14:48.096191-03:00 srv3 amavis[751]: No ext program for   .arc, tried: nomarch, arc
+2026-01-26T18:14:48.096215-03:00 srv3 amavis[751]: No ext program for   .zoo, tried: zoo
+2026-01-26T18:14:48.096236-03:00 srv3 amavis[751]: No ext program for   .doc, tried: ripole
+2026-01-26T18:14:48.096259-03:00 srv3 amavis[751]: No ext program for   .cab, tried: cabextract
+2026-01-26T18:14:48.096283-03:00 srv3 amavis[751]: No ext program for   .zip, tried: 7za, 7zz, 7z
+2026-01-26T18:14:48.096311-03:00 srv3 amavis[751]: No ext program for   .kmz, tried: 7za, 7zz, 7z
+2026-01-26T18:14:48.096334-03:00 srv3 amavis[751]: No ext program for   .7z, tried: 7zr, 7za, 7zz, 7z
+2026-01-26T18:14:48.096355-03:00 srv3 amavis[751]: No ext program for   .jar, tried: 7zz, 7z
+2026-01-26T18:14:48.096380-03:00 srv3 amavis[751]: No ext program for   .arj, tried: 7zz, 7z
+2026-01-26T18:14:48.096414-03:00 srv3 amavis[751]: No ext program for   .rar, tried: 7zz, 7z
+2026-01-26T18:14:48.096452-03:00 srv3 amavis[751]: No ext program for   .swf, tried: 7zz, 7z
+2026-01-26T18:14:48.096503-03:00 srv3 amavis[751]: No ext program for   .lha, tried: 7zz, 7z
+2026-01-26T18:14:48.096528-03:00 srv3 amavis[751]: No ext program for   .iso, tried: 7zz, 7z
+2026-01-26T18:14:48.096551-03:00 srv3 amavis[751]: No ext program for   .cab, tried: 7zz, 7z
+2026-01-26T18:14:48.096573-03:00 srv3 amavis[751]: No ext program for   .rpm, tried: 7zz, 7z
+2026-01-26T18:14:48.096601-03:00 srv3 amavis[751]: No ext program for   .exe, tried: unrar-free; arj, unarj
+2026-01-26T18:14:48.096634-03:00 srv3 amavis[751]: No decoder for       .7z  
+2026-01-26T18:14:48.096671-03:00 srv3 amavis[751]: No decoder for       .F   
+2026-01-26T18:14:48.096707-03:00 srv3 amavis[751]: No decoder for       .arc 
+2026-01-26T18:14:48.096751-03:00 srv3 amavis[751]: No decoder for       .arj 
+2026-01-26T18:14:48.096782-03:00 srv3 amavis[751]: No decoder for       .cab 
+2026-01-26T18:14:48.096812-03:00 srv3 amavis[751]: No decoder for       .doc 
+2026-01-26T18:14:48.096841-03:00 srv3 amavis[751]: No decoder for       .exe 
+2026-01-26T18:14:48.096871-03:00 srv3 amavis[751]: No decoder for       .iso 
+2026-01-26T18:14:48.096900-03:00 srv3 amavis[751]: No decoder for       .jar 
+2026-01-26T18:14:48.096929-03:00 srv3 amavis[751]: No decoder for       .lha 
+2026-01-26T18:14:48.096964-03:00 srv3 amavis[751]: No decoder for       .lrz 
+2026-01-26T18:14:48.096994-03:00 srv3 amavis[751]: No decoder for       .lz4 
+2026-01-26T18:14:48.097023-03:00 srv3 amavis[751]: No decoder for       .lzo 
+2026-01-26T18:14:48.097054-03:00 srv3 amavis[751]: No decoder for       .rar 
+2026-01-26T18:14:48.097090-03:00 srv3 amavis[751]: No decoder for       .rpm 
+2026-01-26T18:14:48.097119-03:00 srv3 amavis[751]: No decoder for       .swf 
+2026-01-26T18:14:48.097155-03:00 srv3 amavis[751]: No decoder for       .zoo 
+2026-01-26T18:14:48.097184-03:00 srv3 amavis[751]: Using primary internal av scanner code for ClamAV-clamd
+2026-01-26T18:14:48.124675-03:00 srv3 amavis[751]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+2026-01-26T18:15:01.783639-03:00 srv3 spamd[720]: async: aborting after 15.351 s, past original deadline: AskDNS, A/compiling.spamassassin.taint.org.fresh.fmb.la, rules: __FROM_FMBLA_NDBLOCKED, __FROM_FMBLA_NEWDOM, __FROM_FMBLA_NEWDOM14, __FROM_FMBLA_NEWDOM28
+2026-01-26T18:15:01.859414-03:00 srv3 spamd[720]: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+2026-01-26T18:15:01.861228-03:00 srv3 spamd[720]: spamd: server pid: 720
+2026-01-26T18:15:01.884790-03:00 srv3 spamd[720]: spamd: server successfully spawned child process, pid 1003
+2026-01-26T18:15:01.933596-03:00 srv3 spamd[720]: spamd: server successfully spawned child process, pid 1004
+2026-01-26T18:15:01.954772-03:00 srv3 spamd[720]: prefork: child states: II
+2026-01-28T15:29:56.564952-03:00 srv3 dovecot: master: Dovecot v2.4.1-4 (7d8c0e5759) starting up for imap, pop3 (core dumps disabled)
+2026-01-28T15:29:59.850320-03:00 srv3 postfix/postfix-script[911]: warning: group or other writable: /etc/postfix/./virtual
+2026-01-28T15:29:59.999529-03:00 srv3 postfix/postfix-script[919]: warning: group or other writable: /etc/postfix/./virtual_domains
+2026-01-28T15:30:01.730583-03:00 srv3 postfix/master[992]: daemon started -- version 3.10.5, configuration /etc/postfix
+2026-01-28T15:30:08.180576-03:00 srv3 amavis[757]: starting. /usr/sbin/amavisd at srv3.empresa.local amavis-2.13.0 (20230106), Unicode aware, LANG="pt_BR.UTF-8"
+2026-01-28T15:30:08.190166-03:00 srv3 amavis[757]: perl=5.040001, user=988, EUID: 988 (988);  group=(), EGID: 988 105 988 (988 105 988)
+2026-01-28T15:30:10.934023-03:00 srv3 spamd[742]: zoom: able to use 384/384 'body_0' compiled rules (100%)
+2026-01-28T15:30:13.786047-03:00 srv3 amavis[757]: Net::Server: Group Not Defined.  Defaulting to EGID '988 105 988'
+2026-01-28T15:30:13.813292-03:00 srv3 amavis[757]: Net::Server: User Not Defined.  Defaulting to EUID '988'
+2026-01-28T15:30:13.848725-03:00 srv3 amavis[757]: No ext program for   .lrz, tried: lrzip -q -k -d -o -, lrzcat -q -k
+2026-01-28T15:30:13.861568-03:00 srv3 amavis[757]: No ext program for   .lzo, tried: lzop -d
+2026-01-28T15:30:13.880190-03:00 srv3 amavis[757]: No ext program for   .lz4, tried: lz4c -d
+2026-01-28T15:30:13.880273-03:00 srv3 amavis[757]: No ext program for   .rpm, tried: rpm2cpio.pl, rpm2cpio
+2026-01-28T15:30:13.880327-03:00 srv3 amavis[757]: No ext program for   .rar, tried: unrar-free
+2026-01-28T15:30:13.880399-03:00 srv3 amavis[757]: No ext program for   .arj, tried: arj, unarj
+2026-01-28T15:30:13.880447-03:00 srv3 amavis[757]: No ext program for   .arc, tried: nomarch, arc
+2026-01-28T15:30:13.880503-03:00 srv3 amavis[757]: No ext program for   .zoo, tried: zoo
+2026-01-28T15:30:13.880563-03:00 srv3 amavis[757]: No ext program for   .doc, tried: ripole
+2026-01-28T15:30:13.880617-03:00 srv3 amavis[757]: No ext program for   .cab, tried: cabextract
+2026-01-28T15:30:13.880676-03:00 srv3 amavis[757]: No ext program for   .zip, tried: 7za, 7zz, 7z
+2026-01-28T15:30:13.880730-03:00 srv3 amavis[757]: No ext program for   .kmz, tried: 7za, 7zz, 7z
+2026-01-28T15:30:13.880803-03:00 srv3 amavis[757]: No ext program for   .7z, tried: 7zr, 7za, 7zz, 7z
+2026-01-28T15:30:13.880863-03:00 srv3 amavis[757]: No ext program for   .jar, tried: 7zz, 7z
+2026-01-28T15:30:13.880923-03:00 srv3 amavis[757]: No ext program for   .arj, tried: 7zz, 7z
+2026-01-28T15:30:13.880981-03:00 srv3 amavis[757]: No ext program for   .rar, tried: 7zz, 7z
+2026-01-28T15:30:13.881065-03:00 srv3 amavis[757]: No ext program for   .swf, tried: 7zz, 7z
+2026-01-28T15:30:13.881135-03:00 srv3 amavis[757]: No ext program for   .lha, tried: 7zz, 7z
+2026-01-28T15:30:13.881192-03:00 srv3 amavis[757]: No ext program for   .iso, tried: 7zz, 7z
+2026-01-28T15:30:13.881260-03:00 srv3 amavis[757]: No ext program for   .cab, tried: 7zz, 7z
+2026-01-28T15:30:13.881327-03:00 srv3 amavis[757]: No ext program for   .rpm, tried: 7zz, 7z
+2026-01-28T15:30:13.881410-03:00 srv3 amavis[757]: No ext program for   .exe, tried: unrar-free; arj, unarj
+2026-01-28T15:30:13.881469-03:00 srv3 amavis[757]: No decoder for       .7z  
+2026-01-28T15:30:13.881760-03:00 srv3 amavis[757]: No decoder for       .F   
+2026-01-28T15:30:13.881837-03:00 srv3 amavis[757]: No decoder for       .arc 
+2026-01-28T15:30:13.881880-03:00 srv3 amavis[757]: No decoder for       .arj 
+2026-01-28T15:30:13.881931-03:00 srv3 amavis[757]: No decoder for       .cab 
+2026-01-28T15:30:13.881983-03:00 srv3 amavis[757]: No decoder for       .doc 
+2026-01-28T15:30:13.882031-03:00 srv3 amavis[757]: No decoder for       .exe 
+2026-01-28T15:30:13.882095-03:00 srv3 amavis[757]: No decoder for       .iso 
+2026-01-28T15:30:13.882136-03:00 srv3 amavis[757]: No decoder for       .jar 
+2026-01-28T15:30:13.882185-03:00 srv3 amavis[757]: No decoder for       .lha 
+2026-01-28T15:30:13.882234-03:00 srv3 amavis[757]: No decoder for       .lrz 
+2026-01-28T15:30:13.882277-03:00 srv3 amavis[757]: No decoder for       .lz4 
+2026-01-28T15:30:13.882327-03:00 srv3 amavis[757]: No decoder for       .lzo 
+2026-01-28T15:30:13.882368-03:00 srv3 amavis[757]: No decoder for       .rar 
+2026-01-28T15:30:13.882430-03:00 srv3 amavis[757]: No decoder for       .rpm 
+2026-01-28T15:30:13.882472-03:00 srv3 amavis[757]: No decoder for       .swf 
+2026-01-28T15:30:13.882527-03:00 srv3 amavis[757]: No decoder for       .zoo 
+2026-01-28T15:30:13.882763-03:00 srv3 amavis[757]: Using primary internal av scanner code for ClamAV-clamd
+2026-01-28T15:30:13.891485-03:00 srv3 amavis[757]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+2026-01-28T15:30:27.926562-03:00 srv3 spamd[742]: async: aborting after 16.691 s, past original deadline: AskDNS, A/compiling.spamassassin.taint.org.fresh.fmb.la, rules: __FROM_FMBLA_NEWDOM28, __FROM_FMBLA_NEWDOM14, __FROM_FMBLA_NEWDOM, __FROM_FMBLA_NDBLOCKED
+2026-01-28T15:30:28.072611-03:00 srv3 spamd[742]: spamd: server started on IO::Socket::IP [::1]:783, IO::Socket::IP [127.0.0.1]:783 (running version 4.0.1)
+2026-01-28T15:30:28.076382-03:00 srv3 spamd[742]: spamd: server pid: 742
+2026-01-28T15:30:28.094964-03:00 srv3 spamd[742]: spamd: server successfully spawned child process, pid 1027
+2026-01-28T15:30:28.117906-03:00 srv3 spamd[742]: spamd: server successfully spawned child process, pid 1028
+2026-01-28T15:30:28.169023-03:00 srv3 spamd[742]: prefork: child states: IS
+2026-01-28T15:30:28.172823-03:00 srv3 spamd[742]: prefork: child states: II

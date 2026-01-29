@@ -1,0 +1,44 @@
+2026-01-28T17:06:40-03:00 srv1 sudo:    pedro : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R a+r evidencias/
+2026-01-28T17:06:52-03:00 srv1 sudo: pam_unix(sudo:auth): conversation failed
+2026-01-28T17:06:52-03:00 srv1 sudo: pam_unix(sudo:auth): auth could not identify password for [pedro]
+2026-01-28T17:06:52-03:00 srv1 sudo:    pedro : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R a+X evidencias/
+2026-01-28T17:09:04-03:00 srv1 sudo:    pedro : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chown -R pedro:pedro evidencias/
+2026-01-28T17:10:17-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chown -R pedro:pedro evidencias/
+2026-01-28T17:10:17-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:10:17-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:12:02-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 644 evidencias/
+2026-01-28T17:12:02-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:12:02-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:13:39-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R a+rwx /root/evidencias
+2026-01-28T17:13:39-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:13:39-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:13:50-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R a+rwx evidencias/
+2026-01-28T17:13:50-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:13:50-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:22:08-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 744 evidencias/
+2026-01-28T17:22:08-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:22:08-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:22:46-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 644 evidencias/
+2026-01-28T17:22:46-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:22:46-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:23:20-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 744 evidencias/
+2026-01-28T17:23:20-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:23:20-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:24:08-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chown -R root:root evidencias/
+2026-01-28T17:24:08-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:24:08-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:25:01-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 666 /root/evidencias
+2026-01-28T17:25:01-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:25:01-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:25:10-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 666 evidencias/
+2026-01-28T17:25:10-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:25:10-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:25:33-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/chmod -R 777 evidencias/
+2026-01-28T17:25:33-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:25:33-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:26:49-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/mv evidencias/ /root
+2026-01-28T17:26:49-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:26:49-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:55:15-03:00 srv1 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/cat /etc/network/interfaces
+2026-01-28T17:55:15-03:00 srv1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:55:15-03:00 srv1 sudo: pam_unix(sudo:session): session closed for user root

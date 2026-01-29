@@ -1,0 +1,23 @@
+#/var/log/servicos/auth.log {
+#    weekly
+#    rotate 8
+#    compress
+#    missingok
+#    notifempty
+#}
+
+/var/log/hosts/*/auth.log {
+    daily
+    rotate 14
+    missingok
+    notifempty
+    compress
+    delaycompress
+
+    create 0640 root adm
+    sharedscripts
+
+    postrotate
+        systemctl reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}

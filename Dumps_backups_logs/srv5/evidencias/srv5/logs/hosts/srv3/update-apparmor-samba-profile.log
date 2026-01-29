@@ -1,0 +1,2 @@
+2026-01-25T12:42:46-03:00 srv3 update-apparmor-samba-profile[32 grep: /etc/apparmor.d/samba/smbd-shares: Arquivo ou diretório inexistente
+2026-01-25T12:42:47-03:00 srv3 update-apparmor-samba-profile[32 diff: /etc/apparmor.d/samba/smbd-shares: Arquivo ou diretório inexistente

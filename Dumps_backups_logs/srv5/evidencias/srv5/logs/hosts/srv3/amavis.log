@@ -1,0 +1,45 @@
+2026-01-26T18:14:44-03:00 srv3 amavis[751]: starting. /usr/sbin/amavisd at srv3.empresa.local amavis-2.13.0 (20230106), Unicode aware, LANG="pt_BR.UTF-8"
+2026-01-26T18:14:44-03:00 srv3 amavis[751]: perl=5.040001, user=988, EUID: 988 (988);  group=(), EGID: 988 105 988 (988 105 988)
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: Net::Server: Group Not Defined.  Defaulting to EGID '988 105 988'
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: Net::Server: User Not Defined.  Defaulting to EUID '988'
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .lrz, tried: lrzip -q -k -d -o -, lrzcat -q -k
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .lzo, tried: lzop -d
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .lz4, tried: lz4c -d
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .rpm, tried: rpm2cpio.pl, rpm2cpio
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .rar, tried: unrar-free
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .arj, tried: arj, unarj
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .arc, tried: nomarch, arc
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .zoo, tried: zoo
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .doc, tried: ripole
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .cab, tried: cabextract
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .zip, tried: 7za, 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .kmz, tried: 7za, 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .7z, tried: 7zr, 7za, 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .jar, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .arj, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .rar, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .swf, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .lha, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .iso, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .cab, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .rpm, tried: 7zz, 7z
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No ext program for   .exe, tried: unrar-free; arj, unarj
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .7z  
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .F   
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .arc 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .arj 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .cab 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .doc 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .exe 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .iso 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .jar 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .lha 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .lrz 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .lz4 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .lzo 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .rar 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .rpm 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .swf 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: No decoder for       .zoo 
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: Using primary internal av scanner code for ClamAV-clamd
+2026-01-26T18:14:48-03:00 srv3 amavis[751]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan

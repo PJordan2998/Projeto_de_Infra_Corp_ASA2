@@ -1,0 +1,4 @@
+2026-01-25T11:31:54-03:00 srv1 cron[585]: (CRON) INFO (pidfile fd = 3)
+2026-01-25T11:31:54-03:00 srv1 cron[585]: (CRON) INFO (Running @reboot jobs)
+2026-01-26T18:59:54-03:00 srv1 cron[605]: (CRON) INFO (pidfile fd = 3)
+2026-01-26T18:59:54-03:00 srv1 cron[605]: (CRON) INFO (Running @reboot jobs)

@@ -1,0 +1,31 @@
+2026-01-22T19:17:19-03:00 srv1 chronyd[697]: Selected source 192.168.50.40
+2026-01-22T19:17:19-03:00 srv1 chronyd[697]: System clock TAI offset set to 37 seconds
+2026-01-24T10:24:18-03:00 srv1 chronyd[693]: Selected source 192.168.50.40
+2026-01-24T10:24:18-03:00 srv1 chronyd[693]: System clock TAI offset set to 37 seconds
+2026-01-25T06:09:46-03:00 srv1 chronyd[695]: Selected source 192.168.50.40
+2026-01-25T06:09:46-03:00 srv1 chronyd[695]: System clock TAI offset set to 37 seconds
+2026-01-25T06:34:35-03:00 srv1 chronyd[695]: Can't synchronise: no selectable sources
+2026-01-25T06:34:35-03:00 srv1 chronyd[695]: Selected source 192.168.50.40
+2026-01-25T11:31:55-03:00 srv1 chronyd[686]: chronyd version 4.6.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+2026-01-25T11:31:55-03:00 srv1 chronyd[686]: Loaded 0 symmetric keys
+2026-01-25T11:31:55-03:00 srv1 chronyd[686]: Using leap second list /usr/share/zoneinfo/leap-seconds.list
+2026-01-25T11:31:55-03:00 srv1 chronyd[686]: Frequency 12.815 +/- 0.843 ppm read from /var/lib/chrony/chrony.drift
+2026-01-25T11:31:55-03:00 srv1 chronyd[686]: Loaded seccomp filter (level 1)
+2026-01-25T11:31:59-03:00 srv1 chronyd[686]: Selected source 192.168.50.40
+2026-01-25T11:31:59-03:00 srv1 chronyd[686]: System clock TAI offset set to 37 seconds
+2026-01-25T22:28:33-03:00 srv1 chronyd[695]: Selected source 192.168.50.40
+2026-01-25T22:28:33-03:00 srv1 chronyd[695]: System clock TAI offset set to 37 seconds
+2026-01-26T14:41:31-03:00 srv1 chronyd[690]: Selected source 192.168.50.40
+2026-01-26T14:41:31-03:00 srv1 chronyd[690]: System clock TAI offset set to 37 seconds
+2026-01-26T15:24:40-03:00 srv1 chronyd[690]: System clock wrong by 3.451530 seconds
+2026-01-26T18:59:55-03:00 srv1 chronyd[707]: chronyd version 4.6.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+2026-01-26T18:59:55-03:00 srv1 chronyd[707]: Loaded 0 symmetric keys
+2026-01-26T18:59:55-03:00 srv1 chronyd[707]: Using leap second list /usr/share/zoneinfo/leap-seconds.list
+2026-01-26T18:59:55-03:00 srv1 chronyd[707]: Frequency 13.379 +/- 0.144 ppm read from /var/lib/chrony/chrony.drift
+2026-01-26T18:59:55-03:00 srv1 chronyd[707]: Loaded seccomp filter (level 1)
+2026-01-26T18:13:32-03:00 srv1 chronyd[707]: Selected source 192.168.50.40
+2026-01-26T18:13:35-03:00 srv1 chronyd[707]: System clock wrong by -2787.098818 seconds
+2026-01-26T18:13:35-03:00 srv1 chronyd[707]: System clock was stepped by -2787.098818 seconds
+2026-01-26T18:13:35-03:00 srv1 chronyd[707]: System clock TAI offset set to 37 seconds
+2026-01-28T15:36:01-03:00 srv1 chronyd[698]: Selected source 192.168.50.40
+2026-01-28T15:36:01-03:00 srv1 chronyd[698]: System clock TAI offset set to 37 seconds

@@ -1,0 +1,41 @@
+DnsUpdateProxy
+Print Operators
+Schema Admins
+Guests
+Enterprise Admins
+Account Operators
+ti
+RAS and IAS Servers
+Distributed COM Users
+Domain Admins
+DnsAdmins
+Enterprise Read-only Domain Controllers
+Domain Guests
+Users
+Certificate Service DCOM Access
+Cert Publishers
+Administrators
+Domain Controllers
+IIS_IUSRS
+Incoming Forest Trust Builders
+Denied RODC Password Replication Group
+Network Configuration Operators
+Group Policy Creator Owners
+Domain Computers
+Terminal Server License Servers
+Allowed RODC Password Replication Group
+Domain Users
+financeiro
+Cryptographic Operators
+comercial
+Backup Operators
+Pre-Windows 2000 Compatible Access
+Protected Users
+Performance Monitor Users
+Server Operators
+Read-only Domain Controllers
+Performance Log Users
+Windows Authorization Access Group
+Remote Desktop Users
+Replicator
+Event Log Readers

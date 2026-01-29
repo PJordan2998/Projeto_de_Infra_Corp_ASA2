@@ -1,0 +1,8 @@
+2026-01-25T06:22:30-03:00 srv4 dbus-daemon[610]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.10' (uid=1000 pid=977 comm="timedatectl")
+2026-01-25T06:22:30-03:00 srv4 dbus-daemon[610]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2026-01-25T07:35:10-03:00 srv4 dbus-daemon[610]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.13' (uid=0 pid=1194 comm="hostnamectl set-hostname srv4.empresa.local")
+2026-01-25T07:35:10-03:00 srv4 dbus-daemon[610]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2026-01-26T15:54:51-03:00 srv4 dbus-daemon[611]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.8' (uid=0 pid=2237 comm="hostnamectl")
+2026-01-26T15:54:51-03:00 srv4 dbus-daemon[611]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2026-01-26T15:55:18-03:00 srv4 dbus-daemon[611]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.10' (uid=0 pid=2239 comm="timedatectl")
+2026-01-26T15:55:18-03:00 srv4 dbus-daemon[611]: [system] Successfully activated service 'org.freedesktop.timedate1'

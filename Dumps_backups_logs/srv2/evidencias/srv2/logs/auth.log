@@ -1,0 +1,413 @@
+2026-01-18T18:30:01.564173-03:00 srv2 CRON[1777]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-18T18:30:01.584942-03:00 srv2 CRON[1777]: pam_unix(cron:session): session closed for user root
+2026-01-18T19:17:01.696874-03:00 srv2 CRON[1980]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-18T19:17:01.772557-03:00 srv2 CRON[1980]: pam_unix(cron:session): session closed for user root
+2026-01-18T19:30:01.131357-03:00 srv2 CRON[2015]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-18T19:30:02.761198-03:00 srv2 CRON[2015]: pam_unix(cron:session): session closed for user root
+2026-01-18T19:35:15.662435-03:00 srv2 sshd-session[860]: Received disconnect from 10.0.2.2 port 58982:11: disconnected by user
+2026-01-18T19:35:15.781441-03:00 srv2 sshd-session[860]: Disconnected from user pedro 10.0.2.2 port 58982
+2026-01-18T19:35:15.783634-03:00 srv2 sshd-session[837]: pam_unix(sshd:session): session closed for user pedro
+2026-01-18T19:35:16.019108-03:00 srv2 sshd-session[837]: syslogin_perform_logout: logout() returned an error
+2026-01-18T19:35:16.134099-03:00 srv2 systemd-logind[635]: Session 1 logged out. Waiting for processes to exit.
+2026-01-18T19:35:16.161890-03:00 srv2 su[889]: pam_unix(su-l:session): session closed for user root
+2026-01-18T19:35:16.565476-03:00 srv2 systemd-logind[635]: Removed session 1.
+2026-01-18T19:35:17.178082-03:00 srv2 sshd-session[887]: Connection closed by 10.0.2.2 port 58984
+2026-01-18T19:35:17.197835-03:00 srv2 sshd-session[841]: pam_unix(sshd:session): session closed for user pedro
+2026-01-18T19:35:17.251789-03:00 srv2 systemd-logind[635]: Session 3 logged out. Waiting for processes to exit.
+2026-01-18T19:35:17.253688-03:00 srv2 systemd-logind[635]: Removed session 3.
+2026-01-18T19:35:27.764221-03:00 srv2 systemd-logind[635]: Removed session 2.
+2026-01-18T19:35:27.769101-03:00 srv2 (sd-pam): pam_unix(systemd-user:session): session closed for user pedro
+2026-01-19T16:54:13.295981-03:00 srv2 systemd-logind[622]: New seat seat0.
+2026-01-19T16:54:13.295988-03:00 srv2 systemd-logind[622]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-19T16:54:13.295994-03:00 srv2 systemd-logind[622]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-19T16:54:13.295999-03:00 srv2 systemd-logind[622]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-19T16:54:15.044066-03:00 srv2 sshd[786]: Server listening on 0.0.0.0 port 22.
+2026-01-19T16:54:15.044458-03:00 srv2 sshd[786]: Server listening on :: port 22.
+2026-01-19T15:43:38.784181-03:00 srv2 sshd-session[875]: Accepted password for pedro from 10.0.2.2 port 60154 ssh2
+2026-01-19T15:43:38.818524-03:00 srv2 sshd-session[875]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-19T15:43:39.001949-03:00 srv2 systemd-logind[622]: New session 1 of user pedro.
+2026-01-19T15:43:39.288096-03:00 srv2 (systemd): pam_unix(systemd-user:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-19T15:43:39.297794-03:00 srv2 systemd-logind[622]: New session 2 of user pedro.
+2026-01-19T15:43:39.541434-03:00 srv2 sshd-session[880]: Accepted password for pedro from 10.0.2.2 port 60156 ssh2
+2026-01-19T15:43:39.548114-03:00 srv2 sshd-session[880]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-19T15:43:39.562286-03:00 srv2 systemd-logind[622]: New session 3 of user pedro.
+2026-01-19T15:43:46.812077-03:00 srv2 su[916]: (to root) pedro on pts/0
+2026-01-19T15:43:46.812911-03:00 srv2 su[916]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-19T16:17:01.665744-03:00 srv2 CRON[1023]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-19T16:17:01.692574-03:00 srv2 CRON[1023]: pam_unix(cron:session): session closed for user root
+2026-01-19T17:17:01.852482-03:00 srv2 CRON[1279]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-19T17:17:01.990482-03:00 srv2 CRON[1279]: pam_unix(cron:session): session closed for user root
+2026-01-19T17:30:01.450654-03:00 srv2 CRON[1316]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-19T17:30:01.564133-03:00 srv2 CRON[1316]: pam_unix(cron:session): session closed for user root
+2026-01-19T18:12:43.713965-03:00 srv2 sshd-session[907]: Received disconnect from 10.0.2.2 port 60154:11: disconnected by user
+2026-01-19T18:12:43.854389-03:00 srv2 sshd-session[907]: Disconnected from user pedro 10.0.2.2 port 60154
+2026-01-19T18:12:43.856883-03:00 srv2 sshd-session[875]: pam_unix(sshd:session): session closed for user pedro
+2026-01-19T18:12:43.944680-03:00 srv2 sshd-session[875]: syslogin_perform_logout: logout() returned an error
+2026-01-19T18:12:44.105773-03:00 srv2 systemd-logind[622]: Session 1 logged out. Waiting for processes to exit.
+2026-01-19T18:12:44.115500-03:00 srv2 su[916]: pam_unix(su-l:session): session closed for user root
+2026-01-19T18:12:44.400705-03:00 srv2 systemd-logind[622]: Removed session 1.
+2026-01-19T18:12:45.262518-03:00 srv2 sshd-session[906]: Connection closed by 10.0.2.2 port 60156
+2026-01-19T18:12:45.278262-03:00 srv2 sshd-session[880]: pam_unix(sshd:session): session closed for user pedro
+2026-01-19T18:12:45.352174-03:00 srv2 systemd-logind[622]: Session 3 logged out. Waiting for processes to exit.
+2026-01-19T18:12:45.359396-03:00 srv2 systemd-logind[622]: Removed session 3.
+2026-01-19T18:12:55.913465-03:00 srv2 systemd-logind[622]: Removed session 2.
+2026-01-22T19:09:47.550196-03:00 srv2 systemd-logind[620]: New seat seat0.
+2026-01-22T19:09:47.550202-03:00 srv2 systemd-logind[620]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-22T19:09:47.550292-03:00 srv2 systemd-logind[620]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-22T19:09:47.550302-03:00 srv2 systemd-logind[620]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-22T19:09:49.070434-03:00 srv2 sshd[741]: Server listening on 0.0.0.0 port 22.
+2026-01-22T19:09:49.070711-03:00 srv2 sshd[741]: Server listening on :: port 22.
+2026-01-22T19:17:02.201577-03:00 srv2 CRON[837]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T19:17:02.354882-03:00 srv2 CRON[837]: pam_unix(cron:session): session closed for user root
+2026-01-22T19:30:01.429182-03:00 srv2 CRON[875]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T19:30:01.443508-03:00 srv2 CRON[875]: pam_unix(cron:session): session closed for user root
+2026-01-22T20:17:01.498539-03:00 srv2 CRON[1004]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T20:17:01.524051-03:00 srv2 CRON[1004]: pam_unix(cron:session): session closed for user root
+2026-01-22T20:30:01.531114-03:00 srv2 CRON[1038]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-22T20:30:01.544728-03:00 srv2 CRON[1038]: pam_unix(cron:session): session closed for user root
+2026-01-24T10:16:25.574525-03:00 srv2 systemd-logind[606]: New seat seat0.
+2026-01-24T10:16:25.574529-03:00 srv2 systemd-logind[606]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-24T10:16:25.574647-03:00 srv2 systemd-logind[606]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-24T10:16:25.574654-03:00 srv2 systemd-logind[606]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-24T10:16:26.987531-03:00 srv2 sshd[730]: Server listening on 0.0.0.0 port 22.
+2026-01-24T10:16:26.987664-03:00 srv2 sshd[730]: Server listening on :: port 22.
+2026-01-24T10:17:01.877734-03:00 srv2 CRON[821]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T10:17:01.919860-03:00 srv2 CRON[821]: pam_unix(cron:session): session closed for user root
+2026-01-24T10:30:01.988566-03:00 srv2 CRON[854]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T10:30:02.054066-03:00 srv2 CRON[854]: pam_unix(cron:session): session closed for user root
+2026-01-24T11:17:01.104761-03:00 srv2 CRON[1027]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T11:17:01.216350-03:00 srv2 CRON[1027]: pam_unix(cron:session): session closed for user root
+2026-01-24T11:30:01.205517-03:00 srv2 CRON[1063]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T11:30:01.342677-03:00 srv2 CRON[1063]: pam_unix(cron:session): session closed for user root
+2026-01-24T12:17:01.463376-03:00 srv2 CRON[1188]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T12:17:01.484042-03:00 srv2 CRON[1188]: pam_unix(cron:session): session closed for user root
+2026-01-24T12:30:01.495525-03:00 srv2 CRON[1211]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T12:30:01.515679-03:00 srv2 CRON[1211]: pam_unix(cron:session): session closed for user root
+2026-01-24T13:17:01.826602-03:00 srv2 CRON[1340]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T13:17:01.966742-03:00 srv2 CRON[1340]: pam_unix(cron:session): session closed for user root
+2026-01-24T13:30:01.943930-03:00 srv2 CRON[1377]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T13:30:02.311514-03:00 srv2 CRON[1377]: pam_unix(cron:session): session closed for user root
+2026-01-24T14:17:02.012756-03:00 srv2 CRON[1521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T14:17:02.034196-03:00 srv2 CRON[1521]: pam_unix(cron:session): session closed for user root
+2026-01-24T14:30:01.047884-03:00 srv2 CRON[1592]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-24T14:30:01.064641-03:00 srv2 CRON[1592]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:02:08.397113-03:00 srv2 systemd-logind[621]: New seat seat0.
+2026-01-25T06:02:08.397120-03:00 srv2 systemd-logind[621]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T06:02:08.397130-03:00 srv2 systemd-logind[621]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T06:02:08.397136-03:00 srv2 systemd-logind[621]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T06:02:10.354891-03:00 srv2 sshd[730]: Server listening on 0.0.0.0 port 22.
+2026-01-25T06:02:10.356343-03:00 srv2 sshd[730]: Server listening on :: port 22.
+2026-01-25T06:06:59.141572-03:00 srv2 sshd-session[821]: Accepted password for pedro from 10.0.2.2 port 63148 ssh2
+2026-01-25T06:06:59.260759-03:00 srv2 sshd-session[821]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T06:06:59.424378-03:00 srv2 systemd-logind[621]: New session 1 of user pedro.
+2026-01-25T06:06:59.686485-03:00 srv2 (systemd): pam_unix(systemd-user:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T06:06:59.697529-03:00 srv2 systemd-logind[621]: New session 2 of user pedro.
+2026-01-25T06:06:59.922848-03:00 srv2 sshd-session[825]: Accepted password for pedro from 10.0.2.2 port 63150 ssh2
+2026-01-25T06:06:59.927599-03:00 srv2 sshd-session[825]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T06:06:59.954117-03:00 srv2 systemd-logind[621]: New session 3 of user pedro.
+2026-01-25T06:17:01.477439-03:00 srv2 CRON[882]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:17:01.543919-03:00 srv2 CRON[882]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:25:01.586390-03:00 srv2 CRON[923]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:25:01.605026-03:00 srv2 CRON[923]: pam_unix(cron:session): session closed for user root
+2026-01-25T06:47:01.676613-03:00 srv2 CRON[960]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T06:47:01.949907-03:00 srv2 CRON[960]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:17:01.740136-03:00 srv2 CRON[1033]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:17:01.750177-03:00 srv2 CRON[1033]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:18:45.949548-03:00 srv2 su[1050]: (to root) pedro on pts/0
+2026-01-25T07:18:45.989427-03:00 srv2 su[1050]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-25T07:30:01.768629-03:00 srv2 CRON[1077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T07:30:01.791923-03:00 srv2 CRON[1077]: pam_unix(cron:session): session closed for user root
+2026-01-25T07:38:18.741909-03:00 srv2 sshd-session[1108]: Invalid user ti01 from 192.168.50.1 port 53338
+2026-01-25T07:38:46.619876-03:00 srv2 sshd-session[1108]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T07:38:46.620141-03:00 srv2 sshd-session[1108]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1 
+2026-01-25T07:38:48.657779-03:00 srv2 sshd-session[1108]: Failed password for invalid user ti01 from 192.168.50.1 port 53338 ssh2
+2026-01-25T07:39:13.098580-03:00 srv2 sshd-session[1108]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T07:39:15.114482-03:00 srv2 sshd-session[1108]: Failed password for invalid user ti01 from 192.168.50.1 port 53338 ssh2
+2026-01-25T07:39:26.663131-03:00 srv2 sshd-session[1108]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T07:39:28.608263-03:00 srv2 sshd-session[1108]: Failed password for invalid user ti01 from 192.168.50.1 port 53338 ssh2
+2026-01-25T07:39:29.237616-03:00 srv2 sshd-session[1108]: Connection closed by invalid user ti01 192.168.50.1 port 53338 [preauth]
+2026-01-25T07:39:29.237730-03:00 srv2 sshd-session[1108]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1 
+2026-01-25T07:47:52.230064-03:00 srv2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/su -
+2026-01-25T07:47:52.230478-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-25T07:47:52.248735-03:00 srv2 su[1146]: (to root) root on pts/1
+2026-01-25T07:47:52.250076-03:00 srv2 su[1146]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=0)
+2026-01-25T07:56:54.965864-03:00 srv2 groupadd[2406]: group added to /etc/group: name=nslcd, GID=105
+2026-01-25T07:56:54.978894-03:00 srv2 groupadd[2406]: group added to /etc/gshadow: name=nslcd
+2026-01-25T07:56:54.988478-03:00 srv2 groupadd[2406]: new group: name=nslcd, GID=105
+2026-01-25T07:56:55.157746-03:00 srv2 useradd[2412]: new user: name=nslcd, UID=102, GID=105, home=/run/nslcd, shell=/usr/sbin/nologin, from=none
+2026-01-25T08:00:20.658087-03:00 srv2 systemd-logind[2796]: New seat seat0.
+2026-01-25T08:00:20.665510-03:00 srv2 systemd-logind[2796]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T08:00:20.666310-03:00 srv2 systemd-logind[2796]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T08:00:20.667695-03:00 srv2 systemd-logind[2796]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T08:00:20.684034-03:00 srv2 systemd-logind[2796]: New session 2 of user pedro.
+2026-01-25T08:00:20.685353-03:00 srv2 systemd-logind[2796]: New session 1 of user pedro.
+2026-01-25T08:00:20.685946-03:00 srv2 systemd-logind[2796]: New session 3 of user pedro.
+2026-01-25T08:17:01.986757-03:00 srv2 CRON[2909]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:17:02.014383-03:00 srv2 CRON[2909]: pam_unix(cron:session): session closed for user root
+2026-01-25T08:30:01.078282-03:00 srv2 CRON[3012]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T08:30:01.291271-03:00 srv2 CRON[3012]: pam_unix(cron:session): session closed for user root
+2026-01-25T09:17:01.222635-03:00 srv2 CRON[3208]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T09:17:02.800653-03:00 srv2 CRON[3208]: pam_unix(cron:session): session closed for user root
+2026-01-25T09:17:39.030285-03:00 srv2 sshd-session[3212]: Invalid user ti01 from 192.168.50.10 port 42088
+2026-01-25T09:17:51.858149-03:00 srv2 sshd-session[3212]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T09:17:51.864894-03:00 srv2 sshd-session[3212]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10 
+2026-01-25T09:17:51.882903-03:00 srv2 sshd-session[3212]: pam_ldap(sshd:auth): error reading from nslcd: Connection reset by peer
+2026-01-25T09:17:54.678763-03:00 srv2 sshd-session[3212]: Failed password for invalid user ti01 from 192.168.50.10 port 42088 ssh2
+2026-01-25T09:18:03.282284-03:00 srv2 sshd-session[3212]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T09:18:03.322847-03:00 srv2 sshd-session[3212]: pam_ldap(sshd:auth): error reading from nslcd: Connection reset by peer
+2026-01-25T09:18:05.080779-03:00 srv2 sshd-session[3212]: Failed password for invalid user ti01 from 192.168.50.10 port 42088 ssh2
+2026-01-25T09:18:40.929546-03:00 srv2 sshd-session[3212]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T09:18:40.932045-03:00 srv2 sshd-session[3212]: pam_ldap(sshd:auth): error reading from nslcd: Connection reset by peer
+2026-01-25T09:18:42.955291-03:00 srv2 sshd-session[3212]: Failed password for invalid user ti01 from 192.168.50.10 port 42088 ssh2
+2026-01-25T09:18:43.477792-03:00 srv2 sshd-session[3212]: Connection closed by invalid user ti01 192.168.50.10 port 42088 [preauth]
+2026-01-25T09:18:43.481314-03:00 srv2 sshd-session[3212]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.10 
+2026-01-25T09:30:01.289822-03:00 srv2 CRON[3233]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T09:30:01.328444-03:00 srv2 CRON[3233]: pam_unix(cron:session): session closed for user root
+2026-01-25T09:57:34.696581-03:00 srv2 sshd[730]: Received signal 15; terminating.
+2026-01-25T09:57:34.817319-03:00 srv2 sshd[3368]: Server listening on 0.0.0.0 port 22.
+2026-01-25T09:57:34.817544-03:00 srv2 sshd[3368]: Server listening on :: port 22.
+2026-01-25T10:17:01.355452-03:00 srv2 CRON[3862]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T10:17:01.364095-03:00 srv2 CRON[3862]: pam_unix(cron:session): session closed for user root
+2026-01-25T10:17:50.960826-03:00 srv2 groupadd[5082]: group added to /etc/group: name=sambashare, GID=989
+2026-01-25T10:17:50.973420-03:00 srv2 groupadd[5082]: group added to /etc/gshadow: name=sambashare
+2026-01-25T10:17:50.982724-03:00 srv2 groupadd[5082]: new group: name=sambashare, GID=989
+2026-01-25T10:17:54.533599-03:00 srv2 groupadd[5267]: group added to /etc/group: name=winbindd_priv, GID=988
+2026-01-25T10:17:54.547377-03:00 srv2 groupadd[5267]: group added to /etc/gshadow: name=winbindd_priv
+2026-01-25T10:17:54.557530-03:00 srv2 groupadd[5267]: new group: name=winbindd_priv, GID=988
+2026-01-25T10:30:01.407108-03:00 srv2 CRON[5593]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T10:30:01.413339-03:00 srv2 CRON[5593]: pam_unix(cron:session): session closed for user root
+2026-01-25T10:56:45.286078-03:00 srv2 sshd-session[5726]: Invalid user ti01 from 192.168.50.1 port 41558
+2026-01-25T10:57:02.065594-03:00 srv2 sshd-session[5726]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T10:57:02.065941-03:00 srv2 sshd-session[5726]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1 
+2026-01-25T10:57:02.066004-03:00 srv2 sshd-session[5726]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-01-25T10:57:02.066594-03:00 srv2 sshd-session[5726]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-01-25T10:57:04.103289-03:00 srv2 sshd-session[5726]: Failed password for invalid user ti01 from 192.168.50.1 port 41558 ssh2
+2026-01-25T10:57:17.852375-03:00 srv2 sshd-session[5726]: pam_unix(sshd:auth): check pass; user unknown
+2026-01-25T10:57:17.852714-03:00 srv2 sshd-session[5726]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-01-25T10:57:17.852772-03:00 srv2 sshd-session[5726]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-01-25T10:57:19.409816-03:00 srv2 sshd-session[5726]: Failed password for invalid user ti01 from 192.168.50.1 port 41558 ssh2
+2026-01-25T10:57:22.165006-03:00 srv2 sshd-session[5726]: Connection closed by invalid user ti01 192.168.50.1 port 41558 [preauth]
+2026-01-25T10:57:22.165126-03:00 srv2 sshd-session[5726]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1 
+2026-01-25T11:15:52.009513-03:00 srv2 systemd-logind[5883]: New seat seat0.
+2026-01-25T11:15:52.020174-03:00 srv2 systemd-logind[5883]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T11:15:52.021320-03:00 srv2 systemd-logind[5883]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T11:15:52.026028-03:00 srv2 systemd-logind[5883]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T11:15:52.049463-03:00 srv2 systemd-logind[5883]: New session 1 of user pedro.
+2026-01-25T11:15:52.050657-03:00 srv2 systemd-logind[5883]: New session 3 of user pedro.
+2026-01-25T11:15:52.052488-03:00 srv2 systemd-logind[5883]: New session 2 of user pedro.
+2026-01-25T11:17:01.554432-03:00 srv2 CRON[5900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T11:17:01.576814-03:00 srv2 CRON[5900]: pam_unix(cron:session): session closed for user root
+2026-01-25T11:28:27.675427-03:00 srv2 systemd-logind[6043]: New seat seat0.
+2026-01-25T11:28:27.682813-03:00 srv2 systemd-logind[6043]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T11:28:27.684748-03:00 srv2 systemd-logind[6043]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T11:28:27.688265-03:00 srv2 systemd-logind[6043]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T11:28:27.714284-03:00 srv2 systemd-logind[6043]: New session 3 of user pedro.
+2026-01-25T11:28:27.715057-03:00 srv2 systemd-logind[6043]: New session 1 of user pedro.
+2026-01-25T11:28:27.715735-03:00 srv2 systemd-logind[6043]: New session 2 of user pedro.
+2026-01-25T11:30:01.631331-03:00 srv2 CRON[6062]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T11:30:01.640650-03:00 srv2 CRON[6062]: pam_unix(cron:session): session closed for user root
+2026-01-25T11:53:45.115176-03:00 srv2 systemd-logind[6320]: New seat seat0.
+2026-01-25T11:53:45.125404-03:00 srv2 systemd-logind[6320]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T11:53:45.126564-03:00 srv2 systemd-logind[6320]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T11:53:45.133762-03:00 srv2 systemd-logind[6320]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T11:53:45.157465-03:00 srv2 systemd-logind[6320]: New session 1 of user pedro.
+2026-01-25T11:53:45.160248-03:00 srv2 systemd-logind[6320]: New session 3 of user pedro.
+2026-01-25T11:53:45.161021-03:00 srv2 systemd-logind[6320]: New session 2 of user pedro.
+2026-01-25T12:02:18.483611-03:00 srv2 systemd-logind[6486]: New seat seat0.
+2026-01-25T12:02:18.494286-03:00 srv2 systemd-logind[6486]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T12:02:18.498373-03:00 srv2 systemd-logind[6486]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T12:02:18.507642-03:00 srv2 systemd-logind[6486]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T12:02:18.535280-03:00 srv2 systemd-logind[6486]: New session 3 of user pedro.
+2026-01-25T12:02:18.538950-03:00 srv2 systemd-logind[6486]: New session 2 of user pedro.
+2026-01-25T12:02:18.540476-03:00 srv2 systemd-logind[6486]: New session 1 of user pedro.
+2026-01-25T12:02:50.361647-03:00 srv2 su[1146]: pam_unix(su-l:session): session closed for user root
+2026-01-25T12:02:50.545908-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-25T12:02:58.938620-03:00 srv2 su[1050]: pam_unix(su-l:session): session closed for user root
+2026-01-25T17:41:49.882167-03:00 srv2 systemd-logind[622]: New seat seat0.
+2026-01-25T17:41:49.882178-03:00 srv2 systemd-logind[622]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T17:41:49.882183-03:00 srv2 systemd-logind[622]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T17:41:49.882189-03:00 srv2 systemd-logind[622]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T17:41:52.107256-03:00 srv2 sshd[757]: Server listening on 0.0.0.0 port 22.
+2026-01-25T17:41:52.108441-03:00 srv2 sshd[757]: Server listening on :: port 22.
+2026-01-25T12:05:13.415402-03:00 srv2 sshd-session[860]: Accepted password for pedro from 10.0.2.2 port 52212 ssh2
+2026-01-25T12:05:13.537547-03:00 srv2 sshd-session[860]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T12:05:14.137761-03:00 srv2 sshd-session[864]: Accepted password for pedro from 10.0.2.2 port 52214 ssh2
+2026-01-25T12:05:14.152523-03:00 srv2 sshd-session[864]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T12:05:20.693831-03:00 srv2 su[885]: (to root) pedro on pts/0
+2026-01-25T12:05:20.729876-03:00 srv2 su[885]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-25T12:11:33.630385-03:00 srv2 su: pam_winbind(su-l:account): user 'ti01' granted access
+2026-01-25T12:11:33.631376-03:00 srv2 su[962]: (to ti01) root on pts/0
+2026-01-25T12:11:36.379282-03:00 srv2 su[962]: pam_unix(su-l:session): session opened for user ti01(uid=11106) by pedro(uid=0)
+2026-01-25T12:17:01.342140-03:00 srv2 CRON[1006]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T12:17:01.361450-03:00 srv2 CRON[1006]: pam_unix(cron:session): session closed for user root
+2026-01-25T12:30:01.422423-03:00 srv2 CRON[1049]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T12:30:01.436872-03:00 srv2 CRON[1049]: pam_unix(cron:session): session closed for user root
+2026-01-25T12:31:17.197846-03:00 srv2 su[962]: pam_unix(su-l:session): session closed for user ti01
+2026-01-25T13:17:01.517568-03:00 srv2 CRON[1187]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T13:17:01.529962-03:00 srv2 CRON[1187]: pam_unix(cron:session): session closed for user root
+2026-01-25T13:25:38.737596-03:00 srv2 sshd-session[1226]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.20  user=ti01
+2026-01-25T13:25:38.781513-03:00 srv2 sshd-session[1226]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-01-25T13:25:38.782353-03:00 srv2 sshd-session[1226]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-01-25T13:25:38.890536-03:00 srv2 sshd-session[1226]: pam_winbind(sshd:auth): user 'ti01' granted access
+2026-01-25T13:25:38.901676-03:00 srv2 sshd-session[1226]: pam_winbind(sshd:account): user 'ti01' granted access
+2026-01-25T13:25:38.902062-03:00 srv2 sshd-session[1226]: Accepted password for ti01 from 192.168.50.20 port 48664 ssh2
+2026-01-25T13:25:38.909017-03:00 srv2 sshd-session[1226]: pam_unix(sshd:session): session opened for user ti01(uid=11106) by ti01(uid=0)
+2026-01-25T13:25:46.415020-03:00 srv2 sshd-session[1226]: syslogin_perform_logout: logout() returned an error
+2026-01-25T13:25:46.419734-03:00 srv2 sshd-session[1232]: Received disconnect from 192.168.50.20 port 48664:11: disconnected by user
+2026-01-25T13:25:46.492967-03:00 srv2 sshd-session[1232]: Disconnected from user ti01 192.168.50.20 port 48664
+2026-01-25T13:25:46.493263-03:00 srv2 sshd-session[1226]: pam_unix(sshd:session): session closed for user ti01
+2026-01-25T13:25:46.494499-03:00 srv2 sshd-session[1226]: pam_winbind(sshd:setcred): user 'ti01' OK
+2026-01-25T13:30:01.560952-03:00 srv2 CRON[1242]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T13:30:01.573508-03:00 srv2 CRON[1242]: pam_unix(cron:session): session closed for user root
+2026-01-25T13:50:04.382758-03:00 srv2 sshd-session[870]: Received disconnect from 10.0.2.2 port 52212:11: disconnected by user
+2026-01-25T13:50:04.540025-03:00 srv2 sshd-session[870]: Disconnected from user pedro 10.0.2.2 port 52212
+2026-01-25T13:50:04.546912-03:00 srv2 sshd-session[860]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T13:50:04.571784-03:00 srv2 sshd-session[860]: syslogin_perform_logout: logout() returned an error
+2026-01-25T13:50:04.662500-03:00 srv2 su[885]: pam_unix(su-l:session): session closed for user root
+2026-01-25T13:50:05.909344-03:00 srv2 sshd-session[877]: Connection closed by 10.0.2.2 port 52214
+2026-01-25T13:50:05.929402-03:00 srv2 sshd-session[864]: pam_unix(sshd:session): session closed for user pedro
+2026-01-25T22:20:54.750580-03:00 srv2 systemd-logind[642]: New seat seat0.
+2026-01-25T22:20:54.750586-03:00 srv2 systemd-logind[642]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-25T22:20:54.750594-03:00 srv2 systemd-logind[642]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-25T22:20:54.750602-03:00 srv2 systemd-logind[642]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-25T22:20:56.752410-03:00 srv2 sshd[776]: Server listening on 0.0.0.0 port 22.
+2026-01-25T22:20:56.752990-03:00 srv2 sshd[776]: Server listening on :: port 22.
+2026-01-25T22:29:01.880002-03:00 srv2 sshd-session[915]: Accepted password for pedro from 10.0.2.2 port 60916 ssh2
+2026-01-25T22:29:01.887652-03:00 srv2 sshd-session[915]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T22:29:02.260580-03:00 srv2 sshd-session[919]: Accepted password for pedro from 10.0.2.2 port 60918 ssh2
+2026-01-25T22:29:02.271421-03:00 srv2 sshd-session[919]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T22:29:10.317877-03:00 srv2 su[940]: (to root) pedro on pts/0
+2026-01-25T22:29:10.606499-03:00 srv2 su[940]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-25T22:30:01.668201-03:00 srv2 CRON[947]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T22:30:01.693742-03:00 srv2 CRON[947]: pam_unix(cron:session): session closed for user root
+2026-01-25T23:17:01.293649-03:00 srv2 CRON[1092]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T23:17:01.330320-03:00 srv2 CRON[1092]: pam_unix(cron:session): session closed for user root
+2026-01-25T23:30:01.935001-03:00 srv2 CRON[1151]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-25T23:30:01.943798-03:00 srv2 CRON[1151]: pam_unix(cron:session): session closed for user root
+2026-01-25T23:57:16.834774-03:00 srv2 sshd-session[1225]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.30  user=ti01
+2026-01-25T23:57:16.858966-03:00 srv2 sshd-session[1225]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-01-25T23:57:16.859065-03:00 srv2 sshd-session[1225]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-01-25T23:57:16.993896-03:00 srv2 sshd-session[1225]: pam_winbind(sshd:auth): user 'ti01' granted access
+2026-01-25T23:57:16.997534-03:00 srv2 sshd-session[1225]: pam_winbind(sshd:account): user 'ti01' granted access
+2026-01-25T23:57:16.997837-03:00 srv2 sshd-session[1225]: Accepted password for ti01 from 192.168.50.30 port 39242 ssh2
+2026-01-25T23:57:17.002453-03:00 srv2 sshd-session[1225]: pam_unix(sshd:session): session opened for user ti01(uid=11106) by ti01(uid=0)
+2026-01-25T23:57:23.846290-03:00 srv2 sshd-session[1225]: syslogin_perform_logout: logout() returned an error
+2026-01-25T23:57:23.851468-03:00 srv2 sshd-session[1231]: Received disconnect from 192.168.50.30 port 39242:11: disconnected by user
+2026-01-25T23:57:23.970894-03:00 srv2 sshd-session[1231]: Disconnected from user ti01 192.168.50.30 port 39242
+2026-01-25T23:57:23.973539-03:00 srv2 sshd-session[1225]: pam_unix(sshd:session): session closed for user ti01
+2026-01-25T23:57:23.973772-03:00 srv2 sshd-session[1225]: pam_winbind(sshd:setcred): user 'ti01' OK
+2026-01-26T00:17:02.219000-03:00 srv2 CRON[1351]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T00:17:02.814723-03:00 srv2 CRON[1351]: pam_unix(cron:session): session closed for user root
+2026-01-26T00:28:38.172298-03:00 srv2 sshd-session[1397]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.30  user=ti01
+2026-01-26T00:28:38.173084-03:00 srv2 sshd-session[1397]: pam_winbind(sshd:auth): getting password (0x00000388)
+2026-01-26T00:28:38.173218-03:00 srv2 sshd-session[1397]: pam_winbind(sshd:auth): pam_get_item returned a password
+2026-01-26T00:28:38.282817-03:00 srv2 sshd-session[1397]: pam_winbind(sshd:auth): user 'ti01' granted access
+2026-01-26T00:28:38.347345-03:00 srv2 sshd-session[1397]: pam_winbind(sshd:account): user 'ti01' granted access
+2026-01-26T00:28:38.347757-03:00 srv2 sshd-session[1397]: Accepted password for ti01 from 192.168.50.30 port 58714 ssh2
+2026-01-26T00:28:38.354139-03:00 srv2 sshd-session[1397]: pam_unix(sshd:session): session opened for user ti01(uid=11106) by ti01(uid=0)
+2026-01-26T00:28:41.319745-03:00 srv2 sshd-session[1397]: syslogin_perform_logout: logout() returned an error
+2026-01-26T00:28:41.323253-03:00 srv2 sshd-session[1403]: Received disconnect from 192.168.50.30 port 58714:11: disconnected by user
+2026-01-26T00:28:41.360491-03:00 srv2 sshd-session[1403]: Disconnected from user ti01 192.168.50.30 port 58714
+2026-01-26T00:28:41.393246-03:00 srv2 sshd-session[1397]: pam_unix(sshd:session): session closed for user ti01
+2026-01-26T00:28:41.394519-03:00 srv2 sshd-session[1397]: pam_winbind(sshd:setcred): user 'ti01' OK
+2026-01-26T00:38:27.619969-03:00 srv2 sshd-session[925]: Received disconnect from 10.0.2.2 port 60916:11: disconnected by user
+2026-01-26T00:38:27.633344-03:00 srv2 sshd-session[925]: Disconnected from user pedro 10.0.2.2 port 60916
+2026-01-26T00:38:27.636622-03:00 srv2 sshd-session[915]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T00:38:27.645506-03:00 srv2 sshd-session[915]: syslogin_perform_logout: logout() returned an error
+2026-01-26T00:38:27.654329-03:00 srv2 su[940]: pam_unix(su-l:session): session closed for user root
+2026-01-26T00:38:28.366266-03:00 srv2 sshd-session[932]: Connection closed by 10.0.2.2 port 60918
+2026-01-26T00:38:28.374995-03:00 srv2 sshd-session[919]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T14:33:50.684856-03:00 srv2 systemd-logind[635]: New seat seat0.
+2026-01-26T14:33:50.684866-03:00 srv2 systemd-logind[635]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-26T14:33:50.684873-03:00 srv2 systemd-logind[635]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-26T14:33:50.684879-03:00 srv2 systemd-logind[635]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-26T14:33:52.345593-03:00 srv2 sshd[759]: Server listening on 0.0.0.0 port 22.
+2026-01-26T14:33:52.346999-03:00 srv2 sshd[759]: Server listening on :: port 22.
+2026-01-26T14:38:37.147503-03:00 srv2 sshd-session[881]: Accepted password for pedro from 10.0.2.2 port 49354 ssh2
+2026-01-26T14:38:37.160205-03:00 srv2 sshd-session[881]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T14:38:37.675740-03:00 srv2 sshd-session[885]: Accepted password for pedro from 10.0.2.2 port 49356 ssh2
+2026-01-26T14:38:37.682846-03:00 srv2 sshd-session[885]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-26T14:38:45.091051-03:00 srv2 su[907]: (to root) pedro on pts/0
+2026-01-26T14:38:45.359057-03:00 srv2 su[907]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-26T15:17:01.641922-03:00 srv2 CRON[1057]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T15:17:03.191557-03:00 srv2 CRON[1057]: pam_unix(cron:session): session closed for user root
+2026-01-26T15:30:01.271080-03:00 srv2 CRON[1118]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T15:30:01.347835-03:00 srv2 CRON[1118]: pam_unix(cron:session): session closed for user root
+2026-01-26T16:17:01.615348-03:00 srv2 CRON[1257]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T16:17:01.640048-03:00 srv2 CRON[1257]: pam_unix(cron:session): session closed for user root
+2026-01-26T16:30:01.703836-03:00 srv2 CRON[1309]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T16:30:01.742262-03:00 srv2 CRON[1309]: pam_unix(cron:session): session closed for user root
+2026-01-26T17:17:01.820899-03:00 srv2 CRON[1420]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T17:17:01.925250-03:00 srv2 CRON[1420]: pam_unix(cron:session): session closed for user root
+2026-01-26T17:30:01.954842-03:00 srv2 CRON[1473]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T17:30:01.971944-03:00 srv2 CRON[1473]: pam_unix(cron:session): session closed for user root
+2026-01-26T18:17:01.170376-03:00 srv2 CRON[1602]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T18:17:01.888868-03:00 srv2 CRON[1602]: pam_unix(cron:session): session closed for user root
+2026-01-26T18:30:01.953307-03:00 srv2 CRON[1641]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-26T18:30:01.983696-03:00 srv2 CRON[1641]: pam_unix(cron:session): session closed for user root
+2026-01-26T18:32:49.673857-03:00 srv2 sshd-session[891]: Received disconnect from 10.0.2.2 port 49354:11: disconnected by user
+2026-01-26T18:32:49.764067-03:00 srv2 sshd-session[891]: Disconnected from user pedro 10.0.2.2 port 49354
+2026-01-26T18:32:49.766199-03:00 srv2 sshd-session[881]: pam_unix(sshd:session): session closed for user pedro
+2026-01-26T18:32:49.814158-03:00 srv2 sshd-session[881]: syslogin_perform_logout: logout() returned an error
+2026-01-26T18:32:49.938091-03:00 srv2 su[907]: pam_unix(su-l:session): session closed for user root
+2026-01-26T18:32:51.387773-03:00 srv2 sshd-session[898]: Connection closed by 10.0.2.2 port 49356
+2026-01-26T18:32:51.415823-03:00 srv2 sshd-session[885]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T15:28:38.726416-03:00 srv2 systemd-logind[617]: New seat seat0.
+2026-01-28T15:28:38.726495-03:00 srv2 systemd-logind[617]: Watching system buttons on /dev/input/event4 (Power Button)
+2026-01-28T15:28:38.726506-03:00 srv2 systemd-logind[617]: Watching system buttons on /dev/input/event5 (Sleep Button)
+2026-01-28T15:28:38.726512-03:00 srv2 systemd-logind[617]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+2026-01-28T15:28:40.958962-03:00 srv2 sshd[758]: Server listening on 0.0.0.0 port 22.
+2026-01-28T15:28:40.959663-03:00 srv2 sshd[758]: Server listening on :: port 22.
+2026-01-28T15:30:01.938394-03:00 srv2 CRON[861]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T15:30:01.997698-03:00 srv2 CRON[861]: pam_unix(cron:session): session closed for user root
+2026-01-28T16:05:28.304618-03:00 srv2 sshd-session[958]: Accepted password for pedro from 10.0.2.2 port 55872 ssh2
+2026-01-28T16:05:28.423022-03:00 srv2 sshd-session[958]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T16:05:28.859979-03:00 srv2 sshd-session[963]: Accepted password for pedro from 10.0.2.2 port 55874 ssh2
+2026-01-28T16:05:28.869136-03:00 srv2 sshd-session[963]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T16:05:35.938121-03:00 srv2 su[984]: (to root) pedro on pts/0
+2026-01-28T16:05:36.170089-03:00 srv2 su[984]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T16:17:01.173626-03:00 srv2 CRON[1013]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T16:17:02.882251-03:00 srv2 CRON[1013]: pam_unix(cron:session): session closed for user root
+2026-01-28T16:30:01.942236-03:00 srv2 CRON[1052]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T16:30:01.962186-03:00 srv2 CRON[1052]: pam_unix(cron:session): session closed for user root
+2026-01-28T17:17:02.007449-03:00 srv2 CRON[1203]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T17:17:02.031587-03:00 srv2 CRON[1203]: pam_unix(cron:session): session closed for user root
+2026-01-28T17:19:47.407633-03:00 srv2 sshd-session[970]: Received disconnect from 10.0.2.2 port 55872:11: disconnected by user
+2026-01-28T17:19:47.510431-03:00 srv2 sshd-session[970]: Disconnected from user pedro 10.0.2.2 port 55872
+2026-01-28T17:19:47.511418-03:00 srv2 sshd-session[958]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T17:19:47.511624-03:00 srv2 sshd-session[958]: syslogin_perform_logout: logout() returned an error
+2026-01-28T17:19:47.579783-03:00 srv2 su[984]: pam_unix(su-l:session): session closed for user root
+2026-01-28T17:19:48.435864-03:00 srv2 sshd-session[976]: Connection closed by 10.0.2.2 port 55874
+2026-01-28T17:19:48.445399-03:00 srv2 sshd-session[963]: pam_unix(sshd:session): session closed for user pedro
+2026-01-28T17:30:01.065216-03:00 srv2 CRON[1245]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-28T17:30:01.077412-03:00 srv2 CRON[1245]: pam_unix(cron:session): session closed for user root
+2026-01-28T17:31:57.194703-03:00 srv2 sshd-session[1249]: Accepted password for pedro from 10.0.2.2 port 60890 ssh2
+2026-01-28T17:31:57.206200-03:00 srv2 sshd-session[1249]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T17:31:57.816810-03:00 srv2 sshd-session[1257]: Accepted password for pedro from 10.0.2.2 port 60892 ssh2
+2026-01-28T17:31:57.823948-03:00 srv2 sshd-session[1257]: pam_unix(sshd:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-28T17:32:51.754728-03:00 srv2 su[1275]: (to root) pedro on pts/0
+2026-01-28T17:32:51.871510-03:00 srv2 su[1275]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:32:54.887214-03:00 srv2 usermod[1282]: add 'pedro' to group 'sudo'
+2026-01-28T17:32:54.888141-03:00 srv2 usermod[1282]: add 'pedro' to shadow group 'sudo'
+2026-01-28T17:34:12.874045-03:00 srv2 su[1275]: pam_unix(su-l:session): session closed for user root
+2026-01-28T17:53:37.619126-03:00 srv2 sudo:    pedro : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/cat /etc/network/interfaces
+2026-01-28T17:54:50.674028-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/bin/cat /etc/network/interfaces
+2026-01-28T17:54:50.675725-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:54:50.695841-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:57:28.363453-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -L POSTROUTING -n -v
+2026-01-28T17:57:28.370677-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:57:28.391874-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:57:38.862648-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -D POSTROUTING -o enp0s3 -j MASQUERADE
+2026-01-28T17:57:38.864267-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:57:38.891811-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:57:42.654714-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -L POSTROUTING -n -v
+2026-01-28T17:57:42.663643-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:57:42.693379-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:58:19.186847-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -A POSTROUTING -o enp0s8 -j MASQUERADE
+2026-01-28T17:58:19.193514-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:58:19.209888-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T17:58:23.855161-03:00 srv2 sudo:    pedro : TTY=pts/0 ; PWD=/home/pedro ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -L POSTROUTING -n -v
+2026-01-28T17:58:23.866204-03:00 srv2 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by pedro(uid=1000)
+2026-01-28T17:58:23.879797-03:00 srv2 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-28T18:00:13.706429-03:00 srv2 su[1432]: (to root) pedro on pts/0
+2026-01-28T18:00:13.818292-03:00 srv2 su[1432]: pam_unix(su-l:session): session opened for user root(uid=0) by pedro(uid=1000)

@@ -1,0 +1,2 @@
+2026-01-25T06:07:44-03:00 srv4 (systemd): pam_unix(systemd-user:session): session opened for user pedro(uid=1000) by pedro(uid=0)
+2026-01-25T22:29:52-03:00 srv4 (systemd): pam_unix(systemd-user:session): session opened for user pedro(uid=1000) by pedro(uid=0)
