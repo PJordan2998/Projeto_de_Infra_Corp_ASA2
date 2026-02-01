@@ -88,20 +88,22 @@ mkdir -p /srv/empresa/{ti,financeiro,comercial}
 
 11.1 - Aplicar ACLs
 
-setfacl -m g:ti:rwx /srv/empresa/ti
-setfacl -m g:financeiro:rwx /srv/empresa/financeiro
-setfacl -m g:comercial:rwx /srv/empresa/comercial
+setfacl -d -m g:EMPRESA\\ti:rwx /srv/empresa/ti
+setfacl -d -m m:rwx /srv/empresa/financeiro
+setfacl -d -m m:rwx /srv/empresa/comercial
 ------------------------------------------------------
 
 12 - Aplicar máscara 
 
-setfacl -m m:rwx /srv/empresa/*
+setfacl -d -m m:rwx /srv/empresa/ti
+setfacl -d -m m:rwx /srv/empresa/financeiro
+setfacl -d -m m:rwx /srv/empresa/comercial
 -------------------------------------------------------
 
 13 - conflito real
 
-setfacl -m u:fin01:r-- /srv/empresa/ti
-setfacl -m m:r-- /srv/empresa/ti
+setfacl -m u:fin01:r-- /srv/empresa/comercial
+setfacl -d -m m:--x /srv/empresa/comercial
 -------------------------------------------------------
 
 14 - Alteração do shell dos usuários no LDAP
