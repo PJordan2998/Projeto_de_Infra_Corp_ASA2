@@ -16,7 +16,8 @@ apt install clamav clamav-daemon clamav-freshclam -y
 
 4 - Configuração de Varredura Periódica
 
-echo "0 2 * * * root clamscan -r /var/mail --move=/var/log/clamav/quarentena" > /etc/cron.d/clamav-scan
+root@srv3:~# cat /etc/cron.d/clamav-scan
+0 2 * * * root /usr/bin/clamscan -r /var/mail --move=/var/log/clamav/quarentena --log=/var/log/clamav/scan_relatorio.log
 
 chown root:root /etc/cron.d/clamav-scan
 chmod 644 /etc/cron.d/clamav-scan
