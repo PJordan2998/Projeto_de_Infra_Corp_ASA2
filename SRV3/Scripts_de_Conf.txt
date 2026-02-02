@@ -19,8 +19,9 @@ apt install clamav clamav-daemon clamav-freshclam -y
 root@srv3:~# cat /etc/cron.d/clamav-scan
 0 2 * * * root /usr/bin/clamscan -r /var/mail --move=/var/log/clamav/quarentena --log=/var/log/clamav/scan_relatorio.log
 
-chown root:root /etc/cron.d/clamav-scan
-chmod 644 /etc/cron.d/clamav-scan
+mkdir -p /var/log/clamav/quarentena
+chown clamav:clamav /var/log/clamav/quarentena
+chmod 750 /var/log/clamav/quarentena
 -----------------------------------------------------
 
 5 - Servidor SMTP (Postfix) com Maildir e Postscreen
